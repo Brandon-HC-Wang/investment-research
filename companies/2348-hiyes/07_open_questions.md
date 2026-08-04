@@ -30,6 +30,8 @@
 - **Resolution method:** Build a project table with ownership, total value, presales, completion, recognition, margin, and funding.
 - **Owner/next review:** Project-disclosure review after financial reconciliation.
 - **Status history:** 2026-08-04 — Opened with low confidence.
+- **Status history:** 2026-08-04 — Remains Open. The 2025-11-25 management schedule identifies 2026 and 2027 projects and participation, but sell-through, exact handover, project margins, and accounting attribution remain insufficient to resolve the question. Preliminary ranges are recorded in `04_eps_model.md`.
+- **Status history:** 2026-08-04 — The conservative recognition haircut is clarified as primarily a timing assumption. An explicit project roll-forward is still required to separate delayed earnings carried into later years from permanent economic loss.
 
 ## Q-2026-003 — Agency competitive advantage
 

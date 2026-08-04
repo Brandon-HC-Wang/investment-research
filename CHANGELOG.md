@@ -8,6 +8,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Added
 
+- Same-directory `.zh-TW.md` reading companions for every canonical English Markdown file, with validation and synchronization rules.
 - Modular industry knowledge packages with overview, metrics, valuation, and open-question records.
 - Company-level source categories, quarterly history, assumptions register, and separate research-state YAML.
 - Reusable `knowledge/`, macro `theses/`, and portfolio-level research layers.

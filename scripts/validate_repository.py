@@ -162,6 +162,19 @@ def validate_company(company_dir: Path, errors: list[str]) -> None:
             errors.append(f"{path.relative_to(ROOT)}: unresolved template marker: {found[0]}")
 
 
+def validate_bilingual_markdown(errors: list[str]) -> None:
+    """Require one Traditional Chinese reading copy per canonical Markdown file."""
+    for path in sorted(ROOT.rglob("*.md")):
+        relative = path.relative_to(ROOT)
+        if ".git" in relative.parts or path.name.endswith(".zh-TW.md"):
+            continue
+        companion = path.with_name(f"{path.stem}.zh-TW.md")
+        if not companion.is_file():
+            errors.append(f"{relative}: missing Traditional Chinese companion: {companion.name}")
+        else:
+            validate_markdown(companion, errors)
+
+
 def main() -> int:
     errors: list[str] = []
 
@@ -181,6 +194,8 @@ def main() -> int:
         for child in sorted(companies_dir.iterdir()):
             if child.is_dir() and not child.name.startswith("."):
                 validate_company(child, errors)
+
+    validate_bilingual_markdown(errors)
 
     if errors:
         print("Repository validation failed:")

@@ -48,6 +48,8 @@ Company filenames and core schemas are stable interfaces. Conclusions are expect
 
 Markdown stores narrative analysis, evidence, tables, and hypotheses. YAML stores small, machine-readable fields used for discovery, prioritization, and validation. Narrative conclusions must not be hidden only in YAML.
 
+English Markdown is the canonical research and system record used by AI assistants. Every English Markdown file also has a same-directory `.zh-TW.md` Traditional Chinese reading copy for the human owner. Chinese companions are derived views: they preserve facts, identifiers, figures, links, and history but never replace or override the English source.
+
 ### One fact, one canonical home
 
 Store company-specific facts in the company folder, reusable industry mechanics in `industries/`, analytical conventions in `models/`, and cross-company discoveries in `research-log/`. Link to canonical material instead of duplicating it.

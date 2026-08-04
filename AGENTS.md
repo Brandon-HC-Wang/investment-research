@@ -120,6 +120,14 @@ Append dated confidence and status changes. If later evidence challenges a verif
 - Avoid sensational language, generic risks, vague catalysts, and unsupported adjectives.
 - Do not reproduce long source passages; summarize and link.
 
+## Bilingual Markdown contract
+
+- Every English Markdown file has a same-directory Traditional Chinese reading copy named `<stem>.zh-TW.md`.
+- The English file is canonical for AI reasoning, repository contracts, links, and edits. The `.zh-TW.md` file is a derived human-reading copy and must not introduce facts, assumptions, or conclusions absent from the English source.
+- When an English Markdown file changes materially, update its `.zh-TW.md` companion in the same task. Preserve identifiers, numbers, dates, formulas, code, paths, URLs, and append-only history exactly.
+- Canonical English files should continue linking to other canonical English files. Chinese companions may retain those targets so navigation does not create a second canonical graph.
+- If the two languages conflict, treat the English file as authoritative and correct the Chinese companion promptly.
+
 ## Repository integrity
 
 - Company core filenames and numbering are immutable.

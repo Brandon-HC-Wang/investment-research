@@ -2,7 +2,7 @@
 
 ## Current thesis
 
-No decision-grade long-term thesis is established. Hiyes combines property agency with development and investment activities, and reported EPS has varied materially across 2021–2026 Q1. The central hypothesis is that recurring agency earnings may be supplemented by discrete project income, but the sustainable base and 2027–2028 replacement projects are not yet verified.
+No decision-grade long-term thesis is established. Hiyes combines property agency with development and investment activities, and reported EPS has varied materially across 2021–2026 Q1. Management's project schedule and June 2026 handovers support a material 2026 completion cycle, but estimated EPS remains highly sensitive to sell-through, consolidated margin, financing cost, and timing. The 2027 schedule is larger in gross attributable value but less verified, so a replacement gap remains plausible rather than established.
 
 ## Evidence for and against
 
@@ -41,3 +41,7 @@ Confidence is low. The next action is to reconcile 2025 and 2026 H1 earnings by 
 ### 2026-08-04 — Discovery hypothesis initiated
 
 The company was placed in discovery rather than valued from historical EPS because sustainable earnings and replacement projects remain unverified.
+
+### 2026-08-04 — Completion-cycle scenario quantified
+
+The 2025-11-25 project schedule and June 2026 handovers permit preliminary downside and upside EPS boundaries, but not a single decision-grade forecast. The thesis now treats 2026 as a supported completion cycle and 2027 as a timing-sensitive replacement test. Confidence remains low pending the Q2 filing and project-level sell-through.

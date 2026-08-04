@@ -43,6 +43,10 @@ Before making any change, read these files in order:
 
 Then follow [`docs/Workflow.md`](docs/Workflow.md) and the relevant template or industry guide.
 
+## Language versions
+
+English `.md` files are canonical and optimized for AI collaboration. Each has a same-directory `.zh-TW.md` Traditional Chinese reading copy for the repository owner. For example, `docs/Framework.md` is paired with `docs/Framework.zh-TW.md`. When the two versions differ, the English file controls and the Chinese file should be synchronized.
+
 ## Adding a company
 
 1. Copy `templates/company/` to `companies/<ticker>-<slug>/`.

@@ -10,7 +10,16 @@ TWSE monthly data show material revenue lumpiness, including TWD 1.498 billion i
 
 ## Backlog and replacement drivers
 
-No verified attributable backlog, unrecognized project table, or 2026–2028 completion schedule has yet been assembled. This is the binding evidence gap for future EPS visibility. The next research cycle must separate represented agency projects from owned or invested projects and avoid counting gross project sales as attributable company economics.
+The 2025-11-25 investor presentation provides a management schedule for completion-method projects and discloses total sales value, participation, and construction-financing limits as of 2025-09-30. Multiplying disclosed total value by participation gives a **maximum economic exposure**, not recognized revenue or profit.
+
+| Scheduled year | Projects included in management schedule | Total sales value × disclosed participation (TWD bn) | Interpretation |
+|---|---|---:|---|
+| 2026 | Dunyang, A3 Spotlight, Smile Hiyes 2, Dali Yecui, Taiwan Yinfu, Dali Future City | 8.33 | Upper-bound attributable project value before sell-through, handover, costs, tax, minorities, and timing |
+| 2027 | Meide City, Nanyue Xiyuan, Nanyue Letian, New HSR, Dali World Study | 9.84 | Same limitation; schedule is management expectation rather than verified recognition |
+
+**Fact —** Hiyes stated through July 2026 reporting that Dunyang, A3 Spotlight, and Dali Future City had begun handover in June and contributed TWD 1.255 billion of construction revenue that month. Management also expected Smile Hiyes 2, Dali Yecui, and Taiwan Yinfu to contribute before year-end. This confirms the direction of the 2026 schedule but not full-year sell-through, attributable profit, or margin.
+
+**Estimate —** The preliminary EPS scenarios recognize 60%–70% of the 2026 upper-bound project value in the conservative range and 85%–95% in the optimistic range. For 2027, the ranges are 35%–45% and 65%–75%, respectively, because completion dates and sold units are less verified. The schedule must be replaced with actual permits, completion, sales, and handover evidence when available.
 
 ## EPS-relevant risks
 
@@ -20,3 +29,5 @@ No verified attributable backlog, unrecognized project table, or 2026–2028 com
 ## Sources
 
 - Taiwan Stock Exchange, “Company profile: 2348 Hiyes International,” produced 2026-07-30, monthly revenue through June 2026, [PDF](https://wwwc.twse.com.tw/pdf/ch/2348_ch.pdf), accessed 2026-08-04.
+- Hiyes International, “Investor Conference Presentation,” 2025-11-25, completion-method schedule with data through 2025-09-30, [MOPS-hosted PDF](https://mopsov.twse.com.tw/nas/STR/234820251125M001.pdf), accessed 2026-08-04.
+- Hiyes International statement reported by Economic Daily News, “June consolidated revenue increased 2.4 times as three projects entered handover,” published 2026-07-07, [article](https://money.udn.com/money/story/5710/9610768), accessed 2026-08-04.
