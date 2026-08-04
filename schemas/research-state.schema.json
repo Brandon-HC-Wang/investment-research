@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:investment-research:research-state:v1",
+  "title": "Company research state",
+  "description": "Mutable coverage and monitoring state kept separate from stable company identity.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "coverage",
+    "priority",
+    "confidence",
+    "next_review",
+    "last_thesis_update",
+    "watch_items",
+    "research_status"
+  ],
+  "properties": {
+    "coverage": {
+      "enum": ["not_started", "initiated", "active", "paused", "archived"]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "confidence": {
+      "enum": ["low", "medium", "high"]
+    },
+    "next_review": {
+      "oneOf": [
+        {"type": "string", "format": "date"},
+        {"type": "null"}
+      ]
+    },
+    "last_thesis_update": {
+      "oneOf": [
+        {"type": "string", "format": "date"},
+        {"type": "null"}
+      ]
+    },
+    "watch_items": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 3},
+      "uniqueItems": true
+    },
+    "research_status": {
+      "enum": ["discovery", "qualifying", "active", "monitoring", "archived"]
+    }
+  }
+}

@@ -15,7 +15,7 @@ These states describe research maturity, not an investment rating.
 ## New-company workflow
 
 1. Create `companies/<ticker>-<slug>/` from `templates/company/`.
-2. Complete `meta.yaml`; set `status: discovery`, low confidence, and one concrete next action.
+2. Complete `meta.yaml` for company identity and backward compatibility, then complete `research.yaml` for coverage state, review timing, confidence, priority, and watch items.
 3. Map products, customers, revenue model, cost structure, and competitive landscape in `01_business.md`.
 4. Establish historical revenue, margin, cash-flow, balance-sheet, and share-count baselines in `02_financials.md`.
 5. Define revenue drivers, backlog or forward indicators, and replacement drivers in `03_growth_drivers.md`.
@@ -24,7 +24,7 @@ These states describe research maturity, not an investment rating.
 8. Create durable, testable questions in `07_open_questions.md`.
 9. Synthesize the thesis, risks, falsification tests, and confidence in `08_thesis.md`.
 10. Apply appropriate methods and scenario valuation in `09_valuation.md`.
-11. Update metadata, run validation, and review the full record for contradictions.
+11. Create the assumptions register, source categories, and first quarterly snapshot; update metadata, run validation, and review the full record for contradictions.
 
 ## Event-driven update
 

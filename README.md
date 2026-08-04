@@ -22,10 +22,13 @@ Valuation is the final step. A low multiple does not compensate for weak busines
 | `docs/` | Canonical research methodology and scoring standards |
 | `companies/` | One durable research record per company |
 | `industries/` | Shared industry economics, metrics, and cycle knowledge |
+| `knowledge/` | Reusable concepts referenced across companies and industries |
+| `theses/` | Macro and cross-industry investment theses |
+| `portfolio/` | Portfolio-level watchlist, allocation, and risk thinking |
 | `models/` | Modeling conventions and reusable analytical methods |
 | `templates/` | Controlled starting points for new research records |
 | `watchlist/` | Prioritized research queue, not buy or sell recommendations |
-| `research-log/` | Append-only cross-company findings and hypothesis history |
+| `research-log/` | Append-only company, industry, and repository-wide history |
 | `scripts/` | Repository validation and maintenance tools |
 | `schemas/` | Machine-readable contracts for structured metadata |
 
@@ -43,11 +46,12 @@ Then follow [`docs/Workflow.md`](docs/Workflow.md) and the relevant template or 
 ## Adding a company
 
 1. Copy `templates/company/` to `companies/<ticker>-<slug>/`.
-2. Complete `meta.yaml` with real identifiers, a concrete next action, and observable watch items.
+2. Complete `meta.yaml` with real company identity and `research.yaml` with coverage state, next review, confidence, priority, and watch items.
 3. Research the business before forecasting earnings or discussing valuation.
 4. Record unresolved questions in `07_open_questions.md`.
-5. Append the initiating event to `05_timeline.md` and the cross-company insight to the current research log when material.
-6. Run `python3 scripts/validate_repository.py`.
+5. Register material assumptions in `assumptions.md`, retain lawful source artifacts by category, and create the first quarterly history snapshot.
+6. Append the initiating event to `05_timeline.md` and the scoped research log when material.
+7. Run `python3 scripts/validate_repository.py`.
 
 The ten standard company filenames are a permanent interface. Do not rename, reorder, or remove them.
 

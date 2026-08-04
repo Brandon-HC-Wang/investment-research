@@ -27,11 +27,11 @@ Mark stages that are immaterial or unknown. Do not assume revenue changes flow p
 
 ## 4. Update atomically
 
-Change all affected canonical files in one coherent edit. Preserve old assumptions in dated history, update current summaries, and add or change open-question statuses. Update `meta.yaml.last_update` and make `next_action` specific and executable.
+Change all affected canonical files in one coherent edit. Preserve old assumptions in `assumptions.md` and dated history, update current summaries, and add or change open-question statuses. Update `research.yaml` for workflow state while retaining backward-compatible fields in `meta.yaml` until migration is complete.
 
 ## 5. Record provenance
 
-Attach source metadata near the claim it supports. If the finding is reusable across companies, add it to the industry guide or current research log and link back to the company record.
+Attach source metadata near the claim it supports and retain lawful artifacts under the appropriate `sources/` category. If the finding is reusable across companies, add it to the industry package, knowledge layer, thesis, or scoped research log and link back to the company record.
 
 ## 6. Challenge the conclusion
 

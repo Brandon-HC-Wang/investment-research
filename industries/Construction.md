@@ -1,5 +1,7 @@
 # Construction
 
+> Backward-compatible overview. New reusable research belongs in the canonical [`construction/`](construction/README.md) knowledge package. Existing content below is preserved.
+
 ## Economic model
 
 Construction and property-development earnings are project-based. Reported revenue is shaped by completion and recognition timing, so monthly revenue rarely reveals underlying demand or future EPS on its own.

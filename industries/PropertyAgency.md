@@ -1,5 +1,7 @@
 # Property Agency
 
+> Backward-compatible overview. New reusable research belongs in the canonical [`property-agency/`](property-agency/README.md) knowledge package. Existing content below is preserved.
+
 ## Segment separation
 
 Analyze three economic streams independently:

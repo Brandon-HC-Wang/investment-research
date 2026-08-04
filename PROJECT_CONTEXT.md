@@ -65,7 +65,7 @@ Confidence reflects evidence quality and unresolved uncertainty, not enthusiasm.
 
 ## Durable company contract
 
-Every directory directly under `companies/` represents one company and contains exactly the following core records:
+Every directory directly under `companies/` represents one company and contains the following permanent core records:
 
 1. `01_business.md`
 2. `02_financials.md`
@@ -79,6 +79,8 @@ Every directory directly under `companies/` represents one company and contains 
 10. `meta.yaml`
 
 The numbering is permanent. Add detail inside these records or in a clearly named supporting subdirectory; never change the core interface.
+
+Each company also maintains `assumptions.md`, `research.yaml`, quarterly snapshots in `history/`, and categorized source material in `sources/`. `meta.yaml` remains the stable company identity record; `research.yaml` describes research workflow state.
 
 ## Lifecycle
 

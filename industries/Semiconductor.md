@@ -1,5 +1,7 @@
 # Semiconductor
 
+> Backward-compatible overview. New reusable research belongs in the canonical [`semiconductor/`](semiconductor/README.md) knowledge package. Existing content below is preserved.
+
 ## Economic model
 
 Semiconductor earnings combine structural content growth with inventory and capacity cycles. Revenue must be decomposed into shipments, ASP, product mix, market share, end demand, and FX; margin depends on utilization, yield, mix, pricing, and inventory accounting.

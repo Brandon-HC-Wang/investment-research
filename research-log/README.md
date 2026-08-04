@@ -4,7 +4,11 @@ The research log is an append-only record of findings that materially affect mor
 
 ## File organization
 
-Use one file per calendar year, named `YYYY.md`. Append entries in chronological order with the format in [`../templates/ResearchLogEntry.md`](../templates/ResearchLogEntry.md).
+- [`companies/`](companies/README.md) contains one append-only log per company, named exactly like the company directory.
+- [`industries/`](industries/README.md) contains one append-only log per industry or durable cycle.
+- Existing annual files such as [`2026.md`](2026.md) remain as backward-compatible repository-wide logs and are not moved or deleted.
+
+Append entries in chronological order with the format in [`../templates/ResearchLogEntry.md`](../templates/ResearchLogEntry.md).
 
 ## Inclusion standard
 

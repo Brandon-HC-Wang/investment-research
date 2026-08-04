@@ -11,7 +11,7 @@ Before any modification, read in this order:
 3. `.ai/context.md`
 4. `docs/Framework.md`
 
-For company work, then read the company’s `meta.yaml`, `08_thesis.md`, `07_open_questions.md`, and the remaining numbered files. Read the relevant industry guide and model documentation before changing forecasts.
+For company work, then read the company’s `meta.yaml`, `research.yaml`, `08_thesis.md`, `assumptions.md`, `07_open_questions.md`, latest quarterly snapshot, and the remaining numbered files. Read the relevant industry package and model documentation before changing forecasts.
 
 ## Primary obligation
 
@@ -59,7 +59,11 @@ Historical assumptions, thesis changes, question resolutions, and dated observat
 - Unanswered or invalidated questions → `07_open_questions.md`.
 - Thesis, confidence, variant perception, and falsification conditions → `08_thesis.md`.
 - Multiple history and valuation assumptions → `09_valuation.md`.
-- Workflow state, confidence, priority, next action, and watch items → `meta.yaml`.
+- Stable company identity and backward-compatible metadata → `meta.yaml`.
+- Coverage workflow, review timing, confidence, priority, and watch items → `research.yaml`.
+- Testable assumptions and their `Open`, `Verified`, or `Rejected` history → `assumptions.md`.
+- Point-in-time quarterly research state → a new append-only file under `history/`.
+- Retained primary and secondary artifacts → the appropriate category under `sources/`.
 - Cross-company or reusable findings → the relevant industry file or `research-log/`.
 
 ### Synchronize dependent records
@@ -88,6 +92,16 @@ State every material hypothesis in testable form:
 - expected time window;
 - current status and confidence.
 
+## Assumption protocol
+
+Never delete an assumption. Each assumption has a durable ID, description, confidence percentage, evidence test, model effect, and one status:
+
+- `Open`: not adequately verified.
+- `Verified`: current evidence supports the assumption.
+- `Rejected`: current evidence invalidates the assumption.
+
+Append dated confidence and status changes. If later evidence challenges a verified assumption, append a new `Open` event rather than erasing the verification history.
+
 ## Industry requirements
 
 - **Construction:** track backlog, land bank, completion schedule, joint development, urban renewal, funding, and recognition timing. Monthly revenue is insufficient.
@@ -109,6 +123,9 @@ State every material hypothesis in testable form:
 ## Repository integrity
 
 - Company core filenames and numbering are immutable.
+- `meta.yaml` remains the stable identity contract; do not replace it with `research.yaml`.
+- Where fields temporarily overlap, `research.yaml` is canonical for current research state; keep legacy fields in `meta.yaml` synchronized for backward compatibility.
+- Never modify a committed quarterly snapshot to reflect later knowledge; add a new snapshot or dated correction.
 - Do not add empty files, placeholder companies, fabricated examples, or unresolved template tokens to active research.
 - Keep links relative within the repository.
 - Keep one company per directory named `<ticker>-<slug>` using lowercase ASCII and hyphens; store the primary market in `meta.yaml`.

@@ -4,7 +4,7 @@ Templates enforce durable record shapes and evidence discipline.
 
 | Template | Use |
 |---|---|
-| [`company/`](company/) | Complete fixed company record |
+| [`company/`](company/) | Complete fixed company record with research state, assumptions, sources, and history |
 | [`SourceRecord.md`](SourceRecord.md) | Consistent source capture and analytical extraction |
 | [`QuarterlyReview.md`](QuarterlyReview.md) | Periodic result review against prior assumptions |
 | [`ResearchLogEntry.md`](ResearchLogEntry.md) | Append-only material finding or hypothesis event |

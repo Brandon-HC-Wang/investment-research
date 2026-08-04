@@ -15,15 +15,18 @@ Do not skip a stage merely because the current task starts with a financial resu
 ## Repository semantics
 
 - `companies/` contains company-specific truth and history.
-- `industries/` contains reusable sector mechanics.
+- `industries/` contains reusable sector packages split into overview, metrics, valuation, and open questions.
 - `models/` contains calculation and forecasting conventions.
-- `research-log/` contains dated cross-company findings and hypothesis changes.
+- `knowledge/` contains reusable concepts that must not belong to one company.
+- `theses/` contains macro and cross-industry theses.
+- `portfolio/` contains portfolio-level monitoring, allocation, and risk policy.
+- `research-log/companies/` and `research-log/industries/` contain append-only scoped findings.
 - `watchlist/` is a research-priority queue, never a recommendation list.
 - `templates/` defines structure only; it is not evidence.
 
 ## Current-state versus history
 
-`meta.yaml` and the current-summary sections of numbered files describe the present state. Dated sections preserve how that state evolved. Update the present state when evidence changes, then append a dated record explaining the change. Never delete open questions or historical assumptions.
+`meta.yaml` stores stable company identity. `research.yaml` and the current-summary sections of numbered files describe present research state. `assumptions.md`, dated sections, and quarterly files under `history/` preserve how that state evolved. Update the present state when evidence changes, then append a dated record explaining the change. Never delete open questions, assumptions, or historical snapshots.
 
 ## Minimum useful update
 
@@ -33,11 +36,12 @@ A research update should identify the source, observation, causal interpretation
 
 Read in this order after the global required files:
 
-1. `meta.yaml` for state and next action.
+1. `meta.yaml` for company identity and `research.yaml` for current workflow state.
 2. `08_thesis.md` for the current claim and falsification tests.
-3. `07_open_questions.md` for known uncertainty.
-4. `01_business.md` through `06_notes.md` for supporting analysis and history.
-5. `09_valuation.md` only after the operating case is understood.
+3. `assumptions.md` and `07_open_questions.md` for known uncertainty.
+4. The latest file in `history/` for the prior point-in-time state.
+5. `01_business.md` through `06_notes.md` for supporting analysis and history.
+6. `09_valuation.md` only after the operating case is understood.
 
 ## Completion test
 

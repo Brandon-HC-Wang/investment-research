@@ -1,5 +1,7 @@
 # AI Hardware
 
+> Backward-compatible overview. New reusable research belongs in the canonical [`ai-hardware/`](ai-hardware/README.md) knowledge package. Existing content below is preserved.
+
 ## Scope
 
 AI hardware includes servers, accelerators, networking, memory, power, thermal systems, edge devices, and AI PCs. “AI exposure” is useful only when translated into identifiable products, content, units, customers, timing, and margins.

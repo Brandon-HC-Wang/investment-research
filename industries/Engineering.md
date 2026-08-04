@@ -1,5 +1,7 @@
 # Engineering
 
+> Backward-compatible overview. New reusable research belongs in the canonical [`engineering/`](engineering/README.md) knowledge package. Existing content below is preserved.
+
 ## Economic model
 
 Engineering companies convert orders into revenue over project schedules. Backlog can support visibility, but quality depends on contract enforceability, customer credit, pricing, cost escalation, execution capability, and recognition policy.

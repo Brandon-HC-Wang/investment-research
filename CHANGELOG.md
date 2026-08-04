@@ -6,7 +6,19 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ## [Unreleased]
 
-No unreleased changes.
+### Added
+
+- Modular industry knowledge packages with overview, metrics, valuation, and open-question records.
+- Company-level source categories, quarterly history, assumptions register, and separate research-state YAML.
+- Reusable `knowledge/`, macro `theses/`, and portfolio-level research layers.
+- Scoped append-only company and industry research logs.
+- Documentation-only future automation backlog.
+- Research-state schema and a migration record for the architecture refactor.
+
+### Changed
+
+- Preserved legacy industry guides and annual research logs as backward-compatible entry points while directing new work to modular packages.
+- Separated stable company identity in `meta.yaml` from workflow state in `research.yaml`.
 
 ## [1.0.0] - 2026-08-04
 

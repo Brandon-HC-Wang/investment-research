@@ -1,0 +1,37 @@
+# Shipping Thesis
+
+## Industry
+
+Container shipping economics are driven by transported volume, effective freight rate, fleet supply, vessel utilization, route mix, fuel, charter and operating cost, port or canal constraints, and capital allocation. Contract and spot exposures differ across carriers and customers.
+
+## Current stage
+
+- **Thesis status:** Open.
+- **Research stage:** Initial driver framework established; no current cycle-stage conclusion is accepted until freight, capacity, orderbook, congestion, and contract evidence share a dated cutoff.
+- **Confidence:** Low.
+
+## Working thesis
+
+Shipping earnings are sustainable only when demand, effective capacity, and capital discipline support rates after temporary disruption premiums fade. High spot rates can produce exceptional cash flow, but fleet additions and route normalization can reduce EPS rapidly.
+
+## Key companies
+
+The observation set includes A.P. Moller–Maersk, MSC, COSCO Shipping, Evergreen Marine, Yang Ming, and Wan Hai, together with freight indices, ports, shipyards, and major charter-market participants. Inclusion identifies relevant evidence sources, not preferred securities.
+
+## Risks
+
+- New vessel deliveries exceed demand and reduce utilization or rates.
+- Temporary congestion or route disruption reverses.
+- Fuel, charter, or regulatory cost rises faster than recoverable pricing.
+- Peak cash is allocated to uneconomic capacity or acquisitions.
+
+## Future catalysts
+
+- Changes in effective capacity caused by route distance, congestion, or scrapping.
+- Contract-rate resets and evidence of rate durability.
+- Orderbook delivery, cancellation, or delay.
+- Capital returns or disciplined reinvestment supported by through-cycle cash generation.
+
+## Verification
+
+Track transported volume, spot and contract rates, idle fleet, orderbook, deliveries, scrapping, sailing distance, utilization, fuel and charter cost, free cash flow, net cash, and capital allocation. Normalize earnings across a full freight cycle before valuation.

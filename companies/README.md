@@ -17,8 +17,21 @@ Every company directory must contain:
 | `07_open_questions.md` | Durable question registry with `Open`, `Resolved`, or `Rejected` status |
 | `08_thesis.md` | Current thesis, variant view, risks, falsification tests, and scorecard |
 | `09_valuation.md` | Method selection, normalized valuation, scenarios, and sensitivity |
-| `meta.yaml` | Machine-readable identity, workflow state, confidence, priority, and next action |
+| `meta.yaml` | Stable machine-readable company identity and legacy workflow fields |
+
+## Supplemental research state
+
+Every company also contains:
+
+| Path | Responsibility |
+|---|---|
+| `assumptions.md` | Append-only assumptions using `Open`, `Verified`, and `Rejected` |
+| `research.yaml` | Coverage workflow, review timing, confidence, and monitoring state |
+| `history/` | Immutable quarterly research snapshots named `YYYYQn.md` |
+| `sources/` | Source artifacts organized by earnings, conference calls, monthly revenue, and news |
+
+These additions are backward compatible. The numbered company files and `meta.yaml` remain present and retain their existing responsibilities.
 
 Copy [`../templates/company/`](../templates/company/) to begin a real company. Replace all instructional content with sourced research; template instructions must not remain in an active company folder.
 
-Supporting material may be stored in a `sources/` subdirectory when local retention is lawful and necessary. Prefer links and source metadata over copied documents.
+Supporting material may be stored in `sources/` when local retention is lawful and necessary. Prefer links and source metadata over copied documents.
