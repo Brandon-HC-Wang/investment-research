@@ -1,224 +1,117 @@
-# Investment Research Project Context
+# Project Context
 
-## Objective
+## Mission
 
-This repository is a long-term investment research knowledge base.
+Build a durable, AI-native equity research system that improves with every investigation. The system exists to identify and monitor companies capable of growing sustainable earnings over the next two to five years.
 
-The goal is NOT to predict short-term stock prices.
+The repository is the source of truth. Chat responses, temporary analyses, and external notes are incomplete until the relevant repository records are updated.
 
-The goal is to identify companies capable of continuously growing earnings over the next 2–5 years.
+## What this system is
 
----
+- A structured body of company, industry, and modeling knowledge.
+- A history of hypotheses, evidence, revisions, and unresolved questions.
+- A causal model connecting business activity to revenue, margins, cash flow, and EPS.
+- A collaboration surface shared by humans, Codex, Claude Code, Gemini CLI, GPT, and future agents.
 
-# Investment Philosophy
+## What this system is not
 
-Focus on:
+- A daily news digest.
+- A stock-price prediction service.
+- A list of buy, sell, or hold calls.
+- A technical-analysis or momentum-trading system.
+- A collection of isolated markdown notes without shared contracts.
 
-- Business quality
-- Sustainable earnings
-- Future EPS visibility
-- Capital allocation
-- Competitive advantage
-- Management execution
-- Long-term growth drivers
+## Investment objective
 
-Avoid over-emphasizing:
+Research should improve confidence in one central question:
 
-- Technical analysis
-- Short-term price movement
-- Daily news
-- Pure momentum investing
+> Can this company compound sustainable per-share earnings over the next two to five years, and what observable evidence would confirm or invalidate that view?
 
----
+Analysis is prioritized in this order:
 
-# Preferred Research Process
+1. Business quality.
+2. Competitive advantage.
+3. Revenue drivers.
+4. EPS drivers.
+5. Sustainable versus non-recurring earnings.
+6. Future visibility.
+7. Capital allocation.
+8. Valuation.
 
-Every company analysis should answer these questions.
+## System design principles
 
-## 1. Business Model
+### Stable structure, evolving conclusions
 
-How does the company make money?
+Company filenames and core schemas are stable interfaces. Conclusions are expected to change as evidence changes. Preserve earlier assumptions and append dated revisions so future readers can reconstruct the reasoning path.
 
-Where is its competitive advantage?
+### Markdown for reasoning, YAML for state
 
----
+Markdown stores narrative analysis, evidence, tables, and hypotheses. YAML stores small, machine-readable fields used for discovery, prioritization, and validation. Narrative conclusions must not be hidden only in YAML.
 
-## 2. Revenue Driver
+### One fact, one canonical home
 
-Why is revenue increasing?
+Store company-specific facts in the company folder, reusable industry mechanics in `industries/`, analytical conventions in `models/`, and cross-company discoveries in `research-log/`. Link to canonical material instead of duplicating it.
 
-Temporary?
+### Evidence before confidence
 
-Structural?
+Distinguish among:
 
-Industry cycle?
+- **Fact:** externally verifiable and cited.
+- **Estimate:** calculated from disclosed facts and explicit assumptions.
+- **Hypothesis:** plausible but not yet adequately verified.
+- **Opinion:** an analytical judgment based on stated evidence.
 
-Market share gain?
+Confidence reflects evidence quality and unresolved uncertainty, not enthusiasm.
 
-ASP increase?
+## Durable company contract
 
-Shipment increase?
+Every directory directly under `companies/` represents one company and contains exactly the following core records:
 
----
+1. `01_business.md`
+2. `02_financials.md`
+3. `03_growth_drivers.md`
+4. `04_eps_model.md`
+5. `05_timeline.md`
+6. `06_notes.md`
+7. `07_open_questions.md`
+8. `08_thesis.md`
+9. `09_valuation.md`
+10. `meta.yaml`
 
-## 3. EPS Driver
+The numbering is permanent. Add detail inside these records or in a clearly named supporting subdirectory; never change the core interface.
 
-Revenue does NOT always equal EPS.
+## Lifecycle
 
-Always identify:
+Research progresses through discovery, qualification, active research, monitoring, and archival. Archival means the company is no longer actively followed; it does not mean its history is deleted.
 
-- Gross margin
-- Operating leverage
-- One-off gain/loss
-- FX impact
-- Inventory
-- PPA amortization
-- Investment income
+Every meaningful update should do at least one of the following:
 
----
+- add or improve evidence;
+- resolve or reject an open question;
+- revise a model assumption while preserving the prior assumption;
+- change a thesis condition, confidence level, priority, or next action;
+- add a dated milestone or research-log entry.
 
-## 4. Sustainable Earnings
+## Definition of quality
 
-Separate earnings into:
+A high-quality record lets a new analyst or AI agent determine:
 
-Recurring
-
-- Core business
-- Stable cash flow
-
-Non-recurring
-
-- Property disposal
-- Investment gain
-- One-time recognition
-- Accounting adjustment
-
----
-
-## 5. Future Visibility
-
-Estimate:
-
-2026
-
-2027
-
-2028
-
-Main questions:
-
-Can earnings continue?
-
-What replaces current growth?
-
----
-
-## 6. Backlog
-
-If applicable.
-
-Track:
-
-- Engineering backlog
-- Land bank
-- Unrecognized projects
-- Deferred revenue
-- Contract value
-
----
-
-## 7. Future Catalyst
-
-Examples:
-
-- AI
-- DDR6
-- CAMM2
-- MetaLens
-- Urban renewal
-- Defense
-- Server
-- Automotive
-
----
-
-## 8. Risks
-
-Always identify the biggest risk.
-
-Not generic risks.
-
-Actual risks that could reduce EPS.
-
----
-
-# Industry-specific Rules
-
-## Construction
-
-Focus on:
-
-- Land bank
-- Completion schedule
-- Joint development
-- Urban renewal
-- Backlog
-
-Monthly revenue is NOT enough.
-
----
-
-## Property Agency
-
-Focus on:
-
-- Unrecognized projects
-- Investment projects
-- Brokerage income
-- Development income
-
-Estimate annual EPS by project.
-
----
-
-## Semiconductor
-
-Focus on:
-
-- Inventory
-- ASP
-- Capacity
-- Gross margin
-- AI demand
-- End market demand
-
----
-
-## Engineering
-
-Focus on:
-
-- Backlog
-- New orders
-- Recognition timing
-- Margin
-
----
-
-# Research Standard
-
-Do not simply summarize news.
-
-Think like a buy-side equity analyst.
-
-Always answer:
-
-Why?
-
-Then:
-
-What happens next?
-
-Then:
-
-What changes the valuation?
+- how the company makes money and why customers choose it;
+- which operational variables cause revenue and EPS to change;
+- how much earnings are recurring;
+- what supports the next two to five years of earnings;
+- which one or two risks can materially reduce EPS;
+- what evidence would falsify the thesis;
+- why the selected valuation method fits the economics;
+- what to research next.
+
+## Required reading order
+
+Before modifying the repository, every agent must read:
+
+1. `PROJECT_CONTEXT.md`
+2. `AGENTS.md`
+3. `.ai/context.md`
+4. `docs/Framework.md`
+
+Task-specific documents follow that sequence.

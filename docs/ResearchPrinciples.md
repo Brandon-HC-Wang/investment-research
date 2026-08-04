@@ -1,49 +1,45 @@
 # Research Principles
 
-## Principle 1
+## Knowledge compounds when history is preserved
 
-Revenue is not earnings.
+Research improves through explicit revisions. Preserve prior assumptions, record why they changed, and make the reasoning path auditable. A clean-looking current answer is less valuable than an honest history of learning.
 
-Always explain EPS.
+## Revenue is not earnings
 
----
+Explain the bridge from operating activity to gross profit, operating profit, net income, cash flow, and diluted EPS. Growth that requires unfavorable mix, high acquisition cost, dilution, or excess capital may not create per-share value.
 
-## Principle 2
+## Earnings quality determines valuation relevance
 
-One-time earnings should never be capitalized.
+Separate core recurring, cyclical, project-based, and non-recurring earnings. Do not annualize exceptional gains or peak-cycle profitability without evidence.
 
----
+## Backlog requires quality analysis
 
-## Principle 3
+Backlog supports visibility only when pricing, cancellation terms, customer credit, execution capacity, cost exposure, and recognition timing are understood.
 
-Backlog is more important than monthly revenue.
+## Forecast before valuing
 
----
+Determine sustainable earnings and future drivers before selecting a multiple. Historical valuation ranges do not establish intrinsic value when business quality, capital intensity, growth, or rates have changed.
 
-## Principle 4
+## Business quality outranks apparent cheapness
 
-Estimate future earnings before valuation.
+Low valuation can reflect weak economics, poor governance, cyclicality, or declining earnings. Prefer durable competitive advantages, attractive reinvestment opportunities, and credible capital allocation.
 
----
+## Hypotheses must be falsifiable
 
-## Principle 5
+Every material claim needs observable confirmation and rejection signals. Research that cannot change one’s mind is advocacy, not analysis.
 
-Prefer business quality over low valuation.
+## Evidence has a hierarchy
 
----
+Audited filings, regulatory data, and contractual disclosures generally outweigh management narratives, media reports, and unsourced commentary. Source proximity does not eliminate bias; triangulate material claims.
 
-## Principle 6
+## Per-share outcomes matter
 
-Research should generate hypotheses.
+Revenue, EBITDA, and net income growth are incomplete if dilution, leverage, working capital, or reinvestment requirements absorb the benefit. Track free cash flow and diluted share count.
 
-Every hypothesis must eventually be verified or rejected.
+## Uncertainty should be visible
 
----
+Use scenarios, confidence scores, and open questions to show what is not known. Precision should reflect evidence quality.
 
-## Principle 7
+## Reusable insight belongs above the company level
 
-Update research continuously.
-
-Never rewrite history.
-
-Append new findings.
+When a finding applies across companies, update the industry or model record. Avoid rediscovering the same industry mechanics in isolated company folders.

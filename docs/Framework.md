@@ -1,359 +1,111 @@
 # Equity Research Framework
 
-This document defines the standard research methodology used throughout this repository.
+This is the canonical methodology for all company research. The objective is to understand whether sustainable per-share earnings can grow over the next two to five years, not to summarize events or predict short-term prices.
 
-Every company research must follow this framework.
+## 1. Business model
 
-The objective is to maximize long-term investment quality instead of producing news summaries.
+Explain the economic engine before analyzing financial statements.
 
----
+- What products or services are sold?
+- Which customer problem is solved?
+- Who pays, how often, and under what contract or transaction model?
+- What determines volume, price, mix, and retention?
+- Which assets, capabilities, regulations, or relationships are required?
 
-# Step 1 — Understand the Business
+Map major segments to customers, revenue models, cost structures, capital intensity, and cyclicality. A segment label alone is not a business-model explanation.
 
-Never analyze valuation before understanding the business.
+## 2. Competitive advantage
 
-Questions:
+Identify why customers choose the company and why competitors cannot easily replicate the offer. Possible sources include cost advantage, switching costs, network effects, scarce assets, process know-how, certification, distribution, brand, data, or ecosystem control.
 
-- What does the company sell?
-- Who are its customers?
-- How does it make money?
-- Why do customers buy from it?
-- What is its competitive advantage?
-- Is the business easy to replicate?
+For every proposed advantage, document:
 
-Output:
+- evidence that it exists;
+- the mechanism that converts it into retention, share, price, or margin;
+- durability and likely erosion paths;
+- reinvestment required to maintain it.
 
-- Business model summary
-- Revenue structure
-- Customer profile
-- Competitive moat
+Historical high margins are evidence to investigate, not proof of a moat.
 
----
+## 3. Revenue drivers
 
-# Step 2 — Identify Revenue Drivers
+Build a driver tree rather than extrapolating headline growth:
 
-Revenue growth should always be explained.
+`addressable demand × market share × units or activity × price × product mix × currency`
 
-Possible drivers include:
+Adapt the tree to the business. Separate structural, cyclical, acquired, and accounting-driven growth. Explain what changed, why it changed, when it should be recognized, and which observable metric can verify it.
 
-- Shipment growth
-- ASP increase
-- Product mix improvement
-- Market share gain
-- Capacity expansion
-- Acquisition
-- Industry cycle
-- New customer
-- New application
+## 4. EPS drivers
 
-Do NOT stop at:
+Bridge operating activity to per-share earnings:
 
-"Revenue increased."
+`revenue → gross profit → operating expenses → operating profit → interest/investment income → tax → minority interest → net income → diluted shares → EPS`
 
-Always answer:
+Explicitly assess gross margin, utilization, mix, operating leverage, inventory provisions, FX, PPA amortization, investment gains, tax rates, dilution, and other one-offs where relevant. Revenue growth is not an EPS explanation.
 
-WHY?
+## 5. Sustainable earnings
 
----
+Classify earnings by economic repeatability:
 
-# Step 3 — Explain EPS Changes
+| Classification | Characteristics | Treatment |
+|---|---|---|
+| Recurring core | Produced by the ongoing business with repeatable demand and economics | Forecast through operating drivers |
+| Recurring but cyclical | Repeats across cycles but varies materially with utilization, price, or demand | Normalize across a cycle |
+| Project-based | Supported by identifiable projects or backlog but timing is discrete | Model by project and recognition schedule |
+| Non-recurring | Asset sales, investment gains, accounting changes, litigation, or exceptional recognition | Exclude from normalized earnings unless recurrence is evidenced |
 
-Revenue does not equal earnings.
+Reconcile reported EPS to normalized EPS. Do not capitalize one-time earnings or assume peak-cycle margins are permanent.
 
-Every EPS change must be explained.
+## 6. Backlog and future visibility
 
-Possible factors:
+Backlog matters only when its quality is understood. Assess cancellation rights, pricing, customer credit, execution capacity, cost escalation, and recognition timing. For businesses without formal backlog, use the best forward indicators: subscriptions, booked orders, installed base, design wins, land bank, capacity commitments, renewal rates, or customer programs.
 
-- Gross margin
-- Operating leverage
-- Product mix
-- FX
-- Inventory
-- PPA amortization
-- One-off gain
-- Investment income
-- Tax
+For each of the next three forecast years and the broader two-to-five-year horizon, identify:
 
-Output:
+- growth driver;
+- replacement driver after the current catalyst matures;
+- leading indicator;
+- confidence and evidence;
+- largest uncertainty.
 
-Revenue Driver
+## 7. Risks
 
-↓
+Select the one or two mechanisms most likely to reduce EPS materially. Quantify the path where evidence permits:
 
-Margin Driver
+`risk event → operating metric → revenue/margin effect → EPS impact → balance-sheet or cash-flow consequence`
 
-↓
+Generic lists are not useful. Include early warning indicators and thesis invalidation thresholds.
 
-EPS Driver
+## 8. Investment thesis
 
----
+The thesis is a testable synthesis, not a recommendation. It should state:
 
-# Step 4 — Classify Earnings
+- the business-quality judgment;
+- the sustainable earnings mechanism;
+- the two-to-five-year growth and replacement drivers;
+- what the market or consensus may misunderstand, if known;
+- critical dependencies;
+- confirmation and falsification conditions;
+- current confidence and why.
 
-Separate earnings into two categories.
+Maintain base, upside, and downside cases. A good downside case changes operational assumptions, not merely the valuation multiple.
 
-## Recurring Earnings
+## 9. Capital allocation
 
-Examples
+Evaluate how management converts retained cash and external capital into per-share value. Track reinvestment returns, acquisitions, divestitures, dividends, repurchases, issuance, leverage, and related-party transactions. Compare stated policy with realized outcomes.
 
-- Core operations
-- Recurring service income
-- Long-term contracts
+## 10. Valuation
 
-These deserve higher valuation.
+Value the company only after assessing business quality and sustainable earnings. Select methods that fit the economics and triangulate where useful:
 
----
+- P/E for mature businesses with representative earnings;
+- EV/EBITDA when capital structure or non-cash charges impair P/E comparison;
+- P/B or residual income for financial or asset-driven businesses where book value is economically meaningful;
+- DCF when long-duration cash flows and reinvestment assumptions can be modeled responsibly;
+- sum-of-the-parts when segments have materially different economics.
 
-## Non-recurring Earnings
+Use normalized or scenario earnings, disclose net debt and dilution, and separate operating assumptions from multiple assumptions. See [`Valuation.md`](Valuation.md).
 
-Examples
+## Required output standard
 
-- Property disposal
-- Accounting adjustment
-- Investment gain
-- One-time project recognition
-
-These should not be directly annualized.
-
----
-
-# Step 5 — Evaluate Growth Drivers
-
-Growth should be classified.
-
-## Existing Growth Driver
-
-Already contributing revenue.
-
-Examples
-
-- DDR5
-- AI Server
-- Defense
-
----
-
-## Future Growth Driver
-
-Not yet fully reflected.
-
-Examples
-
-- CAMM2
-- MetaLens
-- DDR6
-- Drone
-- Urban Renewal
-
-Estimate when each driver starts contributing.
-
----
-
-# Step 6 — Evaluate Visibility
-
-Estimate visibility for:
-
-Current Year
-
-Next Year
-
-Three Years
-
-Use the following scale.
-
-★★★★★
-
-Very High
-
-★★★★☆
-
-High
-
-★★★☆☆
-
-Medium
-
-★★☆☆☆
-
-Low
-
-★☆☆☆☆
-
-Very Low
-
-Explain WHY.
-
----
-
-# Step 7 — Industry-specific Analysis
-
-Construction
-
-Focus on:
-
-- Backlog
-- Completion schedule
-- Land bank
-- Joint development
-- Urban renewal
-
-Monthly revenue is secondary.
-
----
-
-Property Agency
-
-Separate:
-
-Brokerage
-
-Development
-
-Investment projects
-
-Estimate EPS by project.
-
----
-
-Engineering
-
-Focus on:
-
-- Backlog
-- Recognition schedule
-- New orders
-- Margin
-
----
-
-Semiconductor
-
-Focus on:
-
-- Inventory
-- Capacity utilization
-- ASP
-- AI exposure
-- Gross margin
-- End-market demand
-
----
-
-AI Hardware
-
-Focus on:
-
-- AI Server
-- AI PC
-- GPU roadmap
-- DDR roadmap
-- Customer concentration
-
----
-
-# Step 8 — Capital Allocation
-
-Evaluate management.
-
-Questions:
-
-- Is capital allocated efficiently?
-- Dividend policy
-- Share buyback
-- M&A quality
-- Debt management
-
-Management quality often determines long-term returns.
-
----
-
-# Step 9 — Risks
-
-Avoid generic statements.
-
-Identify the most important risks.
-
-Good examples:
-
-- No replacement projects after 2026.
-- Inventory correction in DRAM.
-- CAMM2 adoption slower than expected.
-- Government spending reduction.
-
-Bad examples:
-
-- Competition
-- Inflation
-- Economy
-
-Be specific.
-
----
-
-# Step 10 — Valuation
-
-Valuation is the final step.
-
-Never start from PE.
-
-Possible methods:
-
-- PE
-- PB
-- EV/EBITDA
-- DCF
-- SOTP
-
-Valuation should always be linked to future earnings.
-
----
-
-# Research Output Standard
-
-Every company should eventually include:
-
-Business
-
-Revenue
-
-Financials
-
-Growth Drivers
-
-Backlog
-
-Future Visibility
-
-Risks
-
-Valuation
-
-Timeline
-
-Open Questions
-
-Notes
-
----
-
-# Research Principle
-
-Facts
-
-↓
-
-Reasoning
-
-↓
-
-Hypothesis
-
-↓
-
-Verification
-
-↓
-
-Investment Conclusion
-
-Never reverse this order.
+Every completed company record must reveal the causal chain from customer demand to EPS, separate recurring from non-recurring earnings, show future replacement drivers, identify explicit falsification tests, and preserve the evidence and history behind the current view.

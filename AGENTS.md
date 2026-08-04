@@ -1,311 +1,126 @@
-# AGENTS.md
+# Agent Operating Contract
 
-# Investment Research Repository
+These instructions apply to every human or AI assistant modifying this repository.
 
-This repository is designed for AI-assisted equity research.
+## Required context load
 
-The purpose is NOT to produce news summaries.
+Before any modification, read in this order:
 
-The purpose is to continuously build a long-term investment knowledge base.
+1. `PROJECT_CONTEXT.md`
+2. `AGENTS.md`
+3. `.ai/context.md`
+4. `docs/Framework.md`
 
----
+For company work, then read the company’s `meta.yaml`, `08_thesis.md`, `07_open_questions.md`, and the remaining numbered files. Read the relevant industry guide and model documentation before changing forecasts.
 
-# Primary Objective
+## Primary obligation
 
-Every analysis should improve the quality of the research repository.
+Every analysis must improve the repository. Do not leave a material conclusion only in a chat response. Update the canonical company, industry, model, or research-log record in the same task.
 
-The repository is considered the source of truth.
+## Research sequence
 
-Never generate standalone analysis without updating the corresponding company knowledge.
+Always reason in this order:
 
----
+1. Business model and customer value.
+2. Competitive advantage and its durability.
+3. Revenue drivers: volume, price, mix, share, capacity, cycle, new products, or acquisitions.
+4. EPS drivers: gross margin, operating leverage, FX, inventory, amortization, investment income, tax, share count, and one-off items.
+5. Recurring versus non-recurring earnings.
+6. Backlog, pipeline, replacement drivers, and future visibility.
+7. The one or two risks most likely to reduce EPS.
+8. Thesis, falsification conditions, and monitoring signals.
+9. Valuation using a method appropriate to the business.
 
-# Research Philosophy
+Never begin with valuation or a stock-price target.
 
-Think like a buy-side equity analyst.
+## Evidence discipline
 
-Always prioritize:
+- Label facts, estimates, hypotheses, and opinions explicitly when ambiguity is possible.
+- Cite primary sources whenever available. Use secondary sources to add context, not to replace accessible filings or company disclosures.
+- Record source title, publisher, date, access date, and URL. Include page or section references for long documents.
+- State currency, units, fiscal period, and whether values are reported, adjusted, or estimated.
+- Do not convert management targets into facts. Preserve the attribution and time horizon.
+- Do not invent missing data. Record the gap in `07_open_questions.md` and define how it can be resolved.
+- Prefer ranges and scenarios to unsupported precision.
 
-1. Business quality
-2. Sustainable earnings
-3. Future EPS visibility
-4. Competitive advantage
-5. Capital allocation
-6. Long-term growth
+## Change rules
 
-Avoid:
+### Append history; do not rewrite it
 
-- Momentum trading
-- Daily stock prediction
-- Technical analysis as the primary conclusion
+Historical assumptions, thesis changes, question resolutions, and dated observations are append-only. If an earlier item is wrong, mark it superseded or rejected, explain why, and link to the new evidence. Never silently edit history into agreement with the present view.
 
-Technical analysis may be included only as supporting evidence.
+### Update canonical records
 
----
+- Financial results, margins, balance-sheet changes, and cash flow → `02_financials.md`.
+- Growth assumptions, backlog, pipeline, and replacement drivers → `03_growth_drivers.md`.
+- Forecast logic, scenario assumptions, and EPS bridges → `04_eps_model.md`.
+- Dated corporate, industry, model, and thesis milestones → `05_timeline.md`.
+- New observations that do not yet alter the thesis → `06_notes.md`.
+- Unanswered or invalidated questions → `07_open_questions.md`.
+- Thesis, confidence, variant perception, and falsification conditions → `08_thesis.md`.
+- Multiple history and valuation assumptions → `09_valuation.md`.
+- Workflow state, confidence, priority, next action, and watch items → `meta.yaml`.
+- Cross-company or reusable findings → the relevant industry file or `research-log/`.
 
-# Required Analysis Flow
+### Synchronize dependent records
 
-Every company analysis must follow this order.
+When evidence changes an earnings assumption, update the financial record, EPS model, thesis implication, timeline, metadata, and relevant open question together. Do not leave contradictory current views in separate files.
 
-## 1. Business Model
+## Open-question protocol
 
-Explain:
+Never delete a question. Each question has a durable ID and one status:
 
-- products
-- customers
-- revenue source
-- competitive advantage
+- `Open`: evidence is insufficient.
+- `Resolved`: evidence supports an answer.
+- `Rejected`: the premise was invalid, immaterial, or unanswerable as framed.
 
----
+When changing status, append the resolution date, evidence, conclusion, and effect on the thesis. New evidence may reopen a resolved question by adding a dated status event; do not erase the prior resolution.
 
-## 2. Revenue Driver
+## Hypothesis protocol
 
-Explain why revenue changes.
+State every material hypothesis in testable form:
 
-Possible reasons:
+- claim;
+- causal mechanism;
+- supporting and contradicting evidence;
+- observable confirmation signals;
+- observable rejection signals;
+- expected time window;
+- current status and confidence.
 
-- shipment
-- ASP
-- market share
-- demand cycle
-- new products
-- acquisitions
+## Industry requirements
 
-Never stop at "revenue increased."
+- **Construction:** track backlog, land bank, completion schedule, joint development, urban renewal, funding, and recognition timing. Monthly revenue is insufficient.
+- **Property agency:** separate brokerage, development, and investment projects. Estimate earnings by project and year.
+- **Semiconductor:** track inventory, utilization, ASP, mix, capacity, AI exposure, gross margin, customer mix, and end demand.
+- **Engineering:** track backlog, order quality, cancellation terms, recognition timing, execution risk, and margin.
+- **AI hardware:** track AI servers, edge AI, AI PCs, memory standards, GPU roadmaps, content per system, and customer concentration.
 
-Explain WHY.
+## Writing standard
 
----
-
-## 3. EPS Driver
-
-Revenue != EPS.
-
-Always identify:
-
-- gross margin
-- operating margin
-- FX
-- inventory
-- PPA amortization
-- investment income
-- one-off items
-
----
-
-## 4. Sustainable Earnings
-
-Split earnings into:
-
-Recurring
-
-Examples
-
-- core operations
-- subscriptions
-- recurring projects
-
-Non-recurring
-
-Examples
-
-- property sales
-- investment gains
-- accounting adjustments
-- one-time recognition
-
----
-
-## 5. Future Visibility
-
-Estimate
-
-2026
-
-2027
-
-2028
-
-Describe
-
-- growth driver
-- replacement driver
-- biggest uncertainty
-
----
-
-## 6. Risks
-
-Do not write generic risks.
-
-Explain the ONE or TWO risks most likely to reduce EPS.
-
----
-
-## 7. Valuation
-
-Discuss valuation using:
-
-- PE
-- PB
-- EV/EBITDA
-
-Only after business quality has been evaluated.
-
-Never start from valuation.
-
----
-
-# Industry Rules
-
-## Construction
-
-Always track:
-
-- backlog
-- land bank
-- completion schedule
-- joint development
-- urban renewal
-
-Monthly revenue alone is insufficient.
-
----
-
-## Property Agency
-
-Separate:
-
-Brokerage
-
-Development
-
-Investment projects
-
-Estimate annual EPS by project.
-
----
-
-## Semiconductor
-
-Track:
-
-- inventory
-- utilization
-- ASP
-- AI exposure
-- gross margin
-- customer mix
-
----
-
-## Engineering
-
-Focus on:
-
-- backlog
-- recognition timing
-- project quality
-- margin
-
----
-
-## AI Hardware
-
-Track:
-
-- AI Server
-- Edge AI
-- AI PC
-- DDR
-- GPU roadmap
-
----
-
-# Repository Rules
-
-Whenever new information becomes available:
-
-Update:
-
-Company/
-
-Financials.md
-
-if financial information changes.
-
-Update:
-
-Timeline.md
-
-if milestone changes.
-
-Update:
-
-EPS_Model.md
-
-if earnings assumptions change.
-
-Update:
-
-Notes.md
-
-for new observations.
-
-Never overwrite historical assumptions.
-
-Instead,
-
-append a new observation with date.
-
----
-
-# Research Log
-
-Every important conclusion should be recorded.
-
-Example
-
-2026-08-04
-
-Hypothesis
-
-Hiyes 2027 earnings may decline due to missing replacement projects.
-
-Status
-
-Still valid.
-
-Need further verification.
-
----
-
-# Writing Style
-
-Be concise.
-
-Avoid sensational language.
-
-Explain assumptions.
-
-Separate facts from opinions.
-
-Always indicate uncertainty.
-
----
-
-# Priority
-
-Highest priority:
-
-Long-term earnings visibility.
-
-Second:
-
-Business quality.
-
-Third:
-
-Valuation.
-
-Never reverse this order.
+- Be concise, specific, and neutral.
+- Use descriptive headings, short paragraphs, and tables only when they improve comparison.
+- Separate fact from interpretation and state uncertainty.
+- Explain why a metric changed and what should happen next.
+- Use ISO dates (`YYYY-MM-DD`) and consistent units.
+- Avoid sensational language, generic risks, vague catalysts, and unsupported adjectives.
+- Do not reproduce long source passages; summarize and link.
+
+## Repository integrity
+
+- Company core filenames and numbering are immutable.
+- Do not add empty files, placeholder companies, fabricated examples, or unresolved template tokens to active research.
+- Keep links relative within the repository.
+- Keep one company per directory named `<ticker>-<slug>` using lowercase ASCII and hyphens; store the primary market in `meta.yaml`.
+- Run `python3 scripts/validate_repository.py` after structural or company changes.
+- Update `CHANGELOG.md` for material changes to schemas, methodology, directory contracts, or automation.
+
+## Prohibited outputs
+
+- Standalone news summaries without analytical integration.
+- Buy, sell, or hold instructions.
+- Daily price forecasts or momentum-led conclusions.
+- Technical analysis as the primary thesis.
+- Valuation multiples presented before business and earnings quality.
+- Generic risk lists that do not connect to EPS.
+- Silent deletion or rewriting of historical research.

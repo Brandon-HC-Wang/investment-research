@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:investment-research:company-meta:v1",
+  "title": "Company research metadata",
+  "description": "Machine-readable identity and workflow state for one active company record.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ticker",
+    "company",
+    "industry",
+    "market",
+    "status",
+    "confidence",
+    "priority",
+    "last_update",
+    "next_action",
+    "watch_items"
+  ],
+  "properties": {
+    "ticker": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary exchange ticker without a market prefix."
+    },
+    "company": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Legal or consistently used company name."
+    },
+    "industry": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Canonical industry name matching an industry guide when available."
+    },
+    "market": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary listing market or exchange code."
+    },
+    "status": {
+      "enum": ["discovery", "qualifying", "active", "monitoring", "archived"]
+    },
+    "confidence": {
+      "enum": ["low", "medium", "high"]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "last_update": {
+      "type": "string",
+      "format": "date"
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 10,
+      "description": "One concrete, executable research action."
+    },
+    "watch_items": {
+      "type": "array",
+      "description": "Observable events or metrics that test the current thesis.",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "uniqueItems": true
+    }
+  }
+}

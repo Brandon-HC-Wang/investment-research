@@ -1,0 +1,10 @@
+ticker: null
+company: null
+industry: null
+market: null
+status: discovery
+confidence: low
+priority: 3
+last_update: null
+next_action: null
+watch_items: []

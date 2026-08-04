@@ -1,0 +1,14 @@
+ticker: "2348"
+company: 海悅國際開發股份有限公司
+industry: Property Agency and Development
+market: TWSE
+status: discovery
+confidence: low
+priority: 2
+last_update: 2026-08-04
+next_action: Reconcile 2025 and 2026 H1 segment earnings by brokerage, development, and investment project from primary filings.
+watch_items:
+  - 2026 H1 segment revenue and margin composition
+  - Attributable project completion and recognition schedule through 2028
+  - Brokerage transaction volume and operating leverage
+  - Guarantees and funding exposure across development subsidiaries
