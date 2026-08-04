@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="可離線使用的投資研究報告 HTML 模板。">
+  <title>公司研究報告</title>
+  <!--
+    USAGE
+    1. Copy this file to the requested output location.
+    2. Replace generic text carrying data-field attributes with canonical research content.
+    3. Add or remove repeated cards, table rows, timeline items, and sources as needed.
+    4. Preserve evidence labels, information cutoff, units, source attribution, and section order.
+    5. Validate at 375px, 768px, 1024px, and 1440px; test light, dark, print, and offline modes.
+
+    Canonical UI contract: ../../docs/ui-specs/research-report.md
+    This template defines presentation only. It is not a source of company facts or estimates.
+  -->
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --paper: #ffffff;
+      --paper-soft: #f8fafc;
+      --ink: #14213d;
+      --muted: #526176;
+      --line: #dbe3ef;
+      --blue: #1e40af;
+      --blue-2: #2563eb;
+      --blue-soft: #e8efff;
+      --navy: #0b1f3a;
+      --amber: #b45309;
+      --amber-soft: #fff7e6;
+      --violet: #6d28d9;
+      --violet-soft: #f3efff;
+      --red: #b42318;
+      --red-soft: #fff0ee;
+      --shadow: 0 14px 40px rgba(18, 38, 63, .08);
+      --radius: 18px;
+      --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+    [data-theme="dark"] {
+      --bg: #09111f;
+      --paper: #101b2d;
+      --paper-soft: #142238;
+      --ink: #eef4ff;
+      --muted: #b0bed1;
+      --line: #2b3b53;
+      --blue: #8fb2ff;
+      --blue-2: #6ea0ff;
+      --blue-soft: #172b52;
+      --navy: #f4f7ff;
+      --amber: #f7b955;
+      --amber-soft: #392916;
+      --violet: #c4a7ff;
+      --violet-soft: #2d2346;
+      --red: #ff9187;
+      --red-soft: #40211f;
+      --shadow: 0 18px 50px rgba(0, 0, 0, .25);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: var(--sans);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--blue); text-underline-offset: 3px; }
+    a:hover { color: var(--blue-2); }
+    a:focus-visible, button:focus-visible, summary:focus-visible {
+      outline: 3px solid #f59e0b;
+      outline-offset: 3px;
+    }
+    button { font: inherit; }
+    .topbar {
+      position: sticky;
+      top: 12px;
+      z-index: 20;
+      width: min(1180px, calc(100% - 24px));
+      margin: 12px auto 0;
+      padding: 10px 12px 10px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      border: 1px solid color-mix(in srgb, var(--line) 82%, transparent);
+      border-radius: 16px;
+      background: color-mix(in srgb, var(--paper) 88%, transparent);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 8px 30px rgba(15, 31, 55, .08);
+    }
+    .brand { display: flex; align-items: center; gap: 11px; min-width: 0; }
+    .mark {
+      width: 38px;
+      height: 38px;
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 10px;
+      color: var(--paper);
+      background: var(--navy);
+      font: 700 10px/1 var(--mono);
+    }
+    [data-theme="dark"] .mark { color: #0b1628; background: #8fb2ff; }
+    .brand-copy { min-width: 0; }
+    .brand-title { overflow: hidden; font-size: 14px; font-weight: 760; text-overflow: ellipsis; white-space: nowrap; }
+    .brand-sub { overflow: hidden; color: var(--muted); font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
+    .actions { display: flex; gap: 8px; }
+    .icon-btn {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--paper-soft);
+      cursor: pointer;
+      transition: color .2s ease, border-color .2s ease, background-color .2s ease;
+    }
+    .icon-btn:hover { color: var(--blue); border-color: var(--blue-2); background: var(--blue-soft); }
+    .icon-btn svg { width: 19px; height: 19px; }
+    .layout {
+      width: min(1180px, calc(100% - 32px));
+      margin: 28px auto 80px;
+      display: grid;
+      grid-template-columns: 224px minmax(0, 1fr);
+      gap: 28px;
+      align-items: start;
+    }
+    .toc {
+      position: sticky;
+      top: 88px;
+      padding: 18px 14px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+    .toc-label { margin: 0 8px 9px; color: var(--muted); font: 700 11px/1.3 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+    .toc a {
+      display: block;
+      padding: 8px 10px;
+      color: var(--muted);
+      border-radius: 9px;
+      text-decoration: none;
+      font-size: 13px;
+      transition: color .2s ease, background-color .2s ease;
+    }
+    .toc a:hover, .toc a.active { color: var(--blue); background: var(--blue-soft); }
+    main { min-width: 0; }
+    .mobile-nav { display: none; }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(28px, 5vw, 58px);
+      border-radius: 26px;
+      color: #f8fbff;
+      background: radial-gradient(circle at 85% 18%, rgba(66, 133, 255, .42), transparent 31%), linear-gradient(145deg, #081a35 0%, #123a78 62%, #0c2b59 100%);
+      box-shadow: 0 24px 70px rgba(10, 37, 82, .24);
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -160px;
+      bottom: -210px;
+      width: 320px;
+      height: 320px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 50%;
+      box-shadow: 0 0 0 42px rgba(255,255,255,.035), 0 0 0 84px rgba(255,255,255,.025);
+    }
+    .eyebrow { margin: 0 0 13px; color: #bcd2ff; font: 700 12px/1.4 var(--mono); letter-spacing: .13em; text-transform: uppercase; }
+    h1 { margin: 0; max-width: 760px; font-size: clamp(34px, 6vw, 64px); line-height: 1.08; letter-spacing: -.045em; }
+    .hero-deck { max-width: 720px; margin: 20px 0 0; color: #d8e5fa; font-size: 16px; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 28px; }
+    .pill {
+      max-width: 100%;
+      min-height: 30px;
+      padding: 5px 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid rgba(255,255,255,.19);
+      border-radius: 999px;
+      color: #edf4ff;
+      background: rgba(255,255,255,.08);
+      font-size: 12px;
+      font-weight: 650;
+    }
+    .dot { width: 7px; height: 7px; flex: 0 0 auto; border-radius: 50%; background: #fbbf24; box-shadow: 0 0 0 4px rgba(251,191,36,.14); }
+    section {
+      margin-top: 24px;
+      padding: clamp(22px, 4vw, 38px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+    .section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+    .section-kicker { margin: 0 0 5px; color: var(--blue); font: 700 11px/1.4 var(--mono); letter-spacing: .13em; text-transform: uppercase; }
+    h2 { margin: 0; font-size: clamp(24px, 4vw, 34px); line-height: 1.22; letter-spacing: -.025em; }
+    h3 { margin: 24px 0 9px; font-size: 18px; line-height: 1.4; }
+    p { margin: 0 0 13px; }
+    .lede { color: var(--muted); font-size: 16px; }
+    .tag { display: inline-flex; align-items: center; padding: 4px 8px; border-radius: 7px; font: 700 11px/1.4 var(--mono); white-space: nowrap; }
+    .tag-fact { color: var(--blue); background: var(--blue-soft); }
+    .tag-estimate, .tag-open { color: var(--amber); background: var(--amber-soft); }
+    .tag-hypothesis { color: var(--violet); background: var(--violet-soft); }
+    .tag-risk { color: var(--red); background: var(--red-soft); }
+    .grid { display: grid; gap: 14px; }
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .card { min-width: 0; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper-soft); }
+    .card h3 { margin-top: 0; }
+    .metric-label { color: var(--muted); font: 650 12px/1.45 var(--mono); }
+    .metric-value { margin: 8px 0 3px; font-size: clamp(25px, 4vw, 38px); line-height: 1.1; font-weight: 780; letter-spacing: -.035em; font-variant-numeric: tabular-nums; }
+    .metric-note { color: var(--muted); font-size: 12px; }
+    .callout { margin: 18px 0; padding: 17px 18px; border-left: 4px solid var(--blue-2); border-radius: 0 12px 12px 0; background: var(--blue-soft); }
+    .callout.warn { border-left-color: #f59e0b; background: var(--amber-soft); }
+    .callout.risk { border-left-color: var(--red); background: var(--red-soft); }
+    .callout strong { display: block; margin-bottom: 4px; }
+    .flow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
+    .flow-card { padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper-soft); }
+    .flow-num { width: 26px; height: 26px; margin-bottom: 12px; display: inline-grid; place-items: center; color: white; border-radius: 8px; background: var(--blue-2); font: 700 12px/1 var(--mono); }
+    .flow-card h3 { margin: 0 0 6px; font-size: 16px; }
+    .flow-card p { margin: 0; color: var(--muted); font-size: 13px; }
+    .table-wrap { overflow-x: auto; margin-top: 16px; border: 1px solid var(--line); border-radius: 13px; }
+    table { width: 100%; min-width: 650px; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--muted); background: var(--paper-soft); font: 700 11px/1.4 var(--mono); letter-spacing: .03em; }
+    tbody tr:last-child td { border-bottom: 0; }
+    tbody tr:hover { background: var(--blue-soft); }
+    .num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+    .scenario-grid { display: grid; grid-template-columns: 110px repeat(3, minmax(0, 1fr)); gap: 8px; }
+    .scenario-cell { min-width: 0; padding: 13px 14px; border: 1px solid var(--line); border-radius: 11px; background: var(--paper-soft); }
+    .scenario-cell.period { display: grid; place-items: center; color: var(--muted); font: 700 12px/1.4 var(--mono); }
+    .scenario-cell.downside { border-left: 4px solid var(--red); }
+    .scenario-cell.base { border-left: 4px solid var(--amber); }
+    .scenario-cell.upside { border-left: 4px solid var(--blue-2); }
+    .scenario-title { color: var(--muted); font: 700 11px/1.4 var(--mono); }
+    .scenario-value { margin: 6px 0 2px; font-size: 26px; font-weight: 800; letter-spacing: -.035em; font-variant-numeric: tabular-nums; }
+    .scenario-note { color: var(--muted); font-size: 11px; }
+    .timeline { position: relative; margin: 20px 0 0 8px; padding-left: 28px; }
+    .timeline::before { content: ""; position: absolute; left: 6px; top: 6px; bottom: 6px; width: 2px; background: var(--line); }
+    .time-item { position: relative; margin-bottom: 22px; }
+    .time-item:last-child { margin-bottom: 0; }
+    .time-item::before { content: ""; position: absolute; left: -28px; top: 7px; width: 12px; height: 12px; border: 3px solid var(--paper); border-radius: 50%; background: var(--blue-2); box-shadow: 0 0 0 1px var(--blue-2); }
+    .time-date { color: var(--blue); font: 700 12px/1.4 var(--mono); }
+    .time-title { margin: 4px 0; font-weight: 750; }
+    .time-copy { color: var(--muted); font-size: 13px; }
+    .risk-list { display: grid; gap: 12px; }
+    .risk-row { display: grid; grid-template-columns: 150px 1fr; gap: 16px; padding: 16px; border: 1px solid var(--line); border-radius: 13px; background: var(--paper-soft); }
+    .risk-name { font-weight: 750; }
+    .risk-copy { color: var(--muted); font-size: 13px; }
+    .checklist { padding: 0; margin: 14px 0 0; list-style: none; }
+    .checklist li { position: relative; padding: 10px 0 10px 30px; border-bottom: 1px solid var(--line); }
+    .checklist li:last-child { border-bottom: 0; }
+    .checklist li::before { content: ""; position: absolute; left: 2px; top: 16px; width: 13px; height: 13px; border: 2px solid var(--amber); border-radius: 4px; }
+    details { margin-top: 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper-soft); }
+    summary { padding: 14px 16px; font-weight: 730; cursor: pointer; }
+    details > div { padding: 0 16px 16px; color: var(--muted); font-size: 13px; }
+    .sources { margin: 0; padding-left: 21px; }
+    .sources li { margin-bottom: 10px; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+    .footer { margin-top: 24px; padding: 24px; color: var(--muted); border-top: 1px solid var(--line); font-size: 12px; text-align: center; }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      .toc { display: none; }
+      .mobile-nav { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 10px; margin-bottom: 12px; scrollbar-width: thin; }
+      .mobile-nav a { flex: 0 0 auto; padding: 7px 10px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; background: var(--paper); text-decoration: none; font-size: 12px; }
+      .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .scenario-grid { grid-template-columns: 90px repeat(3, minmax(160px, 1fr)); overflow-x: auto; }
+    }
+    @media (max-width: 650px) {
+      .topbar { top: 8px; width: calc(100% - 16px); margin-top: 8px; padding-left: 10px; }
+      .brand-sub { display: none; }
+      .layout { width: calc(100% - 20px); margin-top: 18px; }
+      .hero, section { border-radius: 16px; }
+      .hero { padding: 28px 22px 30px; }
+      .hero-deck, p, td, th { overflow-wrap: anywhere; }
+      .pill { white-space: normal; }
+      .section-head { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .grid-2, .grid-3, .grid-4, .flow { grid-template-columns: 1fr; }
+      .scenario-grid { grid-template-columns: 1fr; overflow: visible; }
+      .scenario-cell.period { place-items: start; padding: 10px 13px; }
+      .risk-row { grid-template-columns: 1fr; gap: 6px; }
+    }
+    @media print {
+      :root { --bg: #fff; --paper: #fff; --paper-soft: #f7f8fa; --ink: #111827; --muted: #475569; --line: #d7dde5; }
+      @page { size: A4; margin: 15mm; }
+      body { background: white; font-size: 10.5pt; }
+      .topbar, .toc, .mobile-nav, .actions { display: none !important; }
+      .layout { display: block; width: 100%; margin: 0; }
+      .hero { box-shadow: none; break-after: page; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      section { box-shadow: none; break-inside: avoid; margin-top: 12px; padding: 20px; }
+      .card, .scenario-cell, .callout, th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      a { color: inherit; text-decoration: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar" aria-label="報告工具列">
+    <div class="brand">
+      <div class="mark" data-field="ticker-short" aria-hidden="true">Ticker</div>
+      <div class="brand-copy">
+        <div class="brand-title"><span data-field="company-name">公司名稱</span>研究報告</div>
+        <div class="brand-sub">資料截止 <span data-field="information-cutoff">YYYY-MM-DD</span> · <span data-field="research-stage">Research stage</span> / <span data-field="confidence">Confidence</span></div>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="切換深色模式" title="切換深色模式">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
+      <button class="icon-btn" type="button" onclick="window.print()" aria-label="列印或另存 PDF" title="列印或另存 PDF">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="toc" aria-label="章節導覽">
+      <p class="toc-label">Research map</p>
+      <a href="#summary">01 核心結論</a>
+      <a href="#business">02 商業模式</a>
+      <a href="#financials">03 財務品質</a>
+      <a href="#visibility">04 未來能見度</a>
+      <a href="#scenarios">05 獲利情境</a>
+      <a href="#risks">06 風險與驗證</a>
+      <a href="#thesis">07 論點與估值</a>
+      <a href="#sources">08 資料來源</a>
+    </aside>
+
+    <main>
+      <nav class="mobile-nav" aria-label="行動版章節導覽">
+        <a href="#summary">結論</a><a href="#business">商業</a><a href="#financials">財務</a><a href="#visibility">能見度</a><a href="#scenarios">情境</a><a href="#risks">風險</a><a href="#sources">來源</a>
+      </nav>
+
+      <article class="hero">
+        <p class="eyebrow"><span data-field="company-name-en">Company Name</span> · <span data-field="market-and-ticker">Market Ticker</span></p>
+        <h1><span data-field="company-name">公司名稱</span><br>研究報告</h1>
+        <p class="hero-deck" data-field="causal-summary">用一句話說明目前研究的核心因果結論、主要獲利驅動因素及最重要的不確定性。</p>
+        <div class="meta-row">
+          <span class="pill"><span class="dot"></span>研究階段：<span data-field="research-stage">Discovery</span></span>
+          <span class="pill">信心：<span data-field="confidence">Low</span></span>
+          <span class="pill">資料截止：<span data-field="information-cutoff">YYYY-MM-DD</span></span>
+          <span class="pill">幣別：<span data-field="currency">Currency</span></span>
+        </div>
+      </article>
+
+      <section id="summary">
+        <div class="section-head"><div><p class="section-kicker">01 · Executive view</p><h2>核心結論</h2></div><span class="tag tag-estimate">Estimate · 信心待驗證</span></div>
+        <p class="lede" data-field="executive-view">先說明商業與獲利機制，再說明目前可以成立的結論，以及哪些資料不足以支持更強的判斷。</p>
+        <div class="grid grid-3" style="margin-top:20px">
+          <div class="card"><div class="metric-label" data-field="kpi-1-label">核心指標 · 期間</div><div class="metric-value" data-field="kpi-1-value">—</div><div class="metric-note" data-field="kpi-1-note">單位與解讀</div></div>
+          <div class="card"><div class="metric-label" data-field="kpi-2-label">情境指標 · 期間</div><div class="metric-value" data-field="kpi-2-value">—</div><div class="metric-note" data-field="kpi-2-note">區間與假設</div></div>
+          <div class="card"><div class="metric-label">最重要待解問題</div><div class="metric-value" data-field="binding-question-short">Open</div><div class="metric-note" data-field="binding-question-note">說明需要取得的證據</div></div>
+        </div>
+        <div class="callout warn"><strong>結論的邊界</strong><span data-field="conclusion-boundary">指出這份報告不能推論什麼，以及最可能使目前結論改變的資料。</span></div>
+        <div class="grid grid-2">
+          <div class="card"><h3>支持證據</h3><p data-field="supporting-evidence">列出最直接的第一手證據及其因果意義。</p></div>
+          <div class="card"><h3>矛盾或限制</h3><p data-field="contradicting-evidence">列出會削弱目前結論的數據、替代解釋及資料缺口。</p></div>
+        </div>
+      </section>
+
+      <section id="business">
+        <div class="section-head"><div><p class="section-kicker">02 · Business model</p><h2>商業模式與競爭優勢</h2></div><span class="tag tag-hypothesis">Hypothesis</span></div>
+        <p class="lede" data-field="customer-value">說明客戶為何付費、公司提供什麼價值，以及哪些活動形成收入。</p>
+        <div class="flow">
+          <div class="flow-card"><span class="flow-num">1</span><h3 data-field="segment-1-name">主要事業一</h3><p data-field="segment-1-model">客戶、收入模式、成本結構、資本需求及循環性。</p></div>
+          <div class="flow-card"><span class="flow-num">2</span><h3 data-field="segment-2-name">主要事業二</h3><p data-field="segment-2-model">客戶、收入模式、成本結構、資本需求及循環性。</p></div>
+          <div class="flow-card"><span class="flow-num">3</span><h3 data-field="segment-3-name">主要事業三</h3><p data-field="segment-3-model">若不適用，刪除此卡；不要保留空白事業。</p></div>
+        </div>
+        <div class="callout"><strong>競爭優勢的驗證狀態</strong><span data-field="advantage-evidence">說明優勢是否存在、如何轉化為留存／市占／價格／利潤，以及仍缺少什麼證據。</span></div>
+      </section>
+
+      <section id="financials">
+        <div class="section-head"><div><p class="section-kicker">03 · Financial quality</p><h2>財務輪廓與獲利品質</h2></div><span class="tag tag-fact">Fact · Reported</span></div>
+        <div class="grid grid-4">
+          <div class="card"><div class="metric-label" data-field="financial-1-label">營收 · 期間</div><div class="metric-value" data-field="financial-1-value">—</div><div class="metric-note" data-field="financial-1-unit">幣別／單位</div></div>
+          <div class="card"><div class="metric-label" data-field="financial-2-label">毛利率 · 期間</div><div class="metric-value" data-field="financial-2-value">—</div><div class="metric-note" data-field="financial-2-note">變化原因</div></div>
+          <div class="card"><div class="metric-label" data-field="financial-3-label">歸母淨利 · 期間</div><div class="metric-value" data-field="financial-3-value">—</div><div class="metric-note" data-field="financial-3-unit">幣別／單位</div></div>
+          <div class="card"><div class="metric-label" data-field="financial-4-label">稀釋 EPS · 期間</div><div class="metric-value" data-field="financial-4-value">—</div><div class="metric-note" data-field="financial-4-note">Reported／adjusted</div></div>
+        </div>
+        <h3>因果橋接</h3>
+        <div class="table-wrap"><table><thead><tr><th>驅動因素</th><th>已申報結果</th><th>原因與下一步</th></tr></thead><tbody>
+          <tr><td>營收</td><td data-field="revenue-result">期間、幣別與數字</td><td data-field="revenue-cause">數量、價格、mix、認列或一次性因素</td></tr>
+          <tr><td>毛利及營業費用</td><td data-field="margin-result">毛利率、費用率與營業利益</td><td data-field="margin-cause">產品組合、利用率、成本或營運槓桿</td></tr>
+          <tr><td>業外至 EPS</td><td data-field="eps-bridge-result">利息、投資收益、稅、少數股權與股數</td><td data-field="eps-bridge-cause">說明報表獲利與每股獲利的差異</td></tr>
+        </tbody></table></div>
+        <div class="callout warn"><strong>獲利品質</strong><span data-field="earnings-quality">分開經常性、循環性、專案型及非經常性獲利，並說明現金轉換。</span></div>
+      </section>
+
+      <section id="visibility">
+        <div class="section-head"><div><p class="section-kicker">04 · Backlog &amp; visibility</p><h2>未來能見度與接替動能</h2></div><span class="tag tag-estimate">Estimate</span></div>
+        <p class="lede" data-field="visibility-summary">說明未來三年主要成長來源、當前催化成熟後的接替來源、領先指標及最大不確定性。</p>
+        <div class="timeline">
+          <div class="time-item"><div class="time-date" data-field="milestone-1-period">YYYY／Fiscal period</div><div class="time-title" data-field="milestone-1-title">近期可驗證里程碑</div><div class="time-copy" data-field="milestone-1-impact">事件、來源及對營收或 EPS 的影響。</div></div>
+          <div class="time-item"><div class="time-date" data-field="milestone-2-period">YYYY／Fiscal period</div><div class="time-title" data-field="milestone-2-title">中期成長或接替來源</div><div class="time-copy" data-field="milestone-2-impact">執行條件、可觀察訊號及拒絕條件。</div></div>
+          <div class="time-item"><div class="time-date" data-field="milestone-3-period">2–5 years</div><div class="time-title" data-field="milestone-3-title">長期替代動能</div><div class="time-copy" data-field="milestone-3-impact">不要把沒有執行證據的 pipeline 當成 backlog。</div></div>
+        </div>
+      </section>
+
+      <section id="scenarios">
+        <div class="section-head"><div><p class="section-kicker">05 · Scenario model</p><h2>營運與 EPS 情境</h2></div><span class="tag tag-estimate">Estimate · Not guidance</span></div>
+        <div class="scenario-grid" aria-label="下行、基準與上行情境">
+          <div class="scenario-cell period" data-field="scenario-period">Forecast year</div>
+          <div class="scenario-cell downside"><div class="scenario-title">Downside</div><div class="scenario-value" data-field="downside-value">—</div><div class="scenario-note" data-field="downside-note">範圍、單位與主要機制</div></div>
+          <div class="scenario-cell base"><div class="scenario-title">Base</div><div class="scenario-value" data-field="base-value">—</div><div class="scenario-note" data-field="base-note">範圍、單位與主要機制</div></div>
+          <div class="scenario-cell upside"><div class="scenario-title">Upside</div><div class="scenario-value" data-field="upside-value">—</div><div class="scenario-note" data-field="upside-note">範圍、單位與主要機制</div></div>
+        </div>
+        <div class="table-wrap"><table><thead><tr><th>營運假設</th><th class="num">Downside</th><th class="num">Base</th><th class="num">Upside</th></tr></thead><tbody>
+          <tr><td data-field="scenario-input-1">營收主要驅動因素</td><td class="num">—</td><td class="num">—</td><td class="num">—</td></tr>
+          <tr><td data-field="scenario-input-2">毛利率／營業利益率</td><td class="num">—</td><td class="num">—</td><td class="num">—</td></tr>
+          <tr><td data-field="scenario-input-3">融資、稅、持分或股數</td><td class="num">—</td><td class="num">—</td><td class="num">—</td></tr>
+        </tbody></table></div>
+        <div class="grid grid-2" style="margin-top:14px">
+          <div class="card" style="border-top:4px solid var(--amber)"><h3>時間性延後</h3><p data-field="timing-delay">說明哪些價值只是移到後續期間，以及何時可補回。</p></div>
+          <div class="card" style="border-top:4px solid var(--red)"><h3>永久性損失</h3><p data-field="economic-impairment">說明售價、成本、份額、取消、減損或融資如何降低累積價值。</p></div>
+        </div>
+        <details><summary>模型公式、單位與限制</summary><div data-field="model-method">記錄可重現公式、股數、幣別、期間、資料來源、尚未建模項目及情境是否可跨年加總。</div></details>
+      </section>
+
+      <section id="risks">
+        <div class="section-head"><div><p class="section-kicker">06 · Risks &amp; signals</p><h2>最可能壓低 EPS 的風險</h2></div><span class="tag tag-risk">Risk</span></div>
+        <div class="risk-list">
+          <div class="risk-row"><div class="risk-name" data-field="risk-1-name">主要風險一</div><div class="risk-copy" data-field="risk-1-mechanism">風險事件 → 營運指標 → 營收或利潤率 → EPS → 現金流或資產負債表後果；加上預警訊號。</div></div>
+          <div class="risk-row"><div class="risk-name" data-field="risk-2-name">主要風險二</div><div class="risk-copy" data-field="risk-2-mechanism">只保留最可能造成重大 EPS 影響的風險，不列通用風險清單。</div></div>
+        </div>
+        <h3>驗證與監測</h3>
+        <ul class="checklist">
+          <li data-field="monitor-1">下一個可觀察的確認訊號、門檻與日期。</li>
+          <li data-field="monitor-2">下一個可觀察的拒絕訊號、門檻與日期。</li>
+          <li data-field="monitor-3">需要核對的財報、產業或營運資料。</li>
+        </ul>
+        <h3>未決問題</h3>
+        <div class="table-wrap"><table><thead><tr><th>ID</th><th>問題</th><th>模型或論點影響</th><th>狀態</th></tr></thead><tbody>
+          <tr><td data-field="question-id">Q-YYYY-NNN</td><td data-field="question-text">以可解決的形式描述問題</td><td data-field="question-effect">說明答案會改變哪個假設</td><td><span class="tag tag-open">Open</span></td></tr>
+        </tbody></table></div>
+      </section>
+
+      <section id="thesis">
+        <div class="section-head"><div><p class="section-kicker">07 · Thesis &amp; valuation</p><h2>投資論點與估值狀態</h2></div><span class="tag tag-hypothesis">Hypothesis</span></div>
+        <div class="grid grid-2">
+          <div class="card"><h3>目前論點</h3><p data-field="thesis">整合商業品質、可持續獲利、二至五年成長與接替動能、關鍵依賴及市場可能誤解之處。</p></div>
+          <div class="card"><h3>否證條件</h3><p data-field="falsification">列出具體、可觀察、具有時間範圍的否證條件。</p></div>
+        </div>
+        <div class="callout warn"><strong>估值狀態</strong><span data-field="valuation-status">先說明正常化獲利是否成立，再選擇適合商業模式的估值方法；若證據不足，明確寫「估值暫緩」。</span></div>
+        <p class="metric-note">本報告不構成買進、賣出或持有建議，也不提供短期股價預測。</p>
+      </section>
+
+      <section id="sources">
+        <div class="section-head"><div><p class="section-kicker">08 · Evidence</p><h2>資料來源與方法</h2></div></div>
+        <p class="lede">優先使用第一手申報與公司揭露；第二手資料只能補充脈絡，不能取代可取得的第一手來源。</p>
+        <ol class="sources">
+          <li><strong>Primary source：</strong><span data-field="source-1-title">來源名稱</span>，<span data-field="source-1-publisher">發布者</span>，<span data-field="source-1-date">發布／申報日期</span>，查閱日期 <span data-field="source-1-accessed">YYYY-MM-DD</span>，頁次／章節及 URL。</li>
+          <li><strong>Secondary source：</strong><span data-field="source-2-title">來源名稱</span>，保留管理說法、法人估計或作者判斷的歸屬及時間範圍。</li>
+        </ol>
+        <details><summary>證據標籤與報告限制</summary><div><p><strong>Fact：</strong>可直接核對並引用。<strong>Estimate：</strong>由事實與明確假設計算。<strong>Hypothesis：</strong>尚待充分驗證的可測試主張。<strong>Opinion：</strong>以已陳述證據為基礎的分析判斷。</p><p data-field="report-limitations">列出尚未完成的調節表、模型、來源或驗證工作，避免讀者誤判精確度。</p></div></details>
+      </section>
+
+      <footer class="footer"><span data-field="company-name">公司名稱</span>研究報告 · 產製日期 <span data-field="generated-date">YYYY-MM-DD</span> · 單一 HTML 離線閱讀版</footer>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      const root = document.documentElement;
+      const toggle = document.getElementById('themeToggle');
+      const storageKey = 'investment-research-report-theme';
+      const saved = localStorage.getItem(storageKey);
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) root.dataset.theme = 'dark';
+      toggle.addEventListener('click', function () {
+        root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem(storageKey, root.dataset.theme);
+      });
+      const links = Array.from(document.querySelectorAll('.toc a'));
+      const sections = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id));
+          });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+        sections.forEach(section => observer.observe(section));
+      }
+    }());
+  </script>
+</body>
+</html>

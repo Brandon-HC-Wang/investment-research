@@ -20,13 +20,14 @@ Valuation is the final step. A low multiple does not compensate for weak busines
 | `AGENTS.md` | Mandatory operating rules for AI assistants |
 | `.ai/` | Compact context, writing style, and execution protocol |
 | `docs/` | Canonical research methodology and scoring standards |
+| `docs/ui-specs/` | Bilingual presentation contracts for generated research artifacts |
 | `companies/` | One durable research record per company |
 | `industries/` | Shared industry economics, metrics, and cycle knowledge |
 | `knowledge/` | Reusable concepts referenced across companies and industries |
 | `theses/` | Macro and cross-industry investment theses |
 | `portfolio/` | Portfolio-level watchlist, allocation, and risk thinking |
 | `models/` | Modeling conventions and reusable analytical methods |
-| `templates/` | Controlled starting points for new research records |
+| `templates/` | Controlled starting points for new research records and derived report artifacts |
 | `watchlist/` | Prioritized research queue, not buy or sell recommendations |
 | `research-log/` | Append-only company, industry, and repository-wide history |
 | `scripts/` | Repository validation and maintenance tools |

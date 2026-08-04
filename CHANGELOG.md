@@ -8,6 +8,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Added
 
+- Bilingual investment-research report UI specification and a self-contained, responsive, printable HTML skeleton under `templates/reports/`.
 - Same-directory `.zh-TW.md` reading companions for every canonical English Markdown file, with validation and synchronization rules.
 - Modular industry knowledge packages with overview, metrics, valuation, and open-question records.
 - Company-level source categories, quarterly history, assumptions register, and separate research-state YAML.

@@ -22,13 +22,14 @@
 | `AGENTS.md` | AI助理必須遵守的操作規則 |
 | `.ai/` | 精簡情境、寫作風格與執行協議 |
 | `docs/` | Canonical研究方法及評分標準 |
+| `docs/ui-specs/` | 研究輸出物的雙語呈現契約 |
 | `companies/` | 每家公司一份可長期維護的研究記錄 |
 | `industries/` | 共用的產業經濟、指標與循環知識 |
 | `knowledge/` | 可跨公司與產業引用的概念 |
 | `theses/` | 總體及跨產業投資論點 |
 | `portfolio/` | 投資組合層級的觀察、配置及風險思考 |
 | `models/` | 建模慣例及可重複分析方法 |
-| `templates/` | 新研究記錄的受控起點 |
+| `templates/` | 新研究記錄及衍生報告輸出物的受控起點 |
 | `watchlist/` | 研究優先佇列，不是買賣建議 |
 | `research-log/` | 只能附加的公司、產業與repository歷史 |
 | `scripts/` | Repository驗證及維護工具 |
