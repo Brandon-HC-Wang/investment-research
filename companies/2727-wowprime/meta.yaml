@@ -1,0 +1,14 @@
+ticker: "2727"
+company: 王品餐飲股份有限公司
+industry: Restaurants
+market: TWSE
+status: discovery
+confidence: low
+priority: 2
+last_update: 2026-08-05
+next_action: Reconcile 2026 Q2 Taiwan and China growth, margins, store counts, capex, leases, and cash flow from the filing and investor disclosures.
+watch_items:
+  - Taiwan same-store traffic, average spend, and mature-store margin
+  - Net openings, closures, new-store cohorts, and lease-adjusted payback
+  - China same-store recovery, format replication, and segment margin
+  - Food and labor costs, operating leverage, and cash conversion
