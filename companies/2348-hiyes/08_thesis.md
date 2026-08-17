@@ -2,21 +2,21 @@
 
 ## Current thesis
 
-No decision-grade long-term thesis is established. Hiyes combines property agency with development and investment activities, and reported EPS has varied materially across 2021–2026 Q1. Management's project schedule and June 2026 handovers support a material 2026 completion cycle, but estimated EPS remains highly sensitive to sell-through, consolidated margin, financing cost, and timing. The 2027 schedule is larger in gross attributable value but less verified, so a replacement gap remains plausible rather than established.
+No decision-grade long-term thesis is established. The Q2 filing confirms that the 2026 handover cycle is active: standalone property-sale revenue reached TWD 1.255 billion and parent profit recovered to TWD 193 million. It also weakens the sustainable-EPS case. H1 EPS was TWD 1.06, service revenue fell 44.6%, gross margin fell 12.7 percentage points, operating cash flow was negative TWD 2.120 billion, and borrowings excluding leases reached approximately TWD 31.112 billion. The evidence supports project-timing recovery, not a recurring compounding mechanism. The 2027 replacement gap remains plausible and unverified.
 
 ## Evidence for and against
 
-**Supporting evidence —** Hiyes offers integrated planning, marketing, and transaction services across several property types, which could support repeat developer mandates. Annual EPS was substantial in 2021, 2023, and 2024.
+**Supporting evidence —** Hiyes offers integrated planning, marketing, and transaction services across several property types, which could support repeat developer mandates. Annual EPS was substantial in 2021, 2023, and 2024. Q2 2026 property-sale revenue more than doubled year over year, and construction segment profit improved sharply from Q1, confirming that disclosed 2026 handovers can produce earnings.
 
-**Contradicting evidence —** EPS fell from TWD 14.43 in 2024 to TWD 6.85 in 2025 and was TWD 0.16 in 2026 Q1. Without segment and project attribution, this may reflect timing, weaker recurring economics, or both.
+**Contradicting evidence —** EPS fell from TWD 14.43 in 2024 to TWD 6.85 in 2025 and was only TWD 1.06 in 2026 H1. Q2 service revenue fell 41.5% year over year, Q2 operating profit fell despite higher revenue, and fair-value gains supported parent profit. Inventory, borrowings, finance costs, and negative operating cash flow show that the recognized earnings are not yet cash-backed evidence of a durable advantage.
 
 ## Principal risks
 
-The first risk is a replacement gap after earlier project contributions, which would reduce normalized 2027–2028 EPS. The second is property-transaction weakness against agency fixed costs, which would pressure both revenue and margin. Funding and guarantee exposure could magnify either outcome and remains an open question.
+The first risk is a replacement gap after the 2026 handovers, which would reduce normalized 2027–2028 EPS. The second is inventory-funded leverage: delayed sell-through or collection can keep borrowings and finance costs high even when accounting revenue is recognized. Agency weakness compounds both risks because it reduces the recurring gross-profit base available to absorb corporate and financing costs.
 
 ## Confirmation and falsification
 
-The hypothesis strengthens if primary filings establish stable, cash-backed agency earnings and an attributable project schedule that replaces 2023–2025 contributions. It weakens if recurring agency margins deteriorate or projects slip without replacements. It is invalidated if historical earnings depended mainly on non-recurring items with no repeatable operating base.
+The hypothesis strengthens if H2 filings reconcile named-project handovers to construction gross profit, inventory release, operating cash inflow, and lower borrowings while agency revenue stabilizes, and if a verified 2027–2028 schedule replaces the 2026 cycle. It weakens if recognized revenue does not convert to cash, finance costs continue to rise, or service revenue remains depressed. It is invalidated if historical earnings depended mainly on discrete project and financial-asset gains with no repeatable agency or replacement-project base.
 
 ## Initial scorecard
 
@@ -34,7 +34,7 @@ Weighted quality score: **1.45 / 5**, assessed 2026-08-04. This is an evidence-m
 
 ## Confidence and next action
 
-Confidence is low. The next action is to reconcile 2025 and 2026 H1 earnings by brokerage, development, and investment project using primary filings.
+Confidence remains low. The next action is to reconcile the six scheduled 2026 projects to H2 handovers, project-level gross profit, cash collection, debt reduction, and the 2027 replacement schedule.
 
 ## Thesis history
 
@@ -45,3 +45,7 @@ The company was placed in discovery rather than valued from historical EPS becau
 ### 2026-08-04 — Completion-cycle scenario quantified
 
 The 2025-11-25 project schedule and June 2026 handovers permit preliminary downside and upside EPS boundaries, but not a single decision-grade forecast. The thesis now treats 2026 as a supported completion cycle and 2027 as a timing-sensitive replacement test. Confidence remains low pending the Q2 filing and project-level sell-through.
+
+### 2026-08-17 — Q2 filing confirms timing recovery, not sustainable compounding
+
+Q2 property-sale revenue and construction gross profit confirm that the 2026 completion cycle began. H1 EPS, agency contraction, negative operating cash flow, higher borrowings, and finance costs contradict the prior margin proxies as current forecast inputs. The optimistic 2026 boundary loses evidential support; no replacement point forecast or valuation is adopted. Confidence remains low.

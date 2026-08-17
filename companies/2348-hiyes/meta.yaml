@@ -5,10 +5,10 @@ market: TWSE
 status: discovery
 confidence: low
 priority: 2
-last_update: 2026-08-04
-next_action: Reconcile 2025 and 2026 H1 segment earnings by brokerage, development, and investment project from primary filings.
+last_update: 2026-08-17
+next_action: Reconcile the six scheduled 2026 projects to H2 handovers, project-level gross profit, cash collection, debt reduction, and the 2027 replacement schedule.
 watch_items:
-  - 2026 H1 segment revenue and margin composition
+  - H2 2026 project handovers, construction gross margin, and common EPS
+  - Agency revenue, gross profit, represented sales value, and effective fee rate
   - Attributable project completion and recognition schedule through 2028
-  - Brokerage transaction volume and operating leverage
-  - Guarantees and funding exposure across development subsidiaries
+  - Inventory conversion, operating cash flow, borrowings, finance costs, and guarantees

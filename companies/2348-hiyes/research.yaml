@@ -1,11 +1,11 @@
 coverage: initiated
 priority: 2
 confidence: low
-next_review: 2026-08-15
-last_thesis_update: 2026-08-04
+next_review: 2026-09-15
+last_thesis_update: 2026-08-17
 watch_items:
-  - 2026 H1 segment revenue and margin composition
+  - H2 2026 project handovers, construction gross margin, and common EPS
+  - Agency revenue, gross profit, represented sales value, and effective fee rate
   - Attributable project completion and recognition schedule through 2028
-  - Brokerage transaction volume and operating leverage
-  - Guarantees and funding exposure across development subsidiaries
+  - Inventory conversion, operating cash flow, borrowings, finance costs, and guarantees
 research_status: discovery

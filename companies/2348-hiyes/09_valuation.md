@@ -23,3 +23,7 @@ The record needs normalized diluted EPS, segment margins, attributable project s
 ### 2026-08-04 — Valuation deferred
 
 No valuation range was produced because the current evidence cannot distinguish sustainable earnings from project timing. This follows the repository rule that business and earnings quality precede valuation.
+
+### 2026-08-17 — Q2 filing does not clear the valuation gate
+
+Valuation remains deferred. H1 common EPS was TWD 1.06, but Q2 included financial-asset fair-value gains and did not provide named-project margins or a cash-backed replacement schedule. Any future sum-of-the-parts must explicitly deduct borrowings and lease obligations, assess pledged assets and guarantees, and avoid capitalizing discrete fair-value gains as recurring brokerage earnings.

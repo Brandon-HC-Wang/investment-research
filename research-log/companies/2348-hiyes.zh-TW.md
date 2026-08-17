@@ -10,3 +10,12 @@
 - **信心：**低；分部和專案的調節仍未完成。
 - **儲存庫影響：** 目前分析仍保留在 [`../../companies/2348-hiyes/`](../../companies/2348-hiyes/08_thesis.md) 中，假設保留在 [`assumptions.md`](../../companies/2348-hiyes/assumptions.md) 中，時間點狀態保留在 [`history/2026Q1.md`](../../companies/2348-hiyes/history/2026Q1.md) 中。
 - **下一步驗證：** 按經紀、開發和投資項目協調 2025 年和 2026 年上半年的主要申報。
+
+## 2026-08-17——Q2交屋回升尚未建立可持續EPS
+
+- **類型：** 原始財報結果與thesis更新。
+- **發現：** Q2房地銷售收入增至12.55億元、歸屬母公司淨利回升至1.93億元，但H1 EPS僅1.06元，勞務收入年減44.6%，營業現金流為負21.20億元，不含租賃的借款約311.12億元。
+- **機制：** 交屋可釋放營建毛利，但存貨融資、財務成本、公允價值利益、非控制權益與特別股股利共同決定普通股EPS及現金支撐。
+- **信心：** 對合併數字為高；對具名專案歸屬與可持續獲利為低。
+- **Repository影響：** 目前分析已整合至[`02_financials.md`](../../companies/2348-hiyes/02_financials.md)、[`04_eps_model.md`](../../companies/2348-hiyes/04_eps_model.md)與[`08_thesis.md`](../../companies/2348-hiyes/08_thesis.md)；時點檢視保留於[`history/2026Q2-filing-review.md`](../../companies/2348-hiyes/history/2026Q2-filing-review.md)。
+- **下一步驗證：** 將H2具名專案交屋與毛利、存貨轉出、收現、降債及2027替代專案時程逐一調節。
