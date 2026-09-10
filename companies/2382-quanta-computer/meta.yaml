@@ -1,0 +1,14 @@
+ticker: "2382"
+company: 廣達電腦股份有限公司
+industry: AI Hardware
+market: TWSE
+status: active
+confidence: medium
+priority: 1
+last_update: 2026-09-10
+next_action: Reconcile August-September revenue and AI-server mix with the 2026Q3 filing, focusing on gross-profit dollars, operating cash flow, inventory, receivables, and payables.
+watch_items:
+  - AI-server shipment and platform-ramp evidence
+  - Gross-profit dollars and operating margin, not revenue alone
+  - Inventory, receivables, payables, and operating cash conversion
+  - Customer concentration and geographic manufacturing expansion
