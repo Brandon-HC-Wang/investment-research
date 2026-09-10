@@ -2,7 +2,7 @@
 
 ## Current thesis
 
-No decision-grade long-term thesis is established. The Q2 filing confirms that the 2026 handover cycle is active: standalone property-sale revenue reached TWD 1.255 billion and parent profit recovered to TWD 193 million. It also weakens the sustainable-EPS case. H1 EPS was TWD 1.06, service revenue fell 44.6%, gross margin fell 12.7 percentage points, operating cash flow was negative TWD 2.120 billion, and borrowings excluding leases reached approximately TWD 31.112 billion. The evidence supports project-timing recovery, not a recurring compounding mechanism. The 2027 replacement gap remains plausible and unverified.
+No decision-grade long-term thesis is established. August revenue confirms that the 2026 H2 handover cycle is active, but reported January-August agency revenue fell 38.0% while construction revenue rose 325.8%. The current low-confidence 2026 EPS boundaries are TWD 2.47 conservative and TWD 7.31 optimistic, replacing the old TWD 5.58 and TWD 11.32 points. H1 operating cash flow was negative TWD 2.120 billion and borrowings excluding leases reached approximately TWD 31.112 billion. The evidence supports project-timing recovery, not a recurring compounding mechanism. The 2027 replacement gap remains plausible and unverified.
 
 ## Evidence for and against
 
@@ -34,7 +34,7 @@ Weighted quality score: **1.45 / 5**, assessed 2026-08-04. This is an evidence-m
 
 ## Confidence and next action
 
-Confidence remains low. The next action is to reconcile the six scheduled 2026 projects to H2 handovers, project-level gross profit, cash collection, debt reduction, and the 2027 replacement schedule.
+Confidence remains low. The next action is to test the TWD 2.47 and TWD 7.31 scenario points against Q3 project-level gross profit, cash collection, debt reduction, and the 2027 replacement schedule.
 
 ## Thesis history
 
@@ -49,3 +49,7 @@ The 2025-11-25 project schedule and June 2026 handovers permit preliminary downs
 ### 2026-08-17 — Q2 filing confirms timing recovery, not sustainable compounding
 
 Q2 property-sale revenue and construction gross profit confirm that the 2026 completion cycle began. H1 EPS, agency contraction, negative operating cash flow, higher borrowings, and finance costs contradict the prior margin proxies as current forecast inputs. The optimistic 2026 boundary loses evidential support; no replacement point forecast or valuation is adopted. Confidence remains low.
+
+### 2026-09-09 — August revenue permits a lower, margin-aware 2026 forecast
+
+July-August revenue confirms accelerated H2 recognition, but the construction-led mix and continued agency contraction do not restore the prior margin assumptions. Current low-confidence 2026 EPS points are TWD 2.47 conservative and TWD 7.31 optimistic. Valuation remains deferred and thesis confidence remains low pending Q3 margin, cash-flow, debt, and NCI evidence.

@@ -4,6 +4,8 @@
 
 Reporting currency is TWD and fiscal year-end is December. Construction economics improved materially: revenue rose from TWD 7.10 billion in 2025 to TWD 4.02 billion in 2026 H1 (+27.6% year over year), while H1 gross margin reached 19.4% and operating margin 12.6%. Reported H1 EPS of TWD 6.08 substantially overstates sustainable construction earnings because TWD 724 million of fair-value gains and TWD 128 million of land-disposal and compensation gains supplied about 61% of pretax profit. Operating cash inflow was nevertheless positive at TWD 700 million.
 
+August 2026 revenue was TWD 638.0 million, down 8.6% from July and 4.4% year over year. January–August revenue was TWD 5.355 billion, up 23.1% year over year. The cumulative result still supports backlog conversion, but the August slowdown reduced the year-to-date growth rate from 28.1% through July. Monthly revenue does not disclose gross margin or project mix, so it does not change the earnings-quality conclusion by itself.
+
 ## Historical income statement
 
 TWD million except margins and EPS.
@@ -18,6 +20,12 @@ TWD million except margins and EPS.
 | 2026 H1 | 4,019 | 19.4% | 12.6% | 902 | 6.08 |
 
 The 2021–2025 figures are reported investor-presentation data. The 2026 H1 figures are from the reviewed consolidated filing and are not annualized.
+
+### 2025 normalized bridge
+
+Reported 2025 EPS of TWD 4.48 included a TWD 289.1 million FVTPL valuation gain. Other gains and losses totaled TWD 266.5 million because the FVTPL gain was partly offset by a TWD 23.0 million foreign-exchange loss and smaller net items; there was no material land-disposal gain comparable with 2026 H1. Removing the FVTPL gain and applying either the reported effective tax rate of approximately 18% or a simplifying 20% tax rate gives indicative 2025 normalized EPS of about TWD 3.3. Interest income and ordinary treasury income remain included because they are recurring consequences of the balance sheet, although they are not construction operating profit.
+
+This means roughly TWD 1.15 per share, or about 26% of reported 2025 EPS, came from the after-tax FVTPL gain. The 2026 base normalized EPS range of TWD 3.8–4.2 therefore represents underlying improvement from an estimated 2025 normalized base near TWD 3.3, not a comparison with the headline TWD 4.48.
 
 ## 2026 H1 bridge and earnings quality
 
@@ -113,3 +121,4 @@ The 2025 result illustrates the mechanics without identifying the source of each
 - *2022 Consolidated Financial Statements*, Chien Kuo Construction Co., approved 2023-03-15, pp. 11–12, 40–41 and 49–51, <https://www.ckgroup.com.tw/storage/app/uploads/public/694/3a3/978/6943a3978d33e288385835.pdf>, accessed 2026-09-09.
 - *Company Act, Articles 232 and 237*, Ministry of Justice Laws & Regulations Database, <https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=232> and <https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=237>, accessed 2026-09-09.
 - *Order Governing Special Reserve Appropriation under Article 41 of the Securities and Exchange Act*, Financial Supervisory Commission, issued 2021-03-31, <https://law.fsc.gov.tw/LawContent.aspx?id=GL003111&media=print>, accessed 2026-09-09.
+- *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.

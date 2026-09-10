@@ -39,3 +39,12 @@
 - **Current implication:** Base Q3-to-date FVTPL loss is approximately TWD 74 million, or negative TWD 0.29 EPS after a simplifying 20% tax rate. A plus or minus 3% move on the unpriced TWD 3.173 billion bucket expands the EPS range to negative TWD 0.67 through positive TWD 0.08.
 - **Next verification:** Obtain the actual 2026-09-30 holdings and Q3 FVTPL gain or loss. Do not treat the estimate as a quarter-end result.
 - **Promotion target:** Promoted to `04_eps_model.md` on 2026-09-09; `A-2026-004` and `Q-2026-003` remain Open.
+
+## 2026-09-10 — August revenue gap resolved
+
+- **Type:** Fact plus model interpretation.
+- **Source:** *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.
+- **Observation:** August revenue was TWD 638.006 million versus TWD 667.219 million one year earlier, down 4.37% as displayed by MOPS. January–August revenue was TWD 5,355.291 million versus TWD 4,350.935 million, up 23.08%.
+- **Current implication:** The evidence-availability gap recorded on 2026-09-09 is resolved. August slowed from July, but the TWD 8.1 billion base case needs TWD 686 million monthly during September–December, close to both the January–August and July–August run rates. No revenue or EPS scenario changed.
+- **Next verification:** Compare September revenue with the TWD 561 million, TWD 686 million, and TWD 786 million monthly run rates required by the downside, base, and upside cases; validate margin only from the Q3 filing.
+- **Promotion target:** Promoted to `02_financials.md`, `03_growth_drivers.md`, and `04_eps_model.md` on 2026-09-10.

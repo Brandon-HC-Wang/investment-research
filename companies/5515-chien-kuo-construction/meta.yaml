@@ -5,8 +5,8 @@ market: TWSE
 status: active
 confidence: medium
 priority: 2
-last_update: 2026-09-09
-next_action: Reconcile 2026 Q3 contract mix, new awards, gross margin, and investment-portfolio fair-value changes when the filing is released.
+last_update: 2026-09-10
+next_action: Compare September revenue with scenario run rates, then reconcile 2026 Q3 contract mix, new awards, gross margin, and investment-portfolio fair-value changes when the filing is released.
 watch_items:
   - Remaining performance obligations, new awards, and book-to-bill
   - Construction gross margin and loss-making contract provisions

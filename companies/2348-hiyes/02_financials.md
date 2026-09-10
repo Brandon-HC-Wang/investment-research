@@ -37,6 +37,14 @@ Normalized earnings have not been established. Brokerage, development, investmen
 
 **Interpretation —** The filing confirms that the 2026 handover cycle began, because Q2 property-sale revenue and construction gross profit rose materially from Q1. It does not establish sustainable EPS. Agency activity contracted, the consolidated margin mix weakened, finance costs absorbed 55.1% of Q2 operating profit, and non-operating fair-value gains supported reported profit.
 
+## August 2026 monthly-revenue update
+
+**Fact —** Official MOPS monthly data report August consolidated revenue of TWD 1.425 billion, down 31.4% from July and up 540.6% year over year. Revenue for January through August was TWD 6.619 billion, up 80.6% year over year. July and August together contributed TWD 3.503 billion, 12.4% more than the entire H1 revenue of TWD 3.116 billion.
+
+**Fact —** Hiyes' required MOPS explanation attributes the greater-than-50% increase to construction revenue recognized from the Xinzhi, Fengming, Houbitian, and Huilai-Cuo section projects. Company comments reported by the media identify continuing handovers at Dunyang, A3 Spotlight, and Dali Future City, plus August starts at Smile Hiyes 2 and Taiwan Yinfu. A secondary report states that January-August agency revenue fell 38.0% year over year while construction revenue rose 325.8%.
+
+**Interpretation —** The update materially strengthens confidence that H2 revenue recognition is underway, but it does not show a broad agency recovery or establish EPS conversion. The growth is construction-led and the monthly disclosure provides no project margin, attributable profit, inventory release, cash collection, debt, finance-cost, or minority-interest bridge. The Q2 conclusion therefore remains unchanged: recognize the timing evidence, but wait for the Q3 filing before treating the revenue as cash-backed common EPS.
+
 ## Cash flow, balance sheet, and capital allocation
 
 **Fact —** H1 operating cash outflow was TWD 2.120 billion, driven principally by a TWD 2.441 billion cash-flow increase in inventory. At 2026-06-30, cash was TWD 4.733 billion, inventory TWD 28.210 billion, and interest-bearing borrowings excluding leases approximately TWD 31.112 billion. Borrowings increased TWD 2.391 billion from 2025 year-end, while cash fell TWD 1.191 billion. Pledged assets were TWD 32.079 billion, or 63.8% of total assets. The group disclosed TWD 20.552 billion of undrawn facilities, which reduces immediate liquidity risk but does not remove leverage or refinancing risk.
@@ -52,3 +60,6 @@ Normalized earnings have not been established. Brokerage, development, investmen
 - Hiyes International, “Consolidated Financial Statements and Review Report, 2026 Q1,” filed 2026-05-15, [TWSE document library](https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=2348&year=115&seamon=1&mtype=A), pp. 5–7, 18–19, 28–29, 32, and 42–43, accessed 2026-08-04.
 - Taiwan Stock Exchange, “Listed Companies Monthly Revenue Summary,” data month 2026-06, [OpenAPI](https://openapi.twse.com.tw/v1/opendata/t187ap05_L), accessed 2026-08-04.
 - Hiyes International, “Consolidated Financial Statements and Review Report, 2026 Q2,” issued 2026-08-12, pp. 3–9, 17–19, 25, 28–33, 38–46, [local retained PDF](sources/earnings/2026Q2-hiyes-consolidated-financial-report.pdf), accessed 2026-08-17.
+- Market Observation Post System, “Listed Companies August 2026 Monthly Revenue Summary,” data month 2026-08, [official table](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html), accessed 2026-09-09.
+- Economic Daily News, “Smile Hiyes 2 and Taiwan Yinfu Handovers Lift Hiyes August Consolidated Revenue 5.4 Times,” published 2026-09-06, [article](https://udn.com/news/story/7241/9737750), accessed 2026-09-09.
+- HouseFun News, “Credit Controls Cool the Housing Market; Hiyes Agency Revenue Falls 38% but Construction Revenue Rises 326% in the First Eight Months,” published 2026-09-07, [article](https://news.housefun.com.tw/news/article/176941488910.html), accessed 2026-09-09.

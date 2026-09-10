@@ -15,7 +15,7 @@ No reliable consensus model is recorded. A plausible analytical error is to capi
 **Supporting evidence**
 
 - Remaining performance obligations of TWD 46.52 billion were 6.6 times 2025 revenue.
-- January–July revenue grew 28.1% year over year.
+- January–August revenue grew 23.1% year over year despite a 4.4% August decline.
 - Gross margin rose to 19.4% in 2026 H1 and operating cash inflow was TWD 700 million.
 - Low reported borrowing and a large investment pool provide balance-sheet flexibility.
 
@@ -62,7 +62,10 @@ Confidence is **medium** for the earnings-quality diagnosis and **low-to-medium*
 
 The 2026-09-09 market check estimated a negative TWD 0.29 Q3-to-date EPS contribution from FVTPL in the base case, with a negative TWD 0.67 to positive TWD 0.08 range. This does not change the thesis or full-year scenario yet; it reinforces that reported EPS depends on market marks that cannot be forecast with operating evidence.
 
+August revenue did not change the thesis or scenario ranges. The base TWD 8.1 billion revenue case now requires an average TWD 686 million per month in September–December, close to the year-to-date run rate, while the monthly decline is a reminder that backlog conversion is uneven. The next decisive evidence remains Q3 gross margin and award replacement rather than September revenue alone.
+
 ## Thesis history
 
 - **2026-09-09 — Initial thesis:** Strong backlog and improving construction economics are offset by weak visibility into margin durability, award replacement, and portfolio risk. Confidence: medium; score 2.75/5.00.
 - **2026-09-09 — Portfolio-mark observation:** Q3-to-date public data implied a negative base FVTPL contribution, reinforcing reported-EPS volatility without changing the normalized-earnings thesis or full-year scenarios. Confidence: low-to-medium.
+- **2026-09-10 — August revenue observation:** January–August revenue remained 23.1% above the prior year, while August declined 4.4%. The full-year revenue and EPS cases were retained because the base case remains close to the observed run rate; margin evidence is unchanged. Confidence: medium.

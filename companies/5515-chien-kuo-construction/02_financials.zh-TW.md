@@ -6,6 +6,8 @@
 
 報表幣別為 TWD，會計年度至 12 月。工程經濟顯著改善：2025 營收 TWD 7.10 billion，2026 H1 營收 TWD 4.02 billion，年增 27.6%；H1 毛利率 19.4%、營業利益率 12.6%。然而 H1 EPS TWD 6.08 明顯高估可持續工程獲利，因 TWD 724 million 公允價值利益與 TWD 128 million 土地處分及補償利益約占稅前淨利 61%。營業現金流仍為正 TWD 700 million。
 
+2026 年 8 月營收 TWD 638.0 million，月減 8.6%、年減 4.4%；1–8 月累計營收 TWD 5.355 billion、年增 23.1%。累計結果仍支持 backlog 轉換，但 8 月放緩使年初至今增速由 7 月底的 28.1% 下滑。月營收不揭露毛利或工程組合，因此單憑本次資料不改變獲利品質判斷。
+
 ## 歷史損益
 
 單位：TWD million；EPS 為元。
@@ -20,6 +22,12 @@
 | 2026 H1 | 4,019 | 19.4% | 12.6% | 902 | 6.08 |
 
 2021–2025 為法說會報告數；2026 H1 為核閱合併財報，不可直接年化。
+
+### 2025 年正常化橋接
+
+2025 年報表 EPS 4.48 元包含 FVTPL 評價利益 2.891 億元。其他利益及損失合計為 2.665 億元，因 FVTPL 利益被約 2,296 萬元匯兌損失及其他較小淨項目部分抵銷；當年沒有像 2026 H1 那樣重大的土地處分利益。剔除 FVTPL，並採報表約 18% 有效稅率或簡化 20% 稅率估算，2025 年指標性正常化 EPS 約為 3.3 元。利息收入及一般財務收益因屬資產負債表持續產生的收入而保留，但不等同工程營業利益。
+
+換言之，2025 年報表 EPS 約有 1.15 元、約 26%，來自稅後 FVTPL 利益。因此 2026 年基準正常化 EPS 3.8–4.2 元，應與 2025 年正常化約 3.3 元比較，代表本業基礎改善；不能直接拿報表 4.48 元比較。
 
 ## 2026 H1 獲利品質橋接
 
@@ -107,3 +115,4 @@ FVTPL 產生的獲利原則上可以支撐股利，因為它進入淨利，期�
 - *2022 Consolidated Financial Statements*, approved 2023-03-15, pp. 11–12, 40–41 and 49–51, <https://www.ckgroup.com.tw/storage/app/uploads/public/694/3a3/978/6943a3978d33e288385835.pdf>, accessed 2026-09-09.
 - *Company Act, Articles 232 and 237*, Ministry of Justice Laws & Regulations Database, <https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=232> and <https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=237>, accessed 2026-09-09.
 - *Order Governing Special Reserve Appropriation under Article 41 of the Securities and Exchange Act*, Financial Supervisory Commission, issued 2021-03-31, <https://law.fsc.gov.tw/LawContent.aspx?id=GL003111&media=print>, accessed 2026-09-09.
+- *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.

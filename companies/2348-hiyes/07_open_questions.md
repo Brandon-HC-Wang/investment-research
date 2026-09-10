@@ -20,6 +20,7 @@
 - **Owner/next review:** Next filing-review cycle.
 - **Status history:** 2026-08-04 — Opened with low confidence.
 - **Status history:** 2026-08-17 — Remains Open. The Q2 filing separates H1 service and property-sale revenue and segment gross profit, but it does not disclose represented sales value, fee rate, named-project profit, or a multi-year recurring agency bridge. H1 service revenue fell 44.6% and common EPS was partly supported by non-operating fair-value gains.
+- **Status history:** 2026-09-09 — Remains Open. January-August agency revenue reportedly fell 38.0%; the current EPS scenarios therefore do not treat agency as a recovered recurring base.
 
 ## Q-2026-002 — Attributable project visibility
 
@@ -34,6 +35,7 @@
 - **Status history:** 2026-08-04 — Remains Open. The 2025-11-25 management schedule identifies 2026 and 2027 projects and participation, but sell-through, exact handover, project margins, and accounting attribution remain insufficient to resolve the question. Preliminary ranges are recorded in `04_eps_model.md`.
 - **Status history:** 2026-08-04 — The conservative recognition haircut is clarified as primarily a timing assumption. An explicit project roll-forward is still required to separate delayed earnings carried into later years from permanent economic loss.
 - **Status history:** 2026-08-17 — Remains Open. Q2 property-sale revenue and construction gross profit confirm that the 2026 handover cycle began, but the filing does not attribute revenue, margin, cash collection, or remaining inventory to named projects and adds no decision-grade 2027 replacement schedule.
+- **Status history:** 2026-09-09 — Remains Open. Five named 2026 projects are reportedly in handover and August revenue confirms construction recognition, but margin, cash collection, remaining inventory, and 2027 replacement are still unavailable.
 
 ## Q-2026-003 — Agency competitive advantage
 

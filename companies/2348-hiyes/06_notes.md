@@ -19,3 +19,13 @@
 - **Current implication:** Treat Q2 as evidence of recognition timing, not proof of normalized earnings. Fair-value gains, non-controlling losses, and the preferred dividend must remain explicit in the common-EPS bridge.
 - **Next verification:** Reconcile each H2 project to property-sale revenue, gross profit, inventory release, receivables or cash, debt, and finance costs.
 - **Promotion target:** Current implications are integrated into `02_financials.md`, `04_eps_model.md`, and `08_thesis.md`; project-level evidence remains open.
+
+## 2026-09-09 — August revenue confirms recognition, not agency normalization
+
+- **Type:** Fact and analytical observation.
+- **Sources:** Market Observation Post System, “Listed Companies August 2026 Monthly Revenue Summary,” data month 2026-08, [official table](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html), accessed 2026-09-09; Economic Daily News, “Smile Hiyes 2 and Taiwan Yinfu Handovers Lift Hiyes August Consolidated Revenue 5.4 Times,” published 2026-09-06, [article](https://udn.com/news/story/7241/9737750), accessed 2026-09-09; HouseFun News, “Credit Controls Cool the Housing Market; Hiyes Agency Revenue Falls 38% but Construction Revenue Rises 326% in the First Eight Months,” published 2026-09-07, [article](https://news.housefun.com.tw/news/article/176941488910.html), accessed 2026-09-09.
+- **Observation:** August revenue was TWD 1.425 billion and January-August revenue was TWD 6.619 billion. Official disclosure identifies construction recognition from four land sections; media reports identify five named projects in the current handover wave. The reported January-August mix was agency revenue down 38.0% and construction revenue up 325.8% year over year.
+- **Potential mechanism:** Completion and handover convert project inventory into discrete construction revenue, while credit controls and lower transaction activity pressure the recurring agency stream. Reported revenue can still fail to produce proportional common EPS if project margins are weak, finance costs remain high, cash collection lags, or minority interests absorb economics.
+- **Current implication:** H2 recognition timing is confirmed, but the thesis and low confidence remain unchanged. The update does not validate normalized agency earnings, cash-backed EPS, or 2027 replacement.
+- **Next verification:** Use the Q3 filing to reconcile the five named projects and Dali Yecui to construction gross profit, inventory release, operating cash flow, borrowings, finance costs, and common EPS.
+- **Promotion target:** Timing and mix implications are integrated into `02_financials.md` and `03_growth_drivers.md`; no current EPS forecast is promoted.

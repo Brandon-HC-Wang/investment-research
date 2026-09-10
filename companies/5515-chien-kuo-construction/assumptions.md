@@ -16,13 +16,13 @@ This register is append-only. Valid statuses are `Open`, `Verified`, and `Reject
 ## A-2026-002 — Open
 
 - **Description:** 2026 revenue reaches TWD 7.6–8.5 billion through backlog execution.
-- **Confidence:** 70%
+- **Confidence:** 75%
 - **Opened:** 2026-09-09
-- **Evidence for:** January–July revenue was TWD 4.72 billion and remaining obligations were TWD 46.52 billion.
-- **Evidence against or missing:** Monthly progress can be delayed and August revenue was not yet available at the cutoff.
-- **Verification test:** August–December cumulative revenue supports at least the lower bound without one-off non-construction revenue.
+- **Evidence for:** January–August revenue was TWD 5.355 billion and remaining obligations were TWD 46.52 billion. The downside and base cases require September–December monthly revenue of approximately TWD 561 million and TWD 686 million, respectively, versus the January–August average of TWD 669 million.
+- **Evidence against or missing:** August revenue declined 4.4% year over year, monthly progress can be delayed, and monthly revenue does not reveal margin or project mix.
+- **Verification test:** September–December cumulative revenue supports at least the lower bound without one-off non-construction revenue; the Q3 filing confirms that recognition did not require an unacceptable margin sacrifice.
 - **Model effect:** Sets 2026 operating profit and fixed-cost absorption.
-- **History:** 2026-09-09 — Opened at 70% confidence.
+- **History:** 2026-09-09 — Opened at 70% confidence. 2026-09-10 — Raised to 75% after January–August revenue reached TWD 5.355 billion; kept `Open` because August slowed and gross margin remains unobserved.
 
 ## A-2026-003 — Open
 

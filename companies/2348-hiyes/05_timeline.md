@@ -28,3 +28,18 @@
 - **Records updated:** `02_financials.md`, `03_growth_drivers.md`, `04_eps_model.md`, `06_notes.md`, `07_open_questions.md`, `08_thesis.md`, `09_valuation.md`, `assumptions.md`, `meta.yaml`, `research.yaml`, and `history/2026Q2-filing-review.md`.
 - **Confidence:** High for consolidated filing figures; low for project attribution and full-year EPS.
 - **Source:** Hiyes International, “Consolidated Financial Statements and Review Report, 2026 Q2,” issued 2026-08-12, pp. 3–9, 17–19, 25, 28–33, 38–46, [local retained PDF](sources/earnings/2026Q2-hiyes-consolidated-financial-report.pdf), accessed 2026-08-17.
+
+## 2026-09-09 — August revenue confirms a construction-led H2 recognition wave
+
+- **Event:** MOPS reported August consolidated revenue of TWD 1.425 billion, down 31.4% month over month and up 540.6% year over year. January-August revenue reached TWD 6.619 billion, up 80.6%. The filing attributes the increase to construction recognition from the Xinzhi, Fengming, Houbitian, and Huilai-Cuo section projects.
+- **Analytical impact:** July-August revenue of TWD 3.503 billion already exceeded H1 revenue by 12.4%, confirming accelerated H2 recognition. Reported January-August agency revenue nevertheless fell 38.0% while construction revenue rose 325.8%, so the evidence supports project timing rather than a recurring agency recovery. No EPS estimate or thesis-confidence change is made before Q3 margin, cash-flow, and debt evidence.
+- **Records updated:** `02_financials.md`, `03_growth_drivers.md`, `05_timeline.md`, `06_notes.md`, `meta.yaml`, and `research.yaml` plus Traditional Chinese companions.
+- **Confidence:** High for monthly revenue and the official parcel-level explanation; medium for the media-reported segment split and project-name mapping; low for EPS conversion.
+- **Sources:** Market Observation Post System, “Listed Companies August 2026 Monthly Revenue Summary,” data month 2026-08, [official table](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html), accessed 2026-09-09; Economic Daily News, “Smile Hiyes 2 and Taiwan Yinfu Handovers Lift Hiyes August Consolidated Revenue 5.4 Times,” published 2026-09-06, [article](https://udn.com/news/story/7241/9737750), accessed 2026-09-09; HouseFun News, “Credit Controls Cool the Housing Market; Hiyes Agency Revenue Falls 38% but Construction Revenue Rises 326% in the First Eight Months,” published 2026-09-07, [article](https://news.housefun.com.tw/news/article/176941488910.html), accessed 2026-09-09.
+
+## 2026-09-09 — Current 2026 EPS boundaries rebuilt
+
+- **Event:** The model replaced the superseded consolidated-margin method with an H2 bridge from reported H1 profit and January-August revenue.
+- **Analytical impact:** Current low-confidence 2026 EPS estimates are TWD 2.47 conservative and TWD 7.31 optimistic, with practical ranges of TWD 2.0–3.2 and TWD 6.3–8.5. The TWD 5.58 and TWD 11.32 points remain historical only.
+- **Records updated:** `04_eps_model.md`, `07_open_questions.md`, `08_thesis.md`, `assumptions.md`, and `research.yaml` plus Traditional Chinese companions.
+- **Confidence:** Low; Q3 project margin, cash flow, debt, finance costs, and NCI are the decisive validation inputs.

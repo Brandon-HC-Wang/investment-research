@@ -13,7 +13,7 @@
 
 ## 當前驅動因素
 
-2026-06-30 尚未履行義務為 TWD 46.52 billion，預計於 2026–2032 認列，相當於 2025 營收 6.6 倍，支持多年營運可見度。2026-07 營收 TWD 698 million、年增 30.8%；1–7 月 TWD 4.72 billion、年增 28.1%。這證明施工持續，不能證明 backlog 的毛利或取消風險。
+2026-06-30 尚未履行義務為 TWD 46.52 billion，預計於 2026–2032 認列，相當於 2025 營收 6.6 倍，支持多年營運可見度。2026-07 營收 TWD 697.9 million、年增 30.8%；8 月營收 TWD 638.0 million、年減 4.4%；1–8 月累計 TWD 5.355 billion、年增 23.1%。累計結果仍證明施工持續，但 8 月下滑顯示月度進度不均；兩者都不能證明 backlog 的毛利或取消風險。
 
 毛利率由 2023 的 9.3% 升至 2025 的 16.6% 與 2026 H1 的 19.4%。公司未揭露合約重訂價、有利組合、準備迴轉、生產力與工程里程碑的貢獻，因此正常化毛利率比 backlog 規模更重要。
 
@@ -29,9 +29,11 @@
 2. FVTPL 稅前損益每 TWD 100 million，按相同稅率估算，EPS 約變動 TWD 0.40；實際稅負可能不同。
 
 - **2026-09-09:** 初始驅動因素紀錄。backlog 轉換有證據支持；補單與毛利耐久性仍為 `Open`。
+- **2026-09-10:** 納入 8 月營收。backlog 轉換仍有支持，但累計增速由 7 月底 28.1% 降至 8 月底 23.1%；不據此推論毛利。
 
 ## 來源
 
 - *2026 Q1 Investor Conference Presentation*, 2026-05-20, pp. 8–16, <https://mopsov.twse.com.tw/nas/STR/551520260519M001.pdf>, accessed 2026-09-09.
 - *2026 Q2 Consolidated Financial Statements*, approved 2026-08-12, pp. 25–27, <https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=5515&year=115&seamon=2&mtype=A&dtype=AI1>, accessed 2026-09-09.
 - *July 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_7_0.html>, accessed 2026-09-09.
+- *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.

@@ -11,7 +11,7 @@
 
 ## Current drivers
 
-At 2026-06-30, unsatisfied performance obligations were TWD 46.52 billion, scheduled for recognition from 2026 through 2032. This equals 6.6 times 2025 revenue and supports multi-year activity visibility. July 2026 revenue was TWD 698 million (+30.8% year over year), bringing January–July revenue to TWD 4.72 billion (+28.1%). These figures confirm continued execution, not the margin or cancellation quality of the backlog.
+At 2026-06-30, unsatisfied performance obligations were TWD 46.52 billion, scheduled for recognition from 2026 through 2032. This equals 6.6 times 2025 revenue and supports multi-year activity visibility. July 2026 revenue was TWD 697.9 million (+30.8% year over year), followed by August revenue of TWD 638.0 million (-4.4%). January–August revenue reached TWD 5.355 billion (+23.1%). The cumulative result confirms continued execution, while the August decline shows that monthly progress is uneven; neither result establishes the margin or cancellation quality of the backlog.
 
 Gross margin rose from 9.3% in 2023 to 16.6% in 2025 and 19.4% in 2026 H1. The causal split among contract repricing, favorable mix, provision reversals, productivity, and project milestones is not disclosed. Sustainable EPS therefore depends more on margin normalization than on the existence of backlog alone.
 
@@ -33,9 +33,11 @@ The May presentation reported only TWD 1.8 billion of new awards during January�
 ## Revision history
 
 - **2026-09-09:** Initial driver record. Backlog conversion is supported; replacement awards and gross-margin durability remain open.
+- **2026-09-10:** Added August revenue. Backlog conversion remains supported, but year-to-date growth slowed from 28.1% through July to 23.1% through August; no margin inference was made.
 
 ## Sources
 
 - *2026 Q1 Investor Conference Presentation*, Chien Kuo Construction Co., 2026-05-20, pp. 8–16, <https://mopsov.twse.com.tw/nas/STR/551520260519M001.pdf>, accessed 2026-09-09.
 - *2026 Q2 Consolidated Financial Statements*, Chien Kuo Construction Co., approved 2026-08-12, pp. 25–27, <https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=5515&year=115&seamon=2&mtype=A&dtype=AI1>, accessed 2026-09-09.
 - *July 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, published 2026-08-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_7_0.html>, accessed 2026-09-09.
+- *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.

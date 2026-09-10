@@ -35,3 +35,10 @@ The observation set includes A.P. Moller–Maersk, MSC, COSCO Shipping, Evergree
 ## Verification
 
 Track transported volume, spot and contract rates, idle fleet, orderbook, deliveries, scrapping, sailing distance, utilization, fuel and charter cost, free cash flow, net cash, and capital allocation. Normalize earnings across a full freight cycle before valuation.
+
+## 2026-09-10 current-cycle evidence
+
+Drewry's WCI was USD4,465/FEU on 2026-09-03, versus USD2,212 on 2026-01-22. Evergreen's July-August revenue acceleration and Q2 operating-margin recovery confirm that higher rates are reaching carrier earnings. This supports a near-term earnings upswing, but not a durable cycle conclusion: offered capacity was still growing and isolated Suez test transits could precede effective-capacity release. The thesis remains `Open`, with confidence raised only to **medium for 2026 near-term direction** and remaining **low for 2027 sustainable earnings**.
+
+- **Company evidence:** [Evergreen Marine](../companies/2603-evergreen-marine/08_thesis.md).
+- **Next confirmation:** shared dated evidence for Q4 rates, OCEAN Alliance Suez routing, global deliveries, scrapping, and Evergreen liftings.

@@ -10,6 +10,31 @@ The Q2 filing resolves the consolidated and segment H1 outcome but not project-l
 
 The 2026 scenarios are therefore retained as dated boundary cases, not current forecasts. Reaching the prior TWD 5.58 conservative point requires approximately TWD 4.52 of H2 EPS and TWD 4.704 billion of H2 revenue under the old formula. Reaching TWD 11.32 requires approximately TWD 10.26 of H2 EPS and TWD 7.184 billion of H2 revenue. The Q2 construction recovery makes the lower path arithmetically possible, but neither path is decision-grade without named-project handover, gross-profit, cash-collection, and financing evidence. The optimistic path now carries substantially less evidential support.
 
+### 2026-09-09 current low-confidence forecast
+
+August data permit a segment-aware rebuild because July-August revenue of TWD 3.503 billion is known and the reported January-August mix shows agency revenue down 38.0% year over year while construction revenue rose 325.8%. The model now starts with reported H1 parent profit of TWD 217 million and reconstructs H2 through revenue, gross margin, operating expense, finance cost, tax, non-controlling interests, and the already-recognized TWD 48 million preferred dividend.
+
+| Current 2026 input | Conservative | Optimistic |
+|---|---:|---:|
+| Reported January-August revenue (TWD bn) | 6.619 | 6.619 |
+| Estimated September-December revenue (TWD bn) | 2.00 | 4.00 |
+| **Estimated full-year revenue (TWD bn)** | **8.62** | **10.62** |
+| H2 gross margin | 20% | 28% |
+| H2 operating expenses / revenue | 10% | 9% |
+| H2 finance costs (TWD bn) | 0.30 | 0.28 |
+| H2 net other income (TWD bn) | 0.05 | 0.10 |
+| Pretax profit retained after tax and NCI | 75% | 80% |
+| Estimated H2 parent profit (TWD bn) | 0.225 | 0.996 |
+| Estimated full-year parent profit (TWD bn) | 0.442 | 1.213 |
+| Less: annual preferred dividend (TWD bn) | 0.048 | 0.048 |
+| Common shares (million) | 159.49 | 159.49 |
+| **Current EPS point estimate (TWD)** | **2.47** | **7.31** |
+| **Practical sensitivity range (TWD)** | **2.0–3.2** | **6.3–8.5** |
+
+The conservative case assumes only TWD 2.0 billion of September-December revenue, a construction-heavy 20% H2 gross margin, no meaningful deleveraging, and limited non-operating support. The optimistic case assumes TWD 4.0 billion of September-December revenue including continued five-project handovers and Dali Yecui, a 28% H2 gross margin, modest operating leverage, and no deterioration in finance costs. Neither case assumes the old 12%–18% consolidated parent-margin proxy.
+
+These are scenario estimates, not company guidance. The largest error term is project gross margin; a five-percentage-point change in H2 gross margin changes pretax profit by approximately TWD 275 million in the conservative case and TWD 375 million in the optimistic case before tax and NCI. The Q3 filing can therefore move the estimate materially even if reported revenue is close to the modeled path.
+
 ## Required causal model
 
 The model will separate three streams:
@@ -22,7 +47,7 @@ The model will separate three streams:
 
 The consolidated bridge will then include operating expenses, interest and investment income, tax, minority interests, and diluted shares.
 
-## Scenarios
+## Historical scenarios — superseded
 
 The model uses the disclosed project value multiplied by participation as an upper bound, then applies a recognition factor. Agency revenue, consolidated parent-attributable net margin, preferred dividends, and post-stock-dividend common shares are modeled separately. All amounts are TWD unless noted.
 
@@ -67,6 +92,7 @@ This is not equivalent to multiplying gross project sales by a uniform 20% margi
 - Build a named-project roll-forward to distinguish delayed revenue carried into 2027–2028 from permanently lost project economics.
 - Require H2 operating cash inflow or a clear project-linked inventory-to-receivable bridge before treating recognized revenue as cash-backed earnings.
 - Treat the prior 12%–18% parent-margin proxies as superseded for current use; rebuild margin from agency and construction gross profit, corporate costs, finance costs, fair-value items, tax, minorities, and the preferred dividend.
+- Replace the 2026-09-09 scenario as soon as Q3 segment margin, operating cash flow, borrowings, finance costs, and non-controlling interests are available.
 
 ## Assumption history
 
@@ -82,6 +108,10 @@ New evidence from the 2025-11-25 management project schedule, the reviewed 2026 
 
 H1 EPS of TWD 1.06, a 26.0% gross margin, a 15.6% operating margin, TWD 285 million of finance costs, and TWD 2.120 billion of operating cash outflow show that recognized revenue has not yet converted into the margins or cash backing assumed by the prior scenario points. The scenario table is preserved as history, but its margin inputs are superseded for current forecasting. No replacement single-point forecast is adopted.
 
+### 2026-09-09 — August revenue supports a new two-case 2026 forecast
+
+The reported H2 revenue acceleration is sufficient to rebuild 2026 boundaries, but not to restore the old margin assumptions. Current low-confidence point estimates are TWD 2.47 in the conservative case and TWD 7.31 in the optimistic case, with practical ranges of TWD 2.0–3.2 and TWD 6.3–8.5. The prior TWD 5.58 and TWD 11.32 points remain historical and superseded.
+
 ## Sources
 
 - Hiyes International, “Investor Conference Presentation,” 2025-11-25, completion-method schedule with data through 2025-09-30, [MOPS-hosted PDF](https://mopsov.twse.com.tw/nas/STR/234820251125M001.pdf), accessed 2026-08-04.
@@ -89,3 +119,6 @@ H1 EPS of TWD 1.06, a 26.0% gross margin, a 15.6% operating margin, TWD 285 mill
 - Taiwan Stock Exchange, “Listed Companies Monthly Revenue Summary,” data month 2026-06, [OpenAPI](https://openapi.twse.com.tw/v1/opendata/t187ap05_L), accessed 2026-08-04.
 - Taiwan Stock Exchange, “Listed Company Dividend Distributions,” 2025 earnings distribution approved 2026-06-17, [OpenAPI](https://openapi.twse.com.tw/v1/opendata/t187ap45_L), accessed 2026-08-04.
 - Hiyes International, “Consolidated Financial Statements and Review Report, 2026 Q2,” issued 2026-08-12, pp. 6, 8–9, 25, 28–33, and 43–44, [local retained PDF](sources/earnings/2026Q2-hiyes-consolidated-financial-report.pdf), accessed 2026-08-17.
+- Market Observation Post System, “Listed Companies August 2026 Monthly Revenue Summary,” data month 2026-08, [official table](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html), accessed 2026-09-09.
+- Yahoo Taiwan Finance, “Housing Recovery? Hiyes July Revenue Reaches TWD 2.08 Billion as Concentrated Handovers Drive Recognition,” published 2026-08-05, [article](https://tw.stock.yahoo.com/news/%E6%88%BF%E5%B8%82%E5%9B%9E%E6%BA%AB%EF%BC%9F%E6%B5%B7%E6%82%857%E6%9C%88%E7%87%9F%E6%94%B6%E8%A1%9D20%E5%84%84%E5%85%83%E5%B9%B4%E5%A2%9E%E8%BF%9110%E5%80%8D-%E4%BA%A4%E5%B1%8B%E9%9B%86%E4%B8%AD%E8%AA%8D%E5%88%97%E6%8E%A8%E5%8D%87-092448468.html), accessed 2026-09-09.
+- HousePrice News, “Hiyes August Revenue Rises 5.4 Times on Construction Recognition,” published 2026-09-08, [article](https://news.houseprice.tw/12284/), accessed 2026-09-09.

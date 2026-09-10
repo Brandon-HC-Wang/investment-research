@@ -29,6 +29,14 @@ The 2025-11-25 investor presentation provides a management schedule for completi
 
 **Estimate —** The preliminary EPS scenarios recognize 60%–70% of the 2026 upper-bound project value in the conservative range and 85%–95% in the optimistic range. For 2027, the ranges are 35%–45% and 65%–75%, respectively, because completion dates and sold units are less verified. The schedule must be replaced with actual permits, completion, sales, and handover evidence when available.
 
+## August 2026 recognition update
+
+**Fact —** August revenue remained elevated at TWD 1.425 billion despite falling 31.4% from July. MOPS attributes the large year-over-year increase to construction recognition from the Xinzhi, Fengming, Houbitian, and Huilai-Cuo section projects. Media reports based on company comments map the current handover wave to Dunyang, A3 Spotlight, Dali Future City, Smile Hiyes 2, and Taiwan Yinfu; Dali Yecui is still expected by management before year-end.
+
+**Fact —** January-August revenue reached TWD 6.619 billion, but the reported composition diverged: agency revenue fell 38.0% year over year while construction revenue rose 325.8%. This supports handover timing for five of the six projects in the 2026 management schedule, subject to exact parcel-to-project and accounting attribution, but contradicts a broad-based recovery in the recurring agency stream.
+
+**Interpretation —** The principal H2 revenue driver is now observed rather than merely scheduled. The two-to-five-year question remains unresolved because monthly revenue does not disclose sell-through, project gross margin, ownership attribution, cash collection, debt reduction, or the 2027 replacement schedule. Dali Yecui recognition and the Q3 filing are the next timing and earnings-quality tests.
+
 ## EPS-relevant risks
 
 1. **Recognition gap:** if large 2023–2025 project contributions lack replacement projects, normalized EPS could fall even if brokerage operations remain profitable. The early warning is a thin attributable completion schedule for 2027–2028.
@@ -40,3 +48,6 @@ The 2025-11-25 investor presentation provides a management schedule for completi
 - Hiyes International, “Investor Conference Presentation,” 2025-11-25, completion-method schedule with data through 2025-09-30, [MOPS-hosted PDF](https://mopsov.twse.com.tw/nas/STR/234820251125M001.pdf), accessed 2026-08-04.
 - Hiyes International statement reported by Economic Daily News, “June consolidated revenue increased 2.4 times as three projects entered handover,” published 2026-07-07, [article](https://money.udn.com/money/story/5710/9610768), accessed 2026-08-04.
 - Hiyes International, “Consolidated Financial Statements and Review Report, 2026 Q2,” issued 2026-08-12, pp. 6, 17–19, 28, and 43–44, [local retained PDF](sources/earnings/2026Q2-hiyes-consolidated-financial-report.pdf), accessed 2026-08-17.
+- Market Observation Post System, “Listed Companies August 2026 Monthly Revenue Summary,” data month 2026-08, [official table](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html), accessed 2026-09-09.
+- Economic Daily News, “Smile Hiyes 2 and Taiwan Yinfu Handovers Lift Hiyes August Consolidated Revenue 5.4 Times,” published 2026-09-06, [article](https://udn.com/news/story/7241/9737750), accessed 2026-09-09.
+- HouseFun News, “Credit Controls Cool the Housing Market; Hiyes Agency Revenue Falls 38% but Construction Revenue Rises 326% in the First Eight Months,” published 2026-09-07, [article](https://news.housefun.com.tw/news/article/176941488910.html), accessed 2026-09-09.

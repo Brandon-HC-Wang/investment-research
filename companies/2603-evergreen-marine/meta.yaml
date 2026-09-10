@@ -1,0 +1,14 @@
+ticker: "2603"
+company: 長榮海運股份有限公司
+industry: Container Shipping
+market: TWSE
+status: active
+confidence: medium
+priority: 1
+last_update: 2026-09-10
+next_action: Refresh the Q3 model after September revenue, then reconcile route mix, margin, cash flow, debt, and vessel prepayments with the Q3 filing.
+watch_items:
+  - Monthly revenue and WCI/SCFI direction
+  - Suez and Red Sea routing by OCEAN Alliance
+  - Vessel deliveries, liftings, utilization, and cost per TEU
+  - Newbuilding prepayments, borrowings, lease liabilities, and dividends

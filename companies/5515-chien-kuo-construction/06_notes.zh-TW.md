@@ -40,3 +40,12 @@
 - **目前意義：** Q3-to-date 基準 FVTPL 損失約 TWD 74 million；以簡化稅率 20% 計算，EPS 影響為負 TWD 0.29。若未定價的 TWD 3.173 billion 部位變動正負 3%，EPS 區間擴大為負 TWD 0.67 至正 TWD 0.08。
 - **下一步：** 取得實際 2026-09-30 持倉及 Q3 FVTPL 損益；不得把本估算視為季底結果。
 - **晉升目標：** 2026-09-09 已納入 `04_eps_model.md`；`A-2026-004` 與 `Q-2026-003` 維持 `Open`。
+
+## 2026-09-10 — 8 月營收缺口已解決
+
+- **類型：** Fact plus model interpretation。
+- **來源：** *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.
+- **觀察：** 8 月營收 TWD 638.006 million，去年同期 TWD 667.219 million，MOPS 表列年減 4.37%；1–8 月累計 TWD 5,355.291 million，去年同期 TWD 4,350.935 million、年增 23.08%。
+- **目前意義：** 2026-09-09 記錄的資料缺口已解決。8 月較 7 月放慢，但全年 TWD 8.1 billion 基準情境於 9–12 月每月需 TWD 686 million，接近 1–8 月及 7–8 月 run rate；營收及 EPS 情境均不調整。
+- **下一步：** 以保守／基準／樂觀情境每月所需 TWD 561／686／786 million 比較 9 月營收；毛利只能等 Q3 財報驗證。
+- **晉升目標：** 2026-09-10 已更新 `02_financials.md`、`03_growth_drivers.md`、`04_eps_model.md`。

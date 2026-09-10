@@ -18,13 +18,13 @@
 ## A-2026-002 — Open
 
 - **Description:** 2026 營收藉 backlog 執行達 TWD 7.6–8.5 billion。
-- **Confidence:** 70%
+- **Confidence:** 75%
 - **Opened:** 2026-09-09
-- **Evidence for:** 1–7 月營收 TWD 4.72 billion，未履約義務 TWD 46.52 billion。
-- **Evidence against or missing:** 工程進度可能延後；資料截止時 8 月營收未公布。
-- **Verification test:** 8–12 月累計營收在無非工程一次性項目下達下緣。
+- **Evidence for:** 1–8 月營收 TWD 5.355 billion，未履約義務 TWD 46.52 billion。保守與基準情境在 9–12 月每月約需 TWD 561 million 與 TWD 686 million，相較 1–8 月平均為 TWD 669 million。
+- **Evidence against or missing:** 8 月營收年減 4.4%，工程進度可能延後，且月營收不揭露毛利或工程組合。
+- **Verification test:** 9–12 月累計營收在無非工程一次性項目下達下緣，且 Q3 財報確認認列並非以不可接受的毛利犧牲換取。
 - **Model effect:** 決定 2026 營業利益與費用吸收。
-- **History:** 2026-09-09 — Opened at 70% confidence.
+- **History:** 2026-09-09 — Opened at 70% confidence. 2026-09-10 — 1–8 月營收達 TWD 5.355 billion，信心提高至 75%；因 8 月放慢且毛利仍不可觀察，維持 `Open`。
 
 ## A-2026-003 — Open
 
