@@ -15,6 +15,10 @@
 
 對於公司工作，則閱讀公司的 `meta.yaml`、`research.yaml`、`08_thesis.md`、`assumptions.md`、`07_open_questions.md`、最新季度快照以及其餘編號快照以及其餘編號文件。在更改預測之前，請閱讀相關的行業包和模型文件。
 
+## Session 啟動刷新檢查
+
+在新 session 載入必要情境後，執行 `python3 scripts/check_screen_refresh.py --due-only`。此命令只讀取本機資料：向使用者回報 `due`、`overdue` 或 `blocked` screens，但除非使用者明確要求，不得連線、執行刷新或修改檔案。
+
 ## 主要義務
 
 每次分析都必須改進儲存庫。不要只在聊天回覆中留下實質結論。在同一任務中更新規範公司、產業、模型或研究日誌記錄。
@@ -67,6 +71,7 @@
 - 時間點季度研究狀態 → `history/` 下的新的僅附加文件。
 - 保留主要和次要工件 → `sources/` 下的相應類別。
 - 跨公司或可重複使用的發現 → 相關行業文件或 `research-log/`。
+- 可測試訊號機制與驗證歷史 → `strategies/`；可重現候選搜尋與 append-only run 結果 → `screens/`。
 
 ### 同步依賴記錄
 

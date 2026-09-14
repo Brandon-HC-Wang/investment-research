@@ -10,6 +10,9 @@
 
 ### 新增
 
+- 第一級 `strategies/` 與 `screens/` 契約，包含 registries、雙語推理、可重建刷新 state 及 append-only run semantics。
+- Strategy definitions、screen definitions、screen state 及點時 run manifests 的 JSON Schemas 與 templates。
+- Dependency-free、read-only screen 刷新檢查器，支援 JSON output、deterministic date evaluation 及單元測試。
 - 雙語投資研究報告 UI 規格，以及位於 `templates/reports/`、單一檔案、響應式且可列印的 HTML 骨架。
 - 每個規範英語 Markdown 文件的同一目錄 `.zh-TW.md` 閱讀伴侶，具有驗證和同步規則。
 - 模組化產業知識包，包含概述、指標、評估和懸而未決的問題記錄。
@@ -21,6 +24,7 @@
 
 ### 已更改
 
+- 擴充 repository validation 與 agent startup guidance，在不自動連線或修改的前提下偵測已到期 screens。
 - 保留傳統產業指南和年度研究日誌作為向後相容的切入點，同時將新工作引導到模組化套件。
 - 將 `meta.yaml` 中的穩定公司身分與 `research.yaml` 中的工作流程狀態分開。
 

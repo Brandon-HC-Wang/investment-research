@@ -1,0 +1,11 @@
+schema_version: 1
+screen_id: replace-with-stable-id
+status: due
+definition_version: 1
+last_successful_run: null
+last_data_as_of: null
+next_due_at: 2000-01-01
+latest_run_path: null
+updated_at: 2000-01-01T00:00:00+08:00
+reason_codes:
+  - never_run

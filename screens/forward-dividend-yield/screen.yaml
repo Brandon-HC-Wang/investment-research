@@ -1,0 +1,54 @@
+schema_version: 1
+id: forward-dividend-yield
+title: Forward Dividend Yield Screen
+enabled: true
+definition_version: 1
+definition_updated_on: 2026-09-10
+refresh_mode: remind_only
+timezone: Asia/Taipei
+routine_cadence_days: 7
+stale_after_days: 7
+minimum_coverage_pct: 95
+universe: TWSE and TPEx common stocks; ETFs, ETNs, preferred shares, warrants, and non-standard trading records are excluded.
+fallback_behavior: Mark incomplete coverage and preserve errors; never interpret source failure, throttling, or missing values as zero or as an empty result.
+strategy_ids:
+  - forward-dividend-income
+required_filters:
+  - Base-case estimated forward cash dividend yield is at least 7%.
+  - Normalized attributable EPS covers required DPS by at least 1.25 times.
+  - Downside estimated forward cash dividend yield is at least 5%.
+ranking_factors:
+  - Downside forward cash dividend yield.
+  - Normalized EPS coverage of required DPS.
+  - Three-year free-cash-flow dividend coverage and payout consistency.
+warning_flags:
+  - Asset disposal, FVTPL, FX, tax reversal, capital surplus, capital reduction, or other one-off support.
+  - Parent-company cash, leverage, interest coverage, dilution, or liquidity concern.
+  - Financial, construction, property, or cyclical company requiring a sector-specific model.
+event_triggers:
+  - Official monthly revenue publication.
+  - Quarterly or annual financial filing.
+  - Board dividend resolution or shareholder approval.
+  - Material capital action or screen-definition change.
+primary_sources:
+  - TWSE and TPEx official price, displayed-yield, dividend, and market-status APIs.
+  - MOPS and exchange official financial statements, monthly revenue, material information, and dividend disclosures.
+fallback_sources:
+  - Secondary structured data only when labeled, reconciled where possible, and included in coverage limitations.
+required_output_fields:
+  - market
+  - ticker
+  - company
+  - price_date
+  - price_twd
+  - required_dps_twd
+  - normalized_eps_base_twd
+  - normalized_eps_downside_twd
+  - estimated_dps_base_twd
+  - estimated_dps_downside_twd
+  - forward_yield_base_pct
+  - forward_yield_downside_pct
+  - normalized_eps_coverage_x
+  - warning_flags
+  - source_tier
+  - evidence_reference

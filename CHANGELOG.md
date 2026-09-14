@@ -8,6 +8,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Added
 
+- First-class `strategies/` and `screens/` contracts with registries, bilingual reasoning, rebuildable refresh state, and append-only run semantics.
+- JSON Schemas and templates for strategy definitions, screen definitions, screen state, and point-in-time run manifests.
+- Dependency-free, read-only screen-refresh checker with JSON output, deterministic date evaluation, and unit tests.
 - Bilingual investment-research report UI specification and a self-contained, responsive, printable HTML skeleton under `templates/reports/`.
 - Same-directory `.zh-TW.md` reading companions for every canonical English Markdown file, with validation and synchronization rules.
 - Modular industry knowledge packages with overview, metrics, valuation, and open-question records.
@@ -19,6 +22,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Changed
 
+- Extended repository validation and agent startup guidance to detect due screens locally without automatic network access or mutation.
 - Preserved legacy industry guides and annual research logs as backward-compatible entry points while directing new work to modular packages.
 - Separated stable company identity in `meta.yaml` from workflow state in `research.yaml`.
 

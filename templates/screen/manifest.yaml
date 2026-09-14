@@ -1,0 +1,24 @@
+schema_version: 1
+run_id: replace-with-run-id
+screen_id: replace-with-screen-id
+screen_definition_version: 1
+screen_definition_hash: replace-with-64-character-sha256
+started_at: 2000-01-01T00:00:00+08:00
+finished_at: null
+status: running
+price_date: null
+financial_period: null
+universe_count: 0
+evaluated_count: 0
+retained_count: 0
+coverage_pct: 0
+fallback_source_count: 0
+failed_source_count: 0
+error_codes:
+parameters:
+source_urls:
+results_path: null
+results_sha256: null
+summary_path: null
+confidence: low
+human_review_required: true

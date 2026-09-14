@@ -1,0 +1,31 @@
+schema_version: 1
+id: replace-with-stable-id
+title: Replace with screen title
+enabled: true
+definition_version: 1
+definition_updated_on: 2000-01-01
+refresh_mode: remind_only
+timezone: Asia/Taipei
+routine_cadence_days: 7
+stale_after_days: 7
+minimum_coverage_pct: 95
+universe: Replace with a complete, reproducible universe definition and exclusions.
+fallback_behavior: Preserve incomplete coverage and errors; never interpret missing input as zero or an empty result.
+strategy_ids:
+  - replace-with-strategy-id
+required_filters:
+  - Replace with a required condition.
+ranking_factors:
+  - Replace with a ranking factor.
+warning_flags:
+  - Replace with a warning that requires review.
+event_triggers:
+  - Replace with an observable refresh event.
+primary_sources:
+  - Replace with a primary source.
+fallback_sources:
+  - Replace with a labeled fallback source policy.
+required_output_fields:
+  - market
+  - ticker
+  - evidence_reference

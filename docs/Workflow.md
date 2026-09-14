@@ -52,6 +52,19 @@ For quarterly or annual results:
 7. Reassess the thesis before valuation.
 8. Set the next review trigger.
 
+## Search strategy and screen workflow
+
+1. Define the testable economic mechanism, confirmation and rejection signals, time window, and validation threshold under `strategies/`.
+2. Define the reproducible universe, filters, ranking, warning flags, source hierarchy, output fields, and refresh policy under `screens/`.
+3. Register both definitions and keep their references reciprocal.
+4. Before a refresh, run the local due check and confirm that network access or execution was explicitly requested.
+5. Create a new timestamped run; never overwrite an earlier manifest or result.
+6. Record definition version, source and data dates, coverage, fallback usage, failures, parameters, and limitations.
+7. Update rebuildable screen state only after the run outcome is known. A failed run does not advance the last-successful timestamp.
+8. Promote only material cross-run conclusions to `research-log/`; promote individual companies to coverage only after human review.
+
+Strategy validation states are `idea`, `testing`, `validated`, `monitoring`, `rejected`, and `archived`. Screen refresh states are `fresh`, `due`, `overdue`, `blocked`, and `disabled`. Neither lifecycle is an investment rating.
+
 ## Contradiction handling
 
 When credible evidence conflicts:

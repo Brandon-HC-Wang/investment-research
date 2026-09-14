@@ -1,0 +1,19 @@
+schema_version: 1
+id: replace-with-stable-id
+name: Replace with strategy name
+enabled: true
+validation_state: idea
+confidence: low
+created_on: 2000-01-01
+last_reviewed: 2000-01-01
+claim: Replace with a testable claim stated without an investment recommendation.
+causal_mechanism: Replace with the causal path from observable signal to sustainable per-share earnings or research value.
+expected_time_window: Replace with an observable time window.
+minimum_validation_periods: 1
+minimum_validation_unit: runs
+screen_ids:
+  - replace-with-screen-id
+confirmation_signals:
+  - Replace with an observable confirmation signal.
+rejection_signals:
+  - Replace with an observable rejection signal.

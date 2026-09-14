@@ -54,6 +54,8 @@ English Markdown is the canonical research and system record used by AI assistan
 
 Store company-specific facts in the company folder, reusable industry mechanics in `industries/`, analytical conventions in `models/`, and cross-company discoveries in `research-log/`. Link to canonical material instead of duplicating it.
 
+Testable signal mechanisms and validation history belong in `strategies/`. Reproducible candidate-search definitions, rebuildable refresh state, and append-only point-in-time results belong in `screens/`. Screen output nominates research candidates; it never overrides company research or becomes a recommendation by itself.
+
 ### Evidence before confidence
 
 Distinguish among:

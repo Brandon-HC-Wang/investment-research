@@ -1,0 +1,23 @@
+schema_version: 1
+id: forward-dividend-income
+name: Forward Dividend Income
+enabled: true
+validation_state: testing
+confidence: medium
+created_on: 2026-09-10
+last_reviewed: 2026-09-10
+claim: Companies with normalized earnings and distributable cash that conservatively cover required DPS are more likely to sustain a forward cash yield above the target than companies selected by displayed yield alone.
+causal_mechanism: Recurring attributable earnings and parent-company cash capacity constrain sustainable cash distributions, while displayed historical yield can be inflated by stale prices or non-recurring distributions.
+expected_time_window: 2027 cash dividends distributed from 2026 earnings
+minimum_validation_periods: 3
+minimum_validation_unit: annual_cohorts
+screen_ids:
+  - forward-dividend-yield
+confirmation_signals:
+  - Declared DPS falls within the point-in-time base and downside forecast range.
+  - Normalized EPS and parent cash cover the declared dividend without material balance-sheet deterioration.
+  - Candidate precision remains stable across sectors and market conditions after sector-specific rules.
+rejection_signals:
+  - Displayed-yield and normalized-coverage candidates have indistinguishable realized dividend outcomes.
+  - False positives remain concentrated in recurring unmodeled accounting or capital-distribution mechanisms.
+  - Results depend on information unavailable at the recorded point in time.

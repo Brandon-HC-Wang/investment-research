@@ -56,6 +56,8 @@ Markdown保存敘述分析、證據、表格及假設；YAML保存用於搜尋�
 
 公司特定事實存於公司資料夾；可重複使用的產業機制存於`industries/`；分析慣例存於`models/`；跨公司發現存於`research-log/`。應連結canonical內容，避免重複。
 
+可測試訊號機制與驗證歷史存於 `strategies/`。可重現候選搜尋 definitions、可重建刷新 state 及 append-only 點時結果存於 `screens/`。Screen output 只提名研究候選，不會覆蓋公司研究，也不會自行成為投資建議。
+
 ### 證據先於信心
 
 區分：

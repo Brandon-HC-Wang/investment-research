@@ -7,6 +7,8 @@
 |模板|使用|
 |---|---|
 | [`company/`](company/) |完整的固定公司記錄，包括研究狀態、假設、來源和歷史 |
+| [`strategy/`](strategy/) | Machine-readable 可測試 strategy definition 與推理契約 |
+| [`screen/`](screen/) | 可重現 screen definition、可重建 state、run manifest 及結果欄位 |
 | [`SourceRecord.md`](SourceRecord.md) |一致的源捕獲與分析提取|
 | [`QuarterlyReview.md`](QuarterlyReview.md) |根據先前的假設定期檢視結果 |
 | [`ResearchLogEntry.md`](ResearchLogEntry.md) |僅附加資料發現或假設事件 |

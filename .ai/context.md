@@ -6,6 +6,8 @@ This repository is a long-term equity research system. Its unit of value is not 
 
 The target is sustainable per-share earnings growth over a two-to-five-year horizon. Business quality and future earnings visibility come before valuation. Daily price movement, technical analysis, and unintegrated news are outside the primary scope.
 
+After loading the required context in a new session, run `python3 scripts/check_screen_refresh.py --due-only` and report any due, overdue, or blocked screens. The check is local and read-only; never refresh or access the network without an explicit request.
+
 ## Required reasoning chain
 
 `business → competitive advantage → revenue drivers → EPS drivers → earnings quality → backlog/visibility → risks → thesis → valuation`
@@ -22,6 +24,8 @@ Do not skip a stage merely because the current task starts with a financial resu
 - `portfolio/` contains portfolio-level monitoring, allocation, and risk policy.
 - `research-log/companies/` and `research-log/industries/` contain append-only scoped findings.
 - `watchlist/` is a research-priority queue, never a recommendation list.
+- `strategies/` contains testable signal mechanisms and append-only validation history.
+- `screens/` contains reproducible candidate searches, refresh state, and append-only point-in-time runs.
 - `templates/` defines structure only; it is not evidence.
 
 ## Current-state versus history

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:investment-research:screen-run:v1",
+  "title": "Point-in-time screen run manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "run_id", "screen_id", "screen_definition_version",
+    "screen_definition_hash", "started_at", "finished_at", "status",
+    "price_date", "financial_period", "universe_count", "evaluated_count",
+    "retained_count", "coverage_pct", "fallback_source_count",
+    "failed_source_count", "error_codes", "parameters", "source_urls",
+    "results_path", "results_sha256", "summary_path", "confidence",
+    "human_review_required"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "minLength": 10},
+    "screen_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "screen_definition_version": {"type": "integer", "minimum": 1},
+    "screen_definition_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "started_at": {"type": "string", "format": "date-time"},
+    "finished_at": {"type": ["string", "null"], "format": "date-time"},
+    "status": {"enum": ["running", "success", "partial", "failed"]},
+    "price_date": {"type": ["string", "null"], "format": "date"},
+    "financial_period": {"type": ["string", "null"]},
+    "universe_count": {"type": "integer", "minimum": 0},
+    "evaluated_count": {"type": "integer", "minimum": 0},
+    "retained_count": {"type": "integer", "minimum": 0},
+    "coverage_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "fallback_source_count": {"type": "integer", "minimum": 0},
+    "failed_source_count": {"type": "integer", "minimum": 0},
+    "error_codes": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "parameters": {"type": "array", "items": {"type": "string"}},
+    "source_urls": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "results_path": {"type": ["string", "null"]},
+    "results_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "summary_path": {"type": ["string", "null"]},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "human_review_required": {"type": "boolean"}
+  }
+}

@@ -31,6 +31,8 @@
 | `models/` | 建模慣例及可重複分析方法 |
 | `templates/` | 新研究記錄及衍生報告輸出物的受控起點 |
 | `watchlist/` | 研究優先佇列，不是買賣建議 |
+| `strategies/` | 可測試訊號機制與驗證歷史 |
+| `screens/` | 可重現候選搜尋、刷新狀態與點時結果 |
 | `research-log/` | 只能附加的公司、產業與repository歷史 |
 | `scripts/` | Repository驗證及維護工具 |
 | `schemas/` | 結構化metadata的機器可讀契約 |
@@ -45,6 +47,8 @@
 4. [`docs/Framework.md`](docs/Framework.md)
 
 接著遵循[`docs/Workflow.md`](docs/Workflow.md)及相關模板或產業指南。
+
+新 agent session 載入情境後，先執行 `python3 scripts/check_screen_refresh.py --due-only`。它只回報本機刷新提醒，不連線也不修改檔案。
 
 ## 語言版本
 

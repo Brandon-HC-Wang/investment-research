@@ -13,6 +13,10 @@ Before any modification, read in this order:
 
 For company work, then read the company’s `meta.yaml`, `research.yaml`, `08_thesis.md`, `assumptions.md`, `07_open_questions.md`, latest quarterly snapshot, and the remaining numbered files. Read the relevant industry package and model documentation before changing forecasts.
 
+## Session startup refresh check
+
+After loading the required context in a new session, run `python3 scripts/check_screen_refresh.py --due-only`. This command is read-only and local: report due, overdue, or blocked screens to the user, but do not access the network, execute a refresh, or modify files unless the user explicitly requests it.
+
 ## Primary obligation
 
 Every analysis must improve the repository. Do not leave a material conclusion only in a chat response. Update the canonical company, industry, model, or research-log record in the same task.
@@ -65,6 +69,7 @@ Historical assumptions, thesis changes, question resolutions, and dated observat
 - Point-in-time quarterly research state → a new append-only file under `history/`.
 - Retained primary and secondary artifacts → the appropriate category under `sources/`.
 - Cross-company or reusable findings → the relevant industry file or `research-log/`.
+- Testable signal mechanisms and validation history → `strategies/`; reproducible candidate searches and append-only run results → `screens/`.
 
 ### Synchronize dependent records
 

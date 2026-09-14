@@ -29,6 +29,8 @@ Valuation is the final step. A low multiple does not compensate for weak busines
 | `models/` | Modeling conventions and reusable analytical methods |
 | `templates/` | Controlled starting points for new research records and derived report artifacts |
 | `watchlist/` | Prioritized research queue, not buy or sell recommendations |
+| `strategies/` | Testable signal mechanisms and validation history |
+| `screens/` | Reproducible candidate searches, refresh state, and point-in-time results |
 | `research-log/` | Append-only company, industry, and repository-wide history |
 | `scripts/` | Repository validation and maintenance tools |
 | `schemas/` | Machine-readable contracts for structured metadata |
@@ -43,6 +45,8 @@ Before making any change, read these files in order:
 4. [`docs/Framework.md`](docs/Framework.md)
 
 Then follow [`docs/Workflow.md`](docs/Workflow.md) and the relevant template or industry guide.
+
+At the beginning of a new agent session, run `python3 scripts/check_screen_refresh.py --due-only` after loading context. It reports local refresh reminders without accessing the network or changing files.
 
 ## Language versions
 

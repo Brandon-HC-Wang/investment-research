@@ -8,6 +8,8 @@
 
 目標是在兩到五年內實現可持續的每股收益成長。業務品質和未來獲利可見性優先於估值。每日價格變動、技術分析和未綜合的新聞不在主要範圍內。
 
+在新 session 載入必要情境後，執行 `python3 scripts/check_screen_refresh.py --due-only`，並回報所有 `due`、`overdue` 或 `blocked` screens。此檢查只讀取本機資料；未經明確要求不得刷新或連線。
+
 ## 所需的推理鏈
 
 `business → competitive advantage → revenue drivers → EPS drivers → earnings quality → backlog/visibility → risks → thesis → valuation`
@@ -24,6 +26,8 @@
 - `portfolio/` 包含投資組合層級的監控、分配和風險策略。
 - `research-log/companies/` 和 `research-log/industries/` 包含僅限附加範圍的調查結果。
 - `watchlist/` 是一個研究優先隊列，而不是推薦清單。
+- `strategies/` 保存可測試訊號機制及 append-only 驗證歷史。
+- `screens/` 保存可重現候選搜尋、刷新狀態及 append-only 點時 runs。
 - `templates/` 僅定義結構；這不是證據。
 
 ## 目前狀態與歷史狀態

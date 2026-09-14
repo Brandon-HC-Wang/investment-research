@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:investment-research:screen-state:v1",
+  "title": "Rebuildable market screen refresh state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "screen_id", "status", "definition_version",
+    "last_successful_run", "last_data_as_of", "next_due_at",
+    "latest_run_path", "updated_at", "reason_codes"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "screen_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "status": {"enum": ["fresh", "due", "overdue", "blocked", "disabled"]},
+    "definition_version": {"type": "integer", "minimum": 1},
+    "last_successful_run": {"type": ["string", "null"], "format": "date-time"},
+    "last_data_as_of": {"type": ["string", "null"], "format": "date"},
+    "next_due_at": {"type": ["string", "null"], "format": "date"},
+    "latest_run_path": {"type": ["string", "null"]},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "reason_codes": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 3}}
+  }
+}

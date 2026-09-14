@@ -54,6 +54,19 @@
 7. 評估前重新評估論文。
 8. 設定下一次審核觸發器。
 
+## 搜尋策略與 screen 工作流程
+
+1. 在 `strategies/` 定義可測試經濟機制、確認與否證訊號、時間範圍及驗證門檻。
+2. 在 `screens/` 定義可重現母體、條件、排序、警示旗標、來源階級、輸出欄位及刷新政策。
+3. 登錄兩個 definitions，並保持雙向引用一致。
+4. 刷新前先執行本機到期檢查，並確認使用者已明確要求連線或執行。
+5. 建立新的時間戳記 run，不得覆寫先前 manifest 或結果。
+6. 記錄 definition version、來源與資料日期、覆蓋率、備援來源、失敗、參數及限制。
+7. 只在 run 結果確定後更新可重建 screen state。失敗 run 不得推進最後成功時間。
+8. 只有重大跨 run 結論才加入 `research-log/`；個別公司則須經人工審查後才能加入 coverage。
+
+Strategy 驗證階段為 `idea`、`testing`、`validated`、`monitoring`、`rejected` 及 `archived`。Screen 刷新狀態為 `fresh`、`due`、`overdue`、`blocked` 及 `disabled`。兩種生命週期都不是投資評級。
+
 ## 矛盾處理
 
 當可信證據發生衝突時：
