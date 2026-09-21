@@ -9,6 +9,11 @@ timezone: Asia/Taipei
 routine_cadence_days: 7
 stale_after_days: 7
 minimum_coverage_pct: 95
+target_yield_pct: 7
+minimum_eps_coverage_x: 1.25
+minimum_downside_yield_pct: 5
+market_discovery_adapter: scripts/replace-with-adapter.py
+source_snapshot_directory: source-snapshots
 universe: Replace with a complete, reproducible universe definition and exclusions.
 fallback_behavior: Preserve incomplete coverage and errors; never interpret missing input as zero or an empty result.
 strategy_ids:
@@ -25,6 +30,10 @@ primary_sources:
   - Replace with a primary source.
 fallback_sources:
   - Replace with a labeled fallback source policy.
+required_input_fields:
+  - market
+  - ticker
+  - source_url
 required_output_fields:
   - market
   - ticker

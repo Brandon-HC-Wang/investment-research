@@ -1,6 +1,6 @@
 # Search Strategy Architecture Proposal
 
-> Status: Phase 1 implemented on 2026-09-10. Schemas, templates, registries, the first definitions, validation, and a read-only startup reminder exist. Network retrieval and automatic refreshes remain unimplemented and unauthorized.
+> Status: Phase 1 was implemented on 2026-09-10, the Phase 2 offline execution lifecycle on 2026-09-14, and the Phase 3 official market-discovery collector on 2026-09-14. Definitions, validation, a read-only startup reminder, immutable source snapshots, and atomic append-only run persistence now exist. Filing retrieval, analytical normalization, and automatic refreshes remain unimplemented and unauthorized.
 
 ## Objective
 
@@ -34,6 +34,14 @@ screens/
     README.md
     README.zh-TW.md
     state.yaml
+    source-snapshots/
+      README.md
+      <snapshot-id>/
+        manifest.yaml
+        market-discovery.csv
+        <official-source>.json
+        summary.md
+        summary.zh-TW.md
     runs/
       2026-09-10T090000+08-00/
         manifest.yaml
@@ -46,6 +54,7 @@ schemas/
   screen.schema.json
   screen-run.schema.json
   screen-state.schema.json
+  market-discovery-snapshot.schema.json
 
 templates/
   strategy/
@@ -53,6 +62,8 @@ templates/
 
 scripts/
   check_screen_refresh.py
+  collect_market_discovery.py
+  run_screen.py
   validate_repository.py
 ```
 
@@ -164,7 +175,7 @@ Before executable automation is accepted:
 2. Add schemas, templates, registry contracts, and validation without implementing network retrieval.
 3. Register the forward-dividend strategy and screen, then migrate the current methodology into their definitions.
 4. Add the read-only refresh checker and session-startup instruction.
-5. Implement one explicit, reproducible screen runner and retain its first point-in-time run.
+5. Implement one explicit, reproducible screen runner; retain its first point-in-time run only after official-source inputs are reviewed.
 6. Compare estimates with later dividend decisions and keep the strategy in `testing` until its stated historical validation threshold is met.
 
 ## Implemented Phase 1 decisions
@@ -173,3 +184,20 @@ Before executable automation is accepted:
 - `state.yaml` is committed as a rebuildable cache and may not contain unique conclusions.
 - Session startup performs a local, read-only reminder. It does not query official sources or run a refresh.
 - Validation duration is strategy-specific. The first annual dividend strategy requires at least three annual cohorts; quarterly strategies should ordinarily require at least 8–12 point-in-time quarters. Exact success metrics must be declared before outcome testing begins.
+
+## Implemented Phase 2 decisions
+
+- `forward-dividend-yield` can now evaluate a reviewed flat CSV without network access. Retrieval and analytical normalization remain separate responsibilities.
+- A dry run validates and evaluates without changing the repository. A persisted run atomically writes its manifest, results, and paired summaries to a new run ID; duplicate and unsafe IDs are rejected.
+- Only a complete `success` run advances rebuildable refresh state. A `partial` run is retained for diagnosis but leaves the prior state unchanged.
+- Run validation checks the screen-definition version, artifact paths, result columns and counts, completeness invariants, and SHA-256 integrity.
+- The annual strategy's predeclared testing thresholds are three annual cohorts, at least 100 company-year observations, at least 70% forecast-interval coverage, median absolute DPS error no greater than 15%, candidate precision of at least 60%, and at least a 10-percentage-point precision gain over the displayed-yield baseline. These are hypotheses, not evidence of effectiveness.
+- The repository contains only synthetic executor fixtures. No official point-in-time run has been created, so the screen remains `due` with `never_run` and `definition_changed` reasons.
+
+## Implemented Phase 3 decisions
+
+- Official TWSE `BWIBBU_ALL` and `STOCK_DAY_ALL` records and TPEx `tpex_mainboard_peratio_analysis` and `tpex_mainboard_daily_close_quotes` records can be explicitly retrieved with strict TLS verification or replayed from local JSON fixtures.
+- The collector joins each exchange's displayed-yield universe to closing prices, converts ROC dates, preserves missing-price diagnostics, and retains the complete official response set with SHA-256 checksums.
+- The normalized discovery table preserves all securities in the official stock-yield datasets. A displayed-yield threshold changes only `discovery_priority`; it does not remove rows or define the forward-yield screen universe.
+- A market-discovery snapshot is distinct from a screen run. It cannot populate normalized EPS, estimated forward DPS, distributable cash, or free-cash-flow coverage, and it cannot advance screen refresh state.
+- Live retrieval is always explicit. Session startup remains local and read-only, and a TLS failure must be resolved with a trusted CA bundle rather than disabling certificate verification.

@@ -45,3 +45,9 @@ This register is append-only. Valid statuses are `Open`, `Verified`, and `Reject
 - **Verification test:** Q3 and Q4 filing disclosures establish the actual change and portfolio composition.
 - **Model effect:** Produces about plus or minus TWD 0.8 of reported EPS under a 20% tax assumption.
 - **History:** 2026-09-09 — Opened at 30% confidence. 2026-09-09 — Raised to 40% after a Q3-to-date market check estimated a TWD 74 million base loss and a negative TWD 169 million to positive TWD 21 million range; kept Open because most holdings and post-June trades cannot be directly verified.
+
+## 2026-09-15 — FVTPL-to-EPS refresh
+
+A-2026-004 — Open; confidence retained at 40%. This estimate does not verify actual H2 returns.
+
+The [2026-09-15 refresh](sources/market_data/2026-09-15-q3-fvtpl-mark.md), using September 14 prices and September 11 Allianz NAV, estimates a Q3-to-date FVTPL loss of TWD 87.231 million, or -0.346 EPS at an assumed 20% tax rate and 201.6 million shares. H1 reported FVTPL gain of TWD 724.148 million implies +2.874 EPS under the same assumption; YTD FVTPL contribution is approximately +2.527 EPS, not total company EPS. The unpriced-bucket sensitivity gives Q3 -0.724 to +0.032 EPS and YTD +2.150 to +2.905 EPS. This supersedes the September 9 mark only as the latest indicative estimate, not as a revision of historical evidence. Full-year reported and normalized EPS scenarios remain unchanged. Holdings, distributions, tax, FX and portfolio turnover remain unverified; Q-2026-003 and A-2026-004 remain Open. Confidence: low-to-medium. Next: reconcile September 30 holdings and the Q3 FVTPL/tax/EPS bridge. TPEx certificate work remains deferred; secondary emerging quotes and selected NAVs are explicitly identified in the calculation.

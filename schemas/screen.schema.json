@@ -8,9 +8,11 @@
     "schema_version", "id", "title", "enabled", "definition_version",
     "definition_updated_on", "refresh_mode", "timezone",
     "routine_cadence_days", "stale_after_days", "minimum_coverage_pct",
+    "target_yield_pct", "minimum_eps_coverage_x", "minimum_downside_yield_pct",
+    "market_discovery_adapter", "source_snapshot_directory",
     "universe", "fallback_behavior", "strategy_ids", "required_filters",
     "ranking_factors", "warning_flags", "event_triggers", "primary_sources",
-    "fallback_sources", "required_output_fields"
+    "fallback_sources", "required_input_fields", "required_output_fields"
   ],
   "properties": {
     "schema_version": {"const": 1},
@@ -24,6 +26,11 @@
     "routine_cadence_days": {"type": "integer", "minimum": 1},
     "stale_after_days": {"type": "integer", "minimum": 0},
     "minimum_coverage_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "target_yield_pct": {"type": "number", "exclusiveMinimum": 0},
+    "minimum_eps_coverage_x": {"type": "number", "exclusiveMinimum": 0},
+    "minimum_downside_yield_pct": {"type": "number", "minimum": 0},
+    "market_discovery_adapter": {"type": "string", "pattern": "^scripts/[a-z0-9_-]+\\.py$"},
+    "source_snapshot_directory": {"const": "source-snapshots"},
     "universe": {"type": "string", "minLength": 10},
     "fallback_behavior": {"type": "string", "minLength": 10},
     "strategy_ids": {"$ref": "#/$defs/nonEmptyStringList"},
@@ -33,6 +40,7 @@
     "event_triggers": {"$ref": "#/$defs/nonEmptyStringList"},
     "primary_sources": {"$ref": "#/$defs/nonEmptyStringList"},
     "fallback_sources": {"$ref": "#/$defs/nonEmptyStringList"},
+    "required_input_fields": {"$ref": "#/$defs/nonEmptyStringList"},
     "required_output_fields": {"$ref": "#/$defs/nonEmptyStringList"}
   },
   "$defs": {

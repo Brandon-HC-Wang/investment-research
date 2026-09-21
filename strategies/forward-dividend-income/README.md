@@ -23,10 +23,11 @@ The mechanism is:
 
 ## Validation requirement
 
-The strategy remains `testing` for at least three annual dividend cohorts. Evaluation should include forecast-range coverage, precision among candidates forecast above the yield threshold, false-positive causes, source coverage, and stability across sector-specific rules. Historical tests must use only information available on each recorded screen date.
+The strategy remains `testing` for at least three annual dividend cohorts and 100 point-in-time company-year observations. Initial acceptance criteria are at least 70% forecast-interval coverage, median absolute DPS error no greater than 15%, at least 60% precision among candidates forecast above 7%, and precision at least 10 percentage points better than a displayed-yield-only baseline. Historical tests must use only information available on each recorded screen date and must disclose source coverage, false-positive causes, and sector concentration.
 
 Moving to `validated` does not create a recommendation. It means the defined mechanism passed its predeclared point-in-time evidence tests.
 
 ## History
 
 - **2026-09-10 — `testing`:** Initial definition created from the forward-dividend-yield methodology. No completed formal screen run or outcome validation exists yet.
+- **2026-09-14 — `testing`:** Predeclared minimum sample and outcome metrics were added before the first formal run. Thresholds remain hypotheses to test rather than evidence of efficacy.

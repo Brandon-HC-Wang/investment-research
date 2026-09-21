@@ -11,6 +11,11 @@ causal_mechanism: Recurring attributable earnings and parent-company cash capaci
 expected_time_window: 2027 cash dividends distributed from 2026 earnings
 minimum_validation_periods: 3
 minimum_validation_unit: annual_cohorts
+minimum_observations: 100
+forecast_interval_hit_rate_target_pct: 70
+median_dps_error_target_pct: 15
+candidate_precision_target_pct: 60
+baseline_precision_improvement_target_pp: 10
 screen_ids:
   - forward-dividend-yield
 confirmation_signals:

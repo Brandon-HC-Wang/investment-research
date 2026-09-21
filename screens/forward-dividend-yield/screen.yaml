@@ -2,13 +2,18 @@ schema_version: 1
 id: forward-dividend-yield
 title: Forward Dividend Yield Screen
 enabled: true
-definition_version: 1
-definition_updated_on: 2026-09-10
+definition_version: 3
+definition_updated_on: 2026-09-14
 refresh_mode: remind_only
 timezone: Asia/Taipei
 routine_cadence_days: 7
 stale_after_days: 7
 minimum_coverage_pct: 95
+target_yield_pct: 7
+minimum_eps_coverage_x: 1.25
+minimum_downside_yield_pct: 5
+market_discovery_adapter: scripts/collect_market_discovery.py
+source_snapshot_directory: source-snapshots
 universe: TWSE and TPEx common stocks; ETFs, ETNs, preferred shares, warrants, and non-standard trading records are excluded.
 fallback_behavior: Mark incomplete coverage and preserve errors; never interpret source failure, throttling, or missing values as zero or as an empty result.
 strategy_ids:
@@ -35,7 +40,25 @@ primary_sources:
   - MOPS and exchange official financial statements, monthly revenue, material information, and dividend disclosures.
 fallback_sources:
   - Secondary structured data only when labeled, reconciled where possible, and included in coverage limitations.
+required_input_fields:
+  - market
+  - ticker
+  - company
+  - price_date
+  - price_twd
+  - financial_period
+  - normalized_eps_base_twd
+  - normalized_eps_downside_twd
+  - estimated_dps_base_twd
+  - estimated_dps_downside_twd
+  - fcf_dividend_coverage_x
+  - payout_consistency_years
+  - warning_flags
+  - source_tier
+  - evidence_reference
+  - source_url
 required_output_fields:
+  - rank
   - market
   - ticker
   - company
@@ -49,6 +72,10 @@ required_output_fields:
   - forward_yield_base_pct
   - forward_yield_downside_pct
   - normalized_eps_coverage_x
+  - fcf_dividend_coverage_x
+  - payout_consistency_years
+  - screen_status
+  - human_review_required
   - warning_flags
   - source_tier
   - evidence_reference

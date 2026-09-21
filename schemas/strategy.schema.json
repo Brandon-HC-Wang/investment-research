@@ -8,7 +8,10 @@
     "schema_version", "id", "name", "enabled", "validation_state",
     "confidence", "created_on", "last_reviewed", "claim",
     "causal_mechanism", "expected_time_window", "minimum_validation_periods",
-    "minimum_validation_unit", "screen_ids", "confirmation_signals",
+    "minimum_validation_unit", "minimum_observations",
+    "forecast_interval_hit_rate_target_pct", "median_dps_error_target_pct",
+    "candidate_precision_target_pct", "baseline_precision_improvement_target_pp",
+    "screen_ids", "confirmation_signals",
     "rejection_signals"
   ],
   "properties": {
@@ -25,6 +28,11 @@
     "expected_time_window": {"type": "string", "minLength": 3},
     "minimum_validation_periods": {"type": "integer", "minimum": 1},
     "minimum_validation_unit": {"enum": ["quarters", "annual_cohorts", "runs"]},
+    "minimum_observations": {"type": "integer", "minimum": 1},
+    "forecast_interval_hit_rate_target_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "median_dps_error_target_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "candidate_precision_target_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "baseline_precision_improvement_target_pp": {"type": "number", "minimum": 0, "maximum": 100},
     "screen_ids": {"$ref": "#/$defs/nonEmptyStringList"},
     "confirmation_signals": {"$ref": "#/$defs/nonEmptyStringList"},
     "rejection_signals": {"$ref": "#/$defs/nonEmptyStringList"}

@@ -11,6 +11,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 - First-class `strategies/` and `screens/` contracts with registries, bilingual reasoning, rebuildable refresh state, and append-only run semantics.
 - JSON Schemas and templates for strategy definitions, screen definitions, screen state, and point-in-time run manifests.
 - Dependency-free, read-only screen-refresh checker with JSON output, deterministic date evaluation, and unit tests.
+- Offline `forward-dividend-yield` executor with explicit CSV input, dry-run mode, atomic append-only run artifacts, checksum validation, and success-only refresh-state advancement.
+- Predeclared annual dividend-strategy validation metrics covering sample size, forecast calibration, DPS error, candidate precision, and baseline improvement.
+- Explicit TWSE/TPEx market-discovery collector with strict TLS, ROC-date reconciliation, retained raw JSON, normalized full-universe output, completeness diagnostics, and immutable snapshot checksums.
+- Schema, template, validator support, and bilingual operating guidance for market-discovery source snapshots.
 - Bilingual investment-research report UI specification and a self-contained, responsive, printable HTML skeleton under `templates/reports/`.
 - Same-directory `.zh-TW.md` reading companions for every canonical English Markdown file, with validation and synchronization rules.
 - Modular industry knowledge packages with overview, metrics, valuation, and open-question records.
@@ -22,7 +26,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Changed
 
-- Extended repository validation and agent startup guidance to detect due screens locally without automatic network access or mutation.
+- Extended repository validation and agent startup guidance to detect due screens locally without automatic network access or mutation, and to validate persisted run artifacts and result integrity.
 - Preserved legacy industry guides and annual research logs as backward-compatible entry points while directing new work to modular packages.
 - Separated stable company identity in `meta.yaml` from workflow state in `research.yaml`.
 

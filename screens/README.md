@@ -6,4 +6,6 @@ Definitions are registered in [`registry.yaml`](registry.yaml). Each successful 
 
 ## Active definitions
 
+For feature overview, usage commands, limitations, and resume tasks, read the [Search Strategy Guide](../docs/SearchStrategyGuide.md).
+
 - [`forward-dividend-yield/`](forward-dividend-yield/README.md) — estimates whether normalized earnings and cash capacity may support a forward cash yield of at least 7%.

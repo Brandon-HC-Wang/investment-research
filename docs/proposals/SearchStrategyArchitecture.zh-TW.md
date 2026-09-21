@@ -1,6 +1,6 @@
 # 搜尋策略架構提案
 
-> 狀態：第一階段已於 2026-09-10 實作。現已有 schemas、templates、registries、第一組 definitions、validation 及 read-only 啟動提醒；網路擷取與自動刷新仍未實作，也未獲授權。
+> 狀態：第一階段已於 2026-09-10 實作，Phase 2 離線執行生命週期與 Phase 3 官方市場探索 collector 已於 2026-09-14 完成。現已有 definitions、validation、read-only 啟動提醒、不可變 source snapshots 及原子式 append-only run persistence；財報擷取、分析標準化與自動刷新仍未實作，也未獲授權。
 
 ## 目標
 
@@ -34,6 +34,14 @@ screens/
     README.md
     README.zh-TW.md
     state.yaml
+    source-snapshots/
+      README.md
+      <snapshot-id>/
+        manifest.yaml
+        market-discovery.csv
+        <official-source>.json
+        summary.md
+        summary.zh-TW.md
     runs/
       2026-09-10T090000+08-00/
         manifest.yaml
@@ -46,6 +54,7 @@ schemas/
   screen.schema.json
   screen-run.schema.json
   screen-state.schema.json
+  market-discovery-snapshot.schema.json
 
 templates/
   strategy/
@@ -53,6 +62,8 @@ templates/
 
 scripts/
   check_screen_refresh.py
+  collect_market_discovery.py
+  run_screen.py
   validate_repository.py
 ```
 
@@ -164,7 +175,7 @@ python3 scripts/check_screen_refresh.py --due-only
 2. 新增 schemas、templates、registry 契約與 validation，但不實作網路擷取。
 3. 登錄 forward-dividend strategy 與 screen，再把目前方法移入 definitions。
 4. 新增 read-only refresh checker 與 session 啟動指示。
-5. 實作一個明確、可重現的 screen runner，並保存第一次點時 run。
+5. 實作一個明確、可重現的 screen runner；只有在官方來源輸入完成審查後，才保存第一次點時 run。
 6. 將估計與後續股利決議比較；在達到既定歷史驗證門檻前，strategy 保持 `testing`。
 
 ## 第一階段已實作決策
@@ -173,3 +184,20 @@ python3 scripts/check_screen_refresh.py --due-only
 - `state.yaml` 作為可重建 cache 納入版本控制，不得保存唯一結論。
 - Session 啟動只執行本機 read-only 提醒，不查詢官方來源，也不執行刷新。
 - 驗證長度依 strategy 類型決定。第一個年度股利 strategy 至少需要三個年度 cohorts；季度 strategies 通常至少需要 8–12 個點時季度。實際成功指標必須在結果測試開始前先聲明。
+
+## Phase 2 已實作決策
+
+- `forward-dividend-yield` 現可在不連網的情況下評估經審查的 flat CSV。擷取與分析標準化仍是分離的責任。
+- Dry run 只驗證與評估，不修改 repository。持久化 run 會將 manifest、results 與雙語摘要原子式寫入新的 run ID；重複與不安全 ID 會被拒絕。
+- 只有完整的 `success` run 能推進可重建刷新 state。`partial` run 可保留供診斷，但維持先前 state 不變。
+- Run validation 會檢查 screen definition version、artifact paths、結果欄位與筆數、完整性不變條件及 SHA-256 integrity。
+- 年度 strategy 預先聲明的測試門檻為三個年度 cohorts、至少 100 個 company-year observations、至少 70% forecast-interval coverage、DPS 絕對誤差中位數不高於 15%、候選 precision 至少 60%，且 precision 至少比顯示殖利率 baseline 高 10 個百分點。這些是待驗證假說，不是有效性證據。
+- Repository 目前只有 synthetic executor fixtures，尚未建立官方點時 run，因此 screen 維持 `due`，reason codes 為 `never_run` 與 `definition_changed`。
+
+## Phase 3 已實作決策
+
+- 現可明確擷取 TWSE `BWIBBU_ALL`、`STOCK_DAY_ALL`，以及 TPEx `tpex_mainboard_peratio_analysis`、`tpex_mainboard_daily_close_quotes` 官方資料，也可從本機 JSON fixtures replay；live retrieval 強制 TLS verification。
+- Collector 會將各交易所顯示殖利率母體與收盤價連結、轉換民國日期、保留缺價診斷，並以 SHA-256 保存完整官方回應。
+- 標準化 discovery table 會保留官方股票殖利率資料集中的所有證券。顯示殖利率門檻只改變 `discovery_priority`，不會刪除列或定義前瞻殖利率 screen 母體。
+- Market-discovery snapshot 與 screen run 不同。它不能填入標準化 EPS、預估前瞻 DPS、可分配現金或自由現金流覆蓋，也不能推進 screen 刷新 state。
+- Live retrieval 一律必須明確執行。Session startup 維持本機 read-only；TLS 失敗必須以可信任 CA bundle 解決，不得停用憑證驗證。

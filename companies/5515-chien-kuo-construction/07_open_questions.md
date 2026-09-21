@@ -20,6 +20,12 @@
 - **Owner/next review:** Company workflow; 2026 Q3 filing.
 - **Status history:** 2026-09-09 — Opened.
 
+## 2026-09-15 — FVTPL-to-EPS refresh
+
+Q-2026-003 — Appended status event: Open; full profit attribution remains unresolved.
+
+The [2026-09-15 refresh](sources/market_data/2026-09-15-q3-fvtpl-mark.md), using September 14 prices and September 11 Allianz NAV, estimates a Q3-to-date FVTPL loss of TWD 87.231 million, or -0.346 EPS at an assumed 20% tax rate and 201.6 million shares. H1 reported FVTPL gain of TWD 724.148 million implies +2.874 EPS under the same assumption; YTD FVTPL contribution is approximately +2.527 EPS, not total company EPS. The unpriced-bucket sensitivity gives Q3 -0.724 to +0.032 EPS and YTD +2.150 to +2.905 EPS. This supersedes the September 9 mark only as the latest indicative estimate, not as a revision of historical evidence. Full-year reported and normalized EPS scenarios remain unchanged. Holdings, distributions, tax, FX and portfolio turnover remain unverified; Q-2026-003 and A-2026-004 remain Open. Confidence: low-to-medium. Next: reconcile September 30 holdings and the Q3 FVTPL/tax/EPS bridge. TPEx certificate work remains deferred; secondary emerging quotes and selected NAVs are explicitly identified in the calculation.
+
 ## Q-2026-002 — Open
 
 - **Opened:** 2026-09-09

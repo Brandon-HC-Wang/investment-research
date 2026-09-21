@@ -116,3 +116,7 @@ FVTPL 產生的獲利原則上可以支撐股利，因為它進入淨利，期�
 - *Company Act, Articles 232 and 237*, Ministry of Justice Laws & Regulations Database, <https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=232> and <https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=J0080001&flno=237>, accessed 2026-09-09.
 - *Order Governing Special Reserve Appropriation under Article 41 of the Securities and Exchange Act*, Financial Supervisory Commission, issued 2021-03-31, <https://law.fsc.gov.tw/LawContent.aspx?id=GL003111&media=print>, accessed 2026-09-09.
 - *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.
+
+## 2026-09-15 — FVTPL 換算 EPS 更新
+
+[2026-09-15 更新](sources/market_data/2026-09-15-q3-fvtpl-mark.md)採 9 月 14 日股價及 9 月 11 日安聯淨值，Q3 至今基準 FVTPL 虧損約 TWD 87.231 million；以假設稅率 20%、201.6 million 股換算 EPS -0.346。H1 已公布 FVTPL 利益 TWD 724.148 million，同假設下貢獻 EPS +2.874；年初至今 FVTPL 約貢獻 EPS +2.527，並非公司整體 EPS。未重估部位敏感度給出 Q3 EPS -0.724 至 +0.032、年初至今 +2.150 至 +2.905。此為最新示意估計，取代 9 月 9 日估計的現況用途，但不改寫歷史證據。全年報表及正常化 EPS 情境維持不變。持股、配息、稅、匯率及交易仍未確認；Q-2026-003、A-2026-004 維持 Open。信心低至中；下一步核對 9 月底持股及 Q3 FVTPL／稅／EPS 橋接。TPEx 憑證工作仍擱置，次級興櫃報價與部分基金淨值於計算檔明確標示。

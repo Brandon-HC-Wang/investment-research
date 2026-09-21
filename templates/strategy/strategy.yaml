@@ -11,6 +11,11 @@ causal_mechanism: Replace with the causal path from observable signal to sustain
 expected_time_window: Replace with an observable time window.
 minimum_validation_periods: 1
 minimum_validation_unit: runs
+minimum_observations: 1
+forecast_interval_hit_rate_target_pct: 70
+median_dps_error_target_pct: 15
+candidate_precision_target_pct: 60
+baseline_precision_improvement_target_pp: 10
 screen_ids:
   - replace-with-screen-id
 confirmation_signals:

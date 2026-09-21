@@ -10,3 +10,7 @@
 - **2026-09-09 — Q3-to-date 投資組合評價：** 假設 6 月底持倉不變，公開價格與淨值顯示基準 FVTPL 損失 TWD 74 million、EPS 負 TWD 0.29。**分析影響：** 合聖與泰宗造成下行壓力，但因 TWD 3.173 billion 無法定價且 Q3 尚未結束，全年情境不變。**更新紀錄：** `04_eps_model.md`、`06_notes.md`、`07_open_questions.md`、`08_thesis.md`、`assumptions.md`。**信心：** low-to-medium。
 - **2026-09-09 — FVTPL 歷史與分配檢查：** 經查核財報確認 FVTPL 餘額由 2021 年 TWD 1.918 billion、2022 年 TWD 1.049 billion，增至 2026 H1 的 TWD 5.452 billion。法規及公司政策確認 FVTPL 利益可在提列必要公積後進入可分配保留盈餘，但本身不產生現金。**分析影響：** 財務投資活動由來已久，近期的新問題是規模及股利品質。**更新紀錄：** `02_financials.md`、`07_open_questions.md`、`08_thesis.md`。**信心：** 歷史及會計路徑 high、實際分配能力 medium。
 - **2026-09-09 — 8 月營收更新：** 8 月營收 TWD 638.0 million，月減 8.6%、年減 4.4%；1–8 月營收 TWD 5.355 billion、年增 23.1%。**分析影響：** 月度認列放慢，但基準全年營收情境於 9–12 月每月只需 TWD 686 million，接近目前 run rate。因月營收不揭露毛利，營收及 EPS 情境維持不變。**更新紀錄：** `02_financials.md`、`03_growth_drivers.md`、`04_eps_model.md`、`08_thesis.md`、`assumptions.md`。**信心：** 營收 high、情境解讀 medium。
+
+## 2026-09-15 — FVTPL 換算 EPS 更新
+
+[2026-09-15 更新](sources/market_data/2026-09-15-q3-fvtpl-mark.md)採 9 月 14 日股價及 9 月 11 日安聯淨值，Q3 至今基準 FVTPL 虧損約 TWD 87.231 million；以假設稅率 20%、201.6 million 股換算 EPS -0.346。H1 已公布 FVTPL 利益 TWD 724.148 million，同假設下貢獻 EPS +2.874；年初至今 FVTPL 約貢獻 EPS +2.527，並非公司整體 EPS。未重估部位敏感度給出 Q3 EPS -0.724 至 +0.032、年初至今 +2.150 至 +2.905。此為最新示意估計，取代 9 月 9 日估計的現況用途，但不改寫歷史證據。全年報表及正常化 EPS 情境維持不變。持股、配息、稅、匯率及交易仍未確認；Q-2026-003、A-2026-004 維持 Open。信心低至中；下一步核對 9 月底持股及 Q3 FVTPL／稅／EPS 橋接。TPEx 憑證工作仍擱置，次級興櫃報價與部分基金淨值於計算檔明確標示。

@@ -6,4 +6,6 @@ Definitions 登錄於 [`registry.yaml`](registry.yaml)。每次成功或具有�
 
 ## 啟用中的定義
 
+功能概要、操作命令、限制與恢復待辦請閱讀[搜尋策略指南](../docs/SearchStrategyGuide.md)。
+
 - [`forward-dividend-yield/`](forward-dividend-yield/README.md) — 估計標準化盈餘與現金能力是否可能支持至少 7% 的前瞻現金殖利率。
