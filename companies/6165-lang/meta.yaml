@@ -1,0 +1,14 @@
+ticker: "6165"
+company: 浪凡網路科技股份有限公司
+industry: Digital Entertainment Platforms
+market: TWSE
+status: qualifying
+confidence: low
+priority: 2
+last_update: 2026-09-21
+next_action: Reconcile Q3 platform growth, tax, prepayments, dividend settlement and treasury-share transfers against the initial scenario model.
+watch_items:
+  - Paying-user retention and effective streamer payouts
+  - Tax and normalized cash earnings
+  - Noncore prepayments and related-party receivable collection
+  - Dividend settlement and diluted share count

@@ -1,0 +1,17 @@
+{
+  "source_url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html",
+  "access_date": "2026-09-21",
+  "period": "2026-08",
+  "unit": "TWD thousand",
+  "ticker": "6165",
+  "company": "浪凡",
+  "revenue": 286160,
+  "previous_month": 276543,
+  "previous_year_month": 270326,
+  "reported_mom_percent": 3.47,
+  "reported_yoy_percent": 5.85,
+  "ytd": 2283021,
+  "prior_ytd": 2113165,
+  "reported_ytd_growth_percent": 8.03,
+  "note": "Extracted from the official Big5 HTML row; displayed growth rates are truncated. Financial-statement H1 revenue differs from monthly cumulative revenue."
+}
