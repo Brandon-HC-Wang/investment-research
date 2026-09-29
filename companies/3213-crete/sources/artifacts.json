@@ -1,0 +1,32 @@
+[
+  {
+    "file": "earnings/2026Q2-consolidated.pdf",
+    "url": "https://www.crete.com.tw/rwd/1152.pdf",
+    "access_date": "2026-09-24",
+    "sha256": "97c766d62c5b61b737940595ef069a96b92b2c63b2098c180f10ac6c6d9fde00"
+  },
+  {
+    "file": "earnings/2025FY-consolidated.pdf",
+    "url": "https://www.crete.com.tw/rwd/114-1.pdf",
+    "access_date": "2026-09-24",
+    "sha256": "072d8756dd14c09d8de8ed66645f7bc2bdf4c2d9e82f87b76eecf9387b5a8268"
+  },
+  {
+    "file": "annual_reports/2025-annual-report.pdf",
+    "url": "https://www.crete.com.tw/rwd/114%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+    "access_date": "2026-09-24",
+    "sha256": "e0e5332c5d1e3142977be6fa02186ee1a77d36c542334d6f97983dc615b11077"
+  },
+  {
+    "file": "conference_calls/2025-12-16-presentation.pdf",
+    "url": "https://www.crete.com.tw/rwd/114%E6%B3%95%E8%AA%AA%E6%9C%83_CH.pdf",
+    "access_date": "2026-09-24",
+    "sha256": "7aa8195e352096ebdee26afe9444d7137966c1feeb1e91e75226381f3b131351"
+  },
+  {
+    "file": "annual_reports/mildef-2025-annual-report.pdf",
+    "url": "https://investors.mildef.com/wp-content/uploads/2026/04/MilDef-Annual-and-sustainability-report-2025-ENG.pdf",
+    "access_date": "2026-09-24",
+    "sha256": "b76012de5ee3d35456ae9f13ab7b9a7a6bdfcd726fcec00e4cb316a9cd677d84"
+  }
+]

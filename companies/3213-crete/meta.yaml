@@ -1,0 +1,14 @@
+ticker: "3213"
+company: 茂訊電腦股份有限公司
+industry: Rugged Computers and PC Distribution
+market: TPEx
+status: qualifying
+confidence: medium
+priority: 2
+last_update: 2026-09-24
+next_action: Verify Q3 rugged shipments, tax reconciliation, capacity commissioning and inventory-to-cash conversion before raising 2027 confidence.
+watch_items:
+  - Rugged shipment growth and RODA concentration
+  - Inventory, receivable collection and operating cash flow
+  - Effective tax rate and FX exposure
+  - Capacity commissioning and 2027 order terms
