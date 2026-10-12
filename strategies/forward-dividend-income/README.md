@@ -31,3 +31,5 @@ Moving to `validated` does not create a recommendation. It means the defined mec
 
 - **2026-09-10 — `testing`:** Initial definition created from the forward-dividend-yield methodology. No completed formal screen run or outcome validation exists yet.
 - **2026-09-14 — `testing`:** Predeclared minimum sample and outcome metrics were added before the first formal run. Thresholds remain hypotheses to test rather than evidence of efficacy.
+
+- **2026-10-12 — `testing`:** The owner confirmed screen version 4 interval nomination: the base-yield upper bound reaching 7% qualifies for that gate, with partial-range versus entire-range labels. Preserve EPS coverage/downside/cash checks and existing validation targets. For future cohorts, candidate precision means realized target-yield attainment among all interval-qualified nominees, and must also be reported separately by qualification label; it is not an assertion that each representative forecast exceeds 7%. Keep old and new definition cohorts identifiable. No forecast/outcome validation or confidence increase follows from the rule change.

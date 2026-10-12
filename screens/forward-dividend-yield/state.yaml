@@ -1,12 +1,12 @@
 schema_version: 1
 screen_id: forward-dividend-yield
 status: due
-definition_version: 3
+definition_version: 4
 last_successful_run: null
 last_data_as_of: null
-next_due_at: 2026-09-10
+next_due_at: 2026-10-12
 latest_run_path: null
-updated_at: 2026-09-14T00:00:00+08:00
+updated_at: 2026-10-12T11:51:07+08:00
 reason_codes:
   - never_run
   - definition_changed

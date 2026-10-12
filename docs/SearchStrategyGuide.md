@@ -1,6 +1,10 @@
 # Search Strategy Feature: Overview, Usage, and Handoff
 
-## Current checkpoint — 2026-09-15
+## Current checkpoint — 2026-10-12
+
+The first covered-company exploratory run is partial under definition version 3; no complete successful run exists. The owner has now confirmed interval qualification: upper bound reaching 7% satisfies the base-yield gate. Current definition version is 4, with required lower/upper DPS inputs and partial/entire-range result labels. EPS coverage, downside yield and completeness thresholds remain unchanged. The exact version 3 definition is archived; the first run and its inputs remain unchanged. Refresh state remains due. [Current screen contract](../screens/forward-dividend-yield/README.md), [dated decisions](../research-log/industries/ForwardDividendPilot.md).
+
+## Historical checkpoint — 2026-09-15
 
 The infrastructure and offline execution path exist, but no formal forward-dividend screen run or retained official market snapshot exists. The registered strategy is `testing`; screen definition version is 3. The local refresh checker reports `due` with `definition_changed` and `never_run`.
 
@@ -36,13 +40,15 @@ The filing/model enrichment step is not implemented. A market-discovery CSV is n
 
 The current time horizon is cash dividends distributed in 2027 from normalized 2026 earnings. Required numerical conditions are:
 
-- Base forward cash yield ≥ 7%.
+- Reviewed base forward cash-yield interval upper bound ≥ 7% (inclusive).
 - Normalized base EPS / required DPS ≥ 1.25 times.
 - Downside forward cash yield ≥ 5%.
 
 `required DPS = screen-date price × 7%`
 
 `forward yield = estimated cash DPS / screen-date price × 100%`
+
+Definition version 4 uses `base_yield_rule: range_upper_bound`. A range crossing 7% is `partial_range`; a range with its lower bound at or above 7% is `entire_range`. Both meet the base gate. The representative base DPS must satisfy `0 <= low <= point <= high`; a single-point model must explicitly repeat its point for both bounds. Missing, reversed or non-finite bounds are invalid. Bounds require reviewed evidence, and threshold comparisons use unrounded values.
 
 Ranking uses downside yield, normalized EPS coverage, free-cash-flow dividend coverage, and payout-consistency years. Warning flags and all retained candidates require human review. The executor does not verify business quality, sector normalization, parent-company cash capacity, or whether analyst estimates are supportable.
 
@@ -87,7 +93,7 @@ For reviewed official replay, `--source-dir` must contain `twse_yield.json`, `tw
 The exact header is defined in [screen.yaml](../screens/forward-dividend-yield/screen.yaml):
 
 ```csv
-market,ticker,company,price_date,price_twd,financial_period,normalized_eps_base_twd,normalized_eps_downside_twd,estimated_dps_base_twd,estimated_dps_downside_twd,fcf_dividend_coverage_x,payout_consistency_years,warning_flags,source_tier,evidence_reference,source_url
+market,ticker,company,price_date,price_twd,financial_period,normalized_eps_base_twd,normalized_eps_downside_twd,estimated_dps_base_twd,estimated_dps_base_low_twd,estimated_dps_base_high_twd,estimated_dps_downside_twd,fcf_dividend_coverage_x,payout_consistency_years,warning_flags,source_tier,evidence_reference,source_url
 ```
 
 Use TWD per share for price, EPS, and DPS; use times for cash-flow coverage and whole years for payout consistency. Preserve the distinction between reported financial periods and forecast years. Every estimate needs dated filing/model provenance, recurring-versus-one-off adjustments, scenario logic, and cash-capacity review. Market and ticker identities must be unique; price dates and financial periods must be consistent across valid rows. `source_tier` is `primary` or `secondary`, and `source_url` is an absolute HTTP(S) URL.
@@ -111,7 +117,7 @@ For an authorized formal run, replace the fixture with a reviewed input, choose 
 
 ### 5. Review saved results and state
 
-A persisted run creates `manifest.yaml`, `results.csv`, `summary.md`, and `summary.zh-TW.md` under a new `runs/<run-id>/` directory. Read the manifest's status, parameters, provenance, errors, and coverage before interpreting results. Correct old results with a new run, never an overwrite.
+A persisted run creates `manifest.yaml`, `definition.yaml`, `results.csv`, `summary.md`, and `summary.zh-TW.md` under a new `runs/<run-id>/` directory. Read the manifest's status, parameters, provenance, errors, and coverage before interpreting results. Correct old results with a new run, never an overwrite. Historical runs validate against a retained definition snapshot or exact archived definition, including its hash and output header. Results retain DPS/yield lower and upper bounds, the representative estimate and the partial/entire qualification label.
 
 - `success`: evaluation completed without row errors and met the configured input coverage requirement; only this status updates refresh state.
 - `partial`: some rows could not be evaluated or coverage was insufficient; results are diagnostic and state is not advanced.

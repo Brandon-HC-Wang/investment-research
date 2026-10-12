@@ -10,6 +10,7 @@ routine_cadence_days: 7
 stale_after_days: 7
 minimum_coverage_pct: 95
 target_yield_pct: 7
+base_yield_rule: point
 minimum_eps_coverage_x: 1.25
 minimum_downside_yield_pct: 5
 market_discovery_adapter: scripts/replace-with-adapter.py

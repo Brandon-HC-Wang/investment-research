@@ -1,0 +1,13 @@
+ticker,earnings_year,distribution_year,cash_dps_twd,stock_dps_at_par_twd,status,separate_capital_return_twd_million,cash_payout_basis,evidence_note
+3213,2023,2024,5.40,0,declared,0,5.40 / 7.85,Crete official dividend table; FY2023 basic EPS; payment 2024-08-02
+3213,2024,2025,6.00,0,declared,0,6.00 / 8.44,Crete official dividend table; payment 2025-07-25
+3213,2025,2026,7.00,0,declared,0,7.00 / 7.40,Crete official dividend table; payment 2026-07-24
+5515,2023,2024,1.00,0,declared,504.000,252.000 / 338.513,"Cash payout numerator/parent profit TWD million; capital return is separate, FY2024 cash-flow year"
+5515,2024,2025,2.15,0,declared,0,433.440 / 681.757,Cash payout numerator/parent profit TWD million; use totals across share reduction
+5515,2025,2026,3.30,0,declared,0,665.280 / 903.642,Cash payout numerator/parent profit TWD million
+6005,2023,2024,1.33,0,declared,0,1.33 / 1.90,Raw historical pre-2026-bonus basis
+6005,2024,2025,1.50,0,declared,0,1.50 / 2.25,Raw historical pre-2026-bonus basis
+6005,2025,2026,0.40,1.31,declared,0,0.40 / 2.64,Stock DPS at par 10 adds 13.1% shares; not cash yield
+6165,2023,2024,0.40,,declared,0,,FY2025 note PDF p.43; cash total 31.101 million; stock distribution completeness not verified
+6165,2024,2025,0.60,,declared,0,0.60 / 1.04 (rounded),FY2025 note rounded DPS; cash total 45.854 million; exact ex-dividend adjustment not reconciled
+6165,2025,2026,5.00,,declared,0,367.928 / 308.271,H126 confirms declaration; stock distribution completeness not verified

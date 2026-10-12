@@ -102,7 +102,7 @@ SCREEN_KEYS = {
     "schema_version", "id", "title", "enabled", "definition_version",
     "definition_updated_on", "refresh_mode", "timezone",
     "routine_cadence_days", "stale_after_days", "minimum_coverage_pct",
-    "target_yield_pct", "minimum_eps_coverage_x", "minimum_downside_yield_pct",
+    "target_yield_pct", "base_yield_rule", "minimum_eps_coverage_x", "minimum_downside_yield_pct",
     "market_discovery_adapter", "source_snapshot_directory",
     "universe", "fallback_behavior", "strategy_ids", "required_filters",
     "ranking_factors", "warning_flags", "event_triggers", "primary_sources",
@@ -379,6 +379,19 @@ def validate_screen(path: Path, errors: list[str]) -> dict[str, object] | None:
     downside = values.get("minimum_downside_yield_pct")
     if not isinstance(downside, (int, float)) or downside < 0:
         errors.append(f"{relative}: minimum_downside_yield_pct must be non-negative")
+    if values.get("base_yield_rule") not in {"point", "range_upper_bound"}:
+        errors.append(f"{relative}: invalid base_yield_rule")
+    if values.get("base_yield_rule") == "range_upper_bound":
+        for field in ("estimated_dps_base_low_twd", "estimated_dps_base_high_twd"):
+            if field not in values.get("required_input_fields", []):
+                errors.append(f"{relative}: interval rule requires input {field}")
+        for field in (
+            "estimated_dps_base_low_twd", "estimated_dps_base_high_twd",
+            "forward_yield_base_low_pct", "forward_yield_base_high_pct",
+            "base_yield_qualification",
+        ):
+            if field not in values.get("required_output_fields", []):
+                errors.append(f"{relative}: interval rule requires output {field}")
     adapter = values.get("market_discovery_adapter")
     if not isinstance(adapter, str) or not re.fullmatch(r"scripts/[a-z0-9_-]+\.py", adapter):
         errors.append(f"{relative}: market_discovery_adapter must be a scripts/*.py path")
@@ -459,6 +472,27 @@ def validate_screen_run(
     definition_hash = values.get("screen_definition_hash")
     if not isinstance(definition_hash, str) or not re.fullmatch(r"[a-f0-9]{64}", definition_hash):
         errors.append(f"{relative}: screen_definition_hash must be SHA-256")
+    run_definition = definition
+    historical_version = values.get("screen_definition_version")
+    snapshot_path = run_dir / "definition.yaml"
+    if not snapshot_path.is_file() and isinstance(historical_version, int):
+        snapshot_path = run_dir.parent.parent / "definition-history" / f"{historical_version}.yaml"
+    if snapshot_path.is_file():
+        loaded = load_structured_file(snapshot_path, errors)
+        if loaded is not None:
+            run_definition = loaded
+            if loaded.get("definition_version") != historical_version or loaded.get("id") != values.get("screen_id"):
+                errors.append(f"{relative}: stored definition identity/version differs from manifest")
+        if hashlib.sha256(snapshot_path.read_bytes()).hexdigest() != definition_hash:
+            errors.append(f"{relative}: stored definition hash differs from manifest")
+    elif historical_version != definition.get("definition_version") or (
+        isinstance(historical_version, int) and historical_version >= 4
+    ):
+        errors.append(f"{relative}: missing stored screen definition")
+    else:
+        current_path = run_dir.parent.parent / "screen.yaml"
+        if not current_path.is_file() or hashlib.sha256(current_path.read_bytes()).hexdigest() != definition_hash:
+            errors.append(f"{relative}: current definition hash differs from legacy manifest")
     for field in ("started_at", "finished_at"):
         validate_iso_datetime_or_null(values.get(field), field, relative, errors)
     if values.get("price_date") is not None:
@@ -495,7 +529,7 @@ def validate_screen_run(
     if values.get("status") == "success":
         if counts.get("failed_source_count") != 0:
             errors.append(f"{relative}: successful run cannot have failed sources")
-        if isinstance(coverage, (int, float)) and coverage < definition.get("minimum_coverage_pct", 100):
+        if isinstance(coverage, (int, float)) and coverage < run_definition.get("minimum_coverage_pct", 100):
             errors.append(f"{relative}: successful run is below minimum coverage")
 
     if values.get("status") not in {"success", "partial"}:
@@ -520,7 +554,7 @@ def validate_screen_run(
         errors.append(f"{relative}: results_sha256 does not match results.csv")
     with results_path.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
-        if reader.fieldnames != definition.get("required_output_fields"):
+        if reader.fieldnames != run_definition.get("required_output_fields"):
             errors.append(f"{relative}: results.csv header differs from screen contract")
         result_count = sum(1 for _ in reader)
     if result_count != values.get("retained_count"):

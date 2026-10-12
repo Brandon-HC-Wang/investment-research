@@ -1,0 +1,32 @@
+schema_version: 1
+run_id: "2026-10-12-covered-pilot-v1"
+screen_id: "forward-dividend-yield"
+screen_definition_version: 3
+screen_definition_hash: "1bfc09523899e0e7d41bf684dfdfe41370b4e19ff8910809f2ac93d26b6821e0"
+started_at: "2026-10-12T11:26:48+08:00"
+finished_at: "2026-10-12T11:26:48+08:00"
+status: "partial"
+price_date: "2026-10-08"
+financial_period: "FY2026E"
+universe_count: 4
+evaluated_count: 2
+retained_count: 0
+coverage_pct: 50.0
+fallback_source_count: 0
+failed_source_count: 2
+error_codes:
+  - "row_4:invalid_fcf_dividend_coverage_x"
+  - "row_5:invalid_normalized_eps_base_twd"
+parameters:
+  - "target_yield_pct=7"
+  - "minimum_eps_coverage_x=1.25"
+  - "minimum_downside_yield_pct=5"
+  - "minimum_coverage_pct=95"
+source_urls:
+  - "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F08&response=json"
+  - "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=5515"
+results_path: "results.csv"
+results_sha256: "6dcb5b9c141ff002a1f916ba5d533639496ff122c9b3302007bb204fe4bdf46b"
+summary_path: "summary.md"
+confidence: "low"
+human_review_required: true

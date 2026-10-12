@@ -1,4 +1,4 @@
-market,ticker,company,price_date,price_twd,financial_period,normalized_eps_base_twd,normalized_eps_downside_twd,estimated_dps_base_twd,estimated_dps_downside_twd,fcf_dividend_coverage_x,payout_consistency_years,warning_flags,source_tier,evidence_reference,source_url
-TEST,SYNTH-A,Synthetic Alpha,2026-09-14,100,2026H1,10,8,8,6,1.4,5,,primary,synthetic fixture A,https://example.invalid/a
-TEST,SYNTH-B,Synthetic Beta,2026-09-14,50,2026H1,5,4,3.75,2.75,1.2,4,sector_review,secondary,synthetic fixture B,https://example.invalid/b
-TEST,SYNTH-C,Synthetic Gamma,2026-09-14,100,2026H1,12,10,6.5,5.5,1.6,5,,primary,synthetic fixture C,https://example.invalid/c
+market,ticker,company,price_date,price_twd,financial_period,normalized_eps_base_twd,normalized_eps_downside_twd,estimated_dps_base_twd,estimated_dps_base_low_twd,estimated_dps_base_high_twd,estimated_dps_downside_twd,fcf_dividend_coverage_x,payout_consistency_years,warning_flags,source_tier,evidence_reference,source_url
+TEST,SYNTH-A,Synthetic Alpha,2026-09-14,100,2026H1,10,8,8,8,8,6,1.4,5,,primary,synthetic fixture A,https://example.invalid/a
+TEST,SYNTH-B,Synthetic Beta,2026-09-14,50,2026H1,5,4,3.75,3.75,3.75,2.75,1.2,4,sector_review,secondary,synthetic fixture B,https://example.invalid/b
+TEST,SYNTH-C,Synthetic Gamma,2026-09-14,100,2026H1,12,10,6.5,6.5,6.5,5.5,1.6,5,,primary,synthetic fixture C,https://example.invalid/c

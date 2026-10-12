@@ -10,6 +10,7 @@
 
 ### 新增
 
+- 首次保存已研究公司前瞻股利試跑，包含雙語假設、三年現金／股票股利歷史、保留股價證據、輸入校驗碼與部分覆蓋診斷（2026-10-12）；門檻與執行器 schema 維持不變。
 - 新增證券經紀產業知識包，涵蓋交易與避險淨損益、關聯投信曝險、無償配股分母及現金／股票股利情境（2026-10-12）。
 - 第一級 `strategies/` 與 `screens/` 契約，包含 registries、雙語推理、可重建刷新 state 及 append-only run semantics。
 - Strategy definitions、screen definitions、screen state 及點時 run manifests 的 JSON Schemas 與 templates。
@@ -29,6 +30,9 @@
 
 ### 已更改
 
+- 前瞻股利 screen definition 改為 version 4：有證據的基準現金殖利率區間，未取整上緣達 7% 即符合此門檻；新增部分／整段區間標示、必填 DPS 界限、不可變定義快照及歷史契約驗證，EPS／下行／完整度條件維持不變（2026-10-12）。
+- 記錄證據導向股利基準比較與可重算盈餘／配發率敏感度；修正將試跑疊加折扣解讀為正常年度預估，保留歷史 run、缺現金資料條件及登錄門檻（2026-10-12）。
+- 記錄已確認的前瞻股利小樣本準備政策：已研究公司、產業別盈餘／現金估算、已決議／預估股利及最近三個完整盈餘年度歷史；登錄門檻維持不變（2026-10-12）。
 - 擴充 repository validation 與 agent startup guidance，在不自動連線或修改的前提下偵測已到期 screens，並驗證持久化 run artifacts 與結果完整性。
 - 保留傳統產業指南和年度研究日誌作為向後相容的切入點，同時將新工作引導到模組化套件。
 - 將 `meta.yaml` 中的穩定公司身分與 `research.yaml` 中的工作流程狀態分開。

@@ -1,0 +1,15 @@
+{
+  "README.md": "f6f3e7477286ebcdf8fb4bad028df26abd18acdea55aa1ecc046b90f38873f10",
+  "README.zh-TW.md": "1d27453e699c20184591f92330d10f420b2ac7876e205e89b02372accda63f4c",
+  "calculations.json": "b0f3e21fd939b2931b54812de667df39de010ede12dc94b537319ff75dfb8e24",
+  "diagnostics.csv": "810eedb2d93d0b61c521eed919dd4e1c2de346d0cc6a96db42aca1622fc6c1ed",
+  "dividend-history.csv": "65774229fc5d9fd8bbbb2f934ab8a486444cc20d91776e81ac5f20401e26c499",
+  "input.csv": "1173feee809e11eb7bb1661c6327a04e7ee5ed3928aa1ecbaca785378220ac8b",
+  "sources/dividends/3213-dividends.html": "57c24085acaa24d4123fb10bce4de96d255e293df284a28f10b61711a347ab44",
+  "sources/earnings/3213-2024FY-consolidated.pdf": "92a0a1648f94d17a3ff3b9893b3cd21bce094fd6a0f15aeb2827601908d90dca",
+  "sources/market_data/3213-2026-10-08.json": "f688bec744801982cafb954de7a44bc0e19742b5e499e9ead08136dd3e282e45",
+  "sources/market_data/5515-2026-10-08.json": "0654db948762f02066e72993187a01578c39c6c24071d260f49697dc9c7a650c",
+  "sources/market_data/6005-2026-10-08.json": "c432c503ce224806a04810490de583629e40d5a86d550e22d3b3454aae92d801",
+  "sources/market_data/6165-2026-10-08.json": "6e8a3cb9d3e25baf301e24f55358a011050b4224af115cfcf20a722a3ba00a33",
+  "sources.json": "b4c057e8f181c35de38d25d2a5ae93e686d493da16d9ec51283179a67191e94a"
+}

@@ -1,0 +1,124 @@
+{
+  "execution_date": "2026-10-12",
+  "price_date": "2026-10-08",
+  "information_cutoff": "2026-10-12",
+  "earnings_period": "FY2026E",
+  "estimated_distribution_year": 2027,
+  "scope": [
+    "3213",
+    "5515",
+    "6005",
+    "6165"
+  ],
+  "forecast_status": "analyst conditional scenarios; not approved dividends; human review outstanding",
+  "units": "TWD million for cash/earnings/shares; TWD/share for EPS/DPS",
+  "crete": {
+    "noncore_eps_adjustment": "0.07886152134331377705846651831",
+    "cash_proxy_million": "143.826",
+    "base_cash_cap_dps": "6.552159836414756752151316350",
+    "downside_cash_cap_dps": "2.656411348726250319502428218",
+    "historical_fcf_million": [
+      "24.131",
+      "481.375",
+      "602.504"
+    ],
+    "cash_flow_year_dividends_million": [
+      "211.268",
+      "316.902",
+      "352.113"
+    ]
+  },
+  "chien_kuo": {
+    "basic_shares_million": "201.600",
+    "diluted_shares_million": "203.161",
+    "cash_cap_dps": "2.050793650793650793650793651",
+    "historical_fcf_million": [
+      "1546.400",
+      "413.440",
+      "2638.536"
+    ],
+    "cash_flow_year_dividends_million": [
+      "252.000",
+      "252.000",
+      "433.440"
+    ]
+  },
+  "capital_securities": {
+    "selected_gain_eps_adjustment": "0.3974960548021627125232635539",
+    "fcf_applicability": "not applicable; left missing"
+  },
+  "computed_inputs": [
+    {
+      "market": "TPEx",
+      "ticker": "3213",
+      "company": "Crete",
+      "price_date": "2026-10-08",
+      "price_twd": "123.50",
+      "financial_period": "FY2026E",
+      "normalized_eps_base_twd": "12.06942730460668622294153348",
+      "normalized_eps_downside_twd": "9.301982230756686222941533482",
+      "estimated_dps_base_twd": "6.00",
+      "estimated_dps_downside_twd": "2.65",
+      "fcf_dividend_coverage_x": "1.258697487058139257488784857",
+      "payout_consistency_years": "3",
+      "warning_flags": "conditional_cash_proxy;parent_cash_unverified;negative_H1_CFO;exclude_FVTPL_FX;low_payout_confidence",
+      "source_tier": "primary",
+      "evidence_reference": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/README.md#3213",
+      "source_url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F08&response=json"
+    },
+    {
+      "market": "TWSE",
+      "ticker": "5515",
+      "company": "Chien Kuo",
+      "price_date": "2026-10-08",
+      "price_twd": "52.70",
+      "financial_period": "FY2026E",
+      "normalized_eps_base_twd": "3.770802467008923956861799263",
+      "normalized_eps_downside_twd": "2.778486028322365020845536299",
+      "estimated_dps_base_twd": "2.05",
+      "estimated_dps_downside_twd": "1.400",
+      "fcf_dividend_coverage_x": "4.905248335893497183819764465",
+      "payout_consistency_years": "3",
+      "warning_flags": "conditional_cash_proxy;parent_cash_unverified;customer_advances;exclude_FVTPL_disposals;capital_reduction_separate;low_payout_confidence",
+      "source_tier": "primary",
+      "evidence_reference": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/README.md#5515",
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=5515"
+    },
+    {
+      "market": "TWSE",
+      "ticker": "6005",
+      "company": "Capital Securities",
+      "price_date": "2026-10-08",
+      "price_twd": "32.05",
+      "financial_period": "FY2026E",
+      "normalized_eps_base_twd": "4.292503945197837287476736446",
+      "normalized_eps_downside_twd": "3.292503945197837287476736446",
+      "estimated_dps_base_twd": "1.64",
+      "estimated_dps_downside_twd": "0.55",
+      "fcf_dividend_coverage_x": "",
+      "payout_consistency_years": "3",
+      "warning_flags": "financial_FCF_inapplicable;capital_retention;cash_stock_choice;not_evaluated",
+      "source_tier": "primary",
+      "evidence_reference": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/README.md#6005",
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=6005"
+    },
+    {
+      "market": "TWSE",
+      "ticker": "6165",
+      "company": "Lang",
+      "price_date": "2026-10-08",
+      "price_twd": "47.90",
+      "financial_period": "FY2026E",
+      "normalized_eps_base_twd": "",
+      "normalized_eps_downside_twd": "",
+      "estimated_dps_base_twd": "",
+      "estimated_dps_downside_twd": "",
+      "fcf_dividend_coverage_x": "",
+      "payout_consistency_years": "3",
+      "warning_flags": "future_cash_DPS_unverified;parent_cash_unverified;debt_capex;declared_5_not_forward;not_evaluated",
+      "source_tier": "primary",
+      "evidence_reference": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/README.md#6165",
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=6165"
+    }
+  ]
+}

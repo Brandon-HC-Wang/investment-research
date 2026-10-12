@@ -1,0 +1,212 @@
+[
+  {
+    "path": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/sources/market_data/3213-2026-10-08.json",
+    "sha256": "f688bec744801982cafb954de7a44bc0e19742b5e499e9ead08136dd3e282e45",
+    "title": "Individual stock daily trading",
+    "publisher": "TPEx",
+    "publication_or_data_date": "2026-10-08",
+    "access_date": "2026-10-12",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F08&response=json",
+    "section": "115/10/08 row; closing price column"
+  },
+  {
+    "path": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/sources/market_data/5515-2026-10-08.json",
+    "sha256": "0654db948762f02066e72993187a01578c39c6c24071d260f49697dc9c7a650c",
+    "title": "Individual stock daily trading",
+    "publisher": "TWSE",
+    "publication_or_data_date": "2026-10-08",
+    "access_date": "2026-10-12",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=5515",
+    "section": "115/10/08 row; closing price column"
+  },
+  {
+    "path": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/sources/market_data/6005-2026-10-08.json",
+    "sha256": "c432c503ce224806a04810490de583629e40d5a86d550e22d3b3454aae92d801",
+    "title": "Individual stock daily trading",
+    "publisher": "TWSE",
+    "publication_or_data_date": "2026-10-08",
+    "access_date": "2026-10-12",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=6005",
+    "section": "115/10/08 row; closing price column"
+  },
+  {
+    "path": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/sources/market_data/6165-2026-10-08.json",
+    "sha256": "6e8a3cb9d3e25baf301e24f55358a011050b4224af115cfcf20a722a3ba00a33",
+    "title": "Individual stock daily trading",
+    "publisher": "TWSE",
+    "publication_or_data_date": "2026-10-08",
+    "access_date": "2026-10-12",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=6165",
+    "section": "115/10/08 row; closing price column"
+  },
+  {
+    "path": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/sources/earnings/3213-2024FY-consolidated.pdf",
+    "sha256": "92a0a1648f94d17a3ff3b9893b3cd21bce094fd6a0f15aeb2827601908d90dca",
+    "title": "2024 consolidated financial statements",
+    "publisher": "Crete",
+    "publication_or_data_date": "FY2024; exact signature date not extracted",
+    "access_date": "2026-10-12",
+    "url": "https://www.crete.com.tw/rwd/113-1.pdf",
+    "section": "Consolidated cash-flow statement; FY2024/FY2023 comparative columns"
+  },
+  {
+    "path": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/sources/dividends/3213-dividends.html",
+    "sha256": "57c24085acaa24d4123fb10bce4de96d255e293df284a28f10b61711a347ab44",
+    "title": "Dividend information",
+    "publisher": "Crete",
+    "publication_or_data_date": "Undated page; FY2023-FY2025 rows",
+    "access_date": "2026-10-12",
+    "url": "https://www.crete.com.tw/rwd/t2.htm",
+    "section": "FY2023-FY2025 cash/stock DPS and payment dates"
+  },
+  {
+    "path": "companies/3213-crete/sources/earnings/2025FY-consolidated.pdf",
+    "sha256": "072d8756dd14c09d8de8ed66645f7bc2bdf4c2d9e82f87b76eecf9387b5a8268",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Crete",
+    "publication_or_data_date": "2026-03-11",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://www.crete.com.tw/rwd/114-1.pdf",
+    "section": "Cash-flow statement; dividend and EPS notes"
+  },
+  {
+    "path": "companies/3213-crete/sources/earnings/2026Q2-consolidated.pdf",
+    "sha256": "97c766d62c5b61b737940595ef069a96b92b2c63b2098c180f10ac6c6d9fde00",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Crete",
+    "publication_or_data_date": "2026-08-05",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://www.crete.com.tw/rwd/1152.pdf",
+    "section": "Balance sheet; cash-flow; FVTPL and nonoperating income notes"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/sources/earnings/2025-chien-kuo-consolidated-financial-report.pdf",
+    "sha256": "629a1ae89e62a1a28d4ae985d0da6b8414996c85cae106997483aacbd933d76e",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Chien Kuo",
+    "publication_or_data_date": "FY2025; exact publication day not captured",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://www.ckgroup.com.tw/storage/app/uploads/public/6a0/123/139/6a01231396ea6538469257.pdf",
+    "section": "PDF pp.11-13; cash-flow and dividends notes"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/sources/earnings/2024-chien-kuo-consolidated-financial-report.pdf",
+    "sha256": "892406949ccd24632fd9a10388923393f8850fbf94b024add8ca7a23211bd246",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Chien Kuo",
+    "publication_or_data_date": "FY2024; exact publication day not captured",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://www.ckgroup.com.tw/storage/app/uploads/public/694/3a3/5c6/6943a35c6c1c7551364267.pdf",
+    "section": "Cash-flow; capital reduction; earnings distribution notes"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/sources/earnings/2026Q2-chien-kuo-consolidated-financial-report.pdf",
+    "sha256": "3098223539189553d254bd64feef6177340c229593d452ee8ab401a6031b018b",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Chien Kuo",
+    "publication_or_data_date": "2026 H1; exact publication day not captured",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": null,
+    "section": "EPS note: basic 201.600 / diluted 203.161 million shares; dividends payable"
+  },
+  {
+    "path": "companies/6005-capital-securities/sources/earnings/2026Q2-consolidated.pdf",
+    "sha256": "a2a2aefe16a931c21a84b22ce03af81a14d2ba49ebe2ea2fdc0c876fa4460994",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Capital Securities",
+    "publication_or_data_date": "2026-08-28",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://www.capital.com.tw/CapitalGWAPI/srvcms/api/FinancialStatementsAndCreditRating/GetFile/176",
+    "section": "PDF pp.35-36 dividends and EPS; pp.37-40 other income"
+  },
+  {
+    "path": "companies/6005-capital-securities/sources/earnings/2025FY-consolidated.pdf",
+    "sha256": "cd226f024642944e9786f26d455128a9665ada876853fb909b72fe5f9721e1a1",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Capital Securities",
+    "publication_or_data_date": "2026-03-06",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://www.capital.com.tw/CapitalGWAPI/srvcms/api/FinancialStatementsAndCreditRating/GetFile/171",
+    "section": "Distribution and comparative EPS notes"
+  },
+  {
+    "path": "companies/6165-lang/sources/earnings/2025FY-consolidated.pdf",
+    "sha256": "97700d78c22ec24d797a0b1637443ae644fbe3d9f293400e6e9e72cc959bdde0",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Lang",
+    "publication_or_data_date": "2026-03-12",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://langinc.com.tw/wp-content/uploads/2026/04/%E6%B5%AA%E5%87%A1_114Q4_%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1_%E9%9B%BB%E5%AD%90%E6%9B%B8_U1.pdf",
+    "section": "PDF p.43 / printed p.41 dividend note; cash-flow statement"
+  },
+  {
+    "path": "companies/6165-lang/sources/earnings/2026Q2-consolidated.pdf",
+    "sha256": "782dfad4c502384c2dc3b14dee5114fdb0dac3c8d22ab9567948a69a871b2bbd",
+    "title": "Retained consolidated financial statements",
+    "publisher": "Lang",
+    "publication_or_data_date": "2026-08-12",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://langinc.com.tw/wp-content/uploads/2026/08/1007470_115Q2_%E5%90%88%E4%BD%B5_%E5%AE%8C%E7%A8%BF%E8%B2%A1%E5%A0%B1_IMSv1-%E9%9B%BB%E5%AD%90%E6%9B%B8_IMSv1.pdf",
+    "section": "Balance sheet; distributions; cash-flow statement"
+  },
+  {
+    "path": "companies/3213-crete/scenario-inputs.json",
+    "sha256": "96c9b32263e0596bf703cc3f750c3ae6e6c8a3e6108379519a8a124114728c6a",
+    "title": "Canonical analyst model at pilot preparation",
+    "publisher": "Repository analyst",
+    "publication_or_data_date": "State accessed 2026-10-12",
+    "access_date": "2026-10-12",
+    "url": null,
+    "section": "Analyst assumptions; not external reported facts"
+  },
+  {
+    "path": "companies/3213-crete/09_valuation.md",
+    "sha256": "0f80f0e03a05f41873b3c39fc407df51e8d5adc638852ea15cfb7d510c91e47f",
+    "title": "Canonical analyst model at pilot preparation",
+    "publisher": "Repository analyst",
+    "publication_or_data_date": "State accessed 2026-10-12",
+    "access_date": "2026-10-12",
+    "url": null,
+    "section": "Analyst assumptions; not external reported facts"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/04_eps_model.md",
+    "sha256": "f9ebaa153c7eaec1593152926093ce30bd828dbe92b1f3036a3c837098e7cd5d",
+    "title": "Canonical analyst model at pilot preparation",
+    "publisher": "Repository analyst",
+    "publication_or_data_date": "State accessed 2026-10-12",
+    "access_date": "2026-10-12",
+    "url": null,
+    "section": "Analyst assumptions; not external reported facts"
+  },
+  {
+    "path": "companies/6005-capital-securities/04_eps_model.md",
+    "sha256": "24f2b7efcd59e44202b4a95bbe1c8c581522d9157f5b5c1979bf32e625c5cc5f",
+    "title": "Canonical analyst model at pilot preparation",
+    "publisher": "Repository analyst",
+    "publication_or_data_date": "State accessed 2026-10-12",
+    "access_date": "2026-10-12",
+    "url": null,
+    "section": "Analyst assumptions; not external reported facts"
+  },
+  {
+    "path": "companies/6165-lang/04_eps_model.md",
+    "sha256": "851358771333772ecf2dcbf42a74c75971116185dce3d2b472f03b8ced77ed69",
+    "title": "Canonical analyst model at pilot preparation",
+    "publisher": "Repository analyst",
+    "publication_or_data_date": "State accessed 2026-10-12",
+    "access_date": "2026-10-12",
+    "url": null,
+    "section": "Analyst assumptions; not external reported facts"
+  },
+  {
+    "path": "companies/6005-capital-securities/sources/conference_calls/2026-09-11-presentation.pdf",
+    "sha256": "6f415f16b5ec177e6b98931442eb57bcaa89838ebfdab8380f60b7ab428403c3",
+    "title": "Q2 2026 investor presentation",
+    "publisher": "Capital Securities",
+    "publication_or_data_date": "2026-09-11",
+    "access_date": "2026-10-12 (retained artifact re-read)",
+    "url": "https://www.capital.com.tw/CapitalGWAPI/srvcms/api/ShareholdersMeeting/GetFile/66",
+    "section": "PDF p.17 / slide 16: FY2023-FY2025 EPS and cash/stock dividends"
+  }
+]

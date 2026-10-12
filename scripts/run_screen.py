@@ -35,6 +35,10 @@ NUMERIC_INPUTS = (
     "fcf_dividend_coverage_x",
     "payout_consistency_years",
 )
+BASE_DPS_RANGE_FIELDS = (
+    "estimated_dps_base_low_twd",
+    "estimated_dps_base_high_twd",
+)
 
 
 class RunError(ValueError):
@@ -44,7 +48,7 @@ class RunError(ValueError):
 def _decimal(row: dict[str, str], field: str) -> Decimal:
     try:
         value = Decimal(row[field].strip())
-    except (KeyError, InvalidOperation) as exc:
+    except (KeyError, InvalidOperation, AttributeError) as exc:
         raise RunError(f"invalid {field}") from exc
     if not value.is_finite():
         raise RunError(f"invalid {field}")
@@ -73,6 +77,10 @@ def _evaluate_forward_dividend(
     target = Decimal(str(definition["target_yield_pct"]))
     minimum_coverage = Decimal(str(definition["minimum_eps_coverage_x"]))
     minimum_downside = Decimal(str(definition["minimum_downside_yield_pct"]))
+    base_yield_rule = definition.get("base_yield_rule", "point")
+    if base_yield_rule not in {"point", "range_upper_bound"}:
+        raise RunError("unsupported base_yield_rule")
+    range_enabled = base_yield_rule == "range_upper_bound"
     output_fields = list(definition["required_output_fields"])
     retained: list[dict[str, str]] = []
     errors: list[str] = []
@@ -88,6 +96,12 @@ def _evaluate_forward_dividend(
                 if not row.get(field, "").strip():
                     raise RunError(f"missing {field}")
             values = {field: _decimal(row, field) for field in NUMERIC_INPUTS}
+            if range_enabled:
+                values.update({field: _decimal(row, field) for field in BASE_DPS_RANGE_FIELDS})
+                low = values["estimated_dps_base_low_twd"]
+                high = values["estimated_dps_base_high_twd"]
+                if not Decimal("0") <= low <= values["estimated_dps_base_twd"] <= high:
+                    raise RunError("base DPS must satisfy 0 <= low <= point <= high")
             if values["price_twd"] <= 0:
                 raise RunError("price_twd must be positive")
             if values["payout_consistency_years"] < 0:
@@ -110,10 +124,18 @@ def _evaluate_forward_dividend(
         price = values["price_twd"]
         required_dps = price * target / Decimal("100")
         base_yield = values["estimated_dps_base_twd"] / price * Decimal("100")
+        base_yield_low = (
+            values["estimated_dps_base_low_twd"] / price * Decimal("100")
+            if range_enabled else base_yield
+        )
+        base_yield_high = (
+            values["estimated_dps_base_high_twd"] / price * Decimal("100")
+            if range_enabled else base_yield
+        )
         downside_yield = values["estimated_dps_downside_twd"] / price * Decimal("100")
         eps_coverage = values["normalized_eps_base_twd"] / required_dps
         passes = (
-            base_yield >= target
+            base_yield_high >= target
             and eps_coverage >= minimum_coverage
             and downside_yield >= minimum_downside
         )
@@ -124,6 +146,11 @@ def _evaluate_forward_dividend(
             fallback_source_count += 1
         if not passes:
             continue
+
+        qualification = "entire_range" if base_yield_low >= target else "partial_range"
+        warnings = row.get("warning_flags", "").strip()
+        if range_enabled and qualification == "partial_range":
+            warnings = ";".join(filter(None, (warnings, "base_yield_partial_range")))
 
         result = {
             "rank": "0",
@@ -136,15 +163,26 @@ def _evaluate_forward_dividend(
             "normalized_eps_base_twd": _format_decimal(values["normalized_eps_base_twd"]),
             "normalized_eps_downside_twd": _format_decimal(values["normalized_eps_downside_twd"]),
             "estimated_dps_base_twd": _format_decimal(values["estimated_dps_base_twd"]),
+            "estimated_dps_base_low_twd": _format_decimal(
+                values["estimated_dps_base_low_twd"] if range_enabled
+                else values["estimated_dps_base_twd"]
+            ),
+            "estimated_dps_base_high_twd": _format_decimal(
+                values["estimated_dps_base_high_twd"] if range_enabled
+                else values["estimated_dps_base_twd"]
+            ),
             "estimated_dps_downside_twd": _format_decimal(values["estimated_dps_downside_twd"]),
             "forward_yield_base_pct": _format_decimal(base_yield),
+            "forward_yield_base_low_pct": _format_decimal(base_yield_low),
+            "forward_yield_base_high_pct": _format_decimal(base_yield_high),
+            "base_yield_qualification": qualification,
             "forward_yield_downside_pct": _format_decimal(downside_yield),
             "normalized_eps_coverage_x": _format_decimal(eps_coverage),
             "fcf_dividend_coverage_x": _format_decimal(values["fcf_dividend_coverage_x"]),
             "payout_consistency_years": _format_decimal(values["payout_consistency_years"], "1"),
             "screen_status": "candidate",
             "human_review_required": "true",
-            "warning_flags": row.get("warning_flags", "").strip(),
+            "warning_flags": warnings,
             "source_tier": row["source_tier"].strip(),
             "evidence_reference": row["evidence_reference"].strip(),
         }
@@ -258,6 +296,7 @@ def execute_screen(
     definition_hash = hashlib.sha256(definition_path.read_bytes()).hexdigest()
     parameters = [
         f"target_yield_pct={definition['target_yield_pct']}",
+        f"base_yield_rule={definition.get('base_yield_rule', 'point')}",
         f"minimum_eps_coverage_x={definition['minimum_eps_coverage_x']}",
         f"minimum_downside_yield_pct={definition['minimum_downside_yield_pct']}",
         f"minimum_coverage_pct={definition['minimum_coverage_pct']}",
@@ -288,6 +327,7 @@ def execute_screen(
         if final_dir.exists():
             raise RunError(f"run already exists: {run_id}")
         temporary_dir = Path(tempfile.mkdtemp(prefix=f".{run_id}.", dir=runs_root))
+        shutil.copyfile(definition_path, temporary_dir / "definition.yaml")
         results_path = temporary_dir / "results.csv"
         results_hash = _write_csv(
             results_path,

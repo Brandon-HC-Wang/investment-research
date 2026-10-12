@@ -2,14 +2,15 @@ schema_version: 1
 id: forward-dividend-yield
 title: Forward Dividend Yield Screen
 enabled: true
-definition_version: 3
-definition_updated_on: 2026-09-14
+definition_version: 4
+definition_updated_on: 2026-10-12
 refresh_mode: remind_only
 timezone: Asia/Taipei
 routine_cadence_days: 7
 stale_after_days: 7
 minimum_coverage_pct: 95
 target_yield_pct: 7
+base_yield_rule: range_upper_bound
 minimum_eps_coverage_x: 1.25
 minimum_downside_yield_pct: 5
 market_discovery_adapter: scripts/collect_market_discovery.py
@@ -19,7 +20,7 @@ fallback_behavior: Mark incomplete coverage and preserve errors; never interpret
 strategy_ids:
   - forward-dividend-income
 required_filters:
-  - Base-case estimated forward cash dividend yield is at least 7%.
+  - The reviewed base cash-dividend yield interval has an upper bound of at least 7%; label partial-range versus entire-range qualification.
   - Normalized attributable EPS covers required DPS by at least 1.25 times.
   - Downside estimated forward cash dividend yield is at least 5%.
 ranking_factors:
@@ -50,6 +51,8 @@ required_input_fields:
   - normalized_eps_base_twd
   - normalized_eps_downside_twd
   - estimated_dps_base_twd
+  - estimated_dps_base_low_twd
+  - estimated_dps_base_high_twd
   - estimated_dps_downside_twd
   - fcf_dividend_coverage_x
   - payout_consistency_years
@@ -68,8 +71,13 @@ required_output_fields:
   - normalized_eps_base_twd
   - normalized_eps_downside_twd
   - estimated_dps_base_twd
+  - estimated_dps_base_low_twd
+  - estimated_dps_base_high_twd
   - estimated_dps_downside_twd
   - forward_yield_base_pct
+  - forward_yield_base_low_pct
+  - forward_yield_base_high_pct
+  - base_yield_qualification
   - forward_yield_downside_pct
   - normalized_eps_coverage_x
   - fcf_dividend_coverage_x

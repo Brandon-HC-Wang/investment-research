@@ -2,7 +2,11 @@
 
 <!-- 衍生繁體中文閱讀版；英文原檔 `SearchStrategyGuide.md` 是唯一 canonical source。若內容衝突，以英文版為準。 -->
 
-## 目前檢查點 — 2026-09-15
+## 目前檢查點 — 2026-10-12
+
+首次已研究公司探索性 run 在 definition version 3 下為 partial；尚無完整成功 run。使用者現已確認區間資格：上緣達 7% 即符合基準殖利率條件。現行 definition version 為 4，必填 DPS 上下緣輸入，結果區分部分／整段區間達標。EPS 覆蓋、下行殖利率及完整度門檻維持不變。Version 3 精確定義已封存，首次 run 及輸入維持不變。更新 state 仍為 due。[現行篩選契約](../screens/forward-dividend-yield/README.md)、[日期決策](../research-log/industries/ForwardDividendPilot.md)。
+
+## 歷史檢查點 — 2026-09-15
 
 基礎架構與離線執行流程已存在，但尚無正式前瞻股利 screen run，也未保存正式官方市場 snapshot。Strategy 為 `testing`；screen definition version 為 3。本機刷新檢查回報 `due`，原因為 `definition_changed` 與 `never_run`。
 
@@ -38,13 +42,15 @@
 
 目前時間範圍是以標準化 2026 年盈餘，在 2027 年配發現金股利。必要數值條件為：
 
-- 基本情境前瞻現金殖利率 ≥ 7%。
+- 已審查基準前瞻現金殖利率區間上緣 ≥ 7%（含等號）。
 - 標準化基本情境 EPS / 必要 DPS ≥ 1.25 倍。
 - 下行情境前瞻現金殖利率 ≥ 5%。
 
 `必要 DPS = 搜尋日股價 × 7%`
 
 `前瞻殖利率 = 預估現金 DPS / 搜尋日股價 × 100%`
+
+Definition version 4 採 `base_yield_rule: range_upper_bound`。跨過 7% 為 `partial_range`；下緣至少 7% 為 `entire_range`，兩者皆符合基準條件。代表基準 DPS 須滿足 `0 <= low <= point <= high`；單點模型須在上下界重複其代表值。缺漏、反向或非有限界限屬無效輸入。界限須有已審查證據，門檻比較使用未取整值。
 
 排序使用下行情境殖利率、標準化 EPS 覆蓋、自由現金流股利覆蓋與配息穩定年數。警示旗標與所有保留候選皆須人工審查。Executor 不會驗證業務品質、產業標準化、母公司現金能力，或分析師估計是否有支持證據。
 
@@ -89,7 +95,7 @@ Replay 經審查的官方資料時，`--source-dir` 必須包含 `twse_yield.jso
 完整 header 定義於 [screen.yaml](../screens/forward-dividend-yield/screen.yaml)：
 
 ```csv
-market,ticker,company,price_date,price_twd,financial_period,normalized_eps_base_twd,normalized_eps_downside_twd,estimated_dps_base_twd,estimated_dps_downside_twd,fcf_dividend_coverage_x,payout_consistency_years,warning_flags,source_tier,evidence_reference,source_url
+market,ticker,company,price_date,price_twd,financial_period,normalized_eps_base_twd,normalized_eps_downside_twd,estimated_dps_base_twd,estimated_dps_base_low_twd,estimated_dps_base_high_twd,estimated_dps_downside_twd,fcf_dividend_coverage_x,payout_consistency_years,warning_flags,source_tier,evidence_reference,source_url
 ```
 
 股價、EPS、DPS 單位為每股 TWD；現金流覆蓋使用倍數；配息穩定性使用整年。保留已報導財務期間與預測年度的差異。每個估計皆須有具日期的財報／模型 provenance、經常性與一次性調整、情境邏輯及現金能力審查。市場與 ticker 身分必須唯一；有效列的股價日與財務期間須一致。`source_tier` 為 `primary` 或 `secondary`；`source_url` 為絕對 HTTP(S) URL。
@@ -113,7 +119,7 @@ Synthetic 預期結果：`success`、3 筆已評估、2 筆候選、100% input-r
 
 ### 5. 閱讀已保存結果與 state
 
-持久化 run 會在新的 `runs/<run-id>/` 目錄建立 `manifest.yaml`、`results.csv`、`summary.md` 與 `summary.zh-TW.md`。解讀結果前先閱讀 manifest 的 status、參數、provenance、錯誤與覆蓋率。舊結果必須以新 run 修正，不得覆寫。
+持久化 run 會在新的 `runs/<run-id>/` 目錄建立 `manifest.yaml`、`definition.yaml`、`results.csv`、`summary.md` 與 `summary.zh-TW.md`。解讀結果前先閱讀 manifest 的 status、參數、provenance、錯誤與覆蓋率。舊結果必須以新 run 修正，不得覆寫。歷史 run 以保留快照或精確封存定義驗證，包含其雜湊與輸出 header。結果保留 DPS／殖利率上下緣、代表估計與部分／整段達標類型。
 
 - `success`：評估無列錯誤，並達到設定的 input coverage 要求；只有此狀態更新刷新 state。
 - `partial`：部分列無法評估或覆蓋不足；結果供診斷，不推進 state。

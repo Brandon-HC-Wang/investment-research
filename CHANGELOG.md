@@ -8,6 +8,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Added
 
+- First persisted covered-company forward-dividend pilot with bilingual assumptions, three-year cash/stock history, retained price evidence, input checksums and explicit partial-coverage diagnostics (2026-10-12); thresholds and executor schema remain unchanged.
 - Securities-brokerage industry package covering hedge-netted trading earnings, associate asset-management exposure, bonus-share denominators and cash-versus-stock dividend scenarios (2026-10-12).
 - First-class `strategies/` and `screens/` contracts with registries, bilingual reasoning, rebuildable refresh state, and append-only run semantics.
 - JSON Schemas and templates for strategy definitions, screen definitions, screen state, and point-in-time run manifests.
@@ -27,6 +28,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Changed
 
+- Changed forward-dividend screen definition to version 4: an evidenced base cash-yield interval qualifies when its unrounded upper bound reaches 7%, with explicit partial/entire-range labels, required DPS bounds, immutable definition snapshots and historical-contract validation; EPS/downside/completeness gates remain unchanged (2026-10-12).
+- Recorded an evidence-led dividend-baseline comparison and reproducible earnings/payout sensitivities; corrected interpreting stacked pilot haircuts as a normal-year forecast, while preserving historical runs, missing-cash gates and registered thresholds (2026-10-12).
+- Documented the confirmed forward-dividend pilot preparation policy: covered-company sample, sector-specific earnings/cash estimates, declared-versus-estimated dividends, and a three-completed-earnings-year history window; registered thresholds remain unchanged (2026-10-12).
 - Extended repository validation and agent startup guidance to detect due screens locally without automatic network access or mutation, and to validate persisted run artifacts and result integrity.
 - Preserved legacy industry guides and annual research logs as backward-compatible entry points while directing new work to modular packages.
 - Separated stable company identity in `meta.yaml` from workflow state in `research.yaml`.

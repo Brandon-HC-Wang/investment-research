@@ -1,0 +1,74 @@
+{
+  "analysis_date": "2026-10-12",
+  "reference_price_date": "2026-10-08",
+  "information_cutoff": "2026-10-12",
+  "earnings_period": "FY2026E",
+  "estimated_distribution_year": 2027,
+  "status": "earnings-to-payout sensitivity; not a validated dividend forecast or new screen run",
+  "original_input_path": "screens/forward-dividend-yield/inputs/2026-10-12-covered-pilot/input.csv",
+  "original_input_sha256": "1173feee809e11eb7bb1661c6327a04e7ee5ed3928aa1ecbaca785378220ac8b",
+  "assumption": "65%-75% cash payout; 70% illustrative center; not company policy or statistical probability",
+  "formula": "normalized basic EPS * assumed cash payout / reference price * 100",
+  "companies": [
+    {
+      "ticker": "3213",
+      "reference_price_twd": "123.50",
+      "normalized_basic_eps_twd": "12.19920166993354690295646247",
+      "eps_range_low_twd": "12.19920166993354690295646247",
+      "eps_range_high_twd": "12.19920166993354690295646247",
+      "central_eps_sensitivity": [
+        {
+          "assumed_cash_payout_ratio": "0.65",
+          "earnings_derived_cash_dps_twd": "7.929481085456805486921700606",
+          "yield_pct": "6.420632457859761527871822353"
+        },
+        {
+          "assumed_cash_payout_ratio": "0.70",
+          "earnings_derived_cash_dps_twd": "8.539441168953482832069523729",
+          "yield_pct": "6.914527262310512414631193303"
+        },
+        {
+          "assumed_cash_payout_ratio": "0.75",
+          "earnings_derived_cash_dps_twd": "9.149401252450160177217346852",
+          "yield_pct": "7.408422066761263301390564253"
+        }
+      ],
+      "combined_eps_payout_low_dps_twd": "7.929481085456805486921700606",
+      "combined_eps_payout_high_dps_twd": "9.149401252450160177217346852",
+      "combined_eps_payout_low_yield_pct": "6.420632457859761527871822353",
+      "combined_eps_payout_high_yield_pct": "7.408422066761263301390564253",
+      "parent_cash_capacity_verified": false,
+      "production_eligibility_assessed": false
+    },
+    {
+      "ticker": "5515",
+      "reference_price_twd": "52.70",
+      "normalized_basic_eps_twd": "4.00",
+      "eps_range_low_twd": "3.8",
+      "eps_range_high_twd": "4.2",
+      "central_eps_sensitivity": [
+        {
+          "assumed_cash_payout_ratio": "0.65",
+          "earnings_derived_cash_dps_twd": "2.6000",
+          "yield_pct": "4.933586337760910815939278937"
+        },
+        {
+          "assumed_cash_payout_ratio": "0.70",
+          "earnings_derived_cash_dps_twd": "2.8000",
+          "yield_pct": "5.313092979127134724857685009"
+        },
+        {
+          "assumed_cash_payout_ratio": "0.75",
+          "earnings_derived_cash_dps_twd": "3.0000",
+          "yield_pct": "5.692599620493358633776091082"
+        }
+      ],
+      "combined_eps_payout_low_dps_twd": "2.470",
+      "combined_eps_payout_high_dps_twd": "3.150",
+      "combined_eps_payout_low_yield_pct": "4.686907020872865275142314991",
+      "combined_eps_payout_high_yield_pct": "5.977229601518026565464895636",
+      "parent_cash_capacity_verified": false,
+      "production_eligibility_assessed": false
+    }
+  ]
+}
