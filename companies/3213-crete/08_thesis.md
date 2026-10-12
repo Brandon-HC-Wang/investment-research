@@ -1,6 +1,8 @@
 # Investment thesis
 
-As of 2026-09-24. Evidence confidence medium; 2027 earnings confidence low-to-medium. No buy/sell/hold instruction.
+As of 2026-10-12. Evidence confidence medium; 2027 earnings confidence low-to-medium. No buy/sell/hold instruction.
+
+**2026-10-12 update:** September +49.28% YoY and Q3 +35.68% YoY support the consolidated run rate, but system sales -5.49% QoQ and lower system share require margin verification. Retain base diluted EPS 12.15 / 13.86; A-2026-002 margin confidence is 55%. Next monthly review 2026-11-10 and Q3 review 2026-11-16. [Monthly review](02_financials.md), [mix question Q-2026-007](07_open_questions.md).
 
 ## Current view
 
@@ -31,8 +33,12 @@ Score date 2026-09-24; [scoring policy](../../docs/Scoring.md). Weighted score: 
 | Allocation / 資本配置 | 10% | 3 | Liquid assets, high payout and inventory needs / 流動資產、高配息與庫存需求並存 |
 
 
-Next action: verify Q3 rugged shipments, tax reconciliation, capacity commissioning and inventory-to-cash conversion before raising 2027 confidence. Next review 2026-11-16.
+Next action: monitor October revenue on 2026-11-10; verify Q3 product mix, tax reconciliation, capacity commissioning and cash conversion on 2026-11-16 before raising 2027 confidence.
 
 ## Thesis history
 
 2026-09-24 — Initiated qualifying coverage; medium evidence confidence, weighted score 2.95 / 5. All forecast-critical assumptions remain Open. [Sources](sources/README.md).
+
+2026-10-12 — September review supports aggregate FY2026 revenue attainment, but Q3 growth is sequentially channel-led. Base EPS and valuation retained; A-2026-002 confidence reduced to 55%, Q-2026-007 opened. Evidence confidence medium, 2027 earnings confidence low-to-medium and score 2.95 / 5 unchanged. No evidence yet resolves tax or cash conversion. [Financials](02_financials.md), [model](04_eps_model.md).
+
+2026-10-12 — Earnings-quality supplement: H1 FVTPL gain 2.962 is about 0.04 diluted EPS at assumed 25% tax; FVOCI stock-disposal transfers are excluded from EPS. Inventory recovery and scrapping jointly leave a net cost, not a standalone profit boost. Batch recognition is possible but September's exceptional contribution is unquantified (Q-2026-008). Forecasts/confidence unchanged; cash conversion and replacement orders remain central. [Financials](02_financials.md), [EPS definitions](04_eps_model.md).

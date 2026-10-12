@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-24",
+  "as_of": "2026-10-12",
   "currency": "TWD",
   "amount_unit": "million",
   "share_unit": "million",
@@ -251,5 +251,91 @@
       "basic_eps": 19.918207378376078,
       "diluted_eps": 19.7063186998449
     }
-  ]
+  ],
+  "numerical_scenarios_initiated": "2026-09-24",
+  "review_2026_10_12": {
+    "decision": "Retain all numerical scenarios; monthly division mix does not establish product gross margins, tax or cash conversion.",
+    "source_rows": "sources/monthly_revenue/2026-09-review-official-rows.json",
+    "monthly_ytd_revenue": 2845.507,
+    "q3_monthly_revenue": 1109.13,
+    "reviewed_h1_plus_monthly_q3": 2845.138,
+    "unresolved_revenue_gap": 0.369,
+    "q3_system_revenue": 630.004,
+    "q3_channel_revenue": 479.126,
+    "q4_required_by_scenario": [
+      {
+        "scenario": "downside",
+        "q4_monthly_basis": 634.4929999999999,
+        "q4_monthly_average": 211.49766666666665
+      },
+      {
+        "scenario": "base",
+        "q4_monthly_basis": 954.4929999999999,
+        "q4_monthly_average": 318.16433333333333
+      },
+      {
+        "scenario": "upside",
+        "q4_monthly_basis": 1254.493,
+        "q4_monthly_average": 418.16433333333333
+      }
+    ],
+    "sensitivity_scope": "FY2026 base, H1 actuals locked; change H2 gross margin and tax only.",
+    "margin_tax_sensitivities": [
+      {
+        "h2_gross_margin": 0.35,
+        "h2_tax_rate": 0.25,
+        "fy2026_diluted_eps": 12.148288825949153
+      },
+      {
+        "h2_gross_margin": 0.34,
+        "h2_tax_rate": 0.25,
+        "fy2026_diluted_eps": 11.887314721154494
+      },
+      {
+        "h2_gross_margin": 0.33,
+        "h2_tax_rate": 0.25,
+        "fy2026_diluted_eps": 11.626340616359837
+      },
+      {
+        "h2_gross_margin": 0.35,
+        "h2_tax_rate": 0.2851,
+        "fy2026_diluted_eps": 11.830286234405555
+      },
+      {
+        "h2_gross_margin": 0.33,
+        "h2_tax_rate": 0.2851,
+        "fy2026_diluted_eps": 11.33276520102502
+      }
+    ]
+  },
+  "earnings_quality_review_2026_10_12": {
+    "scope": "H1 sensitivities only; no change to reported actuals or scenario forecasts",
+    "marginal_tax_assumption": 0.25,
+    "minority_attribution": "unchanged",
+    "fvtpl_balance": 204.019,
+    "fvtpl_gain": 2.962,
+    "fx_gain": 3.275,
+    "net_nonoperating": 37.338,
+    "inventory_recovery": 28.125,
+    "inventory_scrap_expense": 40.718,
+    "fvoci_equity_disposal_h1_after_tax_excluded_from_eps": 182.342,
+    "fvoci_equity_disposal_july_august_after_tax_excluded_from_eps": 76.004,
+    "sensitivities": [
+      {
+        "definition": "fvtpl_only",
+        "pretax_income_removed": 2.962,
+        "h1_diluted_eps": 5.518215995684133
+      },
+      {
+        "definition": "fvtpl_plus_fx",
+        "pretax_income_removed": 6.237,
+        "h1_diluted_eps": 5.476806426596534
+      },
+      {
+        "definition": "all_net_nonoperating",
+        "pretax_income_removed": 37.338,
+        "h1_diluted_eps": 5.083560927911526
+      }
+    ]
+  }
 }

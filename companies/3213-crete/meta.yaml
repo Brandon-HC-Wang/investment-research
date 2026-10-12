@@ -5,10 +5,11 @@ market: TPEx
 status: qualifying
 confidence: medium
 priority: 2
-last_update: 2026-09-24
-next_action: Verify Q3 rugged shipments, tax reconciliation, capacity commissioning and inventory-to-cash conversion before raising 2027 confidence.
+last_update: 2026-10-12
+next_action: Monitor October revenue by 2026-11-10, then verify Q3 product mix, gross margin, tax and cash conversion by 2026-11-16; September supports revenue attainment but not an EPS increase.
 watch_items:
-  - Rugged shipment growth and RODA concentration
-  - Inventory, receivable collection and operating cash flow
+  - Q4 monthly revenue versus TWD 318.164 million base requirement
+  - Q3 division mix, gross margin and RODA concentration
+  - Batch delivery recognition, replacement orders and inventory-to-cash conversion
   - Effective tax rate and FX exposure
   - Capacity commissioning and 2027 order terms

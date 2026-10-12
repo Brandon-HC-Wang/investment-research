@@ -26,3 +26,17 @@
 
 - **IR25：** 茂訊法人說明會，2025-12-16，留存 PDF 第 6、13 頁：管理層對歐洲訂單／產能的解釋及地緣政治展望。展望數字屬管理層陳述，並非獨立核實的當前預算。
 - **NATO25：** NATO，The Hague Summit Declaration，2025-06-25，第 2–3 段。[官方](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration)。政策承諾不代表茂訊訂單。
+
+## 九月更新來源 — 存取日 2026-10-12
+
+- **REV-SEP（一級）：**茂訊公司申報／MOPS，〈上櫃公司民國 115 年九月營業收入〉，期間 2026-09；表內無公司精確申報時間。[官方](https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_0.html)、[留存 CP950 原始 HTML](monthly_revenue/2026-09-mops-otc.html)，3213 列及事業部備註；[本次擷取列](monthly_revenue/2026-09-review-official-rows.json)。存取 2026-10-12，單位 TWD 千元。表列 +49.27%／-9.27%；依原始金額四捨五入為 +49.28%／-9.28%。
+- **REV-COMP（一級）：**公司申報／MOPS，上櫃月報 [2026-04](https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_4_0.html)、[2026-05](https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_5_0.html)、[2025-07](https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_7_0.html)、[2025-08](https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_8_0.html)、[2025-09](https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_9_0.html)。期間如連結，無公告時間戳。存取 2026-10-12，3213 列及系統／通路備註。原始檔留存於 monthly_revenue，雜湊見 [artifacts.json](artifacts.json)；擷取列與 REV-SEP 共用本次檔案。2026 六至八月採 REV 於 2026-09-24 留存列，不宣稱重新下載。
+- **ANN-SEP（次級）：**玉山證券／MoneyDJ，〈茂訊 115年9月營收3.53億、年增49.28%〉，發布 2026-10-05 15:40:04。[文章](https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B0D411A89-D54B-4FF4-A666-FB6537F7DA17%7D)，營收表及事業部備註；存取 2026-10-12。交叉確認公告日期與四捨五入成長率，模型檢視以 MOPS 一級金額為準。
+- **IR-INDEX（一級）：**茂訊法說索引，[官方](https://www.crete.com.tw/rwd/main11.htm)；頁面無日期，存取 2026-10-12。列出 2025-12-16 與更早活動，未列更晚簡報。這僅是索引查核，不是產能完工或不存在其他後續公司揭露的證據。
+
+## 獲利品質查核 — 存取日 2026-10-12
+
+- **H126：**2026-10-12 重新下載官方 H1 PDF；SHA-256 `97c766d62c5b61b737940595ef069a96b92b2c63b2098c180f10ac6c6d9fde00` 與留存檔一致。新增參考：附註6(2)，印刷頁 11–12／PDF 頁 12–13（FVTPL 基金、FVOCI 分類／處分）；6(4)，印刷頁 13／PDF 頁 14（存貨回升、報廢及保固）；6(14)，印刷頁 19／PDF 頁 20（預收轉營收）；6(16)，印刷頁 20–21／PDF 頁 21–22（業外拆解）；11，印刷頁 29／PDF 頁 30（七至八月 MilDef 處分）；現金流量表 PDF 頁 7–8。文件發布日期仍為 2026-08-05。
+- **FY25：**2026-10-12 重讀留存查核 PDF，不宣稱重新下載。附註4(14)，印刷頁 18／PDF 頁 22（控制移轉／驗收政策）；6(12)，印刷頁 32／PDF 頁 36（公積及盈餘分配政策）。簽署日 2026-03-11。[留存](earnings/2025FY-consolidated.pdf)。
+- **DIV26（一級）：**茂訊〈股利資訊〉，公司表格無日期，FY2025 列：現金股利 7.00，發放日 2026-07-24。[官方](https://www.crete.com.tw/rwd/t2.htm)；存取 2026-10-12。不代表 FY2026 分配。
+- **IFRS-EQ（一級）：**IFRS Foundation／Sue Lloyd，〈IFRS 9 and equity investments〉，2018-04（確切發布日未核實），IFRS 9 on long-term investment 與 Recycling can provide a confusing presentation of performance 段落。[官方](https://www.ifrs.org/news-and-events/news/2018/04/ifrs-9-and-equity-investments/)；存取 2026-10-12。股票 FVOCI 處分不回轉至損益；債券 FVOCI 規則不同。茂訊自身處理以 H126 直接確認。

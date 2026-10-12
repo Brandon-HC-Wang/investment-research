@@ -13,7 +13,7 @@ Initial history date: 2026-09-24. All assumptions are Open; confidence percentag
 ## A-2026-002
 
 - Claim: Blended gross margin is 35.0% in 2026 H2 and 35.5% in 2027.
-- Confidence: 60%. Status: Open. Opened: 2026-09-24.
+- Current confidence: 55% as of 2026-10-12. Status: Open. Opened: 2026-09-24.
 - Supporting/contradicting evidence and test: H1 margin supports the range; component inflation and product mix can offset scale. Confirm over Q3/Q4 and 2027; reject base if margin stays below 32%.
 - Model effect: 2027 EPS sensitivity about 0.54 per margin percentage point.
 - History: 2026-09-24 — Open, 60%; initial estimate.
@@ -49,3 +49,10 @@ Initial history date: 2026-09-24. All assumptions are Open; confidence percentag
 - Supporting/contradicting evidence and test: Niche qualification and earnings growth support value; concentration and weak cash conversion limit a premium. No verified peer band is claimed. Reassess after Q3/FY2026 and a future peer study.
 - Model effect: Valuation only, not an EPS input.
 - History: 2026-09-24 — Open, 50%; initial estimate.
+
+## 2026-10-12 — September assumption review
+
+- A-2026-001: Open, 60% unchanged. Aggregate run-rate is stronger, but monthly system categories do not verify rugged revenue 2,250 / 2,700; Q3 system revenue is -5.49% QoQ. No commissioning or 2027 delivery terms verified.
+- A-2026-002: Open, confidence **60% → 55%**. Lower system share (66.09% → 56.80%) creates a mix warning, not a reported margin result. Retain 35.0% / 35.5% numerical assumptions pending Q3 product/GM evidence. H2 margin -1 pp affects 2026 EPS about -0.26; Q-2026-007.
+- A-2026-003 / A-2026-004 / A-2026-005 / A-2026-006: Open; confidence 45% / 65% / 50% / 50% unchanged. No new tax, diluted-share, cash-conversion or peer-valuation evidence obtained.
+- All prior confidence/status events remain historical; no assumption is Verified by monthly revenue alone. Review October revenue 2026-11-10 and Q3 statements 2026-11-16. [Evidence](sources/README.md).

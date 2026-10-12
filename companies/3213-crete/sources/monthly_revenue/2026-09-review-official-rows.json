@@ -1,0 +1,191 @@
+[
+  {
+    "period": "2025-07",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_7_0.html",
+    "access_date": "2026-10-12",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "214,943",
+      "316,288",
+      "231,366",
+      "-32.04",
+      "-7.09",
+      "1,746,956",
+      "1,716,763",
+      "1.75",
+      "系統事業部 89,511 仟元/通路事業部 125,432 仟元"
+    ],
+    "source_sha256": "72c234e08043d004621df949d9a4f6ffa8b905b75080914f91f3efc2f224ce8d"
+  },
+  {
+    "period": "2025-08",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_8_0.html",
+    "access_date": "2026-10-12",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "365,789",
+      "214,943",
+      "266,829",
+      "70.17",
+      "37.08",
+      "2,112,745",
+      "1,983,592",
+      "6.51",
+      "系統事業部 210,243 仟元/通路事業部 155,546 仟元"
+    ],
+    "source_sha256": "da31b733dfb20c5b55b6c83ea657a7878fa3c6487924a8ccffcd6832a5b22966"
+  },
+  {
+    "period": "2025-09",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_9_0.html",
+    "access_date": "2026-10-12",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "236,738",
+      "365,789",
+      "225,084",
+      "-35.28",
+      "5.17",
+      "2,349,483",
+      "2,208,676",
+      "6.37",
+      "系統事業部 98,579 仟元/通路事業部 138,159 仟元"
+    ],
+    "source_sha256": "99b0a47334ff7ed7907cda67034e74367fd794a81460f5ec1b3ba002d486896d"
+  },
+  {
+    "period": "2026-04",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_4_0.html",
+    "access_date": "2026-10-12",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "308,540",
+      "277,382",
+      "249,070",
+      "11.23",
+      "23.87",
+      "1,036,293",
+      "1,011,764",
+      "2.42",
+      "系統事業部 205,612 仟元/通路事業部 102,928 仟元"
+    ],
+    "source_sha256": "c8fa3f3e07ac50ecfb83a9797548d4eff2b7dcd8d7b61dc371722accce83cff3"
+  },
+  {
+    "period": "2026-05",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_5_0.html",
+    "access_date": "2026-10-12",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "364,651",
+      "308,540",
+      "203,961",
+      "18.18",
+      "78.78",
+      "1,400,944",
+      "1,215,725",
+      "15.23",
+      "系統事業部 255,116 仟元/通路事業部 109,535 仟元"
+    ],
+    "source_sha256": "53bc449c7de8ee07a2400096f012edf4d6137d4350f93332d8598ae22c7f793a"
+  },
+  {
+    "period": "2026-06",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_6_0.html",
+    "access_date": "2026-09-24",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "335,433",
+      "364,651",
+      "316,288",
+      "-8.01",
+      "6.05",
+      "1,736,377",
+      "1,532,013",
+      "13.33",
+      "系統事業部 205,906 仟元/通路事業部 129,527 仟元"
+    ],
+    "source_sha256": "2a436346420e2a62646ad74f2f2a4f2bee5e2d92b16c70485be12d9a37bf6fd2"
+  },
+  {
+    "period": "2026-07",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_7_0.html",
+    "access_date": "2026-09-24",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "366,207",
+      "335,433",
+      "214,943",
+      "9.17",
+      "70.37",
+      "2,102,584",
+      "1,746,956",
+      "20.35",
+      "系統事業部 218,086 仟元/通路事業部 148,121 仟元"
+    ],
+    "source_sha256": "7db9cbcfb7fe02ed67622712dd52e568f517f167f4a9abe5e8e32c0ab98f4ea9"
+  },
+  {
+    "period": "2026-08",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_8_0.html",
+    "access_date": "2026-09-24",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "389,527",
+      "366,207",
+      "365,789",
+      "6.36",
+      "6.48",
+      "2,492,111",
+      "2,112,745",
+      "17.95",
+      "系統事業部 223,027 仟元/通路事業部 166,500 仟元"
+    ],
+    "source_sha256": "537d3018dbfbe823144e78ed86ca8d4b5bef8fad1a28483e827f1b06fbe364df"
+  },
+  {
+    "period": "2026-09",
+    "publisher": "MOPS/company filing",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_0.html",
+    "access_date": "2026-10-12",
+    "units": "TWD thousand",
+    "cells": [
+      "3213",
+      "茂訊",
+      "353,396",
+      "389,527",
+      "236,738",
+      "-9.27",
+      "49.27",
+      "2,845,507",
+      "2,349,483",
+      "21.11",
+      "系統事業部 188,891 仟元/通路事業部 164,505 仟元"
+    ],
+    "source_sha256": "fd995580c3b068753b14fd5505596831953ba19aa8885e1fb145b4d76abba263"
+  }
+]

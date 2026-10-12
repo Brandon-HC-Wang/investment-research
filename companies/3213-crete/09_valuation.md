@@ -1,6 +1,8 @@
 # Valuation
 
-As of 2026-09-24; all prices TWD/share. Business and [earnings model](04_eps_model.md) precede valuation. TPEx closing price on 2026-09-23: 124.00 ([source](sources/README.md)). This is an analyst scenario valuation, not a price prediction or recommendation.
+As of 2026-10-12; all prices TWD/share. Business and [earnings model](04_eps_model.md) precede valuation. TPEx closing price on 2026-09-23: 124.00 ([source](sources/README.md)). This is an analyst scenario valuation, not a price prediction or recommendation.
+
+Current review: scenario values retained; the 2026-09-23 price comparison below is historical, not a current quote.
 
 ## Primary method: scenario forward P/E
 
@@ -25,3 +27,7 @@ Do not add this allowance to the primary total-earnings P/E: that would overlap 
 The base implies conditional undervaluation relative to 124.00, but downside can put value materially below that price. A share price above the base band would require stronger earnings persistence, better cash conversion or a justified higher multiple. Price alone cannot determine whether those conditions hold. A 5 percentage-point tax increase cuts 2027 EPS by about 0.96 and current base value by approximately 10–11 at unchanged multiples. See [assumptions](assumptions.md) and [questions](07_open_questions.md).
 
 2026-09-24 — Initial valuation; no prior estimate superseded. Net cash/investments are not separately added to the primary method, FVOCI equity gains are excluded from earnings, and diluted shares of 59.316 million are assumed.
+
+## 2026-10-12 — Valuation review after September revenue
+
+**Estimate:** Retain the primary 2027 EPS 13.86 × P/E 11–13 / 1.10 calculation (138.6–163.9, approximately 140–165) and all downside/upside ranges. Monthly revenue does not justify a higher multiple or an asset premium; margin, tax and cash evidence are still pending. The one-year horizon convention is reassessed as of this review, not a precise 2027 year-end target. No current market-price comparison is made: the opening TWD 124.00 reference belongs to 2026-09-23 and has not been refreshed. Preserve the prior valuation history above.

@@ -1,6 +1,6 @@
 # Open questions
 
-Owner: research workflow. All opened 2026-09-24; next review 2026-11-16, earlier if relevant disclosure arrives. Status history is append-only.
+Owner: research workflow. Q-2026-001 through Q-2026-006 opened 2026-09-24; Q-2026-007 and Q-2026-008 opened 2026-10-12; next review 2026-11-16, earlier if relevant disclosure arrives. Status history is append-only.
 
 ## Q-2026-001 — Capacity and order conversion
 
@@ -50,3 +50,25 @@ Status remains **Open**. RODA's reseller role and MilDef group procurement are c
 - Evidence / resolution: IR25 slides 6 and 13 support the European demand narrative, but neither customer logos nor national budgets quantify Crete orders. Obtain company or counterparty contract-level evidence; separate wartime replacement, long-term modernization and unrelated sales.
 - Model effect: Order persistence, utilization and margin; no change pending evidence. See H-2026-001 in [growth](03_growth_drivers.md).
 - History: 2026-09-24 — Open; Iran-specific revenue remains unverified.
+
+## 2026-10-12 — Existing question review
+
+Q-2026-001 through Q-2026-006 remain Open. Monthly sales do not resolve commissioned capacity, binding orders, tax, collections, counterparty economics or conflict attribution. Q-2026-005 remains Open: reviewed H1 plus Q3 monthly revenue is 2,845.138 versus monthly cumulative 2,845.507, preserving the original 0.369 difference. Next Q3 review remains 2026-11-16.
+
+## Q-2026-007 — Division mix and consolidated margin
+
+- Status: Open. Opened: 2026-10-12. Owner: research workflow; review 2026-11-16, with October revenue monitoring 2026-11-10.
+- Question: Does Q3's lower system share translate into lower consolidated GM, or is pricing/product mix within divisions sufficient to offset it?
+- Evidence: Q3 system share 56.80% versus Q2 66.09%; system revenue -5.49% QoQ and channel +40.10%. Financial-statement product categories differ from monthly divisions; separate division margins are missing. [REV-SEP / REV-COMP](sources/README.md).
+- Resolution: Reconcile Q3 product sales and consolidated GM/opex to the monthly bridge; obtain product-margin or mix explanations where possible. Also review tax, diluted shares and cash flow. Do not infer a reported GM from sales shares.
+- Thesis/model effect: A-2026-002 stays Open at 55% confidence; H2 margin -1 pp reduces 2026 EPS about 0.26. Below-34% Q3 GM triggers reassessment of the 35% H2 bridge, without assuming automatic thesis rejection.
+- History: 2026-10-12 — Open; mix warning documented, no reported earnings result assumed.
+
+## Q-2026-008 — September batch recognition and replacement orders
+
+- Status: Open. Opened: 2026-10-12. Owner: research workflow; review 2026-11-16.
+- Question: How much September/Q3 system revenue reflects deferred acceptance or concentrated batch deliveries, and what replacement orders sustain subsequent periods?
+- Evidence: FY25 Note 4(14) establishes delivery/control-transfer recognition; H126 Note 6(14) shows advances converted upon delivery. Monthly division totals do not identify order-level timing or repeat purchases.
+- Resolution: Obtain Q3 product/order and acceptance explanations; reconcile contract liabilities, subsequent system sales and cash collections. A completed batch alone does not establish a non-recurring special profit or sustainable run rate.
+- Model effect: Revenue timing, utilization and margin. No numerical forecast adjustment until amounts/terms are evidenced; do not invent a one-off amount.
+- History: 2026-10-12 — Open; revenue-recognition policy verified, September exceptional attribution unverified.

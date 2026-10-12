@@ -28,5 +28,41 @@
     "url": "https://investors.mildef.com/wp-content/uploads/2026/04/MilDef-Annual-and-sustainability-report-2025-ENG.pdf",
     "access_date": "2026-09-24",
     "sha256": "b76012de5ee3d35456ae9f13ab7b9a7a6bdfcd726fcec00e4cb316a9cd677d84"
+  },
+  {
+    "file": "monthly_revenue/2025-07-mops-otc.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_7_0.html",
+    "access_date": "2026-10-12",
+    "sha256": "72c234e08043d004621df949d9a4f6ffa8b905b75080914f91f3efc2f224ce8d"
+  },
+  {
+    "file": "monthly_revenue/2025-08-mops-otc.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_8_0.html",
+    "access_date": "2026-10-12",
+    "sha256": "da31b733dfb20c5b55b6c83ea657a7878fa3c6487924a8ccffcd6832a5b22966"
+  },
+  {
+    "file": "monthly_revenue/2025-09-mops-otc.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_114_9_0.html",
+    "access_date": "2026-10-12",
+    "sha256": "99b0a47334ff7ed7907cda67034e74367fd794a81460f5ec1b3ba002d486896d"
+  },
+  {
+    "file": "monthly_revenue/2026-04-mops-otc.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_4_0.html",
+    "access_date": "2026-10-12",
+    "sha256": "c8fa3f3e07ac50ecfb83a9797548d4eff2b7dcd8d7b61dc371722accce83cff3"
+  },
+  {
+    "file": "monthly_revenue/2026-05-mops-otc.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_5_0.html",
+    "access_date": "2026-10-12",
+    "sha256": "53bc449c7de8ee07a2400096f012edf4d6137d4350f93332d8598ae22c7f793a"
+  },
+  {
+    "file": "monthly_revenue/2026-09-mops-otc.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_0.html",
+    "access_date": "2026-10-12",
+    "sha256": "fd995580c3b068753b14fd5505596831953ba19aa8885e1fb145b4d76abba263"
   }
 ]

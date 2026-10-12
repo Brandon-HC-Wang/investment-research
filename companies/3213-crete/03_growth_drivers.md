@@ -1,6 +1,6 @@
 # Growth drivers and visibility
 
-2026-09-24; sources [IR25, AR25, H126, REV](sources/README.md).
+2026-10-12; sources [IR25, AR25, H126, REV](sources/README.md).
 
 ## Causal drivers
 
@@ -29,3 +29,25 @@ The verified RODA reseller relationship makes European defense procurement a cre
 - Confirmation: Through FY2026–FY2027, verify binding European program orders, rugged deliveries, margin and collections. Rejection: order reductions/cancellations or evidence that growth instead comes from unrelated programs would weaken this attribution.
 - Status: Open; medium qualitative confidence for European rearmament, low for an Iran-specific contribution. No numerical war premium or EPS revision.
 - Interpretation: A ceasefire need not immediately end multi-year modernization or replenishment; conversely, procurement deferrals and lower utilization can reduce EPS. Component shortages and cost increases can offset demand. [Sources](sources/README.md).
+
+## 2026-10-12 — Revenue attainment improves; earnings quality still needs verification
+
+This review supersedes the August-based forward-run-rate discussion above for current monitoring, while preserving it as the 2026-09-24 assessment. [Official monthly evidence](sources/README.md).
+
+**Estimate:** Retain FY2026 revenue 3,800 (+31.61% versus FY2025), including rugged 2,250, commercial 1,465 and other 85. After monthly January–September 2,845.507, Q4 must contribute 954.493, or 318.164 per month: -13.94% versus Q3, but +77.50% versus the weak 2025 Q4 monthly total 537.728. Using reviewed H1 1,736.008 plus Q3 monthly 1,109.130 gives an indicative nine-month anchor 2,845.138 and Q4 requirement 954.862; this 0.369 reconciliation is not silently treated as resolved.
+
+| FY2026 scenario | FY revenue | Q4 required, monthly basis | Q4 monthly average |
+|---|---:|---:|---:|
+| Downside | 3,480 | 634.493 | 211.498 |
+| Base | 3,800 | 954.493 | 318.164 |
+| Upside | 4,100 | 1,254.493 | 418.164 |
+
+Amounts TWD million. Mechanically extending September through Q4 gives FY revenue 3,905.695; repeating the Q3 average gives 3,954.637. These are run-rate illustrations without backlog or seasonality evidence, not revised forecasts. The 4,100 upside still needs a Q4 pace above every Q3 month plus margin and cash confirmation.
+
+**Opinion:** Aggregate revenue attainment is better supported, but Q3 system sales -5.49% QoQ and lower system share counter the expectation that sequential growth necessarily improves mix. Monthly divisions cannot verify the annual rugged-product target. Keep 2027 / 2028 growth and replacement drivers unchanged; no new evidence establishes order duration, capacity commissioning or conflict-specific sales.
+
+**Next tests:** October revenue by 2026-11-10 (monitoring date, not a verified company release schedule), Q3 financials by the existing 2026-11-16 review. Check Q4 pace against 318.164 per month, product reconciliation, consolidated GM at least 34% and H2 GM assumption 35%, inventory/receivables and operating cash flow, tax reconciliation and diluted shares. A single GM reading below 34% triggers bridge reassessment; sustained GM below 32%, cancellations or stalled system shipments with high inventory would challenge the base path. Do not equate a one-month decline with lost contracts without counterparty evidence.
+
+## 2026-10-12 — Batch deliveries and replacement demand
+
+FY25 revenue policy and H126 advances support recognition at delivery/control transfer. Customer acceptance can shift a batch between periods without changing lifetime order economics. Conversely, a finite batch without replacement can reduce subsequent system sales and utilization; monitor rolling system sales, contract liabilities, disclosed new orders, GM and collections. The current monthly table does not identify a special September catch-up, subsidy, asset sale or individual contract. No special revenue amount is removed or mechanically annualized. Q-2026-008 is Open; current revenue scenarios and H-2026-001 remain unchanged. [Financial evidence](02_financials.md).
