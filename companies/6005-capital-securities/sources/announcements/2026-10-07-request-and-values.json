@@ -1,0 +1,26 @@
+{
+  "method": "POST",
+  "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+  "access_date": "2026-10-12",
+  "form": {
+    "step": "2",
+    "TYPEK": "sii",
+    "co_id": "6005",
+    "year": "115",
+    "month": "10",
+    "isnew": "false",
+    "seq_no": "1",
+    "spoke_time": "140111",
+    "spoke_date": "20261007"
+  },
+  "title": "September 2026 consolidated self-reported profit",
+  "publication_date": "2026-10-07",
+  "publication_time": "14:01:11",
+  "units": "TWD thousand, EPS TWD/share",
+  "nine_month_group_pretax": 12311862,
+  "nine_month_group_net_income": 10483884,
+  "nine_month_company_eps": 3.99,
+  "september_group_net_income": 672566,
+  "september_company_eps": 0.25,
+  "audit_status": "Not audited or reviewed; group net income is not the EPS numerator."
+}

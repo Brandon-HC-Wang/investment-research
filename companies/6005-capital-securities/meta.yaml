@@ -1,0 +1,14 @@
+ticker: "6005"
+company: 群益金鼎證券股份有限公司
+industry: Securities Brokerage and Market Making
+market: TWSE
+status: qualifying
+confidence: medium
+priority: 2
+last_update: 2026-10-12
+next_action: Verify Q3 parent EPS, bonus-share reconciliation, net trading and September revenue by 2026-11-16; revisit cash versus stock when FY2026 distributions are proposed.
+watch_items:
+  - Brokerage traded value, fee yield and financing balances
+  - Net trading after hedge losses, capital adequacy and funding
+  - Capital Investment Trust contribution, AUM and net flows
+  - Investment disposal recurrence and cash versus stock distributions

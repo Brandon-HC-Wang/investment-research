@@ -8,6 +8,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Added
 
+- Securities-brokerage industry package covering hedge-netted trading earnings, associate asset-management exposure, bonus-share denominators and cash-versus-stock dividend scenarios (2026-10-12).
 - First-class `strategies/` and `screens/` contracts with registries, bilingual reasoning, rebuildable refresh state, and append-only run semantics.
 - JSON Schemas and templates for strategy definitions, screen definitions, screen state, and point-in-time run manifests.
 - Dependency-free, read-only screen-refresh checker with JSON output, deterministic date evaluation, and unit tests.

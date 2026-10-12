@@ -10,6 +10,7 @@
 
 ### 新增
 
+- 新增證券經紀產業知識包，涵蓋交易與避險淨損益、關聯投信曝險、無償配股分母及現金／股票股利情境（2026-10-12）。
 - 第一級 `strategies/` 與 `screens/` 契約，包含 registries、雙語推理、可重建刷新 state 及 append-only run semantics。
 - Strategy definitions、screen definitions、screen state 及點時 run manifests 的 JSON Schemas 與 templates。
 - Dependency-free、read-only screen 刷新檢查器，支援 JSON output、deterministic date evaluation 及單元測試。

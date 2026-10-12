@@ -11,6 +11,7 @@
 - [`semiconductor/`](semiconductor/README.md)
 - [`engineering/`](engineering/README.md)
 - [`ai-hardware/`](ai-hardware/README.md)
+- [`securities-brokerage/`](securities-brokerage/README.md)
 
 每個包都將行業背景、營運指標、估值慣例和持久的開放性問題分開。這種結構允許代理僅載入任務所需的層。
 

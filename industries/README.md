@@ -9,6 +9,7 @@ Industry records store reusable economics, value-chain structure, KPIs, cycle me
 - [`semiconductor/`](semiconductor/README.md)
 - [`engineering/`](engineering/README.md)
 - [`ai-hardware/`](ai-hardware/README.md)
+- [`securities-brokerage/`](securities-brokerage/README.md)
 
 Each package separates industry context, operating metrics, valuation conventions, and durable open questions. This structure lets agents load only the layer required for a task.
 

@@ -1,0 +1,23 @@
+{
+  "period": "2026-08",
+  "publisher": "MOPS/company submission",
+  "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html",
+  "access_date": "2026-10-12",
+  "units": "TWD thousand",
+  "cells": [
+    "6005",
+    "群益證",
+    "3,030,550",
+    "2,046,056",
+    "2,085,061",
+    "48.11",
+    "45.34",
+    "24,297,437",
+    "12,165,830",
+    "99.71",
+    "主係自營操作獲利增加及成交量增加致經紀手續費收入增加"
+  ],
+  "source_sha256": "3dba2985c52c7120be32f41299b22ba833054b70308dee05d51e2f375a2ba6e1",
+  "exact_value_yoy_percent": 45.345867578934154,
+  "exact_value_ytd_growth_percent": 99.71869572400732
+}

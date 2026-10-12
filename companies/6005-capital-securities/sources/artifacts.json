@@ -1,0 +1,44 @@
+[
+  {
+    "file": "earnings/2026Q2-consolidated.pdf",
+    "url": "https://www.capital.com.tw/CapitalGWAPI/srvcms/api/FinancialStatementsAndCreditRating/GetFile/176",
+    "access_date": "2026-10-12",
+    "sha256": "a2a2aefe16a931c21a84b22ce03af81a14d2ba49ebe2ea2fdc0c876fa4460994"
+  },
+  {
+    "file": "earnings/2025FY-consolidated.pdf",
+    "url": "https://www.capital.com.tw/CapitalGWAPI/srvcms/api/FinancialStatementsAndCreditRating/GetFile/171",
+    "access_date": "2026-10-12",
+    "sha256": "cd226f024642944e9786f26d455128a9665ada876853fb909b72fe5f9721e1a1"
+  },
+  {
+    "file": "annual_reports/2025-annual-report.pdf",
+    "url": "https://www.capital.com.tw/CapitalGWAPI/srvcms/api/ShareholdersMeeting/GetFile/63",
+    "access_date": "2026-10-12",
+    "sha256": "3c6e70def2b76c86a8b6a3f81975023039da764589a4658f17ccf6992ce0e59c"
+  },
+  {
+    "file": "conference_calls/2026-09-11-presentation.pdf",
+    "url": "https://www.capital.com.tw/CapitalGWAPI/srvcms/api/ShareholdersMeeting/GetFile/66",
+    "access_date": "2026-10-12",
+    "sha256": "6f415f16b5ec177e6b98931442eb57bcaa89838ebfdab8380f60b7ab428403c3"
+  },
+  {
+    "file": "annual_reports/00919-2026-08-factsheet.pdf",
+    "url": "https://www.capitalfund.com.tw/ECStorge/fund/M195.pdf",
+    "access_date": "2026-10-12",
+    "sha256": "47a655366150c341c2534265fe706c9da337f82d1106b3fae48bf29064d9ef3f"
+  },
+  {
+    "file": "announcements/2026-10-07-september-self-profit.html",
+    "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+    "access_date": "2026-10-12",
+    "sha256": "d9c6280406ef997588ae2743814b275c28bc025421bd932bca610ea9f0bab41b"
+  },
+  {
+    "file": "market_data/2026-10-08-twse-price.json",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=6005",
+    "access_date": "2026-10-12",
+    "sha256": "c432c503ce224806a04810490de583629e40d5a86d550e22d3b3454aae92d801"
+  }
+]
