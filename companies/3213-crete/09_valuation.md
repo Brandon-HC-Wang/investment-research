@@ -1,5 +1,7 @@
 # Valuation
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 As of 2026-10-12; all prices TWD/share. Business and [earnings model](04_eps_model.md) precede valuation. TPEx closing price on 2026-09-23: 124.00 ([source](sources/README.md)). This is an analyst scenario valuation, not a price prediction or recommendation.
 
 Current review: scenario values retained; the 2026-09-23 price comparison below is historical, not a current quote.
@@ -31,3 +33,7 @@ The base implies conditional undervaluation relative to 124.00, but downside can
 ## 2026-10-12 — Valuation review after September revenue
 
 **Estimate:** Retain the primary 2027 EPS 13.86 × P/E 11–13 / 1.10 calculation (138.6–163.9, approximately 140–165) and all downside/upside ranges. Monthly revenue does not justify a higher multiple or an asset premium; margin, tax and cash evidence are still pending. The one-year horizon convention is reassessed as of this review, not a precise 2027 year-end target. No current market-price comparison is made: the opening TWD 124.00 reference belongs to 2026-09-23 and has not been refreshed. Preserve the prior valuation history above.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) for current forward comparisons; earlier dated valuations remain historical. FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. Preserve the sector method and cyclical/recognition discount; do not capitalize selected gains or treat the cash estimate as a valuation floor. No new target price is adopted.

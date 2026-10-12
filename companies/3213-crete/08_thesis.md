@@ -1,5 +1,7 @@
 # Investment thesis
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 As of 2026-10-12. Evidence confidence medium; 2027 earnings confidence low-to-medium. No buy/sell/hold instruction.
 
 **2026-10-12 update:** September +49.28% YoY and Q3 +35.68% YoY support the consolidated run rate, but system sales -5.49% QoQ and lower system share require margin verification. Retain base diluted EPS 12.15 / 13.86; A-2026-002 margin confidence is 55%. Next monthly review 2026-11-10 and Q3 review 2026-11-16. [Monthly review](02_financials.md), [mix question Q-2026-007](07_open_questions.md).
@@ -42,3 +44,7 @@ Next action: monitor October revenue on 2026-11-10; verify Q3 product mix, tax r
 2026-10-12 — September review supports aggregate FY2026 revenue attainment, but Q3 growth is sequentially channel-led. Base EPS and valuation retained; A-2026-002 confidence reduced to 55%, Q-2026-007 opened. Evidence confidence medium, 2027 earnings confidence low-to-medium and score 2.95 / 5 unchanged. No evidence yet resolves tax or cash conversion. [Financials](02_financials.md), [model](04_eps_model.md).
 
 2026-10-12 — Earnings-quality supplement: H1 FVTPL gain 2.962 is about 0.04 diluted EPS at assumed 25% tax; FVOCI stock-disposal transfers are excluded from EPS. Inventory recovery and scrapping jointly leave a net cost, not a standalone profit boost. Batch recognition is possible but September's exceptional contribution is unquantified (Q-2026-008). Forecasts/confidence unchanged; cash conversion and replacement orders remain central. [Financials](02_financials.md), [EPS definitions](04_eps_model.md).
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. Inventory/advance conversion; parent H2 actual cash; future reserve and board cash allocation. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

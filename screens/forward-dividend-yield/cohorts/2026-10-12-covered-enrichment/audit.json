@@ -1,0 +1,51 @@
+{
+  "as_of": "2026-10-12",
+  "validation_type": "offline_arithmetic_and_artifact_integrity_not_forecast_outcome_validation",
+  "checked_counts": {
+    "EPS_rows": 72,
+    "cash_budgets": 32,
+    "dividend_bounds": 24,
+    "gate_checks": 8,
+    "primary_filings": 18,
+    "shared_artifacts": 11
+  },
+  "companies": 8,
+  "three_year_distribution_rows": 24,
+  "base_interval_reaches_7pct": [
+    "3213",
+    "6005",
+    "5515",
+    "2603",
+    "2727"
+  ],
+  "all_economic_gate_qualifiers": [],
+  "formal_screen_run": false,
+  "future_cash_verified": false,
+  "limitations": [
+    "Future cash budgets and dividends remain Open estimates.",
+    "Financial capital adequacy requires monetary capital/risk and post-distribution review.",
+    "Lang exact historical adjusted DPS/stock completeness and dilution remain gaps.",
+    "Price date is earlier than information cutoff; not an Oct 8 backtest.",
+    "Version-4 financial FCF NA execution contract is unchanged."
+  ],
+  "model_sha256": {
+    "3213": "a0fb9ef9ed69cd075022b9aa747d6e4b3dff6467ff01cfbf0684bbe74d270ac0",
+    "6005": "52799481b1ebbcff4f262072989910aa23ce4bc1710bcdea6589402241638b27",
+    "6165": "cf5fd140df219b65c89e245a6815d131fb757b3224461c0088a8f95cd8dad7dd",
+    "5515": "f791742f75c03405fe4ce9572481f8d241d10cb3c3b88e3db0a231b9a9cd5c6c",
+    "2348": "179c57e92903cc7525ad3be2ca32f92562e6aff87c1476f75f7ada06b07fb1e1",
+    "2382": "b2d08a6145b902bf838f739524a2e2b81f7012c8e625a4dffd207be26147dee2",
+    "2603": "e537bad07f2ecdd9b827e4b0967caba47cb331861613dd759253cd42327e94cf",
+    "2727": "096b7d9b42ed8ee394ff2a513110addcf1c8453c1b5c7f26a5ef1f75203141b3"
+  },
+  "checksums": {
+    "calculations.json": "f5aed47f29a6deaffb6fcf20de104f18d3a7203962dd412b9bcff038df1b836f",
+    "estimates.csv": "1b27f4484682bc166229e592bc1cee324f035cf7144fb995108676fffbf130a6",
+    "dividend-history.csv": "f10bfb921521ee73e99116007fd6a33a0325225236eee9005be2be0e49cb6149",
+    "sources.json": "1f718c8a236d6d782044ad1324bc4077261f2aca6f62791f4205ad1d7becb8c1"
+  },
+  "bilingual_numeric_pairs_checked": 84,
+  "historical_pilot_and_snapshot_bytes_changed": false,
+  "repository_validation": "passed",
+  "git_diff_check": "passed"
+}

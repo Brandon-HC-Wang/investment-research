@@ -1,5 +1,7 @@
 # EPS Model
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Model status
 
 - **As of:** 2026-08-05
@@ -67,3 +69,7 @@ Missing disclosures include brand-level revenue and margins, same-store sales, c
 
 - *2026 Q1 Consolidated Financial Statements*, Wowprime Corp., issued 2026-05-07, pp. 4–8 and 49–50, <https://www.wowprime.com/upload_cg/img020260511160600.pdf>, accessed 2026-08-05.
 - *TWSE Company Profile: 2727 Wowprime*, Taiwan Stock Exchange, produced 2026-08-05, pp. 1–2, <https://www.twse.com.tw/pdf/ch/2727_ch.pdf>, accessed 2026-08-05.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 19.21; FY2027E/FY2028E 20.99/22.46. Estimated 2027 ordinary cash DPS 16.03-19.78, point 18.79, downside 13.94. Basic/common profit removes H1 FX 8.780, issuer FVTPL gain 0.350 and lease-modification gain 4.646 at estimated 20% tax. Diluted numerator starts from actual 821.952, which already reverses issuer gain 0.350; remove only FX and lease gain, retaining known H1 if-converted interest and estimated H2 addback 5. Retain disposal loss 6.851 and impairment 8.552 as ordinary closure/expansion costs. Annual dilution proxy uses H1 85.865 million, dividend-participating shares 82.8591 million; future conversion can raise the cash denominator. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

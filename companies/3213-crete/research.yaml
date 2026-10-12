@@ -1,7 +1,7 @@
 coverage: initiated
 priority: 2
 confidence: medium
-next_review: 2026-11-10
+next_review: 2026-11-16
 last_thesis_update: 2026-10-12
 research_status: qualifying
 watch_items:
@@ -10,3 +10,4 @@ watch_items:
   - Batch delivery recognition, replacement orders and inventory-to-cash conversion
   - Effective tax rate and FX exposure
   - Capacity commissioning and 2027 order terms
+  - Conditional 2027 cash dividend and parent funding bridge; 2026-10-12 enrichment

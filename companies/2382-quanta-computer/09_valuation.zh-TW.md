@@ -1,5 +1,7 @@
 # 估值
 
+> 現行有日期補充: [2026-10-12](model/2026-10-12-dividend-enrichment.md). 下方較早有日期章節保留為歷史。
+
 ## 估值背景
 
 截至 2026-09-09 TWSE 收盤，廣達股價為新台幣 342.00 元。TWSE 公布的近四季本益比為 14.90 倍、殖利率 4.56%、股價淨值比 5.41 倍。採用約 38.5 億加權股數與 2026-06-30 現金／借款；未計金融投資前，集團現金較借款少約新台幣 90.05 十億元。
@@ -29,3 +31,7 @@
 ## 來源
 
 - *Daily Trading Information* 與 *P/E, Dividend Yield and P/B*，臺灣證券交易所，2026-09-09，[price dataset](https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL) 及 [multiple dataset](https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL)，存取日 2026-09-10。
+
+## 2026-10-12 — 八家公司股利補齊
+
+現行前瞻比較使用 [有日期 EPS／股利／現金補充](model/2026-10-12-dividend-enrichment.md) 的正常化 EPS 與股數橋接；以前有日期估值保留為歷史。FY2026E 正常化稀釋 EPS 22.71；FY2027E／FY2028E 24.18／26.09。2027 普通股現金 DPS 估計 13.53-19.32，點估 18.19，下行 4.04。 維持產業估值法與循環／認列折價，不資本化指定一次性利益，不把現金估計當估值下限；本次不新增目標價。

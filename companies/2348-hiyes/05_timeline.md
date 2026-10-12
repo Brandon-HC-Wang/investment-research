@@ -43,3 +43,7 @@
 - **Analytical impact:** Current low-confidence 2026 EPS estimates are TWD 2.47 conservative and TWD 7.31 optimistic, with practical ranges of TWD 2.0–3.2 and TWD 6.3–8.5. The TWD 5.58 and TWD 11.32 points remain historical only.
 - **Records updated:** `04_eps_model.md`, `07_open_questions.md`, `08_thesis.md`, `assumptions.md`, and `research.yaml` plus Traditional Chinese companions.
 - **Confidence:** Low; Q3 project margin, cash flow, debt, finance costs, and NCI are the decisive validation inputs.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

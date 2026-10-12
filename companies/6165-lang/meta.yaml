@@ -5,10 +5,11 @@ market: TWSE
 status: qualifying
 confidence: low
 priority: 2
-last_update: 2026-09-21
-next_action: Reconcile Q3 platform growth, tax, prepayments, dividend settlement and treasury-share transfers against the initial scenario model.
+last_update: 2026-10-12
+next_action: Verify Q3 earnings and parent cash/remittance/capital commitments against the 2026-10-12 dividend supplement.
 watch_items:
   - Paying-user retention and effective streamer payouts
   - Tax and normalized cash earnings
   - Noncore prepayments and related-party receivable collection
   - Dividend settlement and diluted share count
+  - Conditional 2027 cash dividend and parent funding bridge; 2026-10-12 enrichment

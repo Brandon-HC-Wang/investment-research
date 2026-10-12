@@ -1,5 +1,7 @@
 # EPS Model
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Model status
 
 - **As of:** 2026-09-10
@@ -52,3 +54,7 @@ At around TWD135 billion quarterly revenue and 2.165 billion shares, each one pe
 ## Assumption history
 
 - **2026-09-10:** Initial FY2026 range of TWD28.1-44.7, base TWD36.8. No prior forecast.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 36.65; FY2027E/FY2028E 26.48/26.93. Estimated 2027 ordinary cash DPS 11.27-18.33, point 17.97, downside 0.00. Remove H1 FX 336.733 and FVTPL 0.931 at estimated 20% tax, NCI unchanged. Freight-rate cyclicality remains ordinary earnings, not a one-off to delete. Use a separate TWD 22-28 mid-cycle valuation sensitivity; FY2026 is a peak-cycle forecast. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

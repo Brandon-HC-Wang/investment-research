@@ -1,0 +1,133 @@
+[
+  {
+    "ticker": "2727",
+    "path": "companies/2727-wowprime/sources/earnings/2025FY-parent-only.pdf",
+    "sha256": "e84ef318f9c07fb5eabf55355245ca8e17826cac7c12dcdde50a906530f4cfb4",
+    "access_date": "2026-10-12",
+    "title": "Wowprime 2025FY-parent-only financial statements",
+    "publisher": "Wowprime / public financial-filing portal",
+    "period": "FY2025",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告於 115 年 3 月 5 日經董事會通過。",
+    "url": "https://www.wowprime.com/upload_cg/img020260313152234.pdf",
+    "public_form_request": null,
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 88,
+    "document_date": "2026-03-05",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 13,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        7,
+        12,
+        17,
+        30,
+        57,
+        58
+      ],
+      "現金流量表": [
+        3,
+        11,
+        16
+      ],
+      "盈餘分配": [
+        44,
+        45,
+        46
+      ]
+    }
+  },
+  {
+    "ticker": "2727",
+    "path": "companies/2727-wowprime/sources/earnings/2026Q2-consolidated.pdf",
+    "sha256": "13d7089cd5bd3a8f5ad529e5ee75151b3280317edf4b77c7366dc6872ef039cf",
+    "access_date": "2026-10-12",
+    "title": "Wowprime 2026Q2-consolidated financial statements",
+    "publisher": "Wowprime / public financial-filing portal",
+    "period": "2026H1",
+    "statement_scope": "consolidated",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本合併財務報告於 115 年 8 月 6 日經董事會通過。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2727&filename=202602_2727_AI1.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 56,
+    "document_date": "2026-08-06",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 10,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        4,
+        8,
+        14,
+        41,
+        43
+      ],
+      "現金流量表": [
+        3,
+        7,
+        11
+      ],
+      "盈餘分配": [
+        30
+      ]
+    }
+  },
+  {
+    "ticker": "2727",
+    "path": "companies/2727-wowprime/sources/earnings/2024FY-parent-only.pdf",
+    "sha256": "8bdd0de28088c17377bd483b2e877f1162f39df5e832e6fed06c4503e5a1fac6",
+    "access_date": "2026-10-12",
+    "title": "Wowprime 2024FY-parent-only financial statements",
+    "publisher": "Wowprime / public financial-filing portal",
+    "period": "FY2024",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告於 114 年 3 月 3 日經董事會通過。",
+    "url": "https://www.wowprime.com/upload_cg/img020250310161900.pdf",
+    "public_form_request": null,
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 92,
+    "document_date": "2025-03-03",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 13,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        7,
+        12,
+        17,
+        30,
+        58,
+        59
+      ],
+      "現金流量表": [
+        3,
+        11
+      ],
+      "盈餘分配": [
+        44,
+        45,
+        46
+      ]
+    }
+  }
+]

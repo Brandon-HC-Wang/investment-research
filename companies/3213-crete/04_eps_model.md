@@ -1,5 +1,7 @@
 # EPS scenarios
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 Reviewed 2026-10-12; numerical scenario assumptions initiated 2026-09-24 and retained. Amounts TWD million; shares million; EPS TWD/share. Analyst estimates, not management forecasts or verified consensus. [Inputs and full-precision outputs](scenario-inputs.json); actuals from [financials](02_financials.md). Forecast confidence is medium for 2026, low-to-medium for 2027 and low for 2028.
 
 ## Outputs
@@ -86,3 +88,7 @@ The last row also removes interest/dividend income that may recur: it is an oper
 Inventory recovery 28.125 has a standalone assumed-tax EPS benefit about 0.36, while scrapping 40.718 costs about 0.51: paired net cost about 0.16. Routine inventory expenses remain in reported/model earnings; these component sensitivities do not justify an automatic add-back or repeat-rate assumption. See [financial detail](02_financials.md).
 
 All original scenario amounts remain unchanged. Removing H1 FVTPL alone from FY2026 base reported EPS would give an illustrative 12.11 instead of 12.15, holding everything else fixed; that does not remove H2 forecast investment income or establish a full-year normalized forecast. No new high-confidence dividend assumption is made.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. Remove H1 FVTPL 2.962 and FX 3.275 at estimated 25% marginal tax; unchanged NCI. FVOCI equity disposal gains are already outside EPS. Retain ordinary interest and associate profit; do not remove inventory and scrap costs. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

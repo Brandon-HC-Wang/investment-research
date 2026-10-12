@@ -1,0 +1,81 @@
+[
+  {
+    "ticker": "2603",
+    "path": "companies/2603-evergreen-marine/sources/earnings/2025FY-parent-only.pdf",
+    "sha256": "fddaae9d70583f0631fa37f862e3fa30a9f71cf546ed08da6679fc306bc13bab",
+    "access_date": "2026-10-12",
+    "title": "Evergreen Marine 2025FY-parent-only financial statements",
+    "publisher": "Evergreen Marine / public financial-filing portal",
+    "period": "FY2025",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國 115 年 3 月 13 日經董事會通過發布。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2603&filename=202504_2603_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 114,
+    "document_date": "2026-03-13",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 15,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        9,
+        14,
+        30,
+        70,
+        76,
+        81
+      ],
+      "盈餘分配": [
+        51,
+        52,
+        69
+      ]
+    }
+  },
+  {
+    "ticker": "2603",
+    "path": "companies/2603-evergreen-marine/sources/earnings/2024FY-parent-only.pdf",
+    "sha256": "515ba0885dd025f412c693ed39a8ba2c77eac126308138ad2c4a6f4a99e31612",
+    "access_date": "2026-10-12",
+    "title": "Evergreen Marine 2024FY-parent-only financial statements",
+    "publisher": "Evergreen Marine / public financial-filing portal",
+    "period": "FY2024",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國 114 年 3 月 13 日經董事會通過發布。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2603&filename=202404_2603_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 120,
+    "document_date": "2025-03-13",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 16,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        10,
+        15,
+        31,
+        72,
+        79,
+        84
+      ],
+      "盈餘分配": [
+        53,
+        71
+      ]
+    }
+  }
+]

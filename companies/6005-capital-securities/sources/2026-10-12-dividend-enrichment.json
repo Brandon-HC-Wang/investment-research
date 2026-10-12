@@ -1,0 +1,91 @@
+[
+  {
+    "ticker": "6005",
+    "path": "companies/6005-capital-securities/sources/earnings/2025FY-parent-only.pdf",
+    "sha256": "f9ebe12649a55850d24d60d2dae4c75b19a970f0bf8b09923810ea9de4607e41",
+    "access_date": "2026-10-12",
+    "title": "Capital Securities 2025FY-parent-only financial statements",
+    "publisher": "Capital Securities / public financial-filing portal",
+    "period": "FY2025",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一五年三月六日經董事會通過發布。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=6005&filename=202504_6005_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 137,
+    "document_date": "2026-03-06",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 13,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        7,
+        12,
+        16,
+        28,
+        55,
+        56
+      ],
+      "現金流量表": [
+        3,
+        11,
+        12,
+        40
+      ],
+      "盈餘分配": [
+        46
+      ]
+    }
+  },
+  {
+    "ticker": "6005",
+    "path": "companies/6005-capital-securities/sources/earnings/2026Q2-parent-only.pdf",
+    "sha256": "829e48e0b9d76e40b9d85f9c67c1278c58fe62fcfa40de0a944fde3e200956f2",
+    "access_date": "2026-10-12",
+    "title": "Capital Securities 2026Q2-parent-only financial statements",
+    "publisher": "Capital Securities / public financial-filing portal",
+    "period": "2026H1",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一五年八月二十八日經董事會通過發布。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=6005&filename=202602_6005_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 122,
+    "document_date": "2026-08-28",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 12,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        6,
+        11,
+        15,
+        41,
+        42,
+        54
+      ],
+      "現金流量表": [
+        3,
+        10,
+        11,
+        13,
+        28
+      ],
+      "盈餘分配": [
+        30
+      ]
+    }
+  }
+]

@@ -72,3 +72,16 @@ Q-2026-001 through Q-2026-006 remain Open. Monthly sales do not resolve commissi
 - Resolution: Obtain Q3 product/order and acceptance explanations; reconcile contract liabilities, subsequent system sales and cash collections. A completed batch alone does not establish a non-recurring special profit or sustainable run rate.
 - Model effect: Revenue timing, utilization and margin. No numerical forecast adjustment until amounts/terms are evidenced; do not invent a one-off amount.
 - History: 2026-10-12 — Open; revenue-recognition policy verified, September exceptional attribution unverified.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### Q-2026-009 — Forward cash-budget confirmation
+
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Question:** Do actual parent collections, funding commitments, reserves and board cash allocation support the estimated 2027 payout?
+- **EPS materiality:** High for funding/dilution, and high for dividend reliability.
+- **Evidence gap:** Inventory/advance conversion; parent H2 actual cash; future reserve and board cash allocation.
+- **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
+- **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.

@@ -1,0 +1,91 @@
+[
+  {
+    "ticker": "6165",
+    "path": "companies/6165-lang/sources/earnings/2025FY-parent-only.pdf",
+    "sha256": "9f7a2ff842e8f9254bde2ea60945d0738977f9084f6b9174872eeb0544323427",
+    "access_date": "2026-10-12",
+    "title": "Lang 2025FY-parent-only financial statements",
+    "publisher": "Lang / public financial-filing portal",
+    "period": "FY2025",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一五年三月十二日經董事會通過發布。",
+    "url": "https://langinc.com.tw/wp-content/uploads/2026/04/1001007470_114Q4_%E5%80%8B%E9%AB%94_%E5%AE%8C%E7%A8%BF%E8%B2%A1%E5%A0%B1_IMSv4-%E9%9B%BB%E5%AD%90%E6%9B%B8_IMSv1_U1.pdf",
+    "public_form_request": null,
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 55,
+    "document_date": "2026-03-12",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 10,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        6,
+        9,
+        13,
+        15,
+        24,
+        40
+      ],
+      "現金流量表": [
+        9,
+        24,
+        33
+      ],
+      "盈餘分配": [
+        35,
+        36,
+        48
+      ]
+    }
+  },
+  {
+    "ticker": "6165",
+    "path": "companies/6165-lang/sources/earnings/2024FY-parent-only.pdf",
+    "sha256": "ae1c0b5314f2251d31d6dcdf6a37b25d0df8583549249d47a1b9c4b6a0af8a0f",
+    "access_date": "2026-10-12",
+    "title": "Lang 2024FY-parent-only financial statements",
+    "publisher": "Lang / public financial-filing portal",
+    "period": "FY2024",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一四年三月十三日經董事會通過發布。",
+    "url": "https://langinc.com.tw/wp-content/uploads/2025/03/113%E5%B9%B4%E7%AC%AC%E5%9B%9B%E5%AD%A3%E8%B2%A1%E5%A0%B1_%E5%80%8B%E9%AB%94.pdf",
+    "public_form_request": null,
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 56,
+    "document_date": "2025-03-13",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 10,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        6,
+        9,
+        13,
+        15,
+        24,
+        40
+      ],
+      "現金流量表": [
+        9,
+        24,
+        33
+      ],
+      "盈餘分配": [
+        36,
+        47
+      ]
+    }
+  }
+]

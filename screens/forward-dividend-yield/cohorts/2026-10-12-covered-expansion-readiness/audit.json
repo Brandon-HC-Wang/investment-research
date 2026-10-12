@@ -1,0 +1,24 @@
+{
+  "record_type": "covered-cohort readiness audit; not screen executor input or result",
+  "audit_date": "2026-10-12",
+  "definition_version": 4,
+  "screen_definition_path": "screens/forward-dividend-yield/screen.yaml",
+  "screen_definition_sha256": "4719580024c3f7b763f312ab63e7590b732272cb93aff3721a7aab0de9353723",
+  "cohort_count": 8,
+  "original_pilot_count": 4,
+  "added_covered_count": 4,
+  "market_counts": {
+    "TWSE": 7,
+    "TPEx": 1
+  },
+  "fully_reviewed_v4_input_count": 0,
+  "readiness_path": "readiness.csv",
+  "readiness_sha256": "c242e48c21cc2b6c13bce1394c1e1eb7d2be99f0d102a51c1092be88945ffe62",
+  "review_basis": "local canonical evidence and existing partial pilot; no external data refresh",
+  "price_date": null,
+  "execution_status": "not_executed",
+  "strategy_outcome_validation_status": "not_performed",
+  "next_goal": "complete reviewed sector inputs for this fixed denominator; then propose stratified 15-20 company cohort",
+  "thresholds_changed": false,
+  "repository_commit": "e0bd8750af97358a32ecab01b0962f5340be5f9b"
+}

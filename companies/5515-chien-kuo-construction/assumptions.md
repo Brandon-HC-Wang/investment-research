@@ -51,3 +51,20 @@ This register is append-only. Valid statuses are `Open`, `Verified`, and `Reject
 A-2026-004 — Open; confidence retained at 40%. This estimate does not verify actual H2 returns.
 
 The [2026-09-15 refresh](sources/market_data/2026-09-15-q3-fvtpl-mark.md), using September 14 prices and September 11 Allianz NAV, estimates a Q3-to-date FVTPL loss of TWD 87.231 million, or -0.346 EPS at an assumed 20% tax rate and 201.6 million shares. H1 reported FVTPL gain of TWD 724.148 million implies +2.874 EPS under the same assumption; YTD FVTPL contribution is approximately +2.527 EPS, not total company EPS. The unpriced-bucket sensitivity gives Q3 -0.724 to +0.032 EPS and YTD +2.150 to +2.905 EPS. This supersedes the September 9 mark only as the latest indicative estimate, not as a revision of historical evidence. Full-year reported and normalized EPS scenarios remain unchanged. Holdings, distributions, tax, FX and portfolio turnover remain unverified; Q-2026-003 and A-2026-004 remain Open. Confidence: low-to-medium. Next: reconcile September 30 holdings and the Q3 FVTPL/tax/EPS bridge. TPEx certificate work remains deferred; secondary emerging quotes and selected NAVs are explicitly identified in the calculation.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### A-2026-005 — Conditional parent cash and sector EPS bridge
+
+- **Description:** Operating drivers and parent cash conversion support the dated FY2026-FY2028 scenarios and estimated 2027 cash dividend.
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Confidence:** 35% for EPS, 30% for cash capacity.
+- **Causal mechanism:** Segment/cycle margins produce common profit; collections/remittances less funding, debt and reserves constrain ordinary cash allocation.
+- **Supporting evidence:** Retained parent statements, reported H1 earnings and three-year dividend declarations; [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Contradicting evidence:** Portfolio profit/NCI reconciliation, capital-call schedule and parent equity total discrepancy.
+- **Evidence test / confirmation:** Q3 2026 earnings and parent cash bridges, commitments and subsequent board allocation reconcile to the modeled path.
+- **Rejection signals:** Material margin/collection shortfall, larger funding/reserve calls or materially different board cash/stock choice.
+- **Expected window:** Q3 2026 disclosures through 2027 H1.
+- **Model effect:** FY2026E normalized diluted EPS 3.97; FY2027E/FY2028E 4.13/4.37. Estimated 2027 ordinary cash DPS 3.55-4.72, point 4.33, downside 1.81.
+- **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.

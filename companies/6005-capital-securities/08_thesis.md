@@ -1,5 +1,7 @@
 # Investment thesis
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 2026-10-12. Qualifying coverage; evidence confidence medium, 2027 earnings/cash-payout confidence low. No buy/sell/hold instruction.
 
 Capital offers a diversified securities-service franchise with an earnings floor from fees, financing and associate profits, but direct trading and market activity make earnings materially cyclical. The 20% Capital Investment Trust stake is supportive and growing; it does not turn the company into a pure ETF-fee annuity. Sustained per-share growth requires franchise share and productive capital to outlast exceptional trading profits, while capital retention may prevent high EPS from becoming equivalent cash dividends.
@@ -34,3 +36,7 @@ Next action: obtain Q3 exact parent EPS, hedge-netted earnings and September rev
 ## Thesis history
 
 2026-10-12 — Initiated coverage from official audited statements, company presentation and MOPS self-profit. Resolved the all-ETF-revenue premise; numerical forecasts remain conditional. No prior view superseded.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+FY2026E normalized diluted EPS 4.29; FY2027E/FY2028E 4.10/4.41. Estimated 2027 ordinary cash DPS 0.70-2.35, point 1.64, downside 0.30. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. Monetary eligible capital, risk denominator, segregated/pledged cash, post-distribution stress and cash/stock allocation. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

@@ -59,3 +59,16 @@
 - **Resolution method:** Select Taiwan and regional listed restaurant peers and normalize accounting, geography, format, and lease metrics.
 - **Owner/next review:** Industry/company workflow; after Q2 baseline.
 - **Status history:** 2026-08-05 — Opened.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### Q-2026-006 — Forward cash-budget confirmation
+
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Question:** Do actual parent collections, funding commitments, reserves and board cash allocation support the estimated 2027 payout?
+- **EPS materiality:** High for funding/dilution, and high for dividend reliability.
+- **Evidence gap:** Monthly/filing reconciliation, same-store/cohort margins, maintenance versus opening capex and conversion timing.
+- **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
+- **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.

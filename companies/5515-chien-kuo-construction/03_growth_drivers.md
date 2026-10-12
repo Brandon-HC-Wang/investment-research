@@ -41,3 +41,7 @@ The May presentation reported only TWD 1.8 billion of new awards during January�
 - *2026 Q2 Consolidated Financial Statements*, Chien Kuo Construction Co., approved 2026-08-12, pp. 25–27, <https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=5515&year=115&seamon=2&mtype=A&dtype=AI1>, accessed 2026-09-09.
 - *July 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, published 2026-08-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_7_0.html>, accessed 2026-09-09.
 - *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, construction category, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Portfolio profit/NCI reconciliation, capital-call schedule and parent equity total discrepancy.

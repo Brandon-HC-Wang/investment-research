@@ -57,3 +57,7 @@ New stores cannot be a durable growth engine unless mature-store productivity an
 - *2026/05/21 Investor Conference Presentation*, Wowprime Corp./Taiwan Stock Exchange, 2026-05-21, pp. 2–45, <https://www.twse.com.tw/staticFiles/news/event/8a8216d69e2f5671019e491727280069.pdf>, accessed 2026-08-05.
 - *2026 Q1 Consolidated Financial Statements*, Wowprime Corp., issued 2026-05-07, pp. 4–8 and 49–50, <https://www.wowprime.com/upload_cg/img020260511160600.pdf>, accessed 2026-08-05.
 - *TWSE Company Profile: 2727 Wowprime*, Taiwan Stock Exchange, produced 2026-08-05, pp. 1–2, <https://www.twse.com.tw/pdf/ch/2727_ch.pdf>, accessed 2026-08-05.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Monthly/filing reconciliation, same-store/cohort margins, maintenance versus opening capex and conversion timing.

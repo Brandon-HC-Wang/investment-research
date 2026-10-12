@@ -51,3 +51,7 @@ Amounts TWD million. Mechanically extending September through Q4 gives FY revenu
 ## 2026-10-12 — Batch deliveries and replacement demand
 
 FY25 revenue policy and H126 advances support recognition at delivery/control transfer. Customer acceptance can shift a batch between periods without changing lifetime order economics. Conversely, a finite batch without replacement can reduce subsequent system sales and utilization; monitor rolling system sales, contract liabilities, disclosed new orders, GM and collections. The current monthly table does not identify a special September catch-up, subsidy, asset sale or individual contract. No special revenue amount is removed or mechanically annualized. Q-2026-008 is Open; current revenue scenarios and H-2026-001 remain unchanged. [Financial evidence](02_financials.md).
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Inventory/advance conversion; parent H2 actual cash; future reserve and board cash allocation.

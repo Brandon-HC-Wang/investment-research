@@ -45,3 +45,20 @@ Append-only register. Valid statuses are `Open`, `Verified`, and `Rejected`.
 - **Verification test:** After delivery, cost per TEU falls while liftings/utilization and ROIC remain stable.
 - **Model effect:** Drives sustainable 2027-2030 EPS and the justified P/B multiple.
 - **History:** 2026-09-10 opened at 45%.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### A-2026-005 — Conditional parent cash and sector EPS bridge
+
+- **Description:** Operating drivers and parent cash conversion support the dated FY2026-FY2028 scenarios and estimated 2027 cash dividend.
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Confidence:** 35% for EPS, 30% for cash capacity.
+- **Causal mechanism:** Segment/cycle margins produce common profit; collections/remittances less funding, debt and reserves constrain ordinary cash allocation.
+- **Supporting evidence:** Retained parent statements, reported H1 earnings and three-year dividend declarations; [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Contradicting evidence:** Subsidiary remittances, vessel funding schedule, freight volume/rate mix and payment-window cash.
+- **Evidence test / confirmation:** Q3 2026 earnings and parent cash bridges, commitments and subsequent board allocation reconcile to the modeled path.
+- **Rejection signals:** Material margin/collection shortfall, larger funding/reserve calls or materially different board cash/stock choice.
+- **Expected window:** Q3 2026 disclosures through 2027 H1.
+- **Model effect:** FY2026E normalized diluted EPS 36.65; FY2027E/FY2028E 26.48/26.93. Estimated 2027 ordinary cash DPS 11.27-18.33, point 17.97, downside 0.00.
+- **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.

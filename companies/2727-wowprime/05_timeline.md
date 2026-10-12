@@ -25,3 +25,7 @@ Append-only record. Later evidence must be added as a new entry rather than rewr
 - **Records updated:** All canonical company files, `assumptions.md`, `research.yaml`, and `history/2026Q1.md`.
 - **Confidence:** Low because organic growth, unit economics, and normalized earnings remain unresolved.
 - **Source:** *TWSE Company Profile: 2727 Wowprime*, Taiwan Stock Exchange, produced 2026-08-05, pp. 1–2, <https://www.twse.com.tw/pdf/ch/2727_ch.pdf>, accessed 2026-08-05.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 19.21; FY2027E/FY2028E 20.99/22.46. Estimated 2027 ordinary cash DPS 16.03-19.78, point 18.79, downside 13.94. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

@@ -57,3 +57,20 @@
 - Evidence/verification: Official notice verifies EPS and group profit, not the exact parent numerator. Bound rounding ±12.276 and replace only prospectively with Q3 exact disclosure.
 - Model effect: services/trading, tax, shares, cash distribution or provisional earnings anchor as stated; see [model](04_eps_model.md).
 - History: 2026-10-12 — Open, 65%; initial analytical assumption.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### A-2026-008 — Conditional parent cash and sector EPS bridge
+
+- **Description:** Operating drivers and parent cash conversion support the dated FY2026-FY2028 scenarios and estimated 2027 cash dividend.
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Confidence:** 35% for EPS, 30% for cash capacity.
+- **Causal mechanism:** Segment/cycle margins produce common profit; collections/remittances less funding, debt and reserves constrain ordinary cash allocation.
+- **Supporting evidence:** Retained parent statements, reported H1 earnings and three-year dividend declarations; [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Contradicting evidence:** Monetary eligible capital, risk denominator, segregated/pledged cash, post-distribution stress and cash/stock allocation.
+- **Evidence test / confirmation:** Q3 2026 earnings and parent cash bridges, commitments and subsequent board allocation reconcile to the modeled path.
+- **Rejection signals:** Material margin/collection shortfall, larger funding/reserve calls or materially different board cash/stock choice.
+- **Expected window:** Q3 2026 disclosures through 2027 H1.
+- **Model effect:** FY2026E normalized diluted EPS 4.29; FY2027E/FY2028E 4.10/4.41. Estimated 2027 ordinary cash DPS 0.70-2.35, point 1.64, downside 0.30.
+- **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.

@@ -1,5 +1,7 @@
 # Investment Thesis
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 This is not a buy, sell, or hold recommendation.
 
 ## Current thesis
@@ -48,3 +50,7 @@ Confidence is **medium** for FY2026 and **low** for normalized 2027 earnings. Ne
 ## Thesis history
 
 - **2026-09-10:** Coverage initiated; score 2.45/5, medium near-term confidence. No prior thesis.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+FY2026E normalized diluted EPS 36.65; FY2027E/FY2028E 26.48/26.93. Estimated 2027 ordinary cash DPS 11.27-18.33, point 17.97, downside 0.00. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. Subsidiary remittances, vessel funding schedule, freight volume/rate mix and payment-window cash. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

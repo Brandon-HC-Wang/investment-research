@@ -45,3 +45,20 @@ This register is append-only. Valid statuses are `Open`, `Verified`, and `Reject
 - **Verification test:** Disclosure linking active members to higher frequency, cross-brand spend, lower acquisition cost, or incremental margin.
 - **Model effect:** Affects competitive-advantage durability, mature-store sales, and marketing efficiency.
 - **History:** 2026-08-05 — Opened at 20% confidence.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### A-2026-005 — Conditional parent cash and sector EPS bridge
+
+- **Description:** Operating drivers and parent cash conversion support the dated FY2026-FY2028 scenarios and estimated 2027 cash dividend.
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Confidence:** 35% for EPS, 30% for cash capacity.
+- **Causal mechanism:** Segment/cycle margins produce common profit; collections/remittances less funding, debt and reserves constrain ordinary cash allocation.
+- **Supporting evidence:** Retained parent statements, reported H1 earnings and three-year dividend declarations; [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Contradicting evidence:** Monthly/filing reconciliation, same-store/cohort margins, maintenance versus opening capex and conversion timing.
+- **Evidence test / confirmation:** Q3 2026 earnings and parent cash bridges, commitments and subsequent board allocation reconcile to the modeled path.
+- **Rejection signals:** Material margin/collection shortfall, larger funding/reserve calls or materially different board cash/stock choice.
+- **Expected window:** Q3 2026 disclosures through 2027 H1.
+- **Model effect:** FY2026E normalized diluted EPS 19.21; FY2027E/FY2028E 20.99/22.46. Estimated 2027 ordinary cash DPS 16.03-19.78, point 18.79, downside 13.94.
+- **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.

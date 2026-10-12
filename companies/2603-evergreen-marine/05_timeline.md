@@ -29,3 +29,7 @@ Append-only record; corrections receive new entries.
 - **Analytical impact:** Base EPS is TWD36.8; key thesis dependency is the duration of elevated rates versus incoming fleet supply.
 - **Records updated:** all canonical company records and [history/2026Q2.md](history/2026Q2.md).
 - **Confidence:** Medium for 2026, low beyond 2026.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 36.65; FY2027E/FY2028E 26.48/26.93. Estimated 2027 ordinary cash DPS 11.27-18.33, point 17.97, downside 0.00. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

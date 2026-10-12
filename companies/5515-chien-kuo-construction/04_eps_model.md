@@ -1,5 +1,7 @@
 # EPS Model
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Model status
 
 - **As of:** 2026-09-10
@@ -73,3 +75,7 @@ The company does not disclose margin by project category, contract-level cost re
 ## 2026-09-15 — FVTPL-to-EPS refresh
 
 The [2026-09-15 refresh](sources/market_data/2026-09-15-q3-fvtpl-mark.md), using September 14 prices and September 11 Allianz NAV, estimates a Q3-to-date FVTPL loss of TWD 87.231 million, or -0.346 EPS at an assumed 20% tax rate and 201.6 million shares. H1 reported FVTPL gain of TWD 724.148 million implies +2.874 EPS under the same assumption; YTD FVTPL contribution is approximately +2.527 EPS, not total company EPS. The unpriced-bucket sensitivity gives Q3 -0.724 to +0.032 EPS and YTD +2.150 to +2.905 EPS. This supersedes the September 9 mark only as the latest indicative estimate, not as a revision of historical evidence. Full-year reported and normalized EPS scenarios remain unchanged. Holdings, distributions, tax, FX and portfolio turnover remain unverified; Q-2026-003 and A-2026-004 remain Open. Confidence: low-to-medium. Next: reconcile September 30 holdings and the Q3 FVTPL/tax/EPS bridge. TPEx certificate work remains deferred; secondary emerging quotes and selected NAVs are explicitly identified in the calculation.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 3.97; FY2027E/FY2028E 4.13/4.37. Estimated 2027 ordinary cash DPS 3.55-4.72, point 4.33, downside 1.81. Core H1 proxy removes FVTPL 724.148, disposal 111.000 and compensation reversal 16.600 from H1 group pretax 1407.063, then applies estimated 20% tax and zero NCI. Reported-style FY2026 retains actual H1 parent profit plus H2 core, with no forecast additional portfolio gain. Actual portfolio and NCI attribution remains unverified. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

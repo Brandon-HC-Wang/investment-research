@@ -1,5 +1,7 @@
 # EPS model — explicit operating scenarios
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 As of 2026-09-21. Latest reported FY2025 basic/diluted EPS: 4.02/3.59; H126: 1.91/1.91. [Financial evidence](02_financials.md). Forecasts are analyst estimates with low confidence, not guidance or consensus. Amounts below are TWD million, shares million and EPS TWD/share.
 
 ## Reproducible inputs and formula
@@ -43,3 +45,7 @@ Substituting this normalized H1 into the 2026 base gives EPS 3.90–3.98, compar
 ## Sensitivities and invalidation
 
 At base 2026 scale, one percentage point of annual gross margin changes EPS by approximately 0.36 at 23% tax, before behavioral responses. Five extra percentage points of tax on TWD 400 million pretax cost about 0.26/share on 77.9 million shares. A 10% share increase reduces EPS by 9.09% at unchanged income. Two consecutive quarters of declining live revenue with gross margin below 28%, or recurring other-business losses above TWD 20 million per half-year, trigger a base-case reassessment.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 3.94; FY2027E/FY2028E 3.94/4.26. Estimated 2027 ordinary cash DPS 0.71-2.88, point 1.73, downside 0.00. Neutralize H1 discrete bond-redemption loss 18.032, disposal gain 7.997, FVTPL loss 11.069 and FX gain 5.582; tax sensitivity 22%-25%, point 23.5%, NCI 1.390 unchanged. Forecast shares 75.7/77.9 are inherited proxies and not a completed dilution reconciliation. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

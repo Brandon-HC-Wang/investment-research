@@ -1,0 +1,333 @@
+{
+  "as_of": "2026-10-12",
+  "currency": "TWD",
+  "amount_unit": "million",
+  "share_unit": "million",
+  "eps_unit": "TWD/share",
+  "earnings_year": 2026,
+  "distribution_year": 2027,
+  "distribution_status": "analyst_estimate_not_declared",
+  "sector_method": "Rugged/commercial/repair segment revenue, H2 margin and inventory conversion",
+  "forecast_confidence_pct": 35,
+  "cash_confidence_pct": 30,
+  "forecast_status": "Open",
+  "h1_parent_reported": 329.54,
+  "h1_normalization_parent_adjustment": 4.67775,
+  "normalization": "Remove H1 FVTPL 2.962 and FX 3.275 at estimated 25% marginal tax; unchanged NCI. FVOCI equity disposal gains are already outside EPS. Retain ordinary interest and associate profit; do not remove inventory and scrap costs.",
+  "cash_participating_shares": 58.685,
+  "scenarios": [
+    {
+      "year": 2026,
+      "case": "downside",
+      "revenue": 3480,
+      "drivers": {
+        "modeled_period": "H2",
+        "modeled_revenue": 1743.992,
+        "gross_margin": 0.325,
+        "opex": 210,
+        "nonop": -25,
+        "tax_rate": 0.28,
+        "nci": 12
+      },
+      "normalized_diluted_numerator": 551.7563780000002,
+      "reported_style_diluted_numerator": 556.4341280000001,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 9.301982230764045,
+      "reported_style_diluted_eps": 9.380843752107358,
+      "normalized_common_profit": 551.7563780000002,
+      "cash_earnings_per_current_share": 9.402000136321039
+    },
+    {
+      "year": 2026,
+      "case": "base",
+      "revenue": 3800,
+      "drivers": {
+        "modeled_period": "H2",
+        "modeled_revenue": 2063.992,
+        "gross_margin": 0.35,
+        "opex": 210,
+        "nonop": 25,
+        "tax_rate": 0.25,
+        "nci": 12
+      },
+      "normalized_diluted_numerator": 715.91015,
+      "reported_style_diluted_numerator": 720.5879,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 12.06942730460584,
+      "reported_style_diluted_eps": 12.148288825949153,
+      "normalized_common_profit": 715.91015,
+      "cash_earnings_per_current_share": 12.199201669932691
+    },
+    {
+      "year": 2026,
+      "case": "upside",
+      "revenue": 4100,
+      "drivers": {
+        "modeled_period": "H2",
+        "modeled_revenue": 2363.992,
+        "gross_margin": 0.37,
+        "opex": 220,
+        "nonop": 35,
+        "tax_rate": 0.23,
+        "nci": 15
+      },
+      "normalized_diluted_numerator": 840.9135708,
+      "reported_style_diluted_numerator": 845.5913208,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 14.176842180861824,
+      "reported_style_diluted_eps": 14.255703702205137,
+      "normalized_common_profit": 840.9135708,
+      "cash_earnings_per_current_share": 14.329276148930731
+    },
+    {
+      "year": 2027,
+      "case": "downside",
+      "revenue": 3480,
+      "drivers": {
+        "modeled_period": "FY",
+        "modeled_revenue": 3480,
+        "gross_margin": 0.32,
+        "opex": 420,
+        "nonop": 0,
+        "tax_rate": 0.28,
+        "nci": 24
+      },
+      "normalized_diluted_numerator": 475.39200000000005,
+      "reported_style_diluted_numerator": 475.39200000000005,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 8.014566053004248,
+      "reported_style_diluted_eps": 8.014566053004248,
+      "normalized_common_profit": 475.39200000000005,
+      "cash_earnings_per_current_share": 8.100741245633467
+    },
+    {
+      "year": 2027,
+      "case": "base",
+      "revenue": 4300,
+      "drivers": {
+        "modeled_period": "FY",
+        "modeled_revenue": 4300,
+        "gross_margin": 0.355,
+        "opex": 440,
+        "nonop": 50,
+        "tax_rate": 0.25,
+        "nci": 30
+      },
+      "normalized_diluted_numerator": 822.375,
+      "reported_style_diluted_numerator": 822.375,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 13.864303054825005,
+      "reported_style_diluted_eps": 13.864303054825005,
+      "normalized_common_profit": 822.375,
+      "cash_earnings_per_current_share": 14.013376501661412
+    },
+    {
+      "year": 2027,
+      "case": "upside",
+      "revenue": 4900,
+      "drivers": {
+        "modeled_period": "FY",
+        "modeled_revenue": 4900,
+        "gross_margin": 0.37,
+        "opex": 470,
+        "nonop": 60,
+        "tax_rate": 0.23,
+        "nci": 35
+      },
+      "normalized_diluted_numerator": 1045.31,
+      "reported_style_diluted_numerator": 1045.31,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 17.622732483646907,
+      "reported_style_diluted_eps": 17.622732483646907,
+      "normalized_common_profit": 1045.31,
+      "cash_earnings_per_current_share": 17.81221777285507
+    },
+    {
+      "year": 2028,
+      "case": "downside",
+      "revenue": 3400,
+      "drivers": {
+        "modeled_period": "FY",
+        "modeled_revenue": 3400,
+        "gross_margin": 0.31,
+        "opex": 425,
+        "nonop": 0,
+        "tax_rate": 0.28,
+        "nci": 24
+      },
+      "normalized_diluted_numerator": 428.88,
+      "reported_style_diluted_numerator": 428.88,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 7.230426866275541,
+      "reported_style_diluted_eps": 7.230426866275541,
+      "normalized_common_profit": 428.88,
+      "cash_earnings_per_current_share": 7.30817074209764
+    },
+    {
+      "year": 2028,
+      "case": "base",
+      "revenue": 4620,
+      "drivers": {
+        "modeled_period": "FY",
+        "modeled_revenue": 4620,
+        "gross_margin": 0.35,
+        "opex": 475,
+        "nonop": 50,
+        "tax_rate": 0.25,
+        "nci": 32
+      },
+      "normalized_diluted_numerator": 862.0,
+      "reported_style_diluted_numerator": 862.0,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 14.53233528896082,
+      "reported_style_diluted_eps": 14.53233528896082,
+      "normalized_common_profit": 862.0,
+      "cash_earnings_per_current_share": 14.688591633296413
+    },
+    {
+      "year": 2028,
+      "case": "upside",
+      "revenue": 5500,
+      "drivers": {
+        "modeled_period": "FY",
+        "modeled_revenue": 5500,
+        "gross_margin": 0.37,
+        "opex": 525,
+        "nonop": 60,
+        "tax_rate": 0.23,
+        "nci": 40
+      },
+      "normalized_diluted_numerator": 1168.9,
+      "reported_style_diluted_numerator": 1168.9,
+      "diluted_shares": 59.316,
+      "normalized_diluted_eps": 19.7063186998449,
+      "reported_style_diluted_eps": 19.7063186998449,
+      "normalized_common_profit": 1168.9,
+      "cash_earnings_per_current_share": 19.918207378376078
+    }
+  ],
+  "parent_actual": {
+    "cash": 1431.536,
+    "cash_date": "2025-12-31",
+    "CFO_period": "FY2025",
+    "CFO": 592.677,
+    "capex": 26.947,
+    "lease_principal": 31.992,
+    "cash_dividends_received_outside_CFO": 8.218
+  },
+  "cash_budget": {
+    "status": "Open_conditional_estimate",
+    "payment_window_assumption": "through_2027-06-30_not_board_date",
+    "method": "signed_parent_cash_budget",
+    "scenarios": {
+      "base": {
+        "signed_cash_flows": {
+          "opening_cash": 1431.536,
+          "FY26_CFO": 400,
+          "FY26_capex": -50,
+          "FY26_lease": -32,
+          "FY26_interest_outside_CFO": -1.1,
+          "prior_declared_cash": -410.799,
+          "H127_CFO": 220,
+          "H127_capex": -25,
+          "H127_lease": -16,
+          "H127_interest_outside_CFO": -0.55,
+          "operating_reserve": -600
+        },
+        "remaining_cash_after_reserves": 916.0870000000001,
+        "additional_funding_gap": 0,
+        "ordinary_dividend_capacity": 916.0870000000001,
+        "capacity_dps": 15.610241117832496
+      },
+      "base_low": {
+        "signed_cash_flows": {
+          "opening_cash": 1431.536,
+          "FY26_CFO": 350,
+          "FY26_capex": -50,
+          "FY26_lease": -32,
+          "FY26_interest_outside_CFO": -1.1,
+          "prior_declared_cash": -410.799,
+          "H127_CFO": 180,
+          "H127_capex": -25,
+          "H127_lease": -16,
+          "H127_interest_outside_CFO": -0.55,
+          "operating_reserve": -650
+        },
+        "remaining_cash_after_reserves": 776.0870000000001,
+        "additional_funding_gap": 0,
+        "ordinary_dividend_capacity": 776.0870000000001,
+        "capacity_dps": 13.224622987134703
+      },
+      "base_high": {
+        "signed_cash_flows": {
+          "opening_cash": 1431.536,
+          "FY26_CFO": 450,
+          "FY26_capex": -50,
+          "FY26_lease": -32,
+          "FY26_interest_outside_CFO": -1.1,
+          "prior_declared_cash": -410.799,
+          "H127_CFO": 260,
+          "H127_capex": -25,
+          "H127_lease": -16,
+          "H127_interest_outside_CFO": -0.55,
+          "operating_reserve": -550
+        },
+        "remaining_cash_after_reserves": 1056.087,
+        "additional_funding_gap": 0,
+        "ordinary_dividend_capacity": 1056.087,
+        "capacity_dps": 17.995859248530287
+      },
+      "downside": {
+        "signed_cash_flows": {
+          "opening_cash": 1431.536,
+          "FY26_CFO": 150,
+          "FY26_capex": -50,
+          "FY26_lease": -32,
+          "FY26_interest_outside_CFO": -1.1,
+          "prior_declared_cash": -410.799,
+          "H127_CFO": 90,
+          "H127_capex": -25,
+          "H127_lease": -16,
+          "H127_interest_outside_CFO": -0.55,
+          "operating_reserve": -650
+        },
+        "remaining_cash_after_reserves": 486.0870000000001,
+        "additional_funding_gap": 0,
+        "ordinary_dividend_capacity": 486.0870000000001,
+        "capacity_dps": 8.282985430689275
+      }
+    },
+    "capital_adequacy_verified": null,
+    "not_distributable_earnings_test": true
+  },
+  "cash_dividend": {
+    "basis": "normalized_common_profit",
+    "payout_low": 0.65,
+    "payout_point": 0.7,
+    "payout_high": 0.75,
+    "payout_downside": 0.65,
+    "income_based_low": 7.929481085456249,
+    "income_based_point": 8.539441168952884,
+    "income_based_high": 9.149401252449518,
+    "estimated_low": 7.929481085456249,
+    "estimated_point": 8.539441168952884,
+    "estimated_high": 9.149401252449518,
+    "estimated_downside": 6.111300088608676
+  },
+  "screen_diagnostic": {
+    "price_date": "2026-10-08",
+    "price": 123.5,
+    "information_cutoff": "2026-10-12",
+    "base_yield_low_pct": 6.420632457859312,
+    "base_yield_high_pct": 7.408422066760743,
+    "base_yield_point_pct": 6.914527262310028,
+    "downside_yield_pct": 4.948421124379495,
+    "normalized_eps_coverage_x": 1.3961165187513982,
+    "range_7pct_pass": true,
+    "eps_1_25x_pass": true,
+    "downside_5pct_pass": false,
+    "all_economic_gates_pass": false,
+    "formal_screen_run": false,
+    "human_review_required": true
+  }
+}

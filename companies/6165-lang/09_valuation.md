@@ -1,5 +1,7 @@
 # Conditional valuation
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 As of 2026-09-21. Price reference: TWD 50.30 on 2026-09-18 from [TWSE PRICE](sources/README.md). Read [business](01_business.md), [earnings quality](02_financials.md) and [model](04_eps_model.md) first. No daily price forecast is made.
 
 ## Method and observed arithmetic
@@ -25,3 +27,7 @@ The range is conditional arithmetic, not a recommended entry/exit range. Downsid
 Declared 5.00 / 50.30 = 9.94%; this does not establish future DPS, a completed payment, or a sustainable yield. Illustrative 70–90% payout on normalized 3.90–3.98 gives DPS 2.73–3.58 and yield 5.43–7.12%, before capital-allocation constraints. The payout range is an analyst sensitivity, not company policy or a dividend forecast.
 
 June cash minus bank/lease debt is 7.959 million, and -359.969 after the dividend payable in a static bridge. Portfolio assets of 264.484 million are not cash equivalents; realization, taxes and liquidity differ. No extra net-cash premium is assumed. The principal valuation uncertainty is durability of cash earnings and capital distribution, not which historical P/E percentile the price occupies.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) for current forward comparisons; earlier dated valuations remain historical. FY2026E normalized diluted EPS 3.94; FY2027E/FY2028E 3.94/4.26. Estimated 2027 ordinary cash DPS 0.71-2.88, point 1.73, downside 0.00. Preserve the sector method and cyclical/recognition discount; do not capitalize selected gains or treat the cash estimate as a valuation floor. No new target price is adopted.

@@ -5,10 +5,11 @@ market: TWSE
 status: active
 confidence: medium
 priority: 1
-last_update: 2026-09-10
-next_action: Reconcile August-September revenue and AI-server mix with the 2026Q3 filing, focusing on gross-profit dollars, operating cash flow, inventory, receivables, and payables.
+last_update: 2026-10-12
+next_action: Verify Q3 earnings and parent cash/remittance/capital commitments against the 2026-10-12 dividend supplement.
 watch_items:
   - AI-server shipment and platform-ramp evidence
   - Gross-profit dollars and operating margin, not revenue alone
   - Inventory, receivables, payables, and operating cash conversion
   - Customer concentration and geographic manufacturing expansion
+  - Conditional 2027 cash dividend and parent funding bridge; 2026-10-12 enrichment

@@ -59,3 +59,16 @@
 - **Owner/next review:** Balance-sheet review in the next research cycle.
 - **Status history:** 2026-08-04 — Opened with low confidence.
 - **Status history:** 2026-08-17 — Remains Open. The Q2 filing quantifies consolidated borrowings, pledged assets, undrawn facilities, finance costs, unfinished construction contracts, and guarantee schedules. Project-level guarantee and funding attribution is still insufficient to estimate loss severity, but the balance-sheet channel is now demonstrably material.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### Q-2026-005 — Forward cash-budget confirmation
+
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Question:** Do actual parent collections, funding commitments, reserves and board cash allocation support the estimated 2027 payout?
+- **EPS materiality:** High for funding/dilution, and high for dividend reliability.
+- **Evidence gap:** Project-level attribution/collections/guarantees, debt maturity and 2027 replacement.
+- **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
+- **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.

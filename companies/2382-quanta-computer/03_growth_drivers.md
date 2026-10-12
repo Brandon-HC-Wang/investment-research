@@ -31,3 +31,7 @@ The present ramp can persist only if Quanta carries qualifications into successi
 ## Revision history
 
 - **2026-09-10:** Coverage initiated. AI-server/product mix is classified as the current driver; replacement visibility remains unverified.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. GDR actual net receipts/use, asset payment schedule, working-capital conversion and convertible/employee-share reconciliation.

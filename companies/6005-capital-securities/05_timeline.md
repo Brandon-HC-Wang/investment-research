@@ -8,3 +8,7 @@
 - **2026-09-11:** Company investor presentation reports H1 brokerage share 3.48%, Capital Investment Trust 20% and capital adequacy 265%; plans remain attributed. [IR26](sources/README.md).
 - **2026-10-07:** September self-reported profit announcement: nine-month company EPS 3.99, group net income 10,483.884; not audited/reviewed. [SELF9](sources/README.md).
 - **2026-10-12:** Initial qualifying coverage: all-ETF-revenue premise resolved as false; 2026/2027 base diluted EPS 4.69/4.10, cash DPS assumptions 1.64/1.44 for normal payment years 2027/2028. Evidence confidence medium; forecasts and cash policy remain uncertain. Added bilingual records, sources, scenario inputs and an H1 snapshot incorporating later interim updates. No prior research view rewritten.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 4.29; FY2027E/FY2028E 4.10/4.41. Estimated 2027 ordinary cash DPS 0.70-2.35, point 1.64, downside 0.30. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

@@ -51,3 +51,7 @@ The 2025-11-25 investor presentation provides a management schedule for completi
 - Market Observation Post System, “Listed Companies August 2026 Monthly Revenue Summary,” data month 2026-08, [official table](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html), accessed 2026-09-09.
 - Economic Daily News, “Smile Hiyes 2 and Taiwan Yinfu Handovers Lift Hiyes August Consolidated Revenue 5.4 Times,” published 2026-09-06, [article](https://udn.com/news/story/7241/9737750), accessed 2026-09-09.
 - HouseFun News, “Credit Controls Cool the Housing Market; Hiyes Agency Revenue Falls 38% but Construction Revenue Rises 326% in the First Eight Months,” published 2026-09-07, [article](https://news.housefun.com.tw/news/article/176941488910.html), accessed 2026-09-09.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Project-level attribution/collections/guarantees, debt maturity and 2027 replacement.

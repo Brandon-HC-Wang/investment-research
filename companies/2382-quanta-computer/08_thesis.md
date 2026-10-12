@@ -1,5 +1,7 @@
 # Investment Thesis
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Current thesis
 
 Quanta has credible engineering and scale advantages in notebooks and cloud servers, and the 2025-2026 AI-server ramp is producing real absolute profit growth. The central constraint is economic dilution: 2026H1 revenue nearly doubled while gross profit grew 22.6%, and operating cash flow depends materially on a large increase in payables. Sustainable two-to-five-year EPS compounding is plausible only if Quanta retains qualifications across platforms, adds value beyond expensive component pass-through, and converts working capital without excessive borrowing. Current confidence is medium for 2026 and low beyond it.
@@ -48,3 +50,7 @@ Assessed 2026-09-10 under `docs/Scoring.md`.
 ## Thesis history
 
 - **2026-09-10:** Initial thesis established at medium confidence. Next action is the 2026Q3 revenue, gross-profit, and working-capital reconciliation in `meta.yaml`.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+FY2026E normalized diluted EPS 22.71; FY2027E/FY2028E 24.18/26.09. Estimated 2027 ordinary cash DPS 13.53-19.32, point 18.19, downside 4.04. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. GDR actual net receipts/use, asset payment schedule, working-capital conversion and convertible/employee-share reconciliation. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

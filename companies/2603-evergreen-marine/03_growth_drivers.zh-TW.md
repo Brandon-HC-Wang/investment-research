@@ -46,3 +46,7 @@ OCEAN Alliance 至少延長至 2032 年，支撐長期航網廣度；但不保�
 - *Container Shipping Market Signals*，Drewry，2026 年 9 月，[來源](https://containerfreight.drewry.co.uk/market-signals)，存取日 2026-09-10。
 - *Offering Circular*，長榮海運 / SGX，2026-04-16，第 57-71 頁，[來源](https://links.sgx.com/FileOpen/Evergreen%20Marine%20%28Asia%29%20Pte.%20Ltd_Epoch%20-%20Offering%20Circular%2016%20Apr%202026.ashx?App=Prospectus&FileID=69664)，存取日 2026-09-10。
 - *2026Q2 合併財務報告*，長榮海運 / MOPS，2026-08-13，附註九，[來源](https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=2603&year=115&seamon=2&mtype=A&dtype=AI1)，存取日 2026-09-10。
+
+## 2026-10-12 — 八家公司股利補齊
+
+[有日期 EPS／股利／現金補充](model/2026-10-12-dividend-enrichment.md) 已量化產業驅動情境與 FY2026-FY2028 替代獲利敏感度，仍為分析估計；月營收不證明產品／店群／建案毛利或母公司收款。子公司匯回、訂船出資時程、貨量／運價組合與配息窗口現金。

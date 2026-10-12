@@ -1,5 +1,7 @@
 # Investment Thesis
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Current thesis
 
 No decision-grade long-term thesis is established. August revenue confirms that the 2026 H2 handover cycle is active, but reported January-August agency revenue fell 38.0% while construction revenue rose 325.8%. The current low-confidence 2026 EPS boundaries are TWD 2.47 conservative and TWD 7.31 optimistic, replacing the old TWD 5.58 and TWD 11.32 points. H1 operating cash flow was negative TWD 2.120 billion and borrowings excluding leases reached approximately TWD 31.112 billion. The evidence supports project-timing recovery, not a recurring compounding mechanism. The 2027 replacement gap remains plausible and unverified.
@@ -53,3 +55,7 @@ Q2 property-sale revenue and construction gross profit confirm that the 2026 com
 ### 2026-09-09 — August revenue permits a lower, margin-aware 2026 forecast
 
 July-August revenue confirms accelerated H2 recognition, but the construction-led mix and continued agency contraction do not restore the prior margin assumptions. Current low-confidence 2026 EPS points are TWD 2.47 conservative and TWD 7.31 optimistic. Valuation remains deferred and thesis confidence remains low pending Q3 margin, cash-flow, debt, and NCI evidence.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. Project-level attribution/collections/guarantees, debt maturity and 2027 replacement. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

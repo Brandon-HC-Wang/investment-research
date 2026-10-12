@@ -35,3 +35,20 @@
 - **Verification test:** Positive rolling-12-month operating cash flow without payable days or net debt worsening materially by 2027H1.
 - **Model effect:** Affects equity risk, dividend capacity, and valuation multiple more than near-term EPS.
 - **History:** 2026-09-10 — Open at 50%.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### A-2026-005 — Conditional parent cash and sector EPS bridge
+
+- **Description:** Operating drivers and parent cash conversion support the dated FY2026-FY2028 scenarios and estimated 2027 cash dividend.
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Confidence:** 35% for EPS, 30% for cash capacity.
+- **Causal mechanism:** Segment/cycle margins produce common profit; collections/remittances less funding, debt and reserves constrain ordinary cash allocation.
+- **Supporting evidence:** Retained parent statements, reported H1 earnings and three-year dividend declarations; [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Contradicting evidence:** GDR actual net receipts/use, asset payment schedule, working-capital conversion and convertible/employee-share reconciliation.
+- **Evidence test / confirmation:** Q3 2026 earnings and parent cash bridges, commitments and subsequent board allocation reconcile to the modeled path.
+- **Rejection signals:** Material margin/collection shortfall, larger funding/reserve calls or materially different board cash/stock choice.
+- **Expected window:** Q3 2026 disclosures through 2027 H1.
+- **Model effect:** FY2026E normalized diluted EPS 22.71; FY2027E/FY2028E 24.18/26.09. Estimated 2027 ordinary cash DPS 13.53-19.32, point 18.19, downside 4.04.
+- **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.

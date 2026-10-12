@@ -37,3 +37,16 @@ Owner: research workflow. Opened 2026-10-12; Q3 review 2026-11-16, dividend deci
 - Status: Open.
 - Evidence, model effect and resolution: H126 gross assets/liabilities and 99% ten-day VaR are available, but net equity delta, basis/duration and margin-call liquidity are incomplete. Obtain net stress scenarios and capital/funding capacity; VaR does not cap tail loss. A prolonged downturn can violate base earnings and payout.
 - History: 2026-10-12 — Open; evidence gap retained; no unsupported model resolution.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### Q-2026-007 — Forward cash-budget confirmation
+
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Question:** Do actual parent collections, funding commitments, reserves and board cash allocation support the estimated 2027 payout?
+- **EPS materiality:** High for funding/dilution, and high for dividend reliability.
+- **Evidence gap:** Monetary eligible capital, risk denominator, segregated/pledged cash, post-distribution stress and cash/stock allocation.
+- **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
+- **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.

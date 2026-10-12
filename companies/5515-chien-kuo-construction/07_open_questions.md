@@ -65,3 +65,16 @@ The [2026-09-15 refresh](sources/market_data/2026-09-15-q3-fvtpl-mark.md), using
 - **Resolution method:** Monitor court decisions, provisions, settlement, and company filings.
 - **Owner/next review:** Company workflow; each quarterly filing.
 - **Status history:** 2026-09-09 — Opened.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### Q-2026-006 — Forward cash-budget confirmation
+
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Question:** Do actual parent collections, funding commitments, reserves and board cash allocation support the estimated 2027 payout?
+- **EPS materiality:** High for funding/dilution, and high for dividend reliability.
+- **Evidence gap:** Portfolio profit/NCI reconciliation, capital-call schedule and parent equity total discrepancy.
+- **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
+- **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.

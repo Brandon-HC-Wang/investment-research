@@ -20,3 +20,7 @@
 - **Analytical impact:** 2026 base EPS is provisionally TWD27.0, but future visibility depends on margin, cash conversion, and repeat platform wins.
 - **Records updated:** All company records and [2026Q2 snapshot](history/2026Q2.md).
 - **Confidence:** Medium for 2026 and low beyond 2026.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 22.71; FY2027E/FY2028E 24.18/26.09. Estimated 2027 ordinary cash DPS 13.53-19.32, point 18.19, downside 4.04. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

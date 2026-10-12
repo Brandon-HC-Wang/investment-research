@@ -14,3 +14,7 @@ FY25 live revenue growth of 1.71% contrasts with H126's 8.38%; the latter is bet
 IR25 presents voice/game companionship and overseas expansion. Secondary CALL notes attribute a monthly TWD 300 million live-business objective and contract improvements to management; original audio has not been checked, so neither is used as a verified forecast. August consolidated revenue of 286.160 million does not establish attainment of a live-only 300 million target.
 
 WIS reports Wiselink purchased 6.299 million shares, 8.10%, for TWD 310.562 million in July–August. COOP attributes prospective streaming-cost and Southeast Asia cooperation to management. This is another shareholder's secondary-market investment, not cash raised by Lang, and no quantified synergy enters the base case. Medical leasing was disposed of in May; do not project the obsolete 2025 group structure forward.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Subsidiary remittance timing, redemption funding, latest diluted shares, historical exact DPS/stock completeness and comparative CFO classification.

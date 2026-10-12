@@ -33,3 +33,20 @@ Units: TWD million unless stated. All opened 2026-09-21. Evidence: [financials](
 - Verification/rejection test: Reconcile Q3 share note and every capital event before the next model refresh.
 - Model effect: 75.7 million FY2026 and 77.9 million FY2027–2028; reassess on issuance.
 - History: 2026-09-21 — Open at 50%; no prior verification.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### A-2026-005 — Conditional parent cash and sector EPS bridge
+
+- **Description:** Operating drivers and parent cash conversion support the dated FY2026-FY2028 scenarios and estimated 2027 cash dividend.
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Confidence:** 35% for EPS, 30% for cash capacity.
+- **Causal mechanism:** Segment/cycle margins produce common profit; collections/remittances less funding, debt and reserves constrain ordinary cash allocation.
+- **Supporting evidence:** Retained parent statements, reported H1 earnings and three-year dividend declarations; [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Contradicting evidence:** Subsidiary remittance timing, redemption funding, latest diluted shares, historical exact DPS/stock completeness and comparative CFO classification.
+- **Evidence test / confirmation:** Q3 2026 earnings and parent cash bridges, commitments and subsequent board allocation reconcile to the modeled path.
+- **Rejection signals:** Material margin/collection shortfall, larger funding/reserve calls or materially different board cash/stock choice.
+- **Expected window:** Q3 2026 disclosures through 2027 H1.
+- **Model effect:** FY2026E normalized diluted EPS 3.94; FY2027E/FY2028E 3.94/4.26. Estimated 2027 ordinary cash DPS 0.71-2.88, point 1.73, downside 0.00.
+- **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.

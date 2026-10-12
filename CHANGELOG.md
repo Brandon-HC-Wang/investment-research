@@ -8,6 +8,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Added
 
+- Completed eight-company sector EPS/normalization, conditional parent-cash budgets and 2027 cash-dividend intervals with three-year declared histories and retained primary filings; supplemental diagnostics only, no formal run/state advancement (2026-10-12).
+- Fixed eight-company forward-dividend readiness cohort with sector input gaps, local evidence hashes and a staged workflow-versus-outcome validation plan (2026-10-12); no forecast, threshold or refresh-state advancement.
 - First persisted covered-company forward-dividend pilot with bilingual assumptions, three-year cash/stock history, retained price evidence, input checksums and explicit partial-coverage diagnostics (2026-10-12); thresholds and executor schema remain unchanged.
 - Securities-brokerage industry package covering hedge-netted trading earnings, associate asset-management exposure, bonus-share denominators and cash-versus-stock dividend scenarios (2026-10-12).
 - First-class `strategies/` and `screens/` contracts with registries, bilingual reasoning, rebuildable refresh state, and append-only run semantics.

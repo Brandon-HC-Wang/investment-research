@@ -37,3 +37,7 @@
 - *2026 Q2 Consolidated Financial Statements*, approved 2026-08-12, pp. 25–27, <https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=5515&year=115&seamon=2&mtype=A&dtype=AI1>, accessed 2026-09-09.
 - *July 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_7_0.html>, accessed 2026-09-09.
 - *August 2026 Monthly Revenue*, Taiwan Stock Exchange/MOPS, table generated 2026-09-10, <https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html>, accessed 2026-09-10.
+
+## 2026-10-12 — 八家公司股利補齊
+
+[有日期 EPS／股利／現金補充](model/2026-10-12-dividend-enrichment.md) 已量化產業驅動情境與 FY2026-FY2028 替代獲利敏感度，仍為分析估計；月營收不證明產品／店群／建案毛利或母公司收款。投資利益／NCI 調節、出資時程與母公司權益總額差異。

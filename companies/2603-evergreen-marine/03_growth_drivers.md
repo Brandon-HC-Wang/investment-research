@@ -44,3 +44,7 @@ The OCEAN Alliance extension to at least 2032 supports long-term network breadth
 - *Container Shipping Market Signals*, Drewry, September 2026, [source](https://containerfreight.drewry.co.uk/market-signals), accessed 2026-09-10.
 - *Offering Circular*, Evergreen Marine / SGX, 2026-04-16, pp. 57-71, [source](https://links.sgx.com/FileOpen/Evergreen%20Marine%20%28Asia%29%20Pte.%20Ltd_Epoch%20-%20Offering%20Circular%2016%20Apr%202026.ashx?App=Prospectus&FileID=69664), accessed 2026-09-10.
 - *2026Q2 Consolidated Financial Report*, Evergreen Marine / MOPS, 2026-08-13, note 9, [source](https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=2603&year=115&seamon=2&mtype=A&dtype=AI1), accessed 2026-09-10.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Subsidiary remittances, vessel funding schedule, freight volume/rate mix and payment-window cash.

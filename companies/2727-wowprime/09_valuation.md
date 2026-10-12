@@ -1,5 +1,7 @@
 # Valuation
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 Valuation is intentionally deferred. This is not a recommendation.
 
 ## Valuation context
@@ -29,3 +31,7 @@ The likely key valuation sensitivities are mature-store sales, operating margin,
 ## Valuation history
 
 - **2026-08-05:** Valuation deferred at coverage initiation pending normalized EPS and lease-adjusted unit economics.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) for current forward comparisons; earlier dated valuations remain historical. FY2026E normalized diluted EPS 19.21; FY2027E/FY2028E 20.99/22.46. Estimated 2027 ordinary cash DPS 16.03-19.78, point 18.79, downside 13.94. Preserve the sector method and cyclical/recognition discount; do not capitalize selected gains or treat the cash estimate as a valuation floor. No new target price is adopted.

@@ -1,5 +1,7 @@
 # Valuation
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 Valuation follows the operating thesis and is not a recommendation.
 
 ## Context
@@ -35,3 +37,7 @@ If FY2026 EPS is TWD36.8 and the payout ratio is 45-55%, an illustrative cash di
 Vessel market values, maintenance capex, and route-level economics are incomplete. P/B can overstate value if vessel earnings fall below the cost of capital, while P/E can understate risk near a rate peak.
 
 - **2026-09-10:** Initial valuation framework; no prior valuation.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) for current forward comparisons; earlier dated valuations remain historical. FY2026E normalized diluted EPS 36.65; FY2027E/FY2028E 26.48/26.93. Estimated 2027 ordinary cash DPS 11.27-18.33, point 17.97, downside 0.00. Preserve the sector method and cyclical/recognition discount; do not capitalize selected gains or treat the cash estimate as a valuation floor. No new target price is adopted.

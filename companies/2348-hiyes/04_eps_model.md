@@ -1,5 +1,7 @@
 # EPS Model
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Model status
 
 As of 2026-08-04, a low-confidence preliminary scenario model is established for 2026–2027. It is suitable for bounding outcomes, not for a single-point decision-grade forecast. Project sell-through, Q2 margin, attributable ownership accounting, and 2027 handover timing remain unresolved.
@@ -122,3 +124,7 @@ The reported H2 revenue acceleration is sufficient to rebuild 2026 boundaries, b
 - Market Observation Post System, “Listed Companies August 2026 Monthly Revenue Summary,” data month 2026-08, [official table](https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html), accessed 2026-09-09.
 - Yahoo Taiwan Finance, “Housing Recovery? Hiyes July Revenue Reaches TWD 2.08 Billion as Concentrated Handovers Drive Recognition,” published 2026-08-05, [article](https://tw.stock.yahoo.com/news/%E6%88%BF%E5%B8%82%E5%9B%9E%E6%BA%AB%EF%BC%9F%E6%B5%B7%E6%82%857%E6%9C%88%E7%87%9F%E6%94%B6%E8%A1%9D20%E5%84%84%E5%85%83%E5%B9%B4%E5%A2%9E%E8%BF%9110%E5%80%8D-%E4%BA%A4%E5%B1%8B%E9%9B%86%E4%B8%AD%E8%AA%8D%E5%88%97%E6%8E%A8%E5%8D%87-092448468.html), accessed 2026-09-09.
 - HousePrice News, “Hiyes August Revenue Rises 5.4 Times on Construction Recognition,” published 2026-09-08, [article](https://news.houseprice.tw/12284/), accessed 2026-09-09.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00. Remove net H1 FVTPL gain 23.980 at estimated 20% tax; retain small FX 0.111. Do not mistake Q2 gain 112.849 for H1 net gain. Deduct annual preferred dividend 48 once. Common shares reflect 0.5 stock dividend; diluted 159.7 is an explicit employee-share proxy. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

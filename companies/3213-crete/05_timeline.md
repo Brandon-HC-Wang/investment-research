@@ -12,3 +12,7 @@
 - **2026-10-12:** September review: Q3 monthly revenue 1,109.130 (+35.68% YoY); system -5.49% QoQ, channel +40.10% QoQ. Retain base diluted EPS 12.15 / 13.86 and valuation conventions; reduce A-2026-002 margin confidence to 55%. Add Q-2026-007, Q4 run-rate and H2 margin/tax sensitivities; preserve the 0.369 revenue gap and Q2 snapshot. October monthly review 2026-11-10, Q3 review 2026-11-16.
 
 - **2026-10-12 — Earnings-quality verification:** Re-downloaded H126 with SHA-256 unchanged; verified FVTPL gain 2.962, inventory recovery 28.125 and scrapping 40.718, FVOCI equity transfers 182.342 (H1) / 76.004 (July–August disclosure), recognition policy and dividend boundaries. Added Q-2026-008; numerical forecasts and confidence unchanged.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

@@ -6,9 +6,10 @@ status: qualifying
 confidence: medium
 priority: 2
 last_update: 2026-10-12
-next_action: Verify Q3 parent EPS, bonus-share reconciliation, net trading and September revenue by 2026-11-16; revisit cash versus stock when FY2026 distributions are proposed.
+next_action: Verify Q3 earnings and parent cash/remittance/capital commitments against the 2026-10-12 dividend supplement.
 watch_items:
   - Brokerage traded value, fee yield and financing balances
   - Net trading after hedge losses, capital adequacy and funding
   - Capital Investment Trust contribution, AUM and net flows
   - Investment disposal recurrence and cash versus stock distributions
+  - Conditional 2027 cash dividend and parent funding bridge; 2026-10-12 enrichment

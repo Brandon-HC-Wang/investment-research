@@ -1,5 +1,7 @@
 # Thesis — profitable platform, unproven compounding duration
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 Initiated 2026-09-21. Research status: qualifying. Confidence: medium in reported operating improvement; low in the multi-year forecast. [Financials](02_financials.md), [model](04_eps_model.md), [questions](07_open_questions.md).
 
 ## Current judgment
@@ -18,3 +20,7 @@ Hypothesis H-2026-001: if paying users remain engaged without higher acquisition
 Analytical distinction, not a measured consensus claim: a displayed near-10% dividend yield can obscure payout above earnings, while falling reported EPS can obscure genuine operating growth because tax and bond redemption differ. Both the optimistic dividend narrative and a purely bearish headline-EPS interpretation miss part of the evidence.
 
 Base 2026–2028 EPS estimates are approximately 3.79/3.94/4.26 with explicit tax and share assumptions; base 2026 normalized sensitivity is 3.90–3.98. New overseas/partner earnings are excluded until evidenced. Reassess on Q3 results, monthly-to-quarterly reconciliation, payment/issuance announcements, and resolution of Q-2026-001 through Q-2026-007. Valuation is conditional and follows [the operating case](09_valuation.md).
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+FY2026E normalized diluted EPS 3.94; FY2027E/FY2028E 3.94/4.26. Estimated 2027 ordinary cash DPS 0.71-2.88, point 1.73, downside 0.00. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. Subsidiary remittance timing, redemption funding, latest diluted shares, historical exact DPS/stock completeness and comparative CFO classification. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).

@@ -1,0 +1,939 @@
+{
+  "as_of": "2026-10-12",
+  "base_revision": "e0bd875",
+  "retained_primary_filings": [
+    {
+      "ticker": "3213",
+      "path": "companies/3213-crete/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "f1747c80c6a126606509ea9e6c8b48dcf143101e747bebaa68d0e2a5fac7a6ab",
+      "access_date": "2026-10-12",
+      "title": "Crete 2025FY-parent-only financial statements",
+      "publisher": "Crete / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一五年三月十一日經董事會通過發布。",
+      "url": "https://www.crete.com.tw/rwd/114-2.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 62,
+      "document_date": "2026-03-11",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 10,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          6,
+          9,
+          13,
+          15,
+          22,
+          38
+        ],
+        "現金流量表": [
+          3,
+          9,
+          28
+        ],
+        "盈餘分配": [
+          34,
+          56
+        ]
+      }
+    },
+    {
+      "ticker": "5515",
+      "path": "companies/5515-chien-kuo-construction/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "7824958175c10340c28a5d81c778fe1696eb57be1e02d8caeac078c64bbb1377",
+      "access_date": "2026-10-12",
+      "title": "Chien Kuo 2025FY-parent-only financial statements",
+      "publisher": "Chien Kuo / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告於 115 年 3 月 11 日經董事會通過。",
+      "url": "https://www.ckgroup.com.tw/storage/app/uploads/public/69e/b37/0c6/69eb370c61820517567391.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 84,
+      "document_date": "2026-03-11",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 13,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          17
+        ],
+        "現金流量表": [
+          3,
+          11,
+          16
+        ],
+        "盈餘分配": [
+          38,
+          39
+        ]
+      }
+    },
+    {
+      "ticker": "6005",
+      "path": "companies/6005-capital-securities/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "f9ebe12649a55850d24d60d2dae4c75b19a970f0bf8b09923810ea9de4607e41",
+      "access_date": "2026-10-12",
+      "title": "Capital Securities 2025FY-parent-only financial statements",
+      "publisher": "Capital Securities / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一五年三月六日經董事會通過發布。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=6005&filename=202504_6005_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 137,
+      "document_date": "2026-03-06",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 13,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          7,
+          12,
+          16,
+          28,
+          55,
+          56
+        ],
+        "現金流量表": [
+          3,
+          11,
+          12,
+          40
+        ],
+        "盈餘分配": [
+          46
+        ]
+      }
+    },
+    {
+      "ticker": "6165",
+      "path": "companies/6165-lang/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "9f7a2ff842e8f9254bde2ea60945d0738977f9084f6b9174872eeb0544323427",
+      "access_date": "2026-10-12",
+      "title": "Lang 2025FY-parent-only financial statements",
+      "publisher": "Lang / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一五年三月十二日經董事會通過發布。",
+      "url": "https://langinc.com.tw/wp-content/uploads/2026/04/1001007470_114Q4_%E5%80%8B%E9%AB%94_%E5%AE%8C%E7%A8%BF%E8%B2%A1%E5%A0%B1_IMSv4-%E9%9B%BB%E5%AD%90%E6%9B%B8_IMSv1_U1.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 55,
+      "document_date": "2026-03-12",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 10,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          6,
+          9,
+          13,
+          15,
+          24,
+          40
+        ],
+        "現金流量表": [
+          9,
+          24,
+          33
+        ],
+        "盈餘分配": [
+          35,
+          36,
+          48
+        ]
+      }
+    },
+    {
+      "ticker": "2348",
+      "path": "companies/2348-hiyes/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "2c097ee0f1527d51db5dd6fcd7cb1642ea6e05b850c55768d671dd069df8f1e8",
+      "access_date": "2026-10-12",
+      "title": "Hiyes 2025FY-parent-only financial statements",
+      "publisher": "Hiyes / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告於 115 年 3 月 13 日經董事會通過。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2348&filename=202504_2348_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 66,
+      "document_date": "2026-03-13",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 13,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          7,
+          12,
+          16,
+          28,
+          47
+        ],
+        "現金流量表": [
+          3,
+          11,
+          15
+        ],
+        "盈餘分配": [
+          37,
+          38,
+          39
+        ]
+      }
+    },
+    {
+      "ticker": "2382",
+      "path": "companies/2382-quanta-computer/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "c0a1cda2c8f7171ee651f2cb4bd4e949ab3d9dcc73ff6ba683c6392760e3c338",
+      "access_date": "2026-10-12",
+      "title": "Quanta 2025FY-parent-only financial statements",
+      "publisher": "Quanta / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一五年二月二十六日經董事會通過發布。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2382&filename=202504_2382_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 93,
+      "document_date": "2026-02-26",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 12,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          7,
+          11,
+          15,
+          17,
+          26,
+          52
+        ],
+        "現金流量表": [
+          3,
+          10,
+          11,
+          15,
+          26,
+          39
+        ],
+        "盈餘分配": [
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "ticker": "2603",
+      "path": "companies/2603-evergreen-marine/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "fddaae9d70583f0631fa37f862e3fa30a9f71cf546ed08da6679fc306bc13bab",
+      "access_date": "2026-10-12",
+      "title": "Evergreen Marine 2025FY-parent-only financial statements",
+      "publisher": "Evergreen Marine / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國 115 年 3 月 13 日經董事會通過發布。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2603&filename=202504_2603_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 114,
+      "document_date": "2026-03-13",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 15,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          9,
+          14,
+          30,
+          70,
+          76,
+          81
+        ],
+        "盈餘分配": [
+          51,
+          52,
+          69
+        ]
+      }
+    },
+    {
+      "ticker": "2727",
+      "path": "companies/2727-wowprime/sources/earnings/2025FY-parent-only.pdf",
+      "sha256": "e84ef318f9c07fb5eabf55355245ca8e17826cac7c12dcdde50a906530f4cfb4",
+      "access_date": "2026-10-12",
+      "title": "Wowprime 2025FY-parent-only financial statements",
+      "publisher": "Wowprime / public financial-filing portal",
+      "period": "FY2025",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告於 115 年 3 月 5 日經董事會通過。",
+      "url": "https://www.wowprime.com/upload_cg/img020260313152234.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 88,
+      "document_date": "2026-03-05",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 13,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          7,
+          12,
+          17,
+          30,
+          57,
+          58
+        ],
+        "現金流量表": [
+          3,
+          11,
+          16
+        ],
+        "盈餘分配": [
+          44,
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "ticker": "6005",
+      "path": "companies/6005-capital-securities/sources/earnings/2026Q2-parent-only.pdf",
+      "sha256": "829e48e0b9d76e40b9d85f9c67c1278c58fe62fcfa40de0a944fde3e200956f2",
+      "access_date": "2026-10-12",
+      "title": "Capital Securities 2026Q2-parent-only financial statements",
+      "publisher": "Capital Securities / public financial-filing portal",
+      "period": "2026H1",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一五年八月二十八日經董事會通過發布。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=6005&filename=202602_6005_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 122,
+      "document_date": "2026-08-28",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 12,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          6,
+          11,
+          15,
+          41,
+          42,
+          54
+        ],
+        "現金流量表": [
+          3,
+          10,
+          11,
+          13,
+          28
+        ],
+        "盈餘分配": [
+          30
+        ]
+      }
+    },
+    {
+      "ticker": "2382",
+      "path": "companies/2382-quanta-computer/sources/earnings/2026Q2-consolidated.pdf",
+      "sha256": "df864a854db9115c6b8d41952211cbdcc81bab5bc67a355dd210b237cbb8a217",
+      "access_date": "2026-10-12",
+      "title": "Quanta 2026Q2-consolidated financial statements",
+      "publisher": "Quanta / public financial-filing portal",
+      "period": "2026H1",
+      "statement_scope": "consolidated",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本合併財務報告已於民國一一五年八月十三日經董事會通過發布。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2382&filename=202602_2382_AI1.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 71,
+      "document_date": "2026-08-13",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 10,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          5,
+          9,
+          18,
+          26,
+          47,
+          49
+        ],
+        "現金流量表": [
+          3,
+          8,
+          9,
+          11,
+          18,
+          36
+        ],
+        "盈餘分配": [
+          38
+        ]
+      }
+    },
+    {
+      "ticker": "2727",
+      "path": "companies/2727-wowprime/sources/earnings/2026Q2-consolidated.pdf",
+      "sha256": "13d7089cd5bd3a8f5ad529e5ee75151b3280317edf4b77c7366dc6872ef039cf",
+      "access_date": "2026-10-12",
+      "title": "Wowprime 2026Q2-consolidated financial statements",
+      "publisher": "Wowprime / public financial-filing portal",
+      "period": "2026H1",
+      "statement_scope": "consolidated",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本合併財務報告於 115 年 8 月 6 日經董事會通過。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2727&filename=202602_2727_AI1.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 56,
+      "document_date": "2026-08-06",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 10,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          4,
+          8,
+          14,
+          41,
+          43
+        ],
+        "現金流量表": [
+          3,
+          7,
+          11
+        ],
+        "盈餘分配": [
+          30
+        ]
+      }
+    },
+    {
+      "ticker": "3213",
+      "path": "companies/3213-crete/sources/earnings/2024FY-parent-only.pdf",
+      "sha256": "ef54eb2b577312713e0439661ad3b07afaf8a200e9c8d0f730d7368d5ec4693b",
+      "access_date": "2026-10-12",
+      "title": "Crete 2024FY-parent-only financial statements",
+      "publisher": "Crete / public financial-filing portal",
+      "period": "FY2024",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一四年三月十二日經董事會通過發布。",
+      "url": "https://www.crete.com.tw/rwd/113-2.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 60,
+      "document_date": "2025-03-12",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 10,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          6,
+          9,
+          13,
+          15,
+          22,
+          37
+        ],
+        "現金流量表": [
+          3,
+          9,
+          27
+        ],
+        "盈餘分配": [
+          33,
+          54
+        ]
+      }
+    },
+    {
+      "ticker": "5515",
+      "path": "companies/5515-chien-kuo-construction/sources/earnings/2024FY-parent-only.pdf",
+      "sha256": "993fb99246c2b83a541bfa2cf550e72e5f76b24da9b73e7c3935e46ee8491b3b",
+      "access_date": "2026-10-12",
+      "title": "Chien Kuo 2024FY-parent-only financial statements",
+      "publisher": "Chien Kuo / public financial-filing portal",
+      "period": "FY2024",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告於 114 年 3 月 14 日經董事會通過。",
+      "url": "https://www.ckgroup.com.tw/storage/app/uploads/public/681/839/c49/681839c492277459613927.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 84,
+      "document_date": "2025-03-14",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 13,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          16
+        ],
+        "現金流量表": [
+          3,
+          11
+        ],
+        "盈餘分配": [
+          37
+        ]
+      }
+    },
+    {
+      "ticker": "6165",
+      "path": "companies/6165-lang/sources/earnings/2024FY-parent-only.pdf",
+      "sha256": "ae1c0b5314f2251d31d6dcdf6a37b25d0df8583549249d47a1b9c4b6a0af8a0f",
+      "access_date": "2026-10-12",
+      "title": "Lang 2024FY-parent-only financial statements",
+      "publisher": "Lang / public financial-filing portal",
+      "period": "FY2024",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一四年三月十三日經董事會通過發布。",
+      "url": "https://langinc.com.tw/wp-content/uploads/2025/03/113%E5%B9%B4%E7%AC%AC%E5%9B%9B%E5%AD%A3%E8%B2%A1%E5%A0%B1_%E5%80%8B%E9%AB%94.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 56,
+      "document_date": "2025-03-13",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 10,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          6,
+          9,
+          13,
+          15,
+          24,
+          40
+        ],
+        "現金流量表": [
+          9,
+          24,
+          33
+        ],
+        "盈餘分配": [
+          36,
+          47
+        ]
+      }
+    },
+    {
+      "ticker": "2382",
+      "path": "companies/2382-quanta-computer/sources/earnings/2024FY-parent-only.pdf",
+      "sha256": "c7909a7b5fcf937b201df73a82e66e0fbe3f4d9f0ccd788795c24886450c7690",
+      "access_date": "2026-10-12",
+      "title": "Quanta 2024FY-parent-only financial statements",
+      "publisher": "Quanta / public financial-filing portal",
+      "period": "FY2024",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國一一四年二月二十七日經董事會通過發布。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2382&filename=202404_2382_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 94,
+      "document_date": "2025-02-27",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 12,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          7,
+          11,
+          15,
+          17,
+          26,
+          50
+        ],
+        "現金流量表": [
+          3,
+          10,
+          11,
+          15,
+          26,
+          38
+        ],
+        "盈餘分配": [
+          44,
+          45
+        ]
+      }
+    },
+    {
+      "ticker": "2727",
+      "path": "companies/2727-wowprime/sources/earnings/2024FY-parent-only.pdf",
+      "sha256": "8bdd0de28088c17377bd483b2e877f1162f39df5e832e6fed06c4503e5a1fac6",
+      "access_date": "2026-10-12",
+      "title": "Wowprime 2024FY-parent-only financial statements",
+      "publisher": "Wowprime / public financial-filing portal",
+      "period": "FY2024",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告於 114 年 3 月 3 日經董事會通過。",
+      "url": "https://www.wowprime.com/upload_cg/img020250310161900.pdf",
+      "public_form_request": null,
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 92,
+      "document_date": "2025-03-03",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 13,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          7,
+          12,
+          17,
+          30,
+          58,
+          59
+        ],
+        "現金流量表": [
+          3,
+          11
+        ],
+        "盈餘分配": [
+          44,
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "ticker": "2348",
+      "path": "companies/2348-hiyes/sources/earnings/2024FY-parent-only.pdf",
+      "sha256": "2d43dfcbebe6e96c958e3daaff41028a5f02453181f39c92e93d9a6c7cf7f130",
+      "access_date": "2026-10-12",
+      "title": "Hiyes 2024FY-parent-only financial statements",
+      "publisher": "Hiyes / public financial-filing portal",
+      "period": "FY2024",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告於 114 年 3 月 14 日經董事會通過。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2348&filename=202404_2348_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 71,
+      "document_date": "2025-03-14",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 13,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          7,
+          12,
+          16,
+          28,
+          46
+        ],
+        "現金流量表": [
+          3,
+          11
+        ],
+        "盈餘分配": [
+          36,
+          37,
+          38
+        ]
+      }
+    },
+    {
+      "ticker": "2603",
+      "path": "companies/2603-evergreen-marine/sources/earnings/2024FY-parent-only.pdf",
+      "sha256": "515ba0885dd025f412c693ed39a8ba2c77eac126308138ad2c4a6f4a99e31612",
+      "access_date": "2026-10-12",
+      "title": "Evergreen Marine 2024FY-parent-only financial statements",
+      "publisher": "Evergreen Marine / public financial-filing portal",
+      "period": "FY2024",
+      "statement_scope": "parent-only",
+      "publication_date": null,
+      "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+      "approval_date_excerpt": "本個體財務報告已於民國 114 年 3 月 13 日經董事會通過發布。",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2603&filename=202404_2603_AI3.pdf",
+      "sections": [
+        "Balance sheet",
+        "Income statement / EPS note",
+        "Cash flow statement",
+        "Dividends / commitments / subsequent events"
+      ],
+      "PDF_pages": 120,
+      "document_date": "2025-03-13",
+      "document_date_type": "board_approval_not_upload_date",
+      "approval_PDF_page": 16,
+      "section_PDF_pages": {
+        "現金及約當現金": [
+          10,
+          15,
+          31,
+          72,
+          79,
+          84
+        ],
+        "盈餘分配": [
+          53,
+          71
+        ]
+      }
+    }
+  ],
+  "shared_primary_artifacts": [
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/twse-september-revenue.html",
+      "title": "twse-september-revenue.html",
+      "publisher": "MOPS / TWSE",
+      "period": "2026-09",
+      "publication_date": null,
+      "date_note": "Publication date not printed in retained page; period is not publication date.",
+      "access_date": "2026-10-12",
+      "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_9_0.html",
+      "sha256": "97f2f7d1e4860e8b61173d92c0c5135b834906275c4aadbb3f8ffd6a8e4ebbfb"
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/twse-june-revenue.html",
+      "title": "twse-june-revenue.html",
+      "publisher": "MOPS / TWSE",
+      "period": "2026-06",
+      "publication_date": null,
+      "date_note": "Publication date not printed in retained page; period is not publication date.",
+      "access_date": "2026-10-12",
+      "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_6_0.html",
+      "sha256": "e319fef4bdd2b06a5d172dcfdc7bdb16e59ea2dbf837b74c60d064c34107801a"
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/capital-risk.html",
+      "title": "capital-risk.html",
+      "publisher": "Capital Securities",
+      "period": "2026H1",
+      "publication_date": null,
+      "date_note": "Publication date not printed in retained page; period is not publication date.",
+      "access_date": "2026-10-12",
+      "url": "https://esg.capital.com.tw/company/risk",
+      "sha256": "79b8d7065b193535f29d3bae4f2dbfc90735fffa0a196e472a0969ddf823d223"
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/3213-2026-10-08-price.json",
+      "title": "3213 official close 2026-10-08",
+      "publisher": "TPEx",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F08&response=json",
+      "sha256": "f688bec744801982cafb954de7a44bc0e19742b5e499e9ead08136dd3e282e45",
+      "note": "3213 retained earlier successful TLS-verified response; no new TPEx connection in this task."
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/5515-2026-10-08-price.json",
+      "title": "5515 official close 2026-10-08",
+      "publisher": "TWSE",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=5515",
+      "sha256": "0654db948762f02066e72993187a01578c39c6c24071d260f49697dc9c7a650c",
+      "note": "Official market response; close is not the information cutoff."
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/6005-2026-10-08-price.json",
+      "title": "6005 official close 2026-10-08",
+      "publisher": "TWSE",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=6005",
+      "sha256": "c432c503ce224806a04810490de583629e40d5a86d550e22d3b3454aae92d801",
+      "note": "Official market response; close is not the information cutoff."
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/6165-2026-10-08-price.json",
+      "title": "6165 official close 2026-10-08",
+      "publisher": "TWSE",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=6165",
+      "sha256": "6e8a3cb9d3e25baf301e24f55358a011050b4224af115cfcf20a722a3ba00a33",
+      "note": "Official market response; close is not the information cutoff."
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/2348-2026-10-08-price.json",
+      "title": "2348 official close 2026-10-08",
+      "publisher": "TWSE",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=2348",
+      "sha256": "b1b9354603470f041823dc5e5f21250eb4518fb387f45e2540e3ec59dece194c",
+      "note": "Official market response; close is not the information cutoff."
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/2382-2026-10-08-price.json",
+      "title": "2382 official close 2026-10-08",
+      "publisher": "TWSE",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=2382",
+      "sha256": "a81f0533a3f77bce5f0e711fa17494d570ef1c57b74ad25c37efcd1f9dc8a947",
+      "note": "Official market response; close is not the information cutoff."
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/2603-2026-10-08-price.json",
+      "title": "2603 official close 2026-10-08",
+      "publisher": "TWSE",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=2603",
+      "sha256": "1853ebc1cc130ae4cb04555f4dbae055e7cb483cdf5ed33ff2773eb93448451b",
+      "note": "Official market response; close is not the information cutoff."
+    },
+    {
+      "path": "screens/forward-dividend-yield/cohorts/2026-10-12-covered-enrichment/sources/2727-2026-10-08-price.json",
+      "title": "2727 official close 2026-10-08",
+      "publisher": "TWSE",
+      "period": "2026-10-08",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-12",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261008&stockNo=2727",
+      "sha256": "10d987117e3554eea9cff24e8533906bbfceaab725199d3e5f99af2952f16499",
+      "note": "Official market response; close is not the information cutoff."
+    }
+  ],
+  "additional_primary_urls": [
+    {
+      "title": "Quanta issued-share information",
+      "publisher": "Quanta",
+      "publication_date": null,
+      "access_date": "2026-10-12",
+      "url": "https://www.quantatw.com/Quanta/chinese/about/information.aspx"
+    },
+    {
+      "title": "Quanta public announcements, including 2026-08-13 no H1 earnings distribution",
+      "publisher": "Quanta",
+      "publication_date": "2026-08-13",
+      "access_date": "2026-10-12",
+      "url": "https://www.quantatw.com/quanta/chinese/allnews/allnews_hot.aspx"
+    },
+    {
+      "title": "Wowprime dividend information",
+      "publisher": "Wowprime",
+      "publication_date": null,
+      "access_date": "2026-10-12",
+      "url": "https://www.wowprime.com/zh-tw/investors-sub-menu/stockholder/dividend-information"
+    },
+    {
+      "title": "Crete dividend information",
+      "publisher": "Crete",
+      "publication_date": null,
+      "access_date": "2026-10-12",
+      "url": "https://www.crete.com.tw/rwd/t2.htm"
+    }
+  ],
+  "historical_model_provenance": "Existing pilot sources referring to mutable company Markdown are recoverable from git revision e0bd875, not the updated working-tree files. Original pilot artifacts and manifests are unchanged."
+}

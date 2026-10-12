@@ -1,5 +1,7 @@
 # 估值
 
+> 現行有日期補充: [2026-10-12](model/2026-10-12-dividend-enrichment.md). 下方較早有日期章節保留為歷史。
+
 <!-- 衍生繁體中文閱讀版；英文原檔 `09_valuation.md` 是唯一 canonical source。若內容衝突，以英文版為準。 -->
 
 ## 估值背景與正常化基礎
@@ -30,3 +32,7 @@ TWD 8 billion 營收下，毛利率每 1 percentage point 約影響正常化 EPS
 
 - *5515 Monthly Trading Data*, Taiwan Stock Exchange, close as of 2026-09-09, <https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?date=20260909&stockNo=5515&response=json>, accessed 2026-09-09.
 - *2026 Q2 Consolidated Financial Statements*, approved 2026-08-12, pp. 4–8 and 23–27, <https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=5515&year=115&seamon=2&mtype=A&dtype=AI1>, accessed 2026-09-09.
+
+## 2026-10-12 — 八家公司股利補齊
+
+現行前瞻比較使用 [有日期 EPS／股利／現金補充](model/2026-10-12-dividend-enrichment.md) 的正常化 EPS 與股數橋接；以前有日期估值保留為歷史。FY2026E 正常化稀釋 EPS 3.97；FY2027E／FY2028E 4.13／4.37。2027 普通股現金 DPS 估計 3.55-4.72，點估 4.33，下行 1.81。 維持產業估值法與循環／認列折價，不資本化指定一次性利益，不把現金估計當估值下限；本次不新增目標價。

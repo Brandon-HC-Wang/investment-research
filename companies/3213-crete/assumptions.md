@@ -56,3 +56,20 @@ Initial history date: 2026-09-24. All assumptions are Open; confidence percentag
 - A-2026-002: Open, confidence **60% → 55%**. Lower system share (66.09% → 56.80%) creates a mix warning, not a reported margin result. Retain 35.0% / 35.5% numerical assumptions pending Q3 product/GM evidence. H2 margin -1 pp affects 2026 EPS about -0.26; Q-2026-007.
 - A-2026-003 / A-2026-004 / A-2026-005 / A-2026-006: Open; confidence 45% / 65% / 50% / 50% unchanged. No new tax, diluted-share, cash-conversion or peer-valuation evidence obtained.
 - All prior confidence/status events remain historical; no assumption is Verified by monthly revenue alone. Review October revenue 2026-11-10 and Q3 statements 2026-11-16. [Evidence](sources/README.md).
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### A-2026-007 — Conditional parent cash and sector EPS bridge
+
+- **Description:** Operating drivers and parent cash conversion support the dated FY2026-FY2028 scenarios and estimated 2027 cash dividend.
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Confidence:** 35% for EPS, 30% for cash capacity.
+- **Causal mechanism:** Segment/cycle margins produce common profit; collections/remittances less funding, debt and reserves constrain ordinary cash allocation.
+- **Supporting evidence:** Retained parent statements, reported H1 earnings and three-year dividend declarations; [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Contradicting evidence:** Inventory/advance conversion; parent H2 actual cash; future reserve and board cash allocation.
+- **Evidence test / confirmation:** Q3 2026 earnings and parent cash bridges, commitments and subsequent board allocation reconcile to the modeled path.
+- **Rejection signals:** Material margin/collection shortfall, larger funding/reserve calls or materially different board cash/stock choice.
+- **Expected window:** Q3 2026 disclosures through 2027 H1.
+- **Model effect:** FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11.
+- **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.

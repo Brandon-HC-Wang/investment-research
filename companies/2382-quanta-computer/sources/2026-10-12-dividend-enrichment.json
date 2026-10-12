@@ -1,0 +1,142 @@
+[
+  {
+    "ticker": "2382",
+    "path": "companies/2382-quanta-computer/sources/earnings/2025FY-parent-only.pdf",
+    "sha256": "c0a1cda2c8f7171ee651f2cb4bd4e949ab3d9dcc73ff6ba683c6392760e3c338",
+    "access_date": "2026-10-12",
+    "title": "Quanta 2025FY-parent-only financial statements",
+    "publisher": "Quanta / public financial-filing portal",
+    "period": "FY2025",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一五年二月二十六日經董事會通過發布。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2382&filename=202504_2382_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 93,
+    "document_date": "2026-02-26",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 12,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        7,
+        11,
+        15,
+        17,
+        26,
+        52
+      ],
+      "現金流量表": [
+        3,
+        10,
+        11,
+        15,
+        26,
+        39
+      ],
+      "盈餘分配": [
+        45,
+        46
+      ]
+    }
+  },
+  {
+    "ticker": "2382",
+    "path": "companies/2382-quanta-computer/sources/earnings/2026Q2-consolidated.pdf",
+    "sha256": "df864a854db9115c6b8d41952211cbdcc81bab5bc67a355dd210b237cbb8a217",
+    "access_date": "2026-10-12",
+    "title": "Quanta 2026Q2-consolidated financial statements",
+    "publisher": "Quanta / public financial-filing portal",
+    "period": "2026H1",
+    "statement_scope": "consolidated",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本合併財務報告已於民國一一五年八月十三日經董事會通過發布。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2382&filename=202602_2382_AI1.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 71,
+    "document_date": "2026-08-13",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 10,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        5,
+        9,
+        18,
+        26,
+        47,
+        49
+      ],
+      "現金流量表": [
+        3,
+        8,
+        9,
+        11,
+        18,
+        36
+      ],
+      "盈餘分配": [
+        38
+      ]
+    }
+  },
+  {
+    "ticker": "2382",
+    "path": "companies/2382-quanta-computer/sources/earnings/2024FY-parent-only.pdf",
+    "sha256": "c7909a7b5fcf937b201df73a82e66e0fbe3f4d9f0ccd788795c24886450c7690",
+    "access_date": "2026-10-12",
+    "title": "Quanta 2024FY-parent-only financial statements",
+    "publisher": "Quanta / public financial-filing portal",
+    "period": "FY2024",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一四年二月二十七日經董事會通過發布。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2382&filename=202404_2382_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 94,
+    "document_date": "2025-02-27",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 12,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        7,
+        11,
+        15,
+        17,
+        26,
+        50
+      ],
+      "現金流量表": [
+        3,
+        10,
+        11,
+        15,
+        26,
+        38
+      ],
+      "盈餘分配": [
+        44,
+        45
+      ]
+    }
+  }
+]

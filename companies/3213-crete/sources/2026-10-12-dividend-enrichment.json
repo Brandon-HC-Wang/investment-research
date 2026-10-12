@@ -1,0 +1,90 @@
+[
+  {
+    "ticker": "3213",
+    "path": "companies/3213-crete/sources/earnings/2025FY-parent-only.pdf",
+    "sha256": "f1747c80c6a126606509ea9e6c8b48dcf143101e747bebaa68d0e2a5fac7a6ab",
+    "access_date": "2026-10-12",
+    "title": "Crete 2025FY-parent-only financial statements",
+    "publisher": "Crete / public financial-filing portal",
+    "period": "FY2025",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一五年三月十一日經董事會通過發布。",
+    "url": "https://www.crete.com.tw/rwd/114-2.pdf",
+    "public_form_request": null,
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 62,
+    "document_date": "2026-03-11",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 10,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        6,
+        9,
+        13,
+        15,
+        22,
+        38
+      ],
+      "現金流量表": [
+        3,
+        9,
+        28
+      ],
+      "盈餘分配": [
+        34,
+        56
+      ]
+    }
+  },
+  {
+    "ticker": "3213",
+    "path": "companies/3213-crete/sources/earnings/2024FY-parent-only.pdf",
+    "sha256": "ef54eb2b577312713e0439661ad3b07afaf8a200e9c8d0f730d7368d5ec4693b",
+    "access_date": "2026-10-12",
+    "title": "Crete 2024FY-parent-only financial statements",
+    "publisher": "Crete / public financial-filing portal",
+    "period": "FY2024",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告已於民國一一四年三月十二日經董事會通過發布。",
+    "url": "https://www.crete.com.tw/rwd/113-2.pdf",
+    "public_form_request": null,
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 60,
+    "document_date": "2025-03-12",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 10,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        6,
+        9,
+        13,
+        15,
+        22,
+        37
+      ],
+      "現金流量表": [
+        3,
+        9,
+        27
+      ],
+      "盈餘分配": [
+        33,
+        54
+      ]
+    }
+  }
+]

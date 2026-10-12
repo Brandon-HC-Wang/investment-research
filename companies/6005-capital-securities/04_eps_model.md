@@ -1,5 +1,7 @@
 # EPS and cash-dividend scenarios
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 2026-10-12. Analyst estimates, not company guidance, broker consensus or trade instructions. TWD million, shares million, EPS/DPS TWD/share. [Reproducible inputs](scenario-inputs.json). EPS confidence: medium for 2026, low for 2027/2028; cash payout confidence low.
 
 ## Forecast outputs
@@ -83,3 +85,7 @@ H126 Note 6(21) specifies 10% legal reserve, 20% special reserve and other requi
 Selected-gain H1 sensitivity: `(7,948.928 − (1,178.667 + 43.295) × 80%) / 2,459.319 = 2.83`, compared with reported 3.23. Uniform marginal tax 20%, unchanged NCI; this is not a full normalized result, and compensation releases are not separately double counted. FVOCI equity price changes/transfer gains do not enter EPS; debt realization and operating FVTPL have different rules.
 
 At 2027 base, net trading pretax decrease **1,000** reduces diluted EPS about **0.35** at 14% tax, holding NCI fixed. Brokerage traded-value decline **30%**, assuming fixed share/yield and **40%** variable-cost absorption, reduces EPS about **0.72** before other effects. Capital Investment Trust's modeled contribution **800** falling **30%** changes EPS about **0.08** under the same aggregate tax convention. These are separate controlled sensitivities, not a complete crash forecast. An additional 1-point effective tax costs about **0.052** EPS. The report offers a labeled interactive version of these assumptions.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 4.29; FY2027E/FY2028E 4.10/4.41. Estimated 2027 ordinary cash DPS 0.70-2.35, point 1.64, downside 0.30. Remove selected H1 investment disposal 1178.667 and liability release 43.295 at estimated 20% marginal tax, NCI unchanged. Retain net ordinary trading and paired hedge P&L. This is a selected-gain sensitivity, not through-cycle EPS. Nine-month profit inferred from rounded EPS has +/-12.276485 million uncertainty. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

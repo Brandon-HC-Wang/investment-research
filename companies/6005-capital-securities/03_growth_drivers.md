@@ -36,3 +36,7 @@ There is no disclosed binding multi-year revenue backlog. Track share and realiz
 - Confirmation: through Q3/FY2026 and FY2027, service/financing income holds up as net trading weakens and capital remains adequate.
 - Rejection: volume/loan contraction plus hedge/trading losses overwhelm fee contribution; assumed cash distributions become untenable.
 - Status: Open; qualitative confidence 60%, not a scenario probability. Review 2026-11-16 and FY2026 distribution decisions in 2027.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Monetary eligible capital, risk denominator, segregated/pledged cash, post-distribution stress and cash/stock allocation.

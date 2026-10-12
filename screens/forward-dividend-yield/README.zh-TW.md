@@ -103,3 +103,13 @@ python3 scripts/run_screen.py \
 使用者明確確認，6.42%–7.41% 算符合 7% 基準殖利率條件。現行規則為 `base_yield_high_pct >= 7`，含等號並使用未取整輸入；整段高於門檻也符合。結果保留 `partial_range`、`entire_range` 區分及代表估計供解讀；代表單點不必獨立達 7%。正常化 EPS / 所需 DPS 1.25×、下行殖利率 5%、完整度 95%、現金能力證據與人工審查仍須符合。
 
 舊定義精確保留於 [definition-history/3.yaml](definition-history/3.yaml)，包含首次試跑 manifest 雜湊與舊 CSV 欄位。首次試跑維持 version 3 不變；state 在 version 4 下維持 due，直到完整新 run 成功。新 run 凍結定義。[日期研究紀錄決策](../../research-log/industries/ForwardDividendPilot.md#2026-10-12--confirmed-interval-qualification-rule)記錄兩家公司敏感度解讀改變。本次規則變更未另執行公司正式 run；軟體 fixtures 驗證邊界與獨立條件。
+
+## 2026-10-12 — 擴大族群準備度盤點
+
+使用者詢問是否可擴大驗證。[固定 8 家準備族群](cohorts/2026-10-12-covered-expansion-readiness/README.md)現保留原 4 家，新增 2348、2382、2603、2727。本地盤點以來源雜湊記錄各公司 EPS、DPS 區間、股利歷史與產業現金缺口。這是準備工作表，不是可執行預估輸入或新 screen run。可一邊補資料、一邊準備較廣流程族群；完整分析納入與策略有效性仍未證實。
+
+建議接續為初步補足後的分層 15–20 家流程族群。先定範圍／分母，保留未達標及缺漏成員，平衡市場／產業覆蓋。固定 8 家分母下，7/8 = 87.50% 低於維持不變的 95% 數值覆蓋門檻。歷史結果驗證獨立：至少 3 annual cohorts、100 company-year observations，採時點輸入。現行 state 維持 due，strategy 維持 testing。本地盤點未刷新、未新增正式 run，也未變更公司預估。
+
+## 2026-10-12 — 八家公司股利補齊
+
+[產業 EPS、現金股利區間與母公司現金預算](cohorts/2026-10-12-covered-enrichment/README.md) 已涵蓋八家已研究公司。估計仍有條件，尚無完整經濟門檻合格者；本批不是正式執行結果。Version-4 仍要求數字 FCF，金融業資本／流動性與明列 FCF NA 需要後續契約修改，不以零代替缺值。

@@ -1,5 +1,7 @@
 # EPS Model
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Model status
 
 - **As of:** 2026-09-10
@@ -43,3 +45,7 @@ The model does not strip out investment gains, FX, or fair-value effects because
 ## Assumption history
 
 - **2026-09-10:** Initial model established from 2025 audited results, 2026H1 reviewed results, and July 2026 revenue. No prior forecast is overwritten.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Current task estimates: FY2026E normalized diluted EPS 22.71; FY2027E/FY2028E 24.18/26.09. Estimated 2027 ordinary cash DPS 13.53-19.32, point 18.19, downside 4.04. H1 diluted numerator 49950.168 already reverses issuer embedded-derivative gain 408.202: remove FX 6521.848 + remaining FVTPL 411.934 + disposal 178.561 at estimated 20% tax, not all FVTPL a second time. Basic profit removes full FVTPL 820.136. GDR adds 245 million shares on 2026-08-03; weighted issuance and convertible/employee dilution modeled explicitly. Future if-converted addbacks are estimates. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.

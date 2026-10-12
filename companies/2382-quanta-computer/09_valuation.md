@@ -1,5 +1,7 @@
 # Valuation
 
+> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+
 ## Valuation context
 
 As of the 2026-09-09 TWSE close, Quanta was TWD342.00 per share. TWSE reported trailing P/E 14.90x, dividend yield 4.56%, and P/B 5.41x. The approximately 3.85 billion weighted share base and 2026-06-30 cash/borrowings are used; the group had about TWD90.05 billion cash deficit relative to borrowings before financial investments.
@@ -29,3 +31,7 @@ The widest uncertainty is normalized EPS, not the selected multiple. A 10-basis-
 ## Sources
 
 - *Daily Trading Information* and *P/E, Dividend Yield and P/B*, TWSE, 2026-09-09, [price dataset](https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL) and [multiple dataset](https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL), accessed 2026-09-10.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) for current forward comparisons; earlier dated valuations remain historical. FY2026E normalized diluted EPS 22.71; FY2027E/FY2028E 24.18/26.09. Estimated 2027 ordinary cash DPS 13.53-19.32, point 18.19, downside 4.04. Preserve the sector method and cyclical/recognition discount; do not capitalize selected gains or treat the cash estimate as a valuation floor. No new target price is adopted.

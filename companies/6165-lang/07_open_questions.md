@@ -57,3 +57,16 @@ All questions opened 2026-09-21; status history is append-only. Evidence: [sourc
 - Resolution test: Obtain corrected primary reports/XBRL and the monthly-to-quarterly adjustment; also reconcile segment-profit definitions and the qualified review item.
 - Thesis effect: Avoids false precision in TTM multiples, growth and attribution.
 - History: 2026-09-21 — Open; evidence insufficient.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### Q-2026-008 — Forward cash-budget confirmation
+
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Question:** Do actual parent collections, funding commitments, reserves and board cash allocation support the estimated 2027 payout?
+- **EPS materiality:** High for funding/dilution, and high for dividend reliability.
+- **Evidence gap:** Subsidiary remittance timing, redemption funding, latest diluted shares, historical exact DPS/stock completeness and comparative CFO classification.
+- **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
+- **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.

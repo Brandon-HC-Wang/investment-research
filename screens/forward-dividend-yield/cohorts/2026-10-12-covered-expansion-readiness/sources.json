@@ -1,0 +1,362 @@
+[
+  {
+    "path": "companies/2348-hiyes/meta.yaml",
+    "sha256": "b10bfe74afab8b9b009b04a68cc22dc5323136eadb6fbdd98e378a344da53803",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-09",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2348-hiyes/research.yaml",
+    "sha256": "2abbba3c1e9b562ceddf66aab1a5b829a764b9322d60b6ea70fa5ace1891195d",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-09",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2348-hiyes/04_eps_model.md",
+    "sha256": "15c62e89968b711afe4e14084f083497db89896bc9de857006c1d7313652542a",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-09",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2348-hiyes/07_open_questions.md",
+    "sha256": "f08a1dde64cb9955ce0c0687399117e322ad2a1a933eaff1b223b0fa69a46aaf",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-09",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2348-hiyes/02_financials.md",
+    "sha256": "31261d2b6082fc4be42dab19fb5f048a87ba36ac73d8df6d8a208c2d60a10474",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-09",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2382-quanta-computer/meta.yaml",
+    "sha256": "7cad84db6f1fc4bcbc08d40f143a235072ad043a77bbc549903cd586df7efd3c",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2382-quanta-computer/research.yaml",
+    "sha256": "7da0df917455dd6dd716e93b9f17f2a29b7f2854767debbfaf24f0ea7521d042",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2382-quanta-computer/04_eps_model.md",
+    "sha256": "5fbe2245977aace71953f8f7a8be20ca726058edbe1761e8a577556d813a6c78",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2382-quanta-computer/07_open_questions.md",
+    "sha256": "e33fb2ed50b4ff5051570eb11368dfa5cb57243e40c062f3e47917610f749788",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2382-quanta-computer/02_financials.md",
+    "sha256": "5a310f67a5ed18819a021d8f462873e5a698fc6f5b4d6ebdb1232c388a3d5919",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2603-evergreen-marine/meta.yaml",
+    "sha256": "c45bdcba04d242f4ad9fe3ad0651953372cdfa2fab12d4f539bc56b79ca7e1cd",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2603-evergreen-marine/research.yaml",
+    "sha256": "68ca31e2549bfee2e76cc2dcd9308f12536eab961f5ab08886aac186bb4a7602",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2603-evergreen-marine/04_eps_model.md",
+    "sha256": "fa596eec09969a7c44302790d48ac02d792a1fc6266d0ac4166d16dc108ca9ce",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2603-evergreen-marine/07_open_questions.md",
+    "sha256": "a4a6174e546e19398105343c834b1e332333ab097bb61900785734c0ce8e2ddc",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2603-evergreen-marine/02_financials.md",
+    "sha256": "a2d0bdace3c2a71189a725b53e929e622f674dd7399309a182af3d54fdf6d7ba",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-10",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2727-wowprime/meta.yaml",
+    "sha256": "948c678fc9842c84814d421351e126e14fed9e92766df857ba5aaa06d9d2ecba",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-08-05",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2727-wowprime/research.yaml",
+    "sha256": "1eb78f69715b9cec23c88410fbfeb45e60101be68511ab85c25adbc9b9150a20",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-08-05",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2727-wowprime/04_eps_model.md",
+    "sha256": "35a747b5835a1d4c6052f642f9d4b41e01b75d75ba35eb5d512ff9ddef12dff1",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-08-05",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2727-wowprime/07_open_questions.md",
+    "sha256": "2136f052c706b1aa1a77fcbc3bfc0c74a0786e85556a18c8a15b39eb3abaa3b3",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-08-05",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/2727-wowprime/02_financials.md",
+    "sha256": "ae7d6b5191bf60dc831baab30de79061173e86eb2958cfb4b6496d576a0000b3",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-08-05",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/3213-crete/meta.yaml",
+    "sha256": "41a58076d751dec3f1a35c9ec201338eef8666535a8706c4711cfceddfa29fad",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/3213-crete/research.yaml",
+    "sha256": "82ffaf2fd77a4b274e814f409085abeed1eedaf40d023a4a47e931899c2aea76",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/3213-crete/04_eps_model.md",
+    "sha256": "eeea470b8b620b3cdbb2579e6cc43891fc3f4e3d261858e47d0151993d98764b",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/3213-crete/07_open_questions.md",
+    "sha256": "982939ba8f32575a08f0c4f9dba828b909182eb02b318ce1121b93bd0d0207b2",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/3213-crete/02_financials.md",
+    "sha256": "d9c386f22fe2789ae71dd380a603b15daecc69d32e67906ea320772d91d64fcb",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/meta.yaml",
+    "sha256": "0149422946aeecff2d09417f46a1e1d18deb01aafd6588d48525e22d1e5b1400",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-15",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/research.yaml",
+    "sha256": "2b010c32d9c627faf20013f6f94f30ae03c5b808fc6a5cb18eaf2d6ef4f37050",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-15",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/04_eps_model.md",
+    "sha256": "f9ebaa153c7eaec1593152926093ce30bd828dbe92b1f3036a3c837098e7cd5d",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-15",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/07_open_questions.md",
+    "sha256": "7439dea5f8b4e4753107d67487a501b42365e33cf3abff79df72ab1c2e91d6a4",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-15",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/5515-chien-kuo-construction/02_financials.md",
+    "sha256": "f62f2aabd3e33b19ab41a5aa63c851bc684bf533f528d6c45b59d5c66b5c59ea",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-15",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6005-capital-securities/meta.yaml",
+    "sha256": "fef5543931eccfcc81ef166949580459cc05d1964575841223d5b59b6dd296ca",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6005-capital-securities/research.yaml",
+    "sha256": "6468bccad3bbf752b70208bbee41afe9197b3dc13daf052ecdc06ec5952ea232",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6005-capital-securities/04_eps_model.md",
+    "sha256": "24f2b7efcd59e44202b4a95bbe1c8c581522d9157f5b5c1979bf32e625c5cc5f",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6005-capital-securities/07_open_questions.md",
+    "sha256": "c5a723cafcac137639cfe1975ce39b2fc1e9f72d00eb783fc77dfe1084485ef3",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6005-capital-securities/02_financials.md",
+    "sha256": "dbe2d9ec7da336f31fbf866634ad772e5cfb0e234198d896b5ca7c99cbf92136",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-10-12",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6165-lang/meta.yaml",
+    "sha256": "dd5ece3a34991a384f6def486ecd2fd027230cae6c64d415d01c49ed6330d4b6",
+    "publisher": "Repository canonical company research",
+    "title": "meta.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-21",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6165-lang/research.yaml",
+    "sha256": "e849ca6eaff478edf5474170f15d6e4b491767a5c9f650fcb7cb9a73ffb3804f",
+    "publisher": "Repository canonical company research",
+    "title": "research.yaml",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-21",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6165-lang/04_eps_model.md",
+    "sha256": "851358771333772ecf2dcbf42a74c75971116185dce3d2b472f03b8ced77ed69",
+    "publisher": "Repository canonical company research",
+    "title": "04_eps_model.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-21",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6165-lang/07_open_questions.md",
+    "sha256": "b5131f7dc77558e374ee0d6f3d922eeabe31abe2b1168dfd337b0f5f386123b7",
+    "publisher": "Repository canonical company research",
+    "title": "07_open_questions.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-21",
+    "evidence_type": "local research record; not a newly verified external filing"
+  },
+  {
+    "path": "companies/6165-lang/02_financials.md",
+    "sha256": "45b1526b5f1f8e275e79d097f7f5bfc55ed7e92a5d53de043c4bf40165d8489d",
+    "publisher": "Repository canonical company research",
+    "title": "02_financials.md",
+    "access_date": "2026-10-12",
+    "local_company_updated_on": "2026-09-21",
+    "evidence_type": "local research record; not a newly verified external filing"
+  }
+]

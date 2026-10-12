@@ -1,0 +1,89 @@
+[
+  {
+    "ticker": "2348",
+    "path": "companies/2348-hiyes/sources/earnings/2025FY-parent-only.pdf",
+    "sha256": "2c097ee0f1527d51db5dd6fcd7cb1642ea6e05b850c55768d671dd069df8f1e8",
+    "access_date": "2026-10-12",
+    "title": "Hiyes 2025FY-parent-only financial statements",
+    "publisher": "Hiyes / public financial-filing portal",
+    "period": "FY2025",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告於 115 年 3 月 13 日經董事會通過。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2348&filename=202504_2348_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 66,
+    "document_date": "2026-03-13",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 13,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        7,
+        12,
+        16,
+        28,
+        47
+      ],
+      "現金流量表": [
+        3,
+        11,
+        15
+      ],
+      "盈餘分配": [
+        37,
+        38,
+        39
+      ]
+    }
+  },
+  {
+    "ticker": "2348",
+    "path": "companies/2348-hiyes/sources/earnings/2024FY-parent-only.pdf",
+    "sha256": "2d43dfcbebe6e96c958e3daaff41028a5f02453181f39c92e93d9a6c7cf7f130",
+    "access_date": "2026-10-12",
+    "title": "Hiyes 2024FY-parent-only financial statements",
+    "publisher": "Hiyes / public financial-filing portal",
+    "period": "FY2024",
+    "statement_scope": "parent-only",
+    "publication_date": null,
+    "date_note": "Report approval is recorded verbatim below; upload date is not inferred.",
+    "approval_date_excerpt": "本個體財務報告於 114 年 3 月 14 日經董事會通過。",
+    "url": "https://doc.twse.com.tw/server-java/t57sb01",
+    "public_form_request": "step=9&kind=A&co_id=2348&filename=202404_2348_AI3.pdf",
+    "sections": [
+      "Balance sheet",
+      "Income statement / EPS note",
+      "Cash flow statement",
+      "Dividends / commitments / subsequent events"
+    ],
+    "PDF_pages": 71,
+    "document_date": "2025-03-14",
+    "document_date_type": "board_approval_not_upload_date",
+    "approval_PDF_page": 13,
+    "section_PDF_pages": {
+      "現金及約當現金": [
+        7,
+        12,
+        16,
+        28,
+        46
+      ],
+      "現金流量表": [
+        3,
+        11
+      ],
+      "盈餘分配": [
+        36,
+        37,
+        38
+      ]
+    }
+  }
+]

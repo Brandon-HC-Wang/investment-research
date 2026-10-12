@@ -48,3 +48,16 @@
 - **Resolution method:** Track production evidence across platform generations and whether gross profit grows after revenue comparisons peak.
 - **Owner/next review:** Company coverage; 2027 platform transition evidence.
 - **Status history:** 2026-09-10 — Open.
+
+## 2026-10-12 — Eight-company dividend enrichment
+
+### Q-2026-005 — Forward cash-budget confirmation
+
+- **Status:** Open.
+- **Opened:** 2026-10-12.
+- **Question:** Do actual parent collections, funding commitments, reserves and board cash allocation support the estimated 2027 payout?
+- **EPS materiality:** High for funding/dilution, and high for dividend reliability.
+- **Evidence gap:** GDR actual net receipts/use, asset payment schedule, working-capital conversion and convertible/employee-share reconciliation.
+- **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+- **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
+- **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.
