@@ -1,6 +1,6 @@
 # Valuation
 
-> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+> Current research update: [2026-10-13](model/2026-10-13-september-and-funding-update.md). Earlier dated sections and supplements remain historical.
 
 ## Current status
 
@@ -33,3 +33,7 @@ Valuation remains deferred. H1 common EPS was TWD 1.06, but Q2 included financia
 ## 2026-10-12 — Eight-company dividend enrichment
 
 Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) for current forward comparisons; earlier dated valuations remain historical. FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00. Preserve the sector method and cyclical/recognition discount; do not capitalize selected gains or treat the cash estimate as a valuation floor. No new target price is adopted.
+
+## 2026-10-13 — Current comparison basis; valuation still deferred
+
+Use economic normalized base EPS 4.38 / 3.33 / 3.87 from the [current update](model/2026-10-13-september-and-funding-update.md), separately showing reported-style/declaration-timing measures. The withdrawn 2027 cash-DPS forecast cannot support a current yield floor. New land cost is not incremental NAV or verified 2027 profit without funding, remaining construction cost and completion evidence. Preserve sum-of-the-parts and explicit net-debt/guarantee/minority adjustments; no current fair-value range or price target is adopted.

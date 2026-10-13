@@ -29,3 +29,7 @@
 - **Current implication:** H2 recognition timing is confirmed, but the thesis and low confidence remain unchanged. The update does not validate normalized agency earnings, cash-backed EPS, or 2027 replacement.
 - **Next verification:** Use the Q3 filing to reconcile the five named projects and Dali Yecui to construction gross profit, inventory release, operating cash flow, borrowings, finance costs, and common EPS.
 - **Promotion target:** Timing and mix implications are integrated into `02_financials.md` and `03_growth_drivers.md`; no current EPS forecast is promoted.
+
+## 2026-10-13 — Revenue growth does not establish cash-distribution capacity
+
+**Observation:** The rate-reset and acquisition announcements add capital-allocation evidence missing from the previous dividend budget. Agency monthly improvement remains secondary evidence; purchase financing is unallocated. **Mechanism:** Project recognition can raise profit while land acquisition, preferred allocation and funding costs reduce ordinary shareholders' retained/distributable cash. **Implication:** Suspend the earlier cash-DPS forecast rather than infer a floor from high revenue. **Next test:** Reconcile Q3 cash, purchase instalments, new financing, existing CFO/project-funding overlap and board distributions. [Sources and exact evidence boundary](sources/earnings/2026-10-13-source-reconciliation.md); [model and stress calculations](model/2026-10-13-september-and-funding-update.md).

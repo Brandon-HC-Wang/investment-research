@@ -9,3 +9,7 @@
 ## 保留資料
 
 - [`2026Q2-hiyes-consolidated-financial-report.pdf`](2026Q2-hiyes-consolidated-financial-report.pdf)——海悅國際2026 Q2合併財務報告暨會計師核閱報告，發布日2026-08-12；除另有註明外單位為新台幣仟元；共49頁；2026-08-17自證交所電子文件系統取得。SHA-256：`310c17c54855869fdee285f93396cfed3b423186ac503b12a034208a6e56c247`。來源查詢：<https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=2348&year=115&seamon=2&mtype=A&dtype=AI1>。
+
+## 2026-10-13 公司揭露查核
+
+保留一手原始回應：[特別股重設](2026-09-23-preferred-rate-reset.html)、[寶元段購地](2026-09-17-baoyuan-acquisition.html)、[支持函／融資董事會決議](2026-09-16-board-funding.html)，以及[日期 TWSE 公司資料](2026-10-13-twse-profile.pdf)。[調節紀錄](2026-10-13-source-reconciliation.md)列出章節、事實、估計、來源存取界線及修正的 H1 營收輸入。這些公告不是 Q3 財報。

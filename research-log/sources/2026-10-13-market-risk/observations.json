@@ -1,0 +1,189 @@
+{
+  "as_of": "2026-10-13",
+  "user_horizon": "1-3 years, directly supplied during this task",
+  "scope": "Primary-source US risk gauges, energy/geopolitical transmission, Taiwan supplier/market context; not exhaustive global market coverage",
+  "cutoff_rule": "Use each source actual date; no data after 2026-10-13 and no assumption that lagged series are today live",
+  "series_request": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2,VIXCLS,DGS10&cosd=2026-07-01&coed=2026-10-12",
+  "request_note": "Returned ZIP of complete frequency groups; filter dates explicitly. Missing values remain blank. CSV filename on download did not imply CSV content.",
+  "observations": {
+    "VIXCLS": {
+      "date": "2026-10-09",
+      "value": 14.84,
+      "unit": "index"
+    },
+    "BAMLH0A0HYM2": {
+      "date": "2026-10-08",
+      "value": 3.15,
+      "unit": "percent",
+      "baseline_date": "2026-08-31",
+      "baseline": 2.63,
+      "change_bp": 52
+    },
+    "DGS10": {
+      "date": "2026-10-08",
+      "value": 5.22,
+      "unit": "percent",
+      "baseline_date": "2026-06-30",
+      "baseline": 4.44,
+      "change_bp": 78
+    }
+  },
+  "sources": [
+    {
+      "id": "F1",
+      "title": "ICE BofA US High Yield Index Option-Adjusted Spread",
+      "publisher": "ICE Data Indices via FRED",
+      "period": "2026-10-08",
+      "publication_date": null,
+      "access_date": "2026-10-13",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "section": "Latest read 3.15%; 2026-08-31 2.63%; spread, not bond yield; daily close"
+    },
+    {
+      "id": "F2",
+      "title": "CBOE Volatility Index: VIX",
+      "publisher": "CBOE via FRED",
+      "period": "2026-10-09",
+      "publication_date": null,
+      "access_date": "2026-10-13",
+      "url": "https://fred.stlouisfed.org/series/VIXCLS",
+      "section": "Latest read 14.84; daily close; not a crash probability"
+    },
+    {
+      "id": "F3",
+      "title": "US Treasury 10-year constant maturity yield",
+      "publisher": "Federal Reserve Board via FRED",
+      "period": "2026-10-08",
+      "publication_date": null,
+      "access_date": "2026-10-13",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "section": "Latest read 5.22%; 2026-06-30 4.44%; daily yield, not realized bond return"
+    },
+    {
+      "id": "F4",
+      "title": "Federal Reserve issues FOMC statement",
+      "publisher": "Federal Reserve Board",
+      "period": "2026-09-16",
+      "publication_date": "2026-09-16",
+      "access_date": "2026-10-13",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "section": "Raised policy range by 0.25 percentage point to 3.75%-4.00%; inflation elevated; activity solid. This is the dated decision, not a verified future path"
+    },
+    {
+      "id": "F5",
+      "title": "Financial Stability Report, Near-Term Risks",
+      "publisher": "Federal Reserve Board",
+      "period": "2026-05",
+      "publication_date": null,
+      "access_date": "2026-10-13",
+      "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-near-term-risks.htm",
+      "section": "War/inflation/rates transmission; March-April survey of 20 contacts raised AI valuations/debt-funded capex/private-credit risks. Survey opinions are not Board forecasts or an October market-state reading",
+      "document_date": "2026-05-28",
+      "document_date_type": "page_last_update"
+    },
+    {
+      "id": "E1",
+      "title": "Short-Term Energy Outlook, October 2026",
+      "publisher": "US EIA",
+      "period": "2026 Q4 forecast",
+      "publication_date": "2026-10-06",
+      "access_date": "2026-10-13",
+      "url": "https://www.eia.gov/outlooks/steo/report/",
+      "section": "Inputs finalized 2026-10-01; Q4 Brent forecast USD105/bbl, up USD14 from prior; flows constrained but improving assumed. Forecast excludes later events; not current spot price"
+    },
+    {
+      "id": "E2",
+      "title": "Statement on meeting of IEA Member governments on 7 October 2026",
+      "publisher": "IEA",
+      "period": "2026-10-07",
+      "publication_date": "2026-10-07",
+      "access_date": "2026-10-13",
+      "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+      "section": "Accelerate March collective oil releases; about 325m barrels released, roughly 100m pledged still pending; emergency reserves counteract but do not erase the shock"
+    },
+    {
+      "id": "A1",
+      "title": "TSMC Reports Second Quarter EPS of NT$27.25",
+      "publisher": "TSMC",
+      "period": "2026 Q2",
+      "publication_date": "2026-07-16",
+      "access_date": "2026-10-13",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/a80d7933be643644081584087731f73b22ea5a2c/2Q26%20EarningsRelease.pdf",
+      "section": "Consolidated TWD revenue 1,270.38bn +36.0%; parent net income 706.56bn +77.4%; company actuals support real supplier earnings, not all AI application returns"
+    },
+    {
+      "id": "A2",
+      "title": "TSMC September 2026 Revenue Report",
+      "publisher": "TSMC filing with SEC",
+      "period": "2026-09 / January-September",
+      "publication_date": "2026-10-08",
+      "access_date": "2026-10-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm",
+      "section": "Unaudited consolidated September revenue TWD511.857bn +54.6% YoY, -0.6% MoM; cumulative TWD3,898.727bn +41.1%. No Q3 profit inferred"
+    },
+    {
+      "id": "A3",
+      "title": "S&P 500 Likely to Report Earnings Growth Above 35% for Q3",
+      "publisher": "FactSet / John Butters",
+      "period": "2026 Q3 estimate",
+      "publication_date": "2026-10-09",
+      "access_date": "2026-10-13",
+      "url": "https://insight.factset.com/sp-500-likely-to-report-earnings-growth-above-35-for-q3",
+      "section": "Q3 growth estimate 29.6%; only 19 companies reported at cutoff. Article >35% is modeled historical-surprise extrapolation, not actual aggregate earnings"
+    },
+    {
+      "id": "T1",
+      "title": "TWSE daily market report",
+      "publisher": "TWSE",
+      "period": "2026-10-12",
+      "publication_date": "2026-10-12",
+      "access_date": "2026-10-13",
+      "url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261012&type=ALLBUT0999&response=json",
+      "section": "TAIEX 49,301.96, -0.02% day; one day cannot establish a crash trend, peak drawdown or cheapness. Retained official JSON"
+    },
+    {
+      "id": "T2",
+      "title": "PLA activities around Taiwan",
+      "publisher": "Taiwan Ministry of National Defense",
+      "period": "2026-10-12 06:00 to 2026-10-13 06:00",
+      "publication_date": "2026-10-13",
+      "access_date": "2026-10-13",
+      "url": "https://www.mnd.gov.tw/news/plaact/87976",
+      "section": "5 aircraft, 6 naval ships, 4 official ships; snapshot cannot estimate imminent conflict probability or disprove tail risk"
+    },
+    {
+      "id": "T3",
+      "title": "00919 cash creation/redemption list",
+      "publisher": "Capital Investment Trust",
+      "period": "2026-10-12 referenced portfolio snapshot",
+      "publication_date": null,
+      "access_date": "2026-10-13",
+      "url": "https://www.capitalfund.com.tw/etf/product/detail/195/buyback",
+      "section": "Five displayed financial holdings sum 15.50+12.65+10.43+8.78+5.44=52.80%; Quanta/ASUS 10.06+6.04=16.10%. Partial displayed list, not exhaustive sector classification or permanent weights"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fred-risk-export.zip",
+      "sha256": "f0825404ddfcfa250c14a836aff776b9050db352be7aacb2f21d1b5f2fc27473",
+      "bytes": 108089
+    },
+    {
+      "path": "fred-risk-filtered.csv",
+      "sha256": "c2fb40e2e8db60a99771cf05c05bf811a8cbbed6d24ee7c2ecb65bd620b27af0",
+      "bytes": 2090
+    },
+    {
+      "path": "twse-20261012.json",
+      "sha256": "a2b4f3f37d3f7c6e2ffdeadb918b796e167a92b622e4f6f698f61f2c0f7f6b70",
+      "bytes": 247580
+    }
+  ],
+  "unverified_or_excluded": [
+    "Exact current comparable Taiwan/US forward P/E and historical valuation percentile; secondary PE claims excluded",
+    "October 2026 IMF GFSR and AI-financing report primary contents inaccessible; secondary warnings not adopted as verified IMF current findings",
+    "TWSE September/October historical monthly requests returned non-JSON; no multiweek TAIEX trend inferred",
+    "Comprehensive bank/funding/private-credit stress, global earnings breadth and current Taiwan margin/FX flows not fully reconciled",
+    "No model-calibrated crash probability or timing forecast"
+  ]
+}

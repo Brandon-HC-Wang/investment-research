@@ -1,10 +1,10 @@
 # EPS Model
 
-> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+> Current research update: [2026-10-13](model/2026-10-13-september-and-funding-update.md). Earlier dated sections and supplements remain historical.
 
 ## Model status
 
-As of 2026-08-04, a low-confidence preliminary scenario model is established for 2026–2027. It is suitable for bounding outcomes, not for a single-point decision-grade forecast. Project sell-through, Q2 margin, attributable ownership accounting, and 2027 handover timing remain unresolved.
+As of 2026-10-13, use the current supplement linked above. Economic normalized diluted base EPS is TWD 4.38 / 3.33 / 3.87 for FY2026–FY2028; declaration-timing normalized EPS is TWD 4.42 / 3.43 / 3.87 and reported-style EPS is TWD 4.54 / 3.43 / 3.87. The difference reflects FVTPL normalization and earnings-year versus declaration-year preferred allocation. All are analyst estimates; Q3 profitability and project cash collection remain unverified. The previous dividend point/range is suspended pending the Baoyuan funding bridge. The following dated model entries preserve the evolution of earlier assumptions.
 
 ### 2026-08-17 filing update
 
@@ -12,7 +12,7 @@ The Q2 filing resolves the consolidated and segment H1 outcome but not project-l
 
 The 2026 scenarios are therefore retained as dated boundary cases, not current forecasts. Reaching the prior TWD 5.58 conservative point requires approximately TWD 4.52 of H2 EPS and TWD 4.704 billion of H2 revenue under the old formula. Reaching TWD 11.32 requires approximately TWD 10.26 of H2 EPS and TWD 7.184 billion of H2 revenue. The Q2 construction recovery makes the lower path arithmetically possible, but neither path is decision-grade without named-project handover, gross-profit, cash-collection, and financing evidence. The optimistic path now carries substantially less evidential support.
 
-### 2026-09-09 current low-confidence forecast
+### 2026-09-09 low-confidence forecast — superseded for current use
 
 August data permit a segment-aware rebuild because July-August revenue of TWD 3.503 billion is known and the reported January-August mix shows agency revenue down 38.0% year over year while construction revenue rose 325.8%. The model now starts with reported H1 parent profit of TWD 217 million and reconstructs H2 through revenue, gross margin, operating expense, finance cost, tax, non-controlling interests, and the already-recognized TWD 48 million preferred dividend.
 
@@ -85,7 +85,7 @@ Common EPS = ((project upper bound × recognition factor + agency revenue)
 
 This is not equivalent to multiplying gross project sales by a uniform 20% margin. Official reported EPS may also restate share counts for the bonus issue under applicable EPS accounting; 159.49 million shares are used here to keep scenarios economically comparable.
 
-## Review triggers
+## Historical review triggers — superseded for current use
 
 - Completed 2026-08-17: the Q2 filing disclosed H1 agency and construction segment profit; the consolidated 12%–18% margin proxy was superseded rather than promoted to a forecast.
 - Move toward the optimistic 2026 case only if cumulative construction recognition reaches at least TWD 5.0 billion by September with consolidated gross margin above 30% and finance costs not accelerating.
@@ -128,3 +128,7 @@ The reported H2 revenue acceleration is sufficient to rebuild 2026 boundaries, b
 ## 2026-10-12 — Eight-company dividend enrichment
 
 Current task estimates: FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00. Remove net H1 FVTPL gain 23.980 at estimated 20% tax; retain small FX 0.111. Do not mistake Q2 gain 112.849 for H1 net gain. Deduct annual preferred dividend 48 once. Common shares reflect 0.5 stock dividend; diluted 159.7 is an explicit employee-share proxy. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.
+
+## 2026-10-13 — Current model revision and payout suspension
+
+The [new reproducible supplement](model/2026-10-13-september-and-funding-update.md) corrects H1 revenue, separates preferred earnings-year allocation from declaration-timing EPS and applies the disclosed rate reset. Economic normalized base EPS 4.38 / 3.33 / 3.87 supersedes 4.42 / 3.46 / 3.99 for current research. No handover-margin improvement is inferred from monthly revenue. The 2027 ordinary cash DPS range 1.70–2.87 and point 2.65 are suspended: the TWD 704.632 million Baoyuan consideration lacks a payment/CFO/funding bridge. Cash stresses yield 0.32 or 0.00 capacity under explicit no-offset assumptions; they are not the new forecast. Review `A-2026-008`, `Q-2026-005` and `Q-2026-006`; update Q3 earnings, parent cash and named-project replacement evidence before adopting a payout.

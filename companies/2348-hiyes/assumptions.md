@@ -83,3 +83,24 @@ This is the append-only assumption register for Hiyes. Confidence is an analyst 
 - **Expected window:** Q3 2026 disclosures through 2027 H1.
 - **Model effect:** FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00.
 - **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.
+
+## 2026-10-13 — Current assumption events
+
+- **A-2026-001:** Remains Open at 30%. Rounded secondary January–September agency revenue -36.7% does not validate a recurring cash-backed earnings base; confirm with Q3 segment/fee/cash evidence.
+- **A-2026-002:** Remains Open at 65%. Baoyuan land adds potential future capacity but no completion schedule; it does not resolve the 2027 replacement gap.
+- **A-2026-004:** Remains Open at 70%. The company disclosed TWD 704.632 million purchase consideration and separate support/loan approvals, without a payment/drawdown/guarantee map. Funding exposure is material; severity remains unquantified.
+- **A-2026-006:** Remains Open as a historical model assumption; the 2026-09-09 TWD 2.47 / 7.31 points are superseded for current use by the 2026-10-12 and 2026-10-13 models. This is a method/current-use change, not evidence that every operating input was false.
+- **A-2026-007:** Remains Open. Current EPS confidence 35%; cash confidence reduced from 30% to 20%. The old TWD 1.70–2.87 cash DPS range and TWD 2.65 point are superseded and withdrawn for current use because they lack acquisition funding attribution. Historical model outputs above are preserved. Current normalized comparison inputs are in `A-2026-008`.
+
+### A-2026-008 — Preferred allocation and acquisition cash reconciliation
+
+- **Description / claim:** The disclosed preferred reset changes common earnings allocation; the Baoyuan purchase must be funded within a reconciled parent cash budget before a 2027 ordinary payout forecast can be adopted.
+- **Status:** Open. **Opened:** 2026-10-13. **Confidence:** 35% for EPS scenarios, 20% for cash capacity; high confidence only in retained announcement terms.
+- **Causal mechanism:** Agency/development gross profit less corporate/finance costs, tax and NCI produces parent profit. Preferred claims reduce common profit. Purchase payments and funding calls can consume cash even when project revenue is recognized.
+- **Supporting evidence:** Primary reset (4% to 5.666% from 2026-09-29), 30 million preferred shares at TWD 40, H1 EPS deduction 48 million, and company acquisition consideration 704.632 million / 20% interest.
+- **Contradicting evidence / uncertainty:** Non-cumulative dividends are discretionary; day weighting and declaration timing remain assumptions. Purchase payments, CFO overlap, loan drawdown, parent remittances and replacement completion dates are undisclosed. Offsetting financing or later payments could invalidate the stresses.
+- **Confirmation test:** Q3/future EPS notes and board dividend allocations reconcile to the separate reported-style and earnings-year bridges. Purchase instalments, existing CFO/project calls, financing and reserves reconcile without double counting.
+- **Rejection test:** Different declared allocation, redemption/waiver, verified payment outside the window, funding already inside CFO, or material operating-margin/finance/NCI changes require rebuilding rather than preserving the numerical forecast.
+- **Expected window:** Q3 2026 filings through 2027 H1.
+- **Model effect:** Economic normalized base EPS 4.38 / 3.33 / 3.87 for FY2026–FY2028; reported-style 4.54 / 3.43 / 3.87. No current cash-DPS point/range. Explicit full-payment/no-offset stresses give 0.32 / 0.00 cash capacity, not dividends or floors.
+- **History:** 2026-10-13 — Opened; prior model outputs remain dated history. [Evidence and reproducible calculations](model/2026-10-13-september-and-funding-update.md).

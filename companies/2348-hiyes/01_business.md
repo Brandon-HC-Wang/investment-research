@@ -24,3 +24,7 @@ Agency work should require less balance-sheet capital than direct development, w
 
 - Taiwan Stock Exchange, “Company profile: 2348 Hiyes International,” produced 2026-07-30, [PDF](https://wwwc.twse.com.tw/pdf/ch/2348_ch.pdf), accessed 2026-08-04.
 - Hiyes International, “Products and Services,” undated, [company website](https://www.hiyes-group.com.tw/about_03.aspx), accessed 2026-08-04.
+
+## 2026-10-13 — Identity and capital update
+
+TWSE's profile produced 2026-10-13 reports paid-in capital of TWD 1,894.856 million after the stock dividend. The Q2 filing separates ordinary and preferred capital; total paid-in capital is not the common diluted share denominator. Agency and development remain separate economic engines. The [current update](model/2026-10-13-september-and-funding-update.md) evaluates land acquisition and preferred funding without establishing a new competitive advantage.

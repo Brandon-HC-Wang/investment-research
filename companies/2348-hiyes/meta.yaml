@@ -5,11 +5,12 @@ market: TWSE
 status: discovery
 confidence: low
 priority: 2
-last_update: 2026-10-12
-next_action: Verify Q3 earnings and parent cash/remittance/capital commitments against the 2026-10-12 dividend supplement.
+last_update: 2026-10-13
+next_action: Reconcile Q3 earnings, preferred allocation and Baoyuan acquisition payments/CFO/financing before rebuilding 2027 ordinary cash DPS.
 watch_items:
   - H2 2026 project handovers, construction gross margin, and common EPS
   - Agency revenue, gross profit, represented sales value, and effective fee rate
   - Attributable project completion and recognition schedule through 2028
   - Inventory conversion, operating cash flow, borrowings, finance costs, and guarantees
-  - Conditional 2027 cash dividend and parent funding bridge; 2026-10-12 enrichment
+  - 2027 cash DPS withheld pending Baoyuan 704.632m payment/funding map
+  - Preferred reset to 5.666% from 2026-09-29 and declaration-year EPS bridge

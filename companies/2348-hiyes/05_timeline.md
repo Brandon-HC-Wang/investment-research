@@ -47,3 +47,10 @@
 ## 2026-10-12 — Eight-company dividend enrichment
 
 2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+
+## 2026-10-13 — September and corporate-announcement research refresh
+
+- **Events reviewed:** 2026-09-16 support/loan board resolutions; 2026-09-17 Baoyuan acquisition (20%, company consideration TWD 704.632 million); 2026-09-23 preferred-rate reset effective 2026-09-29; September revenue announced 2026-10-05 and rechecked against official MOPS.
+- **Impact:** Handover timing confirmed; recurring agency recovery and Q3 profit/cash/debt unverified. Corrected the prior H1 revenue anchor and preferred allocation; economic base EPS now 4.38 / 3.33 / 3.87. Withdrawn current 2027 DPS point/range pending acquisition cash mapping.
+- **Confidence:** EPS 35%, cash 20%; overall thesis low. Acquisition payment/financing and dividend decisions remain Open.
+- **Records:** Financials, growth, EPS, notes, questions, thesis, valuation, assumptions, metadata, dated model/snapshot and retained sources. Earlier dated artifacts unchanged. [Current update](model/2026-10-13-september-and-funding-update.md).

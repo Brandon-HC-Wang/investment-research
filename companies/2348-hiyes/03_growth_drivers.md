@@ -6,7 +6,9 @@
 
 ## Current evidence
 
-TWSE monthly data show material revenue lumpiness, including TWD 1.498 billion in June 2026 after TWD 140 million in April and TWD 170 million in May. The data establish timing concentration but do not identify whether it arose from brokerage activity, development recognition, or another item. Monthly revenue is therefore a prompt for project reconciliation, not a growth conclusion.
+As of 2026-10-13, official Q3 monthly revenue is TWD 4,984.504 million and nine-month revenue TWD 8,100.770 million. The primary explanation identifies construction recognition from four land sections. Secondary rounded agency figures indicate continued year-over-year contraction. Project margins, cash conversion and 2027 replacement remain unresolved; the Baoyuan purchase adds future land exposure and funding needs without a disclosed completion year. [Current operating and funding update](model/2026-10-13-september-and-funding-update.md).
+
+Initial June 2026 observations established revenue lumpiness; later reviewed H1 segment disclosures and September announcements supply the current causal evidence. Earlier dated observations below remain historical.
 
 ## Backlog and replacement drivers
 
@@ -55,3 +57,9 @@ The 2025-11-25 investor presentation provides a management schedule for completi
 ## 2026-10-12 — Eight-company dividend enrichment
 
 Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Project-level attribution/collections/guarantees, debt maturity and 2027 replacement.
+
+## 2026-10-13 — Completion cycle versus replacement and new land
+
+Official Q3 monthly revenue approximately TWD 4.985 billion confirms continued construction recognition. Secondary reports put construction at about 79.0% of nine-month revenue and agency down about 36.7%. Treat Q4 agency launches, the Tao Zhu Yin Yuan mandate and Dali Yecui year-end permit/handover expectations as Open monitoring claims, not booked earnings. This separates agency represented sales from owned construction economics.
+
+The primary Baoyuan acquisition adds a 20% interest at TWD 704.632 million company cost. No completion schedule, permits, presales, gross value, margins or financing map was disclosed. Do not add it to verified 2027–2028 completions or model immediate profit. It may be a future replacement asset, but the near-term observable effect is funding exposure. See [sources](sources/earnings/2026-10-13-source-reconciliation.md) and [current model](model/2026-10-13-september-and-funding-update.md). Prior participation-times-project-value recognition scenarios remain superseded historical proxies.

@@ -14,3 +14,5 @@ Every thesis states the industry, current stage, key companies or value-chain ro
 - [`shipping.md`](shipping.md)
 
 Link conclusions to industry packages and company records. Never convert a macro view directly into a company recommendation.
+
+- [2026-10-13 global and Taiwan market-risk assessment](2026-10-13-global-and-taiwan-market-risk.md): dated evidence, AI/energy/rate transmission and a 1–3-year horizon; no crash-timing forecast.

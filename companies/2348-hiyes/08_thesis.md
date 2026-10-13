@@ -1,10 +1,12 @@
 # Investment Thesis
 
-> Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
+> Current research update: [2026-10-13](model/2026-10-13-september-and-funding-update.md). Earlier dated sections and supplements remain historical.
 
 ## Current thesis
 
-No decision-grade long-term thesis is established. August revenue confirms that the 2026 H2 handover cycle is active, but reported January-August agency revenue fell 38.0% while construction revenue rose 325.8%. The current low-confidence 2026 EPS boundaries are TWD 2.47 conservative and TWD 7.31 optimistic, replacing the old TWD 5.58 and TWD 11.32 points. H1 operating cash flow was negative TWD 2.120 billion and borrowings excluding leases reached approximately TWD 31.112 billion. The evidence supports project-timing recovery, not a recurring compounding mechanism. The 2027 replacement gap remains plausible and unverified.
+As of 2026-10-13, the evidence supports a construction-led 2026 completion cycle, not a verified recurring compounding mechanism. Official nine-month revenue is TWD 8.101 billion and Q3 monthly revenue approximately TWD 4.985 billion. Secondary segment proxies indicate agency revenue down approximately 36.7% despite a September monthly improvement. The current economic normalized base EPS scenarios are TWD 4.38 / 3.33 / 3.87 for FY2026–FY2028; reported-style 2026 EPS is TWD 4.54. These remain conditional estimates, with 35% EPS confidence.
+
+The September preferred-rate reset increases the full-year common-share allocation burden from TWD 48.000 million to TWD 67.992 million. The newly reviewed Baoyuan acquisition commits TWD 704.632 million with undisclosed payment timing and funding. The previous 2027 ordinary cash DPS forecast of TWD 1.70–2.87 is withdrawn for current use pending a purchase-to-cash bridge; cash confidence is 20%. H1 negative CFO and high borrowings remain the latest verified cash/debt baseline. Neither new land nor agency mandates prove 2027 replacement earnings. No decision-grade long-term thesis or valuation is established.
 
 ## Evidence for and against
 
@@ -36,7 +38,7 @@ Weighted quality score: **1.45 / 5**, assessed 2026-08-04. This is an evidence-m
 
 ## Confidence and next action
 
-Confidence remains low. The next action is to test the TWD 2.47 and TWD 7.31 scenario points against Q3 project-level gross profit, cash collection, debt reduction, and the 2027 replacement schedule.
+Thesis confidence remains low. Verify Q3 project gross profit, cash collection, debt and parent remittances; obtain the Baoyuan payment/funding schedule and preferred dividend allocation/declaration bridge. Rebuild the current EPS and cash scenarios, then test the 2027–2028 replacement schedule. Planned review: 2026-11-16 or earlier upon filing publication.
 
 ## Thesis history
 
@@ -59,3 +61,7 @@ July-August revenue confirms accelerated H2 recognition, but the construction-le
 ## 2026-10-12 — Eight-company dividend enrichment
 
 FY2026E normalized diluted EPS 4.42; FY2027E/FY2028E 3.46/3.99. Estimated 2027 ordinary cash DPS 1.70-2.87, point 2.65, downside 0.00. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. Project-level attribution/collections/guarantees, debt maturity and 2027 replacement. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+
+## 2026-10-13 — Construction recognition strengthened; payout evidence weakened
+
+Official September/Q3 revenue reinforces the 2026 completion cycle without proving recurring agency recovery. The preferred reset reduces economic common earnings and the Baoyuan transaction exposes an unmapped funding requirement. Current economic base EPS is 4.38 / 3.33 / 3.87; overall confidence remains low. The old 2027 DPS point/range is superseded and withheld, with cash confidence 20%. Confirmation now requires purchase-to-cash mapping as well as project profitability, collections and the 2027 replacement schedule. [Current supplement](model/2026-10-13-september-and-funding-update.md).

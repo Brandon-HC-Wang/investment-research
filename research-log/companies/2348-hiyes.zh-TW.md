@@ -19,3 +19,17 @@
 - **信心：** 對合併數字為高；對具名專案歸屬與可持續獲利為低。
 - **Repository影響：** 目前分析已整合至[`02_financials.md`](../../companies/2348-hiyes/02_financials.md)、[`04_eps_model.md`](../../companies/2348-hiyes/04_eps_model.md)與[`08_thesis.md`](../../companies/2348-hiyes/08_thesis.md)；時點檢視保留於[`history/2026Q2-filing-review.md`](../../companies/2348-hiyes/history/2026Q2-filing-review.md)。
 - **下一步驗證：** 將H2具名專案交屋與毛利、存貨轉出、收現、降債及2027替代專案時程逐一調節。
+
+## 2026-10-13 — 研究報告輸出至 Documents/Investment/2348
+
+- **類型：** 衍生報告交付；輸出未額外刷新證據或更動財測。
+- **產物：** 繁中離線 HTML、六頁 A4 PDF、情境輸入、中英文整合報告及公司／來源／方法紀錄。位置：`~/Documents/Investment/2348/`。保留既有 2026-08-04 與 2026-09-09 HTML 報告。
+- **資料截止／產製：** 2026-10-13。最新獲利／現金／債務仍為核閱 2026 H1；月營收截至 2026-09。經濟基準 EPS 4.38／3.33／3.87 及暫停 2027 現金 DPS 財測，均沿用前一項更新。
+- **權威整合：** [英文報告](../../companies/2348-hiyes/reports/2026-10-13-research-report.md)與[繁中閱讀版](../../companies/2348-hiyes/reports/2026-10-13-research-report.zh-TW.md)。公司研究與現行模型仍具權威性。
+- **驗證：** 離線呈現、375／768／1024／1440 寬度、深淺色切換、鍵盤焦點、ID／錨點／本機連結、雙語數值、PDF 文字及全頁視覺檢查。無空白／孤立標題頁；96 個輸出產物及 manifest 與暫存以 SHA-256 核對；原模型情境及舊報告雜湊未變。
+- **交付雜湊：** HTML `63de3999b8c7d4770068fa4bdcafbfdf46004ac46b904e29a03a7b0ee22c4ee9`；PDF `e9180ee44f73ad0a58da4fc22c9959e937a10a724639260c16b81dad43fcf535`；export manifest `161eddf4dd58e24e6fce0ef3118000e279419b75fd3902b6238617b5b484cf70`。
+- **下一研究：** 2026-11-16 或更早公布時，取得 Q3 獲利／現金／債務、寶元段付款／融資對應與特別股分配決議。本次未刷新篩選。
+
+### 2026-10-13 — 提交前格式整理
+
+移除中英文整合報告 Markdown 結尾多餘空行，並同步交付包閱讀副本。研究內容、情境輸入及 HTML／PDF 位元組未變。更新後 export-manifest SHA-256 為 `a4d142d82785fba60b8ba95a42905ccd8eba4b09ff86aed78b13412ab1fb40d0`；上方原交付 manifest 雜湊保留歷史。
