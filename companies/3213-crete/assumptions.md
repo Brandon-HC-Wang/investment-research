@@ -73,3 +73,7 @@ Initial history date: 2026-09-24. All assumptions are Open; confidence percentag
 - **Expected window:** Q3 2026 disclosures through 2027 H1.
 - **Model effect:** FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11.
 - **History:** 2026-10-12 — Opened; projections are not verified distributable earnings.
+
+## 2026-10-22 — Ceasefire assumption review
+
+A-2026-001 through A-2026-007 remain Open, with prior confidence percentages unchanged. No new order-level evidence verifies 2027 rugged revenue, margins, cash conversion or valuation persistence. The [dated controlled stresses](model/2026-10-22-ceasefire-sensitivity.md) test A-2026-001 / A-2026-002 / A-2026-005 / A-2026-006 / A-2026-007; they do not replace their numerical base assumptions. Confirmation/rejection requires binding schedules, replacement orders, margin and collections through FY2027. Q-2026-010 records the specific cancellation/exposure gap; headline ceasefire alone changes neither status nor forecast.

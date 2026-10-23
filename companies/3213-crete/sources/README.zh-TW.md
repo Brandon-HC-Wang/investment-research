@@ -40,3 +40,13 @@
 - **FY25：**2026-10-12 重讀留存查核 PDF，不宣稱重新下載。附註4(14)，印刷頁 18／PDF 頁 22（控制移轉／驗收政策）；6(12)，印刷頁 32／PDF 頁 36（公積及盈餘分配政策）。簽署日 2026-03-11。[留存](earnings/2025FY-consolidated.pdf)。
 - **DIV26（一級）：**茂訊〈股利資訊〉，公司表格無日期，FY2025 列：現金股利 7.00，發放日 2026-07-24。[官方](https://www.crete.com.tw/rwd/t2.htm)；存取 2026-10-12。不代表 FY2026 分配。
 - **IFRS-EQ（一級）：**IFRS Foundation／Sue Lloyd，〈IFRS 9 and equity investments〉，2018-04（確切發布日未核實），IFRS 9 on long-term investment 與 Recycling can provide a confusing presentation of performance 段落。[官方](https://www.ifrs.org/news-and-events/news/2018/04/ifrs-9-and-equity-investments/)；存取 2026-10-12。股票 FVOCI 處分不回轉至損益；債券 FVOCI 規則不同。茂訊自身處理以 H126 直接確認。
+
+## 停火檢視 — 存取 2026-10-22
+
+- **CF26-VERIFY：** [驗證清單](2026-10-22-ceasefire-verification.json)記錄新下載官方 H126 / AR25 / IR25，與保存雜湊相同。文件日期仍依上方登錄；補充閱讀位置為 AR25 印刷第 77 頁（RODA 集中度）、H126 資產負債表／現金流量，以及 IR25 第 6 / 13 頁（擴產及地緣展望）。
+- **NATO25：** 北約，〈The Hague Summit Declaration〉，2025-06-25，第 2–3 段；存取 2026-10-22。[官方](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration)、[保存 HTML](policy/2025-06-25-nato-hague-accessed-2026-10-22.html)。為多年政策框架，並非茂訊在手訂單。
+- **M-ACQ：** MilDef Group AB，2024-11-13 收購公告，Roda in brief 段落；上方官方連結於 2026-10-22 再次存取。確認經銷通路，並非茂訊當前專案數量。
+- **IR-INDEX：** 茂訊法說索引，無日期；存取 2026-10-22。[官方](https://www.crete.com.tw/rwd/main11.htm)、[保存](conference_calls/2026-10-22-presentation-index.html)。最新列出活動仍為 2025-12-16；檢查僅限此索引。
+- **PRICE-OCT：** 櫃買中心個股日成交資訊，2026 年 10 月月內表；2026-10-22 列，收盤欄位 121.00 新台幣元／股；2026-10-22 台灣收盤後存取。[官方](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json)、[保存](market_data/2026-10-official-price-accessed-2026-10-22.json)。查詢回傳當月可用列，並非盤中即時報價。
+
+新保存來源雜湊登錄於 [artifacts.json](artifacts.json)。九月月營收沿用已保存的 2026-10-12 檢視，並非新下載。不主張完整刷新 MOPS 或所有合約。

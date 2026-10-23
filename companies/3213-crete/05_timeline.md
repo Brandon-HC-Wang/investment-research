@@ -16,3 +16,7 @@
 ## 2026-10-12 — Eight-company dividend enrichment
 
 2026-10-12: eight-company enrichment completed as conditional estimates; primary parent filings retained, three-year distributions separated from forward cash assumptions. FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. Next evidence gate: Q3 2026 filing and actual parent funding/remittance announcements; see [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+
+## 2026-10-22 — Ceasefire risk and valuation sensitivity
+
+Reviewed primary NATO/customer/presentation evidence; re-downloaded H1 financials, FY2025 annual report and presentation with matching hashes. Added controlled 2027 EPS sensitivities 12.65 / 11.44 / 10.49, without changing base forecasts or confidence. Q-2026-010 opened; Q-2026-006 remains Open. TPEx 2026-10-22 close 121.00 is a dated observation. Next revenue/financial reviews remain 2026-11-10 / 2026-11-16. [Dated analysis](model/2026-10-22-ceasefire-sensitivity.md).

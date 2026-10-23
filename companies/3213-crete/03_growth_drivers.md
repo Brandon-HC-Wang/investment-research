@@ -55,3 +55,7 @@ FY25 revenue policy and H126 advances support recognition at delivery/control tr
 ## 2026-10-12 — Eight-company dividend enrichment
 
 Sector driver cases and FY2026-FY2028 replacement sensitivities are now quantified in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md). They remain analyst estimates; monthly revenue cannot establish product/store/project margins or parent collections. Inventory/advance conversion; parent H2 actual cash; future reserve and board cash allocation.
+
+## 2026-10-22 — H-2026-001 ceasefire review
+
+Status remains Open; European-rearmament qualitative confidence remains medium and conflict-specific earnings attribution remains low. NATO's multi-year commitment supports a modernization mechanism, not guaranteed Crete orders. A ceasefire can reduce urgent procurement or delay replacement programs, lowering deliveries/utilization and tying up inventory. Verify 2027 binding schedules, cancellation terms, product margins and cash conversion through FY2027. The existing Q3 system decline is not attributed to a ceasefire. Base growth forecasts remain unchanged. [Full hypothesis, contrary evidence and rejection tests](model/2026-10-22-ceasefire-sensitivity.md); Q-2026-006 remains Open and Q-2026-010 is added.

@@ -92,3 +92,7 @@ All original scenario amounts remain unchanged. Removing H1 FVTPL alone from FY2
 ## 2026-10-12 — Eight-company dividend enrichment
 
 Current task estimates: FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. Remove H1 FVTPL 2.962 and FX 3.275 at estimated 25% marginal tax; unchanged NCI. FVOCI equity disposal gains are already outside EPS. Retain ordinary interest and associate profit; do not remove inventory and scrap costs. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) contains the reproducible drivers, tax/NCI/share bridges and cash budgets. Earlier points remain historical and are superseded for this task; the underlying reported model for Crete/Capital/Lang is retained as the baseline.
+
+## 2026-10-22 — Controlled ceasefire-related stresses
+
+Forecasts remain unchanged: FY2026 reported-style / normalized base diluted EPS 12.15 / 12.07; FY2027/FY2028 base 13.86 / 14.53. Relative to the existing 2027 base, rugged revenue 10% / 20% lower gives EPS 12.65 / 11.44 at unchanged 35.5% consolidated GM. A 20% rugged shortfall plus GM 33.5% gives 10.49. All hold commercial/other revenue, opex, nonop, tax, NCI and shares fixed. These are controlled sensitivities, not revised forecasts or estimates of war-specific sales. Undisclosed product margins constrain precision. [Dated scope and formula](model/2026-10-22-ceasefire-sensitivity.md), [inputs](model/2026-10-22-ceasefire-sensitivity.json).

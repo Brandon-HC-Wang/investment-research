@@ -64,5 +64,23 @@
     "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_0.html",
     "access_date": "2026-10-12",
     "sha256": "fd995580c3b068753b14fd5505596831953ba19aa8885e1fb145b4d76abba263"
+  },
+  {
+    "file": "policy/2025-06-25-nato-hague-accessed-2026-10-22.html",
+    "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
+    "access_date": "2026-10-22",
+    "sha256": "5431e91e82ebee72498c24c7227cab95030c8f253c0df1444fb3cafb65121d78"
+  },
+  {
+    "file": "conference_calls/2026-10-22-presentation-index.html",
+    "url": "https://www.crete.com.tw/rwd/main11.htm",
+    "access_date": "2026-10-22",
+    "sha256": "2a84e1b7315548ef0b6bd0455e426832c1a3d3cdae8bc3055e16bf2ac28ad57e"
+  },
+  {
+    "file": "market_data/2026-10-official-price-accessed-2026-10-22.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json",
+    "access_date": "2026-10-22",
+    "sha256": "d8f75fac2e1b0df1fe4fcc3ba0d3385401ef79500bfb79786771edb308f05601"
   }
 ]

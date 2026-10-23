@@ -85,3 +85,12 @@ Q-2026-001 through Q-2026-006 remain Open. Monthly sales do not resolve commissi
 - **Resolution method:** Reconcile Q3 parent/consolidated filings, cash classifications, payment timing and board distributions against [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
 - **Thesis effect:** Until confirmed, forward yield is conditional, not a verified income floor.
 - **History:** 2026-10-12 — Opened; retaining parent PDFs resolves source access, not future distributable cash.
+
+## Q-2026-010 — Ceasefire sensitivity of contracted demand
+
+- Status: Open. Opened: 2026-10-22. Owner: research workflow.
+- Question: What portion of rugged demand is urgent wartime replacement versus multi-year modernization, and which 2027 programs permit cancellation, rescheduling or price renegotiation after a ceasefire?
+- Evidence gap: Country budgets, customer logos and RODA framework agreements do not disclose Crete's committed units or program-level cash terms. No quantified war exposure is established.
+- Resolution: Seek company/counterparty program schedules and enforceable order terms; reconcile with rugged sales, GM, inventory, advances and collections. Review 2026-11-16 and through FY2027, earlier on relevant disclosure.
+- Model/thesis effect: Distinguish temporary multiple compression from a lasting revenue/utilization/cash shortfall. [Controlled sensitivities](model/2026-10-22-ceasefire-sensitivity.md) are not revised forecasts.
+- History: 2026-10-22 — Open; Q-2026-001 / Q-2026-004 / Q-2026-006 / Q-2026-008 remain Open. No cancellation or persistence conclusion assumed.

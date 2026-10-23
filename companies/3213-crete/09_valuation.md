@@ -37,3 +37,9 @@ The base implies conditional undervaluation relative to 124.00, but downside can
 ## 2026-10-12 — Eight-company dividend enrichment
 
 Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md) for current forward comparisons; earlier dated valuations remain historical. FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. Preserve the sector method and cyclical/recognition discount; do not capitalize selected gains or treat the cash estimate as a valuation floor. No new target price is adopted.
+
+## 2026-10-22 — Price refresh and separate multiple risk
+
+**Fact:** TPEx 2026-10-22 close TWD 121.00, [official monthly daily-trading table](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json); [retained data](sources/market_data/2026-10-official-price-accessed-2026-10-22.json). This supersedes the old price only for the current comparison; prior dated prices remain historical.
+
+**Estimates:** At 121.00, 2027 base EPS 13.86 implies P/E 8.73x; controlled combined-stress EPS 10.49 implies 11.54x, using full-precision earnings. A hypothetical 12x → 10x multiple change reduces modeled value 16.67% at fixed EPS; with the combined earnings stress, illustrative value decreases 36.95%. Neither result predicts a stock-price decline or establishes the correct market multiple. No new fair-value target or dividend floor is adopted; previous ranges remain conditional historical analyses. [Operating assumptions and limitations](model/2026-10-22-ceasefire-sensitivity.md).

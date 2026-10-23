@@ -13,3 +13,9 @@ No broker consensus, peer-multiple dataset, individual investor tax model or cur
 Live primary monthly tables were accessed for September 2026, April–May 2026 and July–September 2025; June–August 2026 uses retained 2026-09-24 rows. New raw CP950 HTML and extracted rows are hashed in the source register. Newly accessed monthly pages do not imply a re-audit of retained H1 financials or the customer/defense evidence. The company's investor-presentation index accessed 2026-10-12 still lists the 2025-12-16 presentation; no later presentation is listed there. No new capacity completion claim is assumed.
 
 The review updates monthly revenue, mix interpretation, monitoring and sensitivities. It retains the numerical earnings scenarios and valuation assumptions. No live stock price or broker-consensus refresh was performed; TWD 124.00 on 2026-09-23 remains a historical reference only. See [sources](sources/README.md).
+
+## 2026-10-22 — Evidence and portfolio boundaries
+
+The [ceasefire analysis](model/2026-10-22-ceasefire-sensitivity.md) distinguishes valuation repricing from changes in orders/EPS. Fresh source checks cover policy, the RODA route to market, presentation index, unchanged official PDF hashes and the 2026-10-22 TPEx close 121.00. Reviewed operating evidence remains H1; monthly evidence remains the retained 2026-10-12 September review. No comprehensive MOPS refresh, full contract search, confirmed ceasefire or verified absence of cancellations is claimed.
+
+Company quality does not resolve portfolio concentration or a near-term cash need. Cash-use timing, available cash outside the position, leverage and acceptable total portfolio loss are separate constraints. Cost basis measures historical P&L, not future earnings durability. Use a dated price and explicit portfolio denominator for loss arithmetic; a hypothetical decline is not a forecast. [Portfolio policy](../../portfolio/risk_management.md).

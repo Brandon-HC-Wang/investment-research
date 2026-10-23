@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-10-22",
+  "scope": "Ceasefire mechanism, retained financial-source hash verification, presentation index, and TPEx historical closing price; not a complete operating or MOPS refresh.",
+  "reverified_official_pdfs": [
+    {
+      "file": "earnings/2026Q2-consolidated.pdf",
+      "url": "https://www.crete.com.tw/rwd/1152.pdf",
+      "access_date": "2026-10-22",
+      "sha256": "97c766d62c5b61b737940595ef069a96b92b2c63b2098c180f10ac6c6d9fde00",
+      "verification": "New official download matches retained file"
+    },
+    {
+      "file": "annual_reports/2025-annual-report.pdf",
+      "url": "https://www.crete.com.tw/rwd/114%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+      "access_date": "2026-10-22",
+      "sha256": "e0e5332c5d1e3142977be6fa02186ee1a77d36c542334d6f97983dc615b11077",
+      "verification": "New official download matches retained file"
+    },
+    {
+      "file": "conference_calls/2025-12-16-presentation.pdf",
+      "url": "https://www.crete.com.tw/rwd/114%E6%B3%95%E8%AA%AA%E6%9C%83_CH.pdf",
+      "access_date": "2026-10-22",
+      "sha256": "7aa8195e352096ebdee26afe9444d7137966c1feeb1e91e75226381f3b131351",
+      "verification": "New official download matches retained file"
+    }
+  ],
+  "new_retained_artifacts": [
+    {
+      "file": "policy/2025-06-25-nato-hague-accessed-2026-10-22.html",
+      "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
+      "access_date": "2026-10-22",
+      "sha256": "5431e91e82ebee72498c24c7227cab95030c8f253c0df1444fb3cafb65121d78"
+    },
+    {
+      "file": "conference_calls/2026-10-22-presentation-index.html",
+      "url": "https://www.crete.com.tw/rwd/main11.htm",
+      "access_date": "2026-10-22",
+      "sha256": "2a84e1b7315548ef0b6bd0455e426832c1a3d3cdae8bc3055e16bf2ac28ad57e"
+    },
+    {
+      "file": "market_data/2026-10-official-price-accessed-2026-10-22.json",
+      "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json",
+      "access_date": "2026-10-22",
+      "sha256": "d8f75fac2e1b0df1fe4fcc3ba0d3385401ef79500bfb79786771edb308f05601"
+    }
+  ],
+  "price_observation": {
+    "date": "2026-10-22",
+    "currency": "TWD",
+    "close": 121.0,
+    "field": "收盤",
+    "source_row": [
+      "115/10/22",
+      "119",
+      "14,447",
+      "123.50",
+      "123.50",
+      "120.50",
+      "121.00",
+      "-2.50",
+      "261"
+    ],
+    "access_time_utc": "2026-10-22T09:41:48Z"
+  },
+  "live_customer_page": {
+    "publisher": "MilDef Group AB",
+    "title": "MilDef significantly expands its presence in Central Europe",
+    "published": "2024-11-13",
+    "access_date": "2026-10-22",
+    "section": "Roda in brief",
+    "url": "https://investors.mildef.com/mfn_news/mildef-significantly-expands-its-presence-in-central-europe-enters-into-agreement-for-a-transformative-acquisition-of-roda-computer-gmbh/"
+  },
+  "operating_cutoff": {
+    "reviewed_financials": "2026 H1",
+    "monthly_revenue": "2026-09 retained review accessed 2026-10-12",
+    "newly_downloaded_monthly_revenue": false
+  },
+  "limitations": [
+    "No assertion that a ceasefire has occurred.",
+    "No quantified conflict-specific Crete order exposure or verified absence of cancellations.",
+    "Presentation index scope does not cover every company disclosure."
+  ]
+}

@@ -48,3 +48,9 @@ Next action: monitor October revenue on 2026-11-10; verify Q3 product mix, tax r
 ## 2026-10-12 — Eight-company dividend enrichment
 
 FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 2027 ordinary cash DPS 7.93-9.15, point 8.54, downside 6.11. This adds testable cash allocation, not greater thesis confidence. Reject the dividend path when actual collections/remittances or funding/reserves fail its explicit budget; rebuild after board decisions. Inventory/advance conversion; parent H2 actual cash; future reserve and board cash allocation. [dated EPS/dividend/cash supplement](model/2026-10-12-dividend-enrichment.md).
+
+## 2026-10-22 — Ceasefire thesis review
+
+**Current opinion:** A ceasefire alone does not reject the thesis; valuation can reprice before contracted demand changes. Durable EPS risk is procurement deferral/cancellation → lower rugged deliveries and utilization → weaker margin and cash conversion. NATO policy is contextual support, not booked Crete orders. Evidence confidence remains medium; forecast-critical assumptions remain Open. Numerical forecasts, conditional dividends and the prior score are unchanged.
+
+[The dated sensitivity review](model/2026-10-22-ceasefire-sensitivity.md) adds EPS stresses 12.65 / 11.44 / 10.49 and Q-2026-010 without assigning scenario probabilities. Confirm binding 2027 deliveries, replacement orders and collections; sustained GM below 32% or cancellations with stalled rugged sales challenges the base. Retain review dates 2026-11-10 / 2026-11-16. Portfolio concentration and scheduled cash use require a separate loss-capacity assessment even if the business thesis survives.
