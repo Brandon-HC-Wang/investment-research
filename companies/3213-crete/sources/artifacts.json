@@ -82,5 +82,41 @@
     "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json",
     "access_date": "2026-10-22",
     "sha256": "d8f75fac2e1b0df1fe4fcc3ba0d3385401ef79500bfb79786771edb308f05601"
+  },
+  {
+    "file": "earnings/2019FY-parent-only.pdf",
+    "url": "https://www.crete.com.tw/rwd/108-1.pdf",
+    "access_date": "2026-10-27",
+    "sha256": "e0f321807bcb90be019d187d7a3348d0ce01a20a31dcc2f4fcf61bbc0b9c348e"
+  },
+  {
+    "file": "earnings/2020FY-consolidated.pdf",
+    "url": "https://www.crete.com.tw/rwd/109-1.pdf",
+    "access_date": "2026-10-27",
+    "sha256": "872a68547dfc9531d9342b7c59562abedb1ec35305d803710bcb871e22e942fc"
+  },
+  {
+    "file": "earnings/2021FY-consolidated.pdf",
+    "url": "https://www.crete.com.tw/rwd/110-1.pdf",
+    "access_date": "2026-10-27",
+    "sha256": "46dbaf8234241f0cb591416a08b82cdfcdf281bd6442897e1b76d2a12f82ad3b"
+  },
+  {
+    "file": "earnings/2022FY-consolidated.pdf",
+    "url": "https://www.crete.com.tw/rwd/111-1.pdf",
+    "access_date": "2026-10-27",
+    "sha256": "410d96097e85e00e3c8bfcc8cc570579d9a1ed27be0edb8a459be40d6ef8fc06"
+  },
+  {
+    "file": "earnings/2023FY-consolidated.pdf",
+    "url": "https://www.crete.com.tw/rwd/112-1.pdf",
+    "access_date": "2026-10-27",
+    "sha256": "59465cc8562dda751b382d6002ca3d55c8c4759163fe1e02899d09679b12cf15"
+  },
+  {
+    "file": "conference_calls/2022-08-18-presentation.pdf",
+    "url": "https://www.crete.com.tw/rwd/111%E6%B3%95%E8%AA%AA%E6%9C%83_CH.pdf",
+    "access_date": "2026-10-27",
+    "sha256": "956e97a375440f7aad619b7fffc3c66c98749df145b0faa3226d849b4b1eb165"
   }
 ]

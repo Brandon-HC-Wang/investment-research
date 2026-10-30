@@ -94,3 +94,7 @@ Q-2026-001 through Q-2026-006 remain Open. Monthly sales do not resolve commissi
 - Resolution: Seek company/counterparty program schedules and enforceable order terms; reconcile with rugged sales, GM, inventory, advances and collections. Review 2026-11-16 and through FY2027, earlier on relevant disclosure.
 - Model/thesis effect: Distinguish temporary multiple compression from a lasting revenue/utilization/cash shortfall. [Controlled sensitivities](model/2026-10-22-ceasefire-sensitivity.md) are not revised forecasts.
 - History: 2026-10-22 — Open; Q-2026-001 / Q-2026-004 / Q-2026-006 / Q-2026-008 remain Open. No cancellation or persistence conclusion assumed.
+
+## 2026-10-27 — Q-2026-010 historical-baseline evidence event
+
+Status remains **Open**. FY2018–FY2020 basic EPS 3.10 / 4.74 / 5.51 and pre-2022 rugged sales establish prior earning activity, not the current no-war counterfactual. FY2021 EPS 10.87 includes TWD 496.607 million of pretax MilDef disposal/remeasurement gains. Separate military/civilian rugged revenue, urgent replacement versus routine modernization, segment profits and binding post-ceasefire deliveries remain undisclosed in the reviewed set. Obtain company/customer program and margin evidence; reconcile any proposed FY2021 normalization to transaction-specific tax/NCI before using it. Thesis implication: retain existing forecasts and confidence; historical EPS is not a postwar floor. [Financials](02_financials.md), [business](01_business.md), [sources](sources/README.md). Review remains 2026-11-16, earlier on relevant evidence.

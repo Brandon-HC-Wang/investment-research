@@ -50,3 +50,18 @@
 - **PRICE-OCT：** 櫃買中心個股日成交資訊，2026 年 10 月月內表；2026-10-22 列，收盤欄位 121.00 新台幣元／股；2026-10-22 台灣收盤後存取。[官方](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json)、[保存](market_data/2026-10-official-price-accessed-2026-10-22.json)。查詢回傳當月可用列，並非盤中即時報價。
 
 新保存來源雜湊登錄於 [artifacts.json](artifacts.json)。九月月營收沿用已保存的 2026-10-12 檢視，並非新下載。不主張完整刷新 MOPS 或所有合約。
+
+## 歷史 EPS 與和平時期營收 — 查閱日 2026-10-27
+
+以下文件發布者均為茂訊電腦。原始財報金額以 TWD thousand 揭露，研究換算為 TWD million；EPS 為 TWD/share。下載原始位元組及雜湊記錄於 [artifacts.json](artifacts.json)。
+
+| ID | 標題／文件日期 | 官方與留存來源 | 使用段落 |
+|---|---|---|---|
+| P19 | FY2019／FY2018 個體財報；確切發布日未確認 | [官方](https://www.crete.com.tw/rwd/108-1.pdf)、[留存](earnings/2019FY-parent-only.pdf) | 印刷 p.5／PDF p.8 損益表；目視核對掃描頁的基本 EPS 4.74 / 3.10。此網址提供個體財報，雖然後續年度類似檔名提供合併財報。 |
+| FY20 | FY2020／FY2019 合併財報；2021-03-18 通過 | [官方](https://www.crete.com.tw/rwd/109-1.pdf)、[留存](earnings/2020FY-consolidated.pdf) | 附註6(15)–6(16)，印刷 p.34／PDF p.37；基本／稀釋 EPS 與產品營收 |
+| FY21 | FY2021／FY2020 合併財報；2022-03-17 通過 | [官方](https://www.crete.com.tw/rwd/110-1.pdf)、[留存](earnings/2021FY-consolidated.pdf) | 附註6(2)，印刷 p.22／PDF p.24，MilDef 利益；6(13)，印刷 pp.31–32／PDF pp.33–34，稅負；6(15)–6(16)，印刷 pp.34–35／PDF pp.36–37，EPS／產品營收 |
+| FY22 | FY2022／FY2021 合併財報；2023-03-23 通過 | [官方](https://www.crete.com.tw/rwd/111-1.pdf)、[留存](earnings/2022FY-consolidated.pdf) | 附註6(15)–6(16)，印刷 p.34／PDF p.36，EPS／產品營收 |
+| FY23 | FY2023／FY2022 合併財報；2024-03-13 通過 | [官方](https://www.crete.com.tw/rwd/112-1.pdf)、[留存](earnings/2023FY-consolidated.pdf) | 附註6(14)，印刷 pp.31–32／PDF pp.33–34，年度 EPS |
+| IR22 | 法說簡報，2022-08-18；日期來自官方活動索引 | [官方](https://www.crete.com.tw/rwd/111%E6%B3%95%E8%AA%AA%E6%9C%83_CH.pdf)、[留存](conference_calls/2022-08-18-presentation.pdf)、[活動索引](https://www.crete.com.tw/rwd/main11.htm) | PDF pp.5, 7, 12–15, 23：歷史 EPS／事業部營收、筆電零售／維修、客製化、國防／礦業應用及支援；屬歷史簡報陳述，不代表已確認的現行店數或專案訂單 |
+
+另以瀏覽器重新查閱 FY25 官方合併 PDF；附註6(14)，印刷 p.34／PDF p.38 提供 FY2025 產品銷售；印刷 p.6／PDF p.8 提供 FY2024／FY2025 基本 EPS。本次未宣稱重新比對 FY25 原始位元組雜湊。亦重新查閱 NATO25 的 2025-06-25 官方宣言，僅作多年政策背景，不是茂訊訂單證據。本次不宣稱新的停戰狀態、部門利益拆分、現價或交易別調整後 FY2021 EPS。[分析整合](../01_business.md)、[歷史財務](../02_financials.md)。

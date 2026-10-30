@@ -20,3 +20,7 @@
 ## 2026-10-22 — Ceasefire risk and valuation sensitivity
 
 Reviewed primary NATO/customer/presentation evidence; re-downloaded H1 financials, FY2025 annual report and presentation with matching hashes. Added controlled 2027 EPS sensitivities 12.65 / 11.44 / 10.49, without changing base forecasts or confidence. Q-2026-010 opened; Q-2026-006 remains Open. TPEx 2026-10-22 close 121.00 is a dated observation. Next revenue/financial reviews remain 2026-11-10 / 2026-11-16. [Dated analysis](model/2026-10-22-ceasefire-sensitivity.md).
+
+## 2026-10-27 — Historical earnings and peacetime revenue review
+
+Retained FY2019 parent-only, FY2020–FY2023 consolidated statements and the 2022-08-18 presentation. Verified FY2018–FY2025 basic EPS, isolated FY2021 pretax MilDef gains 496.607 (TWD million), and compared FY2020/FY2025 product revenue. Historical EPS 3.10–5.51 is not a post-ceasefire forecast. Appended Q-2026-010 evidence; forecasts, confidence and scheduled reviews unchanged. No current-price or comprehensive filing/order refresh. [Sources](sources/README.md), [financials](02_financials.md).

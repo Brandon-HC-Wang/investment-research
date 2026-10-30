@@ -81,3 +81,24 @@ Fact: parent cash 1,431.536 at 2025-12-31; FY2025 parent CFO 592.677. Parent ver
 ## 2026-10-22 — Ceasefire cash-risk review
 
 Official H1 financials were downloaded again and match the retained SHA-256; no reported financial amount changes. H1 inventory 1,758.929, receivables 436.370 and CFO -373.577 (TWD million) make procurement deferrals a cash-conversion risk as well as an EPS risk. A ceasefire headline does not establish inventory impairment; aging, cancellations and collections must corroborate it. No new Q3 earnings or dividend is inferred. [Risk bridge](model/2026-10-22-ceasefire-sensitivity.md), [verification](sources/2026-10-22-ceasefire-verification.json).
+
+## 2026-10-27 — Historical EPS before the full-scale invasion
+
+**Reported facts:** Annual basic EPS, TWD/share; use published annual amounts rather than sums of rounded quarterly EPS. FY2018 is read from the FY2019 parent-only comparative statement; FY2019–FY2025 use consolidated statements. Basic EPS here must not be mixed with the existing diluted-EPS forecasts. [P19 / FY20 / FY21 / FY22 / FY23 / FY25](sources/README.md).
+
+| Fiscal year | Basic EPS | Interpretation |
+|---|---:|---|
+| 2018 | 3.10 | Historical pre-2022 observation; parent-only comparative EPS |
+| 2019 | 4.74 | Historical pre-2022 observation |
+| 2020 | 5.51 | Historical pre-2022 observation |
+| 2021 | 10.87 | Includes material MilDef disposal/remeasurement gains; unsuitable as recurring baseline |
+| 2022 | 3.89 | Full-scale invasion year; not a peacetime observation |
+| 2023 | 7.85 | Subsequent reported earnings; no quantified war attribution |
+| 2024 | 8.44 | Subsequent reported earnings; no quantified war attribution |
+| 2025 | 7.40 | Subsequent reported earnings; no quantified war attribution |
+
+FY2021 Note 6(2) reports a realized MilDef sale gain of TWD 32.622 million and a further TWD 463.985 million gain from fair-value remeasurement when significant influence ceased after the disposal/IPO. Combined pretax gain: **496.607 million**. This historical cessation-of-equity-method event entered earnings; it is distinct from subsequent FVOCI-equity disposal gains transferred within equity. Do not apply the later FVOCI treatment retrospectively to exclude the FY2021 event from reported EPS. The transaction-specific after-tax attributable contribution has not been fully reconciled, so no precise adjusted FY2021 EPS is asserted.
+
+**Opinion / use limit:** FY2018–FY2020 observed basic EPS spans 3.10–5.51, with a simple arithmetic mean of 4.45. FY2019–FY2020 alone spans 4.74–5.51. These are selected historical reference periods, not a forecast, a loss floor or an estimate of today's earnings without war. Pre-2022 does not mean absence of all conflict/security demand. Product mix, pricing, scale, costs, FX, investment income and taxes differ across years; rugged revenue share changed from 33.05% in FY2020 to 48.17% in FY2025. The FY2022 EPS decline despite active warfare also rules out a simple mechanical 'war on = EPS up' reading, without identifying the decline's cause.
+
+No forecast or valuation input changes. Binding deliveries, cancellations, replacement orders, margins and cash conversion remain necessary to estimate a post-ceasefire earnings path. [Business mix](01_business.md), [Q-2026-010](07_open_questions.md).

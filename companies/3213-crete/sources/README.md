@@ -50,3 +50,18 @@ Management's capacity and product plans are attributed claims, not completion ev
 - **PRICE-OCT:** TPEx, individual stock daily trading, 2026-10 monthly table; 2026-10-22 row, closing-price field 121.00 TWD/share; accessed after Taiwan close on 2026-10-22. [Official](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json), [retained](market_data/2026-10-official-price-accessed-2026-10-22.json). Query returns available rows for the month; not a live intraday quote.
 
 New retained artifacts are hashed in [artifacts.json](artifacts.json). September monthly figures remain the retained 2026-10-12 review, not a new download. No comprehensive MOPS or contract refresh is claimed.
+
+## Historical EPS and peacetime revenue — accessed 2026-10-27
+
+Publisher for the following documents: Crete Computers Inc. Financial amounts are reported TWD thousand in the originals, converted to TWD million in research; EPS is TWD/share. Downloaded source bytes are preserved in [artifacts.json](artifacts.json).
+
+| ID | Title / document date | Official and retained source | Sections used |
+|---|---|---|---|
+| P19 | FY2019/FY2018 parent-only financial statements; exact publication date not verified | [Official](https://www.crete.com.tw/rwd/108-1.pdf), [retained](earnings/2019FY-parent-only.pdf) | Printed p.5 / PDF p.8, income statement; scanned page visually inspected for 4.74 / 3.10 basic EPS. This URL supplies parent-only statements, despite later similar filenames supplying consolidated statements. |
+| FY20 | FY2020/FY2019 consolidated financial statements; approved 2021-03-18 | [Official](https://www.crete.com.tw/rwd/109-1.pdf), [retained](earnings/2020FY-consolidated.pdf) | Notes 6(15)–6(16), printed p.34 / PDF p.37; basic/diluted EPS and product revenue |
+| FY21 | FY2021/FY2020 consolidated financial statements; approved 2022-03-17 | [Official](https://www.crete.com.tw/rwd/110-1.pdf), [retained](earnings/2021FY-consolidated.pdf) | Note 6(2), printed p.22 / PDF p.24, MilDef gains; Note 6(13), printed pp.31–32 / PDF pp.33–34, tax; Notes 6(15)–6(16), printed pp.34–35 / PDF pp.36–37, EPS/product revenue |
+| FY22 | FY2022/FY2021 consolidated financial statements; approved 2023-03-23 | [Official](https://www.crete.com.tw/rwd/111-1.pdf), [retained](earnings/2022FY-consolidated.pdf) | Notes 6(15)–6(16), printed p.34 / PDF p.36, EPS/product revenue |
+| FY23 | FY2023/FY2022 consolidated financial statements; approved 2024-03-13 | [Official](https://www.crete.com.tw/rwd/112-1.pdf), [retained](earnings/2023FY-consolidated.pdf) | Note 6(14), printed pp.31–32 / PDF pp.33–34, annual EPS |
+| IR22 | Investor presentation, 2022-08-18; date from official event index | [Official](https://www.crete.com.tw/rwd/111%E6%B3%95%E8%AA%AA%E6%9C%83_CH.pdf), [retained](conference_calls/2022-08-18-presentation.pdf), [event index](https://www.crete.com.tw/rwd/main11.htm) | PDF pp.5, 7, 12–15, 23: historical EPS/division revenue, notebook retail/repair, customization, defense/mining uses, support; historical presentation claims, not confirmed current store counts or program orders |
+
+FY25 official consolidated PDF was also re-accessed via the browser; Note 6(14), printed p.34 / PDF p.38 supplies FY2025 product sales; printed p.6 / PDF p.8 supplies FY2024/FY2025 basic EPS. No fresh byte-hash comparison for FY25 is claimed. NATO25's official 2025-06-25 declaration was re-accessed for its multi-year policy context, not as evidence of Crete orders. No new ceasefire status, segment profit split, current stock price or transaction-specific adjusted FY2021 EPS is asserted. [Analytical integration](../01_business.md), [historical financials](../02_financials.md).

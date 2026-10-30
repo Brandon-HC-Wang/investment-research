@@ -19,3 +19,18 @@ MilDef's 2025 report, Note 28 p. 114, reports purchases from MilDef Crete Inc. o
 **Company-presented references:** IR25 slide 9, “Customer in Security & Defense,” displays NCSIST, AIDC, BAE Systems, HENSOLDT, Mitsubishi Heavy Industries, Elbit Systems, Raytheon, Rheinmetall, Airbus, Saab, L3Harris, Northrop Grumman, Kongsberg, Bundeswehr and FMV, among others. These are attributed presentation references, not individually verified current direct accounts. The slide does not disclose contract counterparties, dates, revenue amounts or whether supply is direct, through RODA, or through other partners. Do not treat every MilDef group customer or contract as Crete business.
 
 Sources: [IR25 slide 9, M-ACQ, M-AR25, M-NAME](sources/README.md).
+
+## 2026-10-27 — Revenue sources beyond active warfare
+
+**Reported facts:** Rugged computers already generated TWD 983.596 million in FY2020 and 768.811 million in FY2021, before the 2022 full-scale invasion of Ukraine. The FY2022 investor presentation describes both defense and mining applications, commercial notebook retail/repair, customization and lifecycle support. This is evidence of an established business, not a new wartime-only product. [FY20 / FY21 / IR22](sources/README.md).
+
+| Product/service, TWD million | FY2020 reported | Share, calculated | FY2025 reported | Share, calculated |
+|---|---:|---:|---:|---:|
+| Rugged computers | 983.596 | 33.05% | 1,390.864 | 48.17% |
+| Commercial computers | 1,814.013 | 60.96% | 1,414.469 | 48.99% |
+| Repair and other | 178.217 | 5.99% | 81.878 | 2.84% |
+| Total | 2,975.826 | 100.00% | 2,887.211 | 100.00% |
+
+**Interpretation:** In a ceasefire, commercial PC purchases and repair remain revenue sources; defense training, equipment refresh and digitalization can also require rugged computers without active combat. Mining requires reliable devices in harsh environments independently of warfare. The latter mechanisms do not establish future order volume. Qualification, custom interfaces and long product support may encourage repeat orders, but hardware revenue is project/delivery based, not a guaranteed subscription stream. The company has not disclosed separate military/civilian rugged sales or profit, so rugged sales must not be classified wholly as war revenue, nor commercial/repair sales as guaranteed profit protection. FY2020/FY2025 product categories are used consistently; monthly system/channel divisions are different.
+
+A ceasefire and a hypothetical world with permanently negligible security threats are different scenarios. The latter could reduce long-term defense procurement more extensively. No evidence quantifies either scenario's Crete revenue. See [Q-2026-010](07_open_questions.md) and [historical EPS limits](02_financials.md).
