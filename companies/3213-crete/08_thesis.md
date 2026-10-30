@@ -1,5 +1,7 @@
 # Investment thesis
 
+> Current review: [2026-10-30 market selloff](model/2026-10-30-market-selloff-review.md). Use this review for the current conclusion and price comparison; older dated sections below retain their original evidence cutoff.
+
 > Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
 
 As of 2026-10-12. Evidence confidence medium; 2027 earnings confidence low-to-medium. No buy/sell/hold instruction.
@@ -58,3 +60,9 @@ FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13.86/14.53. Estimated 202
 ## 2026-10-27 — Peacetime business and historical EPS boundary
 
 Historical evidence confirms that rugged products and PC distribution generated revenue before the 2022 full-scale invasion; military refresh/training and mining applications need not depend on active combat. However, ceasefire is different from permanently negligible security threats, and neither scenario has a quantified Crete order/EPS bridge. Observed FY2018–FY2020 basic EPS 3.10–5.51 is a historical comparison only. FY2021 basic EPS 10.87 contains material investment gains and is not a recurring benchmark. The changed product mix prevents treating the historical range as today's postwar forecast or floor. Keep forecasts, confidence, score, dividend assumptions and review dates unchanged; Q-2026-010 remains Open. [Business](01_business.md), [financials](02_financials.md), [questions](07_open_questions.md).
+
+## 2026-10-30 — Demand support improves; cash and valuation conditions persist
+
+**Current opinion:** No reviewed evidence yet invalidates the operating thesis, and MilDef's Q3 actual orders strengthen downstream-demand support. That does not establish Crete's supplier share or recurring earnings. Retain qualifying coverage, medium evidence confidence, low-to-medium FY2027 earnings confidence, score 2.95 / 5 and all numerical earnings/dividend cases. Assumptions remain Open.
+
+At the 10/29 close 118.00, base FY2027 P/E is 8.51x, but the 10.49 stress implies 11.25x and the 8.01 downside 14.72x. An assumed 10x multiple and existing discount convention give conditional values 126.04 / 95.36 / 72.86. Neither price decline nor forecast yield establishes safety. Verify the 35% H2 GM, tax and cash bridge before upgrading durability; review Q3 GM below 34%, challenge the base on sustained GM below 32% or cancellations with stalled rugged sales. Next research reviews remain 2026-11-10 / 2026-11-16. [Full review and evidence limits](model/2026-10-30-market-selloff-review.md).

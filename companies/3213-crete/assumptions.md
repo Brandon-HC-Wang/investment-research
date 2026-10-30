@@ -77,3 +77,7 @@ Initial history date: 2026-09-24. All assumptions are Open; confidence percentag
 ## 2026-10-22 — Ceasefire assumption review
 
 A-2026-001 through A-2026-007 remain Open, with prior confidence percentages unchanged. No new order-level evidence verifies 2027 rugged revenue, margins, cash conversion or valuation persistence. The [dated controlled stresses](model/2026-10-22-ceasefire-sensitivity.md) test A-2026-001 / A-2026-002 / A-2026-005 / A-2026-006 / A-2026-007; they do not replace their numerical base assumptions. Confirmation/rejection requires binding schedules, replacement orders, margin and collections through FY2027. Q-2026-010 records the specific cancellation/exposure gap; headline ceasefire alone changes neither status nor forecast.
+
+## 2026-10-30 — Selloff assumption review
+
+A-2026-001 through A-2026-007 remain Open with their prior confidence percentages and numerical inputs unchanged. MilDef Q3 supports downstream demand qualitatively, but does not verify Crete's shipment share, margins, cash or commissioning. A-2026-006's 11–13x base convention is not empirically confirmed; the new 8x/10x/12x matrix adds compression stresses, without changing EPS assumptions or asserting a correct multiple. Confirmation/rejection remains tied to Crete Q3 margin/tax/cash evidence and binding orders through FY2027. Review 2026-11-10 / 2026-11-16. [Evidence, formulas and limits](model/2026-10-30-market-selloff-review.md).

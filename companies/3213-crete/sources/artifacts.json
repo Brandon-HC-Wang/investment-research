@@ -118,5 +118,47 @@
     "url": "https://www.crete.com.tw/rwd/111%E6%B3%95%E8%AA%AA%E6%9C%83_CH.pdf",
     "access_date": "2026-10-27",
     "sha256": "956e97a375440f7aad619b7fffc3c66c98749df145b0faa3226d849b4b1eb165"
+  },
+  {
+    "file": "market_data/2026-10-30-official-intraday-1012.json",
+    "url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=otc_3213.tw%7Ctse_t00.tw%7Cotc_o00.tw&json=1&delay=0",
+    "access_date": "2026-10-30",
+    "sha256": "d9c50946a2b092f92645dfb8c4b4e3beaa3a9229988144845bf676d271a1ee28"
+  },
+  {
+    "file": "market_data/2026-10-official-price-accessed-2026-10-30.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F30&response=json",
+    "access_date": "2026-10-30",
+    "sha256": "65759e37bb7811dd47d4042e17be4138fb1a0aa33b2a77c3c239ec4d92f805e8"
+  },
+  {
+    "file": "earnings/2026-10-30-financial-report-index.html",
+    "url": "https://www.crete.com.tw/rwd/t3-1.htm",
+    "access_date": "2026-10-30",
+    "sha256": "d2e89ef4ba9fbf1538c2c02de5c29a45c9b0232db6761368be5b5917ae4040d8"
+  },
+  {
+    "file": "earnings/2026-10-30-company-announcement-index.html",
+    "url": "https://www.crete.com.tw/rwd/main10.htm",
+    "access_date": "2026-10-30",
+    "sha256": "2f4385dabd471ca79e43d97d1acfc54d9c5a33d5b2d949743810dba95db35683"
+  },
+  {
+    "file": "conference_calls/2026-10-30-presentation-index.html",
+    "url": "https://www.crete.com.tw/rwd/main11.htm",
+    "access_date": "2026-10-30",
+    "sha256": "2a84e1b7315548ef0b6bd0455e426832c1a3d3cdae8bc3055e16bf2ac28ad57e"
+  },
+  {
+    "file": "monthly_revenue/2026-09-mops-otc-accessed-2026-10-30.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_0.html",
+    "access_date": "2026-10-30",
+    "sha256": "023b4b02cc5c87eb2ece7d245d0bf3f6b30f1ba6640039c3cbd02da50f617cd6"
+  },
+  {
+    "file": "earnings/mildef-2026Q3-interim-report.pdf",
+    "url": "https://attachment.news.eu.nasdaq.com/a5359b1626ecf9758a41e9e71aef024cf",
+    "access_date": "2026-10-30",
+    "sha256": "c76e9a868a4fcac3569fd88ddadbb381ac557a3106ea30bde959ff1efddf4f9a"
   }
 ]

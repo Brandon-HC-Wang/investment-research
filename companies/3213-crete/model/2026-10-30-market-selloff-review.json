@@ -1,0 +1,146 @@
+{
+  "as_of": "2026-10-30",
+  "currency": "TWD",
+  "amount_unit": "million",
+  "share_unit": "million",
+  "eps_unit": "TWD/share",
+  "classification": "Market-selloff review using retained earnings cases; not revised forecasts or price targets",
+  "input_files": [
+    {
+      "file": "../scenario-inputs.json",
+      "sha256": "96c9b32263e0596bf703cc3f750c3ae6e6c8a3e6108379519a8a124114728c6a"
+    },
+    {
+      "file": "2026-10-22-ceasefire-sensitivity.json",
+      "sha256": "bed808a4530dd6f409011d7c7cbb4dcf74b35e520347270922fde48bd37ad7db"
+    }
+  ],
+  "reference_price": {
+    "price": 118,
+    "date": "2026-10-29",
+    "type": "Official TPEx close; also last matched trade at 2026-10-30 10:03:33 in the retained intraday snapshot",
+    "source": "../sources/market_data/2026-10-official-price-accessed-2026-10-30.json"
+  },
+  "required_return": 0.1,
+  "valuation_formula": "FY2027 diluted EPS * assumed one-year-horizon P/E / (1 + required_return)",
+  "cash_treatment": "No separate asset premium or interim dividend added; this is not an exact total-return or year-end target model",
+  "cases": [
+    {
+      "name": "retained_base",
+      "year": 2027,
+      "revenue": 4300,
+      "gross_margin": 0.355,
+      "opex": 440,
+      "nonop": 50,
+      "tax_rate": 0.25,
+      "nci": 30,
+      "diluted_shares": 59.316,
+      "diluted_eps": 13.864303054825005,
+      "pe_at_reference_price": 8.511066119471044,
+      "valuation": [
+        {
+          "pe": 8,
+          "current_value": 100.83129494418185,
+          "value_vs_reference_price_pct": -14.549750047303522
+        },
+        {
+          "pe": 10,
+          "current_value": 126.0391186802273,
+          "value_vs_reference_price_pct": 6.812812440870597
+        },
+        {
+          "pe": 12,
+          "current_value": 151.2469424162728,
+          "value_vs_reference_price_pct": 28.17537492904474
+        }
+      ]
+    },
+    {
+      "name": "rugged_minus_20pct_margin_minus_2pp",
+      "year": 2027,
+      "revenue": 3760.0,
+      "gross_margin": 0.335,
+      "opex": 440,
+      "nonop": 50,
+      "tax_rate": 0.25,
+      "nci": 30,
+      "diluted_shares": 59.316,
+      "diluted_eps": 10.489581225976128,
+      "pe_at_reference_price": 11.249257473481196,
+      "valuation": [
+        {
+          "pe": 8,
+          "current_value": 76.28786346164456,
+          "value_vs_reference_price_pct": -35.34926825284359
+        },
+        {
+          "pe": 10,
+          "current_value": 95.35982932705569,
+          "value_vs_reference_price_pct": -19.186585316054494
+        },
+        {
+          "pe": 12,
+          "current_value": 114.43179519246684,
+          "value_vs_reference_price_pct": -3.0239023792653974
+        }
+      ]
+    },
+    {
+      "name": "retained_operating_downside",
+      "year": 2027,
+      "revenue": 3480,
+      "gross_margin": 0.32,
+      "opex": 420,
+      "nonop": 0,
+      "tax_rate": 0.28,
+      "nci": 24,
+      "diluted_shares": 59.316,
+      "diluted_eps": 8.014566053004248,
+      "pe_at_reference_price": 14.723192649434571,
+      "valuation": [
+        {
+          "pe": 8,
+          "current_value": 58.28775311275817,
+          "value_vs_reference_price_pct": -50.603599056984606
+        },
+        {
+          "pe": 10,
+          "current_value": 72.8596913909477,
+          "value_vs_reference_price_pct": -38.25449882123076
+        },
+        {
+          "pe": 12,
+          "current_value": 87.43162966913725,
+          "value_vs_reference_price_pct": -25.905398585476902
+        }
+      ]
+    }
+  ],
+  "earnings_needed_to_match_reference_value": [
+    {
+      "pe": 8,
+      "diluted_eps_needed": 16.225
+    },
+    {
+      "pe": 10,
+      "diluted_eps_needed": 12.98
+    },
+    {
+      "pe": 12,
+      "diluted_eps_needed": 10.816666666666668
+    }
+  ],
+  "monitoring": {
+    "monthly_revenue_review": "2026-11-10",
+    "q3_financial_review": "2026-11-16",
+    "q4_monthly_average_base_requirement": 318.164,
+    "gm_bridge_review_trigger": 0.34,
+    "sustained_gm_base_falsification_trigger": 0.32
+  },
+  "limitations": [
+    "No scenario probabilities or empirical peer multiple range; 8x/10x are additional stresses and 12x is a prior illustrative convention.",
+    "Operating inputs, ordinary dividend budget and assumption confidence unchanged; do not infer earnings impairment or resilience from one session.",
+    "Consolidated margin proxy; undisclosed product margins and order-level cancellation rights limit precision.",
+    "No current personal position, cash-use timing or portfolio loss capacity reverified."
+  ]
+}

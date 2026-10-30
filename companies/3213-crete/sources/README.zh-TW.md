@@ -65,3 +65,13 @@
 | IR22 | 法說簡報，2022-08-18；日期來自官方活動索引 | [官方](https://www.crete.com.tw/rwd/111%E6%B3%95%E8%AA%AA%E6%9C%83_CH.pdf)、[留存](conference_calls/2022-08-18-presentation.pdf)、[活動索引](https://www.crete.com.tw/rwd/main11.htm) | PDF pp.5, 7, 12–15, 23：歷史 EPS／事業部營收、筆電零售／維修、客製化、國防／礦業應用及支援；屬歷史簡報陳述，不代表已確認的現行店數或專案訂單 |
 
 另以瀏覽器重新查閱 FY25 官方合併 PDF；附註6(14)，印刷 p.34／PDF p.38 提供 FY2025 產品銷售；印刷 p.6／PDF p.8 提供 FY2024／FY2025 基本 EPS。本次未宣稱重新比對 FY25 原始位元組雜湊。亦重新查閱 NATO25 的 2025-06-25 官方宣言，僅作多年政策背景，不是茂訊訂單證據。本次不宣稱新的停戰狀態、部門利益拆分、現價或交易別調整後 FY2021 EPS。[分析整合](../01_business.md)、[歷史財務](../02_financials.md)。
+
+## 大盤急跌與交易對手複查 — 查閱日 2026-10-30
+
+- **MKT30（第一手）：** 證交所基本市況報導網站官方報價 API，資料日期 2026-10-30、查詢時間 10:12:24 Asia/Taipei。[請求](https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=otc_3213.tw%7Ctse_t00.tw%7Cotc_o00.tw&json=1&delay=0)、[原始 JSON](market_data/2026-10-30-official-intraday-1012.json)。加權與櫃買指數時間 10:12:05；茂訊紀錄時間 10:11:37，`z` 不可用，巢狀 `trade.z` 為 10:03:33 的 118.00。只能當作最新一筆成交，不是同步可成交報價或收盤。茂訊價格 TWD/share，指數單位為點。驗證清單保存可重現的指數與漲跌計算。
+- **PRICE30（第一手）：** 櫃買中心個股日成交資訊，2026 年十月；最新可用列為 2026-10-29，收盤 118.00，由 122.50 下跌 -4.50。[請求](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F30&response=json)、[原始 JSON](market_data/2026-10-official-price-accessed-2026-10-30.json)。單位依表頭為張、TWD thousand、TWD/share 及成交筆數。尚未提供 10/30 收盤結果。
+- **VERIFY30（第一手）：** 茂訊未註日期的[財報索引](https://www.crete.com.tw/rwd/t3-1.htm)、[重訊索引](https://www.crete.com.tw/rwd/main10.htm)及[法說索引](https://www.crete.com.tw/rwd/main11.htm)；原始頁留存於 earnings/conference_calls，雜湊記錄於 [artifacts.json](artifacts.json)。可見 2026 財報連結為 Q1／Q2；註解中的舊 Q3 連結不證明 Q3 2026 發布。重訊索引最新可見項目為 2026-08-05，最新法說仍為 2025-12-16。此有限檢查不是完整 MOPS 揭露搜尋。新下載 H126 與留存 SHA-256 一致；原文件日期維持 2026-08-05，PDF pp.4–8 為資產負債、損益及現金流。不重複保存 H1 PDF。
+- **REV-SEP30（第一手）：** 公司申報／MOPS，2026 年九月上櫃營收表，3213 公司列與事業部備註；發布時間戳未取得。[官方](https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_0.html)、[新 CP950 HTML](monthly_revenue/2026-09-mops-otc-accessed-2026-10-30.html)。單位 TWD thousand。重新擷取公司金額與先前複查相同；整頁位元組不同，不證明公司資料修訂。不宣稱十月實績。
+- **M-Q326（第一手）：** MilDef Group AB，《Interim report January–September 2026》，2026-10-22 08:00 CEST 發布。[官方公告](https://investors.mildef.com/mfn_news/interim-report-january-september-2026/?lang=en)、[Nasdaq 發布者 PDF](https://attachment.news.eu.nasdaq.com/a5359b1626ecf9758a41e9e71aef024cf)、[留存 PDF](earnings/mildef-2026Q3-interim-report.pdf)。PDF pp.2–4：期間摘要、接單／在手訂單、德國框架／具體訂單、自由現金流與零件供應／價格。貨幣 SEK million，明確標示部分為 EUR million；集團數字不是茂訊營收／訂單。框架上限屬潛在金額，與具體訂單不同。未確認茂訊供貨占比。
+
+[驗證清單](2026-10-30-selloff-verification.json)記錄存取、雜湊、擷取市場值及界線。[分析整合](../model/2026-10-30-market-selloff-review.md)保留既有 EPS 與股利假設；不宣稱目前個人持倉、完整訂單歸屬或沒有取消訂單。

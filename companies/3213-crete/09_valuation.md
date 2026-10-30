@@ -1,5 +1,7 @@
 # Valuation
 
+> Current review: [2026-10-30 market selloff](model/2026-10-30-market-selloff-review.md). Use this review for the current conclusion and price comparison; older dated sections below retain their original evidence cutoff.
+
 > Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
 
 As of 2026-10-12; all prices TWD/share. Business and [earnings model](04_eps_model.md) precede valuation. TPEx closing price on 2026-09-23: 124.00 ([source](sources/README.md)). This is an analyst scenario valuation, not a price prediction or recommendation.
@@ -43,3 +45,9 @@ Use the normalized EPS and share bridge in [dated EPS/dividend/cash supplement](
 **Fact:** TPEx 2026-10-22 close TWD 121.00, [official monthly daily-trading table](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3213&date=2026%2F10%2F22&response=json); [retained data](sources/market_data/2026-10-official-price-accessed-2026-10-22.json). This supersedes the old price only for the current comparison; prior dated prices remain historical.
 
 **Estimates:** At 121.00, 2027 base EPS 13.86 implies P/E 8.73x; controlled combined-stress EPS 10.49 implies 11.54x, using full-precision earnings. A hypothetical 12x → 10x multiple change reduces modeled value 16.67% at fixed EPS; with the combined earnings stress, illustrative value decreases 36.95%. Neither result predicts a stock-price decline or establishes the correct market multiple. No new fair-value target or dividend floor is adopted; previous ranges remain conditional historical analyses. [Operating assumptions and limitations](model/2026-10-22-ceasefire-sensitivity.md).
+
+## 2026-10-30 — Lower quotation does not verify the earnings denominator
+
+**Fact:** TPEx 10/29 close 118.00, down 3.67%; retained 10/30 intraday last matched trade is also 118.00 at 10:03:33, not the 10/30 close. Use the completed 10/29 close for all comparisons. [Official retained tables](sources/2026-10-30-selloff-verification.json).
+
+**Estimates:** FY2027 full-precision base / combined stress / operating downside EPS rounds to 13.86 / 10.49 / 8.01, implying P/E 8.51x / 11.25x / 14.72x at 118. The [new matrix](model/2026-10-30-market-selloff-review.md) applies 8x/10x/12x and the existing 10% one-year discount convention. At 10x, current conditional values are 126.04 / 95.36 / 72.86 (+6.81% / -19.19% / -38.25% versus 118); supporting 118 requires EPS 12.98. These are valuation sensitivities, not forecasts of market movement or empirically verified multiples. The older 138.6–163.9 band depends on base EPS and 11–13x; it is not a verified value or floor. No asset premium or interim dividend is separately added. Existing EPS, dividend budgets and assumption confidence remain unchanged; normalized FY2026 base EPS is 12.07. [Reproducible calculations](model/2026-10-30-market-selloff-review.json).

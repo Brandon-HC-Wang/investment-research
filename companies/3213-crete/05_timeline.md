@@ -24,3 +24,7 @@ Reviewed primary NATO/customer/presentation evidence; re-downloaded H1 financial
 ## 2026-10-27 — Historical earnings and peacetime revenue review
 
 Retained FY2019 parent-only, FY2020–FY2023 consolidated statements and the 2022-08-18 presentation. Verified FY2018–FY2025 basic EPS, isolated FY2021 pretax MilDef gains 496.607 (TWD million), and compared FY2020/FY2025 product revenue. Historical EPS 3.10–5.51 is not a post-ceasefire forecast. Appended Q-2026-010 evidence; forecasts, confidence and scheduled reviews unchanged. No current-price or comprehensive filing/order refresh. [Sources](sources/README.md), [financials](02_financials.md).
+
+## 2026-10-30 — Intraday market selloff and counterparty review
+
+Retained a 10:12 official index snapshot and Crete's 10:03:33 last trade 118.00, separately from the completed 10/29 close 118.00 (-3.67%). Rechecked H1 PDF, September MOPS amounts and company indexes; added MilDef Q3 demand and supply-chain evidence. Preserved EPS/dividend cases and confidence, added an 8x/10x/12x valuation stress matrix and emphasized cash/margin verification. Next reviews remain 2026-11-10 / 2026-11-16. [Review](model/2026-10-30-market-selloff-review.md).

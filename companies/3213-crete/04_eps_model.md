@@ -1,5 +1,7 @@
 # EPS scenarios
 
+> Current review: [2026-10-30 market selloff](model/2026-10-30-market-selloff-review.md). Use this review for the current conclusion and price comparison; older dated sections below retain their original evidence cutoff.
+
 > Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
 
 Reviewed 2026-10-12; numerical scenario assumptions initiated 2026-09-24 and retained. Amounts TWD million; shares million; EPS TWD/share. Analyst estimates, not management forecasts or verified consensus. [Inputs and full-precision outputs](scenario-inputs.json); actuals from [financials](02_financials.md). Forecast confidence is medium for 2026, low-to-medium for 2027 and low for 2028.
@@ -96,3 +98,7 @@ Current task estimates: FY2026E normalized diluted EPS 12.07; FY2027E/FY2028E 13
 ## 2026-10-22 — Controlled ceasefire-related stresses
 
 Forecasts remain unchanged: FY2026 reported-style / normalized base diluted EPS 12.15 / 12.07; FY2027/FY2028 base 13.86 / 14.53. Relative to the existing 2027 base, rugged revenue 10% / 20% lower gives EPS 12.65 / 11.44 at unchanged 35.5% consolidated GM. A 20% rugged shortfall plus GM 33.5% gives 10.49. All hold commercial/other revenue, opex, nonop, tax, NCI and shares fixed. These are controlled sensitivities, not revised forecasts or estimates of war-specific sales. Undisclosed product margins constrain precision. [Dated scope and formula](model/2026-10-22-ceasefire-sensitivity.md), [inputs](model/2026-10-22-ceasefire-sensitivity.json).
+
+## 2026-10-30 — Market selloff does not mechanically revise EPS
+
+Retain FY2026 reported-style / normalized base 12.15 / 12.07, FY2027/FY2028 13.86 / 14.53, controlled 2027 stress 10.49 and existing 2027 operating downside 8.01. No probability or new base is assigned from the price movement. FY2027 revenue 4,300 and diluted EPS 13.86 imply 48.93% / 89.66% growth versus FY2025 revenue / diluted EPS; these require execution, not simply a low forward P/E. MilDef orders are not added to Crete revenue. The [dated review](model/2026-10-30-market-selloff-review.md) recomputes full-precision earnings/multiple sensitivities. Rebuild the H2 bridge on Q3 GM below 34% or a material tax/collection shortfall; sustained GM below 32% challenges the base. Ordinary inventory costs stay in EPS, while FVOCI equity marks remain outside it.
