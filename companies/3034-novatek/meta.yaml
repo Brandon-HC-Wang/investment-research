@@ -1,0 +1,14 @@
+ticker: "3034"
+company: 聯詠科技股份有限公司
+industry: Fabless Display and Imaging Semiconductors
+market: TWSE
+status: qualifying
+confidence: medium
+priority: 2
+last_update: 2026-11-05
+next_action: Review 2026-11-06 Q3 conference and October sales; reconcile inventory, product mix and Q4 outlook before adopting forecasts.
+watch_items:
+  - Q3/Q4 inventory quality and cash conversion
+  - SoC/DDIC margin, ASP and product mix
+  - OLED/vision repeat shipment evidence
+  - Investment normalization and restricted-share compensation

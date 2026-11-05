@@ -1,0 +1,202 @@
+{
+  "as_of": "2026-11-05",
+  "units": "TWD billion; shares billion; EPS TWD/share",
+  "classification": "conditional analyst sensitivity; not validated forecast or management guidance",
+  "shares": 0.612,
+  "fy2025_reported_basic_eps": 26.87,
+  "fy2025_reported_revenue": 100.663144,
+  "reported_9m2026_diluted_eps": 26.55,
+  "anchor": "Q2 2026 product sales annualized, not FY2026 segment actuals",
+  "anchor_soc": 58.824,
+  "anchor_ddic": 55.96,
+  "other_and_returns_net_assumption": 0,
+  "scenarios": {
+    "downside": {
+      "q4_2026": {
+        "revenue": 26,
+        "gm": 0.38,
+        "opex": 6.1,
+        "nonop": 0.2,
+        "tax": 0.2,
+        "op": 3.780000000000001,
+        "net": 3.184000000000001,
+        "eps": 5.202614379084969
+      },
+      "fy2026": {
+        "revenue": 108.776517,
+        "approx_diluted_eps": 31.75261437908497
+      },
+      "fy2027": {
+        "soc_volume_change": -0.1,
+        "soc_price_mix_change": -0.03,
+        "ddic_volume_change": -0.05,
+        "ddic_price_mix_change": -0.04,
+        "soc": 51.353352,
+        "ddic": 51.03552,
+        "revenue": 102.38887199999999,
+        "gm": 0.37,
+        "opex": 23.8,
+        "nonop": 0.8,
+        "tax": 0.2,
+        "op": 14.083882639999995,
+        "net": 11.907106111999997,
+        "eps": 19.45605573856209
+      },
+      "fy2028": {
+        "soc_volume_change": -0.05,
+        "soc_price_mix_change": -0.02,
+        "ddic_volume_change": -0.05,
+        "ddic_price_mix_change": -0.03,
+        "soc": 47.809970711999995,
+        "ddic": 47.029231679999995,
+        "revenue": 94.83920239199999,
+        "gm": 0.36,
+        "opex": 24.2,
+        "nonop": 0.8,
+        "tax": 0.2,
+        "op": 9.942112861119998,
+        "net": 8.593690288896,
+        "eps": 14.041977596235293
+      }
+    },
+    "base_sensitivity": {
+      "q4_2026": {
+        "revenue": 29,
+        "gm": 0.4,
+        "opex": 5.8,
+        "nonop": 0.25,
+        "tax": 0.18,
+        "op": 5.800000000000002,
+        "net": 4.961000000000002,
+        "eps": 8.106209150326801
+      },
+      "fy2026": {
+        "revenue": 111.776517,
+        "approx_diluted_eps": 34.6562091503268
+      },
+      "fy2027": {
+        "soc_volume_change": 0.05,
+        "soc_price_mix_change": 0.02,
+        "ddic_volume_change": 0.03,
+        "ddic_price_mix_change": -0.02,
+        "soc": 63.00050400000001,
+        "ddic": 56.48602400000001,
+        "revenue": 119.48652800000002,
+        "gm": 0.4,
+        "opex": 23.8,
+        "nonop": 1,
+        "tax": 0.18,
+        "op": 23.994611200000012,
+        "net": 20.495581184000013,
+        "eps": 33.489511738562115
+      },
+      "fy2028": {
+        "soc_volume_change": 0.08,
+        "soc_price_mix_change": 0.02,
+        "ddic_volume_change": 0.03,
+        "ddic_price_mix_change": 0.01,
+        "soc": 69.40135520640001,
+        "ddic": 58.76241076720001,
+        "revenue": 128.16376597360002,
+        "gm": 0.4,
+        "opex": 25.3,
+        "nonop": 1,
+        "tax": 0.18,
+        "op": 25.965506389440012,
+        "net": 22.11171523934081,
+        "eps": 36.130253659053615
+      }
+    },
+    "upside": {
+      "q4_2026": {
+        "revenue": 32,
+        "gm": 0.42,
+        "opex": 5.6,
+        "nonop": 0.3,
+        "tax": 0.17,
+        "op": 7.84,
+        "net": 6.7562,
+        "eps": 11.03954248366013
+      },
+      "fy2026": {
+        "revenue": 114.776517,
+        "approx_diluted_eps": 37.58954248366013
+      },
+      "fy2027": {
+        "soc_volume_change": 0.15,
+        "soc_price_mix_change": 0.04,
+        "ddic_volume_change": 0.1,
+        "ddic_price_mix_change": 0.03,
+        "soc": 70.353504,
+        "ddic": 63.40268000000001,
+        "revenue": 133.75618400000002,
+        "gm": 0.43,
+        "opex": 24.8,
+        "nonop": 1.2,
+        "tax": 0.17,
+        "op": 32.71515912000001,
+        "net": 28.149582069600008,
+        "eps": 45.99604913333335
+      },
+      "fy2028": {
+        "soc_volume_change": 0.15,
+        "soc_price_mix_change": 0.03,
+        "ddic_volume_change": 0.08,
+        "ddic_price_mix_change": 0.02,
+        "soc": 83.333725488,
+        "ddic": 69.84439228800002,
+        "revenue": 153.17811777600002,
+        "gm": 0.43,
+        "opex": 27.2,
+        "nonop": 1.2,
+        "tax": 0.17,
+        "op": 38.66659064368001,
+        "net": 33.08927023425441,
+        "eps": 54.067435023291516
+      }
+    }
+  },
+  "boundary": "No probability weights; no future financial-asset revaluation/FX windfall; retain ordinary R&D, stock compensation and inventory charges; actual 9M gains remain in FY2026 bridge.",
+  "checks": {
+    "q3_op_qoq_change": 0.0957018886524188,
+    "q3_inventory_qoq_change": 0.356442643322199,
+    "q3_ocf": 1.1029339999999994,
+    "q3_ocf_net_ratio": 0.1815041621740463,
+    "q3_ending_inventory_days": 90.73815784700919,
+    "q3_average_inventory_days": 78.81618348546873,
+    "q2_ending_inventory_days": 73.3932147012806,
+    "9m_illustrative_adjusted_eps": 25.241404759794214,
+    "9m_core_at_20pct_tax_eps": 24.021934844201937,
+    "9m_fcf_proxy": 11.598039,
+    "last_price": 533,
+    "last_price_date": "2026-11-04",
+    "trailing_basic_eps": 32.65,
+    "trailing_basic_pe": 16.324655436447166,
+    "gm_1pp_eps_effect": 1.6009632836601309
+  },
+  "followups": [
+    {
+      "date": "2026-11-05",
+      "purpose": "Explain existing FY2026 conditional EPS; no scenario-input revision",
+      "central_reference": "TWD34\u201335, model approximately 34.7 diluted EPS",
+      "q4_gm_1pp_eps": 0.3885620915032679,
+      "q4_revenue_1bn_eps": 0.5359477124183006,
+      "new_ids": [
+        "A-2026-006",
+        "Q-2026-006"
+      ],
+      "normalized_sensitivity": {
+        "downside": 30.444019138879185,
+        "base_sensitivity": 33.34761391012101,
+        "upside": 36.28094724345435
+      },
+      "illustrative_annual_denominator": 0.6098895,
+      "annual_net_profit_denominator_crosscheck": {
+        "downside": 31.73624730381487,
+        "base_sensitivity": 34.649889857097065,
+        "upside": 37.59337388166217
+      },
+      "boundary": "Not company guidance, consensus or statistical interval; annual weighted-share arithmetic approximate; historical snapshot unchanged."
+    }
+  ]
+}

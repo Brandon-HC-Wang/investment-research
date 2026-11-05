@@ -1,0 +1,123 @@
+[
+  {
+    "id": "S1",
+    "title": "FY2025 annual report",
+    "publisher": "Novatek",
+    "published_on": null,
+    "accessed_on": "2026-11-05",
+    "section": "pp. 5–7, 81–91, 98–100",
+    "url": "https://www.novatek.com.tw/upload/website/_2025%20Annual%20Report_c_26050614_104.pdf",
+    "artifact": "company/2025-annual-report.pdf",
+    "sha256": "fe9042a399e19896f6fffae240720593266cde940732951aa2ffc6d6fb33f340"
+  },
+  {
+    "id": "S2",
+    "title": "9M2026 consolidated statements and review report",
+    "publisher": "Novatek / EY",
+    "published_on": "2026-11-03",
+    "accessed_on": "2026-11-05",
+    "section": "pp. 3–9, 15–16, 22, 24–26, 30–35, 56",
+    "url": "https://www.novatek.com.tw/upload/website/_2026Q3_QuarterlyReport_c_26110409_929.pdf",
+    "artifact": "earnings/2026Q3-consolidated.pdf",
+    "sha256": "af54da8cdf0a8947d412edecb808f99ec609c86e6bc1f3495e7d3843d4c43c11"
+  },
+  {
+    "id": "S3",
+    "title": "H1 2026 consolidated statements and review report",
+    "publisher": "Novatek / EY",
+    "published_on": "2026-08-04",
+    "accessed_on": "2026-11-05",
+    "section": "pp. 5–9, 28, 31",
+    "url": "https://www.novatek.com.tw/upload/website/_2026Q2_QuarterlyReport_c_26080416_632.pdf",
+    "artifact": "earnings/2026Q2-consolidated.pdf",
+    "sha256": "7fa1b0a387776fb3ea854ad21b9b0067eecaf630610b39f16298cb2ac5d3193d"
+  },
+  {
+    "id": "S4",
+    "title": "Financial Report 2026 Q2",
+    "publisher": "Novatek",
+    "published_on": "2026-08-06",
+    "accessed_on": "2026-11-05",
+    "section": "pp. 3–7; PDF standard text order checked against statements",
+    "url": "https://www.novatek.com.tw/upload/website/_FIN2026Q2_e_26080616_775.pdf",
+    "artifact": "conference_calls/2026Q2-presentation.pdf",
+    "sha256": "191022824c025a253da6af73d1577b3392437bfedcb2d15775f80119eef4fe00"
+  },
+  {
+    "id": "S5",
+    "title": "Financial Report 2025 Q4 (unaudited at issue)",
+    "publisher": "Novatek",
+    "published_on": "2026-02-06",
+    "accessed_on": "2026-11-05",
+    "section": "pp. 4–8; event date, file posted later; annual report cross-check",
+    "url": "https://www.novatek.com.tw/upload/website/_FIN2025Q4_e_26020909_536.pdf",
+    "artifact": "conference_calls/2025Q4-presentation.pdf",
+    "sha256": "53da77a3c7418a5c4c328e4f7c1bb0b6a21872104939eb91a23fd7f14ab27778"
+  },
+  {
+    "id": "S6",
+    "title": "Q2 2026 results and Q3 outlook",
+    "publisher": "Novatek",
+    "published_on": "2026-08-06",
+    "accessed_on": "2026-11-05",
+    "section": "pp. 1–2",
+    "url": "https://www.novatek.com.tw/upload/website/_20260806_Q226c_26080615_417.pdf",
+    "artifact": "conference_calls/2026Q2-release.pdf",
+    "sha256": "b736a7b398192df646d31cda17e1c869c06779b0e0594cd01bf2f688270bd244"
+  },
+  {
+    "id": "S7",
+    "title": "November 2026 daily stock transactions, 3034",
+    "publisher": "TWSE",
+    "published_on": null,
+    "accessed_on": "2026-11-05",
+    "section": "last returned row 2026-11-04; close TWD533",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261101&stockNo=3034",
+    "artifact": "market/2026-11-daily-prices.json",
+    "sha256": "b37dbe21dc28eea06f09d51eb95998a543bd2491f17d9e85c4aeddf619132523"
+  },
+  {
+    "id": "S8",
+    "title": "Investor events — analyst meeting calendar",
+    "publisher": "Novatek",
+    "published_on": null,
+    "accessed_on": "2026-11-05",
+    "section": "Q3 conference scheduled 2026-11-06",
+    "url": "https://www.novatek.com.tw/en-global/Download/ir_event/Index/analyst_meeting",
+    "artifact": "conference_calls/2026-11-05-calendar.html",
+    "sha256": "74d99f47f073480877b8d2468c924ac661ec873af61ecc7db7e6fb805b9e4911"
+  },
+  {
+    "id": "S9",
+    "title": "Monthly sales calendar",
+    "publisher": "Novatek",
+    "published_on": null,
+    "accessed_on": "2026-11-05",
+    "section": "October sales scheduled 2026-11-06",
+    "url": "https://www.novatek.com.tw/zh-TW/Download/ir_event",
+    "artifact": "company/2026-11-05-sales-calendar.html",
+    "sha256": "b6bd784eceb68327527054de400c9216a0b880606c2e0631da0e5455c636fa94"
+  },
+  {
+    "id": "S10",
+    "title": "Technology milestones",
+    "publisher": "Novatek",
+    "published_on": null,
+    "accessed_on": "2026-11-05",
+    "section": "2025 product disclosures; launch claims, not verified revenue",
+    "url": "https://www.novatek.com.tw/zh-TW/Milestone/aboutus_milestones",
+    "artifact": "company/2026-11-05-milestones.html",
+    "sha256": "e9ef8b5daa154e58375f75692edefb1f4930386fd01ca20572d540d251f70e70"
+  },
+  {
+    "id": "S11",
+    "title": "Company overview",
+    "publisher": "Novatek",
+    "published_on": null,
+    "accessed_on": "2026-11-05",
+    "section": "identity and business scope; some website data stale versus filing",
+    "url": "https://www.novatek.com.tw/zh-TW/Html/aboutus_overview",
+    "artifact": "company/2026-11-05-overview.html",
+    "sha256": "399dd10a0fdab1e20e85ab9674aae5340cf2f5e32384ae34075c28090de7ec57"
+  }
+]
