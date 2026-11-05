@@ -1,0 +1,121 @@
+[
+  {
+    "id": "S1",
+    "title": "Alltop board cash-reduction proposal",
+    "publisher": "Alltop",
+    "published_on": "2026-10-27",
+    "accessed_on": "2026-11-03",
+    "section": "announcement points 1–12",
+    "url": "https://www.alltopconnector.com/zh-tw/news.php?act=view&id=225",
+    "artifact": "earnings/2026-10-27-cash-reduction.html",
+    "sha256": "fb5e1254d9c3e5a45bf50a98bf3bec9700967c9393dfcfe66df3e9f351703bdd"
+  },
+  {
+    "id": "S2",
+    "title": "H1 2026 consolidated financial statements and review report",
+    "publisher": "Alltop / Deloitte",
+    "published_on": "2026-08-05",
+    "accessed_on": "2026-11-03",
+    "section": "pp. 4–8, 22–27, 31–36",
+    "url": "https://www.alltopconnector.com/data/download/merge/1787131045966487897.pdf",
+    "artifact": "earnings/2026Q2-consolidated.pdf",
+    "sha256": "727b80ef3f50b64b5bc263ce802b3923733a118f735ad5bbfde546c6de9dd2eb"
+  },
+  {
+    "id": "S3",
+    "title": "September 2026 consolidated revenue",
+    "publisher": "Alltop",
+    "published_on": "2026-10-08",
+    "accessed_on": "2026-11-03",
+    "section": "p. 1; announcement date cross-checked against syndication",
+    "url": "https://www.alltopconnector.com/data/download/revenue/1791949333467898077.pdf",
+    "artifact": "monthly_revenue/2026-09.pdf",
+    "sha256": "fd901384bd438ac9fefb922158aef0e1f366638a71cc4146e3a1157e675c0e38"
+  },
+  {
+    "id": "S4",
+    "title": "FY2025 consolidated financial statements and audit report",
+    "publisher": "Alltop / Deloitte",
+    "published_on": "2026-03-30",
+    "accessed_on": "2026-11-03",
+    "section": "pp. 9–10; date is audit signature",
+    "url": "https://www.alltopconnector.com/data/download/merge/1775545609701174438.pdf",
+    "artifact": "earnings/2025FY-consolidated.pdf",
+    "sha256": "468e9a4b126078401334514b3455c83ad1cfdd1afade4d2d5d332cac4d9f46ae"
+  },
+  {
+    "id": "S5a",
+    "title": "October 2026 daily stock transactions, 3526",
+    "publisher": "TPEx",
+    "published_on": "2026-10-30",
+    "accessed_on": "2026-11-03",
+    "section": "dated close and volume rows; trading scope excludes block trades",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3526&date=2026%2F10%2F01&response=json",
+    "artifact": "market/2026-10-daily-prices.json",
+    "sha256": "810d7fa6af08e51bfce16139c66cea5abf8eaf1b0e01385c9787038b6c8b9ae4"
+  },
+  {
+    "id": "S5b",
+    "title": "November 2026 daily stock transactions, 3526",
+    "publisher": "TPEx",
+    "published_on": "2026-11-02",
+    "accessed_on": "2026-11-03",
+    "section": "latest returned row 2026-11-02",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3526&date=2026%2F11%2F01&response=json",
+    "artifact": "market/2026-11-daily-prices.json",
+    "sha256": "4cac93328d27df36d92e78ba27be70fb8daf3bacd364e2f904045f77771a469f"
+  },
+  {
+    "id": "S6",
+    "title": "Institutional trading detail, 2026-10-28",
+    "publisher": "TPEx",
+    "published_on": "2026-10-28",
+    "accessed_on": "2026-11-03",
+    "section": "3526 row; foreign net -309190 shares; total -290435 shares",
+    "url": "https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?date=2026%2F10%2F28&type=Daily&response=json",
+    "artifact": "market/2026-10-28-institutions.json",
+    "sha256": "3e679883e5c723b0a8579f47d33cc518c7dfcc180291a823c9f8a7ea1a6325ff"
+  },
+  {
+    "id": "S7",
+    "title": "Capital reduction resumption reference-price formula",
+    "publisher": "TPEx",
+    "published_on": null,
+    "accessed_on": "2026-11-03",
+    "section": "cash-return formula",
+    "url": "https://www.tpex.org.tw/zh-tw/announce/market/reduction/reference.html",
+    "artifact": null
+  },
+  {
+    "id": "S8",
+    "title": "Corporate value enhancement plan",
+    "publisher": "Alltop",
+    "published_on": null,
+    "accessed_on": "2026-11-03",
+    "section": "pp. 1–3; undated document containing a 2025-10-15 price reference; management claims, not audited facts",
+    "url": "https://www.alltopconnector.com/data/editor/files/114%20%E6%8F%90%E5%8D%87%E4%BC%81%E6%A5%AD%E5%83%B9%E5%80%BC%E8%A8%88%E7%95%AB.pdf",
+    "artifact": "conference_calls/value-enhancement-plan.pdf",
+    "sha256": "eae0b266c7aec462619e0c286ae30a2fa624288083327a27823377e4711a74c4"
+  },
+  {
+    "id": "S9",
+    "title": "H1 EPS 9.08 and company outlook",
+    "publisher": "Economic Daily News",
+    "published_on": "2026-08-05",
+    "accessed_on": "2026-11-03",
+    "section": "company commentary and separately attributed analyst estimate; secondary source",
+    "url": "https://money.udn.com/money/story/11074/9672902?from=edn_search_result",
+    "artifact": null
+  },
+  {
+    "id": "S10",
+    "title": "Alltop product catalog",
+    "publisher": "Alltop",
+    "published_on": null,
+    "accessed_on": "2026-11-03",
+    "section": "server high-power/high-speed, automotive and consumer categories",
+    "url": "https://www.alltopconnector.com/zh-tw/",
+    "artifact": "conference_calls/2026-11-03-product-catalog.html",
+    "sha256": "cceaf99aba0723a33f2c7d4bffe08a0fe69075a2f03c789bfb0d9a57ec8e3f66"
+  }
+]

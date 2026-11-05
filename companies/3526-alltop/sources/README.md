@@ -1,0 +1,17 @@
+# Alltop — Sources
+
+All sources accessed 2026-11-03. S5 means S5a and S5b. Primary company/TPEx evidence takes precedence over secondary commentary. Publication dates below distinguish report signatures, trading dates and unknown publication dates.
+
+- **S1** — [Alltop board cash-reduction proposal](https://www.alltopconnector.com/zh-tw/news.php?act=view&id=225), Alltop, 2026-10-27; announcement points 1–12. [Retained artifact](earnings/2026-10-27-cash-reduction.html).
+- **S2** — [H1 2026 consolidated financial statements and review report](https://www.alltopconnector.com/data/download/merge/1787131045966487897.pdf), Alltop / Deloitte, 2026-08-05; pp. 4–8, 22–27, 31–36. [Retained artifact](earnings/2026Q2-consolidated.pdf).
+- **S3** — [September 2026 consolidated revenue](https://www.alltopconnector.com/data/download/revenue/1791949333467898077.pdf), Alltop, 2026-10-08; p. 1; announcement date cross-checked against syndication. [Retained artifact](monthly_revenue/2026-09.pdf).
+- **S4** — [FY2025 consolidated financial statements and audit report](https://www.alltopconnector.com/data/download/merge/1775545609701174438.pdf), Alltop / Deloitte, 2026-03-30; pp. 9–10; date is audit signature. [Retained artifact](earnings/2025FY-consolidated.pdf).
+- **S5a** — [October 2026 daily stock transactions, 3526](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3526&date=2026%2F10%2F01&response=json), TPEx, 2026-10-30; dated close and volume rows; trading scope excludes block trades. [Retained artifact](market/2026-10-daily-prices.json).
+- **S5b** — [November 2026 daily stock transactions, 3526](https://www.tpex.org.tw/www/zh-tw/afterTrading/tradingStock?code=3526&date=2026%2F11%2F01&response=json), TPEx, 2026-11-02; latest returned row 2026-11-02. [Retained artifact](market/2026-11-daily-prices.json).
+- **S6** — [Institutional trading detail, 2026-10-28](https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?date=2026%2F10%2F28&type=Daily&response=json), TPEx, 2026-10-28; 3526 row; foreign net -309190 shares; total -290435 shares. [Retained artifact](market/2026-10-28-institutions.json).
+- **S7** — [Capital reduction resumption reference-price formula](https://www.tpex.org.tw/zh-tw/announce/market/reduction/reference.html), TPEx, publication date not stated; cash-return formula.
+- **S8** — [Corporate value enhancement plan](https://www.alltopconnector.com/data/editor/files/114%20%E6%8F%90%E5%8D%87%E4%BC%81%E6%A5%AD%E5%83%B9%E5%80%BC%E8%A8%88%E7%95%AB.pdf), Alltop, publication date not stated; pp. 1–3; undated document containing a 2025-10-15 price reference; management claims, not audited facts. [Retained artifact](conference_calls/value-enhancement-plan.pdf).
+- **S9** — [H1 EPS 9.08 and company outlook](https://money.udn.com/money/story/11074/9672902?from=edn_search_result), Economic Daily News, 2026-08-05; company commentary and separately attributed analyst estimate; secondary source.
+- **S10** — [Alltop product catalog](https://www.alltopconnector.com/zh-tw/), Alltop, publication date not stated; server high-power/high-speed, automotive and consumer categories. [Retained artifact](conference_calls/2026-11-03-product-catalog.html).
+
+Machine-readable provenance and hashes: [register](2026-11-03-source-register.json). S8 WACC/capital-structure claims are not adopted as verified financial facts; use consolidated statements for bond liabilities.
