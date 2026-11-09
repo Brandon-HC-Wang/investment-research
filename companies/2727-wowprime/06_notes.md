@@ -1,5 +1,19 @@
 # Research Notes
 
+> Current state: 2026-11-09. All earlier sections retained below describe prior research and are superseded where this dated update differs.
+
+## 2026-11-09 — Interpretation and data boundaries
+
+**Observation:** Q3 gross margin was nearly flat while selling-expense intensity increased. The financial arithmetic supports cost absorption as a concern, but not a claim that food inflation or discounting specifically caused the entire decline. China profit weakness remains unexplained between traffic/mix, new-store costs, payroll, occupancy and promotions.
+
+**Observation:** September inventory growth outpaced sales. Do not assume spoilage or an impairment event without subsequent turnover, aging, write-down and management evidence. This is a monitoring signal, not a concluded loss.
+
+**Capital allocation:** September treasury shares bought under the current employee-transfer program were 0.738 million, recognized cost 170.742; the cash-flow statement records 159.048. Accrual cost and paid cash are different measures. A planned 1.500-million-share authorization over 2026-08-10 to 2026-10-06 is not completed execution. Issued shares of 82.940 million already reflect the separate 1.511-million-share cancellation; do not subtract that cancellation again. Employee transfers can reverse part of a buyback's denominator effect. [S1, pp. 6, 8, 30, 33](sources/2026-11-09-refresh.json).
+
+**Source conflict:** Monthly cumulative revenue differs from reviewed statements; official monthly pages and the returned TWSE API lacked October data at access. Retain the observed cutoff rather than synthesizing a release. The latest verified close is 2026-11-06 at TWD 225.00, not a live November 9 quote. [S3-S5](sources/2026-11-09-refresh.json).
+
+## Prior research — preserved through 2026-10-12
+
 ## 2026-05-21 — China format indicators
 
 - **Date observed:** 2026-08-05

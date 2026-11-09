@@ -1,5 +1,36 @@
 # Open Questions
 
+> Current state: 2026-11-09. All earlier sections retained below describe prior research and are superseded where this dated update differs.
+
+## 2026-11-09 — Current question state and dated events
+
+All prior questions and their original events are retained below. No question is resolved by revenue growth alone.
+
+| ID | Status | Latest evidence / next verification |
+|---|---|---|
+| Q-2026-001 | Open | Net stores rose, but same-store traffic/price/FX split remains unavailable; obtain comparable 2026 Q4/2027 H1 data. |
+| Q-2026-002 | Open | ROU additions 1,631.253 and lease principal 1,087.136 are known, but cohort payback and maintenance capex remain unknown. |
+| Q-2026-003 | Open | China 9M profit -17.29%, Q3 -38.03%; broad profitable recovery is not supported. Require two comparable quarters of traffic-led sales and margin recovery. |
+| Q-2026-004 | Open | No new active-member or incremental-profit evidence. |
+| Q-2026-005 | Open | No normalized restaurant-peer comparison completed. |
+| Q-2026-006 | Open | Current parent-only cash, remittances, commitments, final buybacks and future dividend shares remain unverified; rebuild after FY2026 parent filing/board decision. |
+| Q-2026-007 | Open | Monthly versus reviewed revenue and inventory build require explicit reconciliation. |
+
+**2026-11-09 status event — Q-2026-001 to Q-2026-006:** Status stays Open. S1-S4 improve reported financial/store evidence, but do not close the operating attribution or parent-cash gaps. Q-2026-003 now has adverse margin evidence; Q-2026-006 no longer supports adopting the old DPS interval as current. [Sources](sources/2026-11-09-refresh.json).
+
+### Q-2026-007 — Open
+
+- **Opened:** 2026-11-09.
+- **Question:** What explains monthly-minus-reviewed revenue of -101.574 in H1, +110.351 in Q3 and +8.777 in 9M, and why did September inventory rise 37.67% year over year?
+- **EPS materiality:** High if the gap affects period attribution or inventory requires clearance/write-down; no loss assumed.
+- **Evidence:** S1 pp. 4-5, 7; S2 p. 5; S3 and the retained 2026-10-12 monthly baseline.
+- **Resolution method:** Obtain revenue reconciliation from filings/IR, verify definitions and corrections, and review Q4 inventory turnover, aging, procurement and write-downs. Treat revenue and inventory explanations as separate subtests; both must be evidenced before resolution.
+- **Next review:** 2026-11-16 for release/reconciliation checks; FY2026 for cash and inventory verification.
+- **Thesis effect:** Keep quarterly forecasts anchored to reviewed revenue and avoid raising cash/earnings confidence.
+- **History:** 2026-11-09 — Opened; no accounting-error or spoilage conclusion adopted.
+
+## Prior research — preserved through 2026-10-12
+
 ## Open-question index
 
 | ID | Short question | EPS materiality | Next trigger | Status |

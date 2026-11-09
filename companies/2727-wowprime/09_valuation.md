@@ -1,5 +1,19 @@
 # Valuation
 
+> Current state: 2026-11-09. All earlier sections retained below describe prior research and are superseded where this dated update differs.
+
+## 2026-11-09 — Dated P/E context, no target price
+
+The primary method remains a normalized diluted P/E after assessing recurring restaurant economics, cross-checked against cash after lease principal and maintenance/growth capex. A lease-aware EV/cash-flow peer comparison and DCF are deferred because current parent liquidity and maintenance/cohort returns are not established. Do not mix pre-IFRS-16 EBITDA with post-lease enterprise value.
+
+**Fact:** Latest verified TWSE close is **TWD 225.00 on 2026-11-06**, from a November response containing no November 9 close. **Estimate / calculation:** Dividing by FY2026 adjusted diluted EPS downside/base/upside 17.26/18.43/19.47 gives approximately **13.04x/12.21x/11.55x**, calculated from unrounded model outputs. This is an implied market multiple, not a fair-multiple judgment. FY2027 base 19.73 implies 11.40x. [S5](sources/2026-11-09-refresh.json); [model](model/2026-11-09-q3-refresh.json).
+
+At September-end, consolidated cash is 2,499.704, CB carrying value 679.199 and lease liabilities 5,142.105 (TWD million); restricted/pledged assets are 1,116.415. No enterprise-value or net-cash adjustment is adopted: ownership, accessible financial assets, restrictions and peer lease treatment need reconciliation. Forecast diluted shares are 85.860 million for 2026 and 86.000 for 2027/2028, not the dividend share base.
+
+No target price or selected fair P/E range is adopted. The old dividend interval is historical, and no current forward yield is asserted. A falling market price or a low P/E cannot establish a recovery of China's unit economics. A 1 percentage-point full-year operating-margin shock changes FY2027 modeled EPS by 2.60; a valuation comparison must preserve that operating uncertainty.
+
+## Prior research — preserved through 2026-10-12
+
 > Current dated supplement: [2026-10-12](model/2026-10-12-dividend-enrichment.md). Older dated sections below remain historical.
 
 Valuation is intentionally deferred. This is not a recommendation.

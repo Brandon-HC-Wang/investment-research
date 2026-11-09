@@ -1,5 +1,17 @@
 # Business
 
+> Current state: 2026-11-09. All earlier sections retained below describe prior research and are superseded where this dated update differs.
+
+## 2026-11-09 — Current business assessment
+
+**Fact:** Wowprime sells meals through directly operated brands in Taiwan and China. Customer value comes from recognizable cuisine, price tiers, consistent service and convenient sites. Revenue depends on capacity, visits, table turns and average spend. The company website, dated 2026-09-30, reports **374 Taiwan and 108 China stores, 482 in total**, versus the previously recorded 365/101 at 2026-06-30: net increases of 9/7, not gross openings. Selected Taiwan networks are 12 Hotpot 100, TASTy 38, Tokiya 34 and Giguo 35. [S4](sources/2026-11-09-refresh.json).
+
+**Opinion:** Shared procurement, training, brand incubation and member distribution remain plausible advantages, but scale has not yet established superior unit returns. Store counts are period-end capacity, not a measure of mature-store productivity. China contributes 19.29% of 9M revenue but only 7.80% of the Taiwan-plus-China segment profit; its lower margins constrain the value of faster expansion. Registered members remain a marketing asset whose incremental economics are unverified.
+
+**Economic test:** More locations create value only when post-ramp gross profit covers labor, occupancy, recurring closure costs, fit-out and lease cash commitments. Lease liabilities reached TWD 5,142.105 million; a durable moat requires repeatable lease-adjusted returns across cohorts. [S1, pp. 21-22, 50-51](sources/2026-11-09-refresh.json).
+
+## Prior research — preserved through 2026-10-12
+
 ## Current understanding
 
 Wowprime operates multi-brand restaurants, primarily in Taiwan and mainland China. Diners pay per visit for meals across price points and cuisines; revenue therefore depends on restaurant count, customer traffic, average spending, and brand mix. As of 2026-06-30, the company reported 365 directly operated restaurants in Taiwan and 101 in China. The proposed advantage is a shared brand-incubation, procurement, operating, and digital-member platform, but its durability remains an open hypothesis because brand-level same-store sales and unit economics are not disclosed.

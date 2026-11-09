@@ -1,5 +1,23 @@
 # Growth Drivers
 
+> Current state: 2026-11-09. All earlier sections retained below describe prior research and are superseded where this dated update differs.
+
+## 2026-11-09 — Growth must be separated from profitable replication
+
+**Fact / interpretation:** Net store increases of 9 in Taiwan and 7 in China during Q3 demonstrate added capacity. They do not establish same-store growth or gross openings/closures. Taiwan's 9M segment margin improved to 8.84% from 8.68%, but China's fell to 3.13% from 4.62%. Keep China revenue growth and China cash-return recovery as separate tests. [S1-S4](sources/2026-11-09-refresh.json).
+
+Food-service sales grew 13.63% to TWD 18,706.846 million in 9M, while merchandise sales fell 4.90% to 818.127. Trade/retail category revenue fell to 750.426 from 778.601. These are different disclosure classifications and must not be equated. Retail is therefore an unverified replacement driver, not a demonstrated source of incremental consolidated growth. [S1, pp. 33-34](sources/2026-11-09-refresh.json).
+
+| Horizon | Operating driver and replacement mechanism | Required evidence / confidence |
+|---|---|---|
+| 2026 Q4 | Existing Taiwan capacity plus seasonal meals/hot pot; China sales with disciplined costs | Monthly releases, reservations/traffic, segment profit; low |
+| 2027 | Mature 2026 cohorts replace opening-driven revenue; China margin repair | Positive comparable traffic, closures, cohort margins and lease-adjusted payback; low |
+| 2028-2030 | Repeatable brand renewal and member-led visits replace capacity-only growth | Brand survival, active-member economics and incremental returns; low |
+
+Seasonality and openings are analyst mechanisms, not disclosed backlog or guaranteed bookings. A one-quarter holiday timing effect is recoverable only if subsequent traffic and margins recover; persistent weak cohorts and rising impairments represent economic loss rather than a simple delay.
+
+## Prior research — preserved through 2026-10-12
+
 ## Driver map
 
 | Driver | Observable variable | Revenue mechanism | Margin effect | Classification | Confidence |

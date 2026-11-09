@@ -5,11 +5,12 @@ market: TWSE
 status: discovery
 confidence: low
 priority: 2
-last_update: 2026-10-12
-next_action: Verify Q3 earnings and parent cash/remittance/capital commitments against the 2026-10-12 dividend supplement.
+last_update: 2026-11-09
+next_action: Recheck October revenue and monthly/filing reconciliation by 2026-11-16; verify China margin repair, inventory, parent cash and final buybacks before any new dividend forecast.
 watch_items:
   - Taiwan same-store traffic, average spend, and mature-store margin
   - Net openings, closures, new-store cohorts, and lease-adjusted payback
   - China same-store recovery, format replication, and segment margin
   - Food and labor costs, operating leverage, and cash conversion
-  - Conditional 2027 cash dividend and parent funding bridge; 2026-10-12 enrichment
+  - China profit conversion and inventory build; 2026-11-09 Q3 refresh
+  - Parent cash, remittances, final buybacks and dividend share count; no current DPS forecast

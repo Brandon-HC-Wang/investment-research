@@ -1,0 +1,104 @@
+{
+  "as_of": "2026-11-09",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "2026 Q3 consolidated financial statements and independent review report",
+      "publisher": "Wowprime Corp.; Deloitte Taiwan review",
+      "publication_date": "2026-11-05",
+      "date_type": "board_approval_and_review_report_date_not_inferred_upload_date",
+      "access_date": "2026-11-09",
+      "period": "2026Q3 / 2026 9M",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2727&filename=202603_2727_AI1.pdf",
+      "download_url": "https://doc.twse.com.tw/pdf/202603_2727_AI1_20261109_131453.pdf",
+      "path": "earnings/2026Q3-consolidated.pdf",
+      "pages": "3-8; 21-22; 30-35; 38-39; 41; 46-47; 50-51",
+      "scope": "consolidated, reviewed not audited",
+      "sha256": "cca6449f498f419bad64a1e348ce7324a85ac95cfc133a1419a7683712322f03"
+    },
+    {
+      "id": "S2",
+      "title": "2026 Q2 consolidated financial statements",
+      "publisher": "Wowprime Corp.",
+      "publication_date": "2026-08-06",
+      "date_type": "board_approval_not_upload_date",
+      "access_date": "2026-11-09",
+      "period": "2026H1",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01",
+      "public_form_request": "step=9&kind=A&co_id=2727&filename=202602_2727_AI1.pdf",
+      "path": "earnings/2026Q2-consolidated.pdf",
+      "pages": "5; 37-38; 49-50",
+      "scope": "consolidated",
+      "sha256": "13d7089cd5bd3a8f5ad529e5ee75151b3280317edf4b77c7366dc6872ef039cf"
+    },
+    {
+      "id": "S3",
+      "title": "Monthly operating revenue of listed companies, 2727 row",
+      "publisher": "Taiwan Stock Exchange",
+      "publication_date": null,
+      "source_output_date": "1151017",
+      "access_date": "2026-11-09",
+      "period": "2026-09 and 2026 9M",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+      "path": "monthly_revenue/2026-11-09-twse-latest.json",
+      "section": "company 2727, complete returned row; October not available in this response",
+      "sha256": "1ff96155bacfb849c60ed2a4e8dc4ac4f89b6cb1970ddf87e14539e63b90ce48"
+    },
+    {
+      "id": "S4",
+      "title": "Investor relations and Taiwan brand counts",
+      "publisher": "Wowprime Corp.",
+      "publication_date": null,
+      "page_update_date": "2026-09-30",
+      "access_date": "2026-11-09",
+      "period": "2026-09-30",
+      "url": "https://www.wowprime.com/zh-tw/investor",
+      "secondary_url": "https://www.wowprime.com/zh-tw/investors-sub-menu/about-wowprime/brand-introduction/taiwan",
+      "capture_type": "selected observations transcribed from web tool, not retained raw HTML",
+      "observations": {
+        "taiwan_direct_stores": 374,
+        "china_direct_stores": 108,
+        "total_direct_stores": 482,
+        "taiwan_brands_selected": {
+          "12 Hotpot": 100,
+          "TASTy": 38,
+          "Tokiya": 34,
+          "Giguo": 35
+        }
+      }
+    },
+    {
+      "id": "S5",
+      "title": "Daily trading information, November 2026, 2727",
+      "publisher": "Taiwan Stock Exchange",
+      "publication_date": null,
+      "access_date": "2026-11-09",
+      "period": "2026-11-02 to 2026-11-06 returned at access",
+      "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261101&stockNo=2727",
+      "path": "2026-11-09-twse-price.json",
+      "section": "2026-11-06 closing price 225.00; no November 9 close returned",
+      "sha256": "b32d04ed03a99b3bad7b45b57496a865077a7df91d086a698ff745e84e1ad989"
+    },
+    {
+      "id": "S6",
+      "title": "FY2025 parent-only financial statements",
+      "publisher": "Wowprime Corp.",
+      "publication_date": "2026-03-05",
+      "date_type": "board_approval_not_upload_date",
+      "access_date": "2026-11-09",
+      "period": "FY2025",
+      "url": "https://www.wowprime.com/upload_cg/img020260313152234.pdf",
+      "path": "earnings/2025FY-parent-only.pdf",
+      "pages": "10-12; 44-46; 54",
+      "scope": "parent-only; FY2025 basic/diluted EPS 16.02/15.55; parent cash historical only",
+      "sha256": "e84ef318f9c07fb5eabf55355245ca8e17826cac7c12dcdde50a906530f4cfb4"
+    }
+  ],
+  "limitations": [
+    "October monthly revenue unavailable from accessed primary views/API at cutoff; recheck after release.",
+    "Company website financial links lag filing portal; S1 was downloaded directly from TWSE.",
+    "Monthly versus reviewed revenue discrepancy remains unresolved.",
+    "2026 Q3 consolidated filing does not provide current parent-only cash/distributable-reserve bridge."
+  ]
+}

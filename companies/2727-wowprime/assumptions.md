@@ -1,5 +1,25 @@
 # Research Assumptions
 
+> Current state: 2026-11-09. All earlier sections retained below describe prior research and are superseded where this dated update differs.
+
+## 2026-11-09 — Appended confidence and status events
+
+These events supersede current confidence/model effects, retaining each original description and history below. All statuses remain Open.
+
+| ID | Current confidence | Evidence and model effect |
+|---|---:|---|
+| A-2026-001 | 30% (was 35%) | 9M revenue +12.71% and net store additions do not prove traffic-led organic growth. Test comparable traffic/price/FX for two quarters; affects mature-store sales and operating leverage. |
+| A-2026-002 | 25% (unchanged) | ROU additions 1,631.253 and post-lease cash are observable, cohort returns are not. Test closures, maintenance/growth capex and payback through FY2026/2027 H1; affects reinvestment quality. |
+| A-2026-003 | 20% (was 35%) | China Q3 revenue +21.22% but profit -38.03%; the through-Q3 stable/improving margin test failed. Positive but lower margins contradict profitable-recovery inference. Require two comparable quarters of traffic-led growth and margin repair in 2026 Q4-2027 H1; affects China margin cases. |
+| A-2026-004 | 20% (unchanged) | No active-member or incremental-profit disclosure; test future IR evidence before assigning digital margin uplift. |
+| A-2026-005 | 35% EPS / 25% cash (was 35% / 30%) | Reviewed 9M replaces monthly profit proxy, but cash/remittance and future funding tests remain unresolved. Revised base adjusted diluted EPS 18.43/19.73/21.54 for FY2026/FY2027/FY2028; no current cash-DPS forecast. |
+
+**Causal mechanism / evidence:** Segment sales must cover restaurant costs and leases before parent profit converts into remittable cash. S1 shows China margin dilution and rising lease/inventory commitments; S2-S4 verify the baseline, not future returns. [Sources](sources/2026-11-09-refresh.json).
+
+**Confirmation / rejection window:** Review October disclosures by 2026-11-16, segment/cohort/cash evidence through FY2026 and 2027 H1, and the 2027 board allocation. Reject/rebuild the dated base if operating sales/margins miss, parent cash fails the funding/reserve test, or conversions/buybacks materially change denominators. Forecasts stay conditional; preserve the 2026-10-12 model as history. [Current model](model/2026-11-09-q3-refresh.json).
+
+## Prior research — preserved through 2026-10-12
+
 This register is append-only. Valid statuses are `Open`, `Verified`, and `Rejected`.
 
 ## A-2026-001 — Open

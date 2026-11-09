@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-11-09",
+  "checks_passed": [
+    "5 retained-source SHA-256 hashes",
+    "9 scenario revenue-to-EPS bridges and diluted numerator treatment",
+    "post-lease cash proxy",
+    "quarter/cumulative revenue discrepancy bridge",
+    "all 20 pre-existing numbered/assumption Markdown bodies preserved",
+    "current bilingual decimal-number parity in 10 canonical pairs",
+    "all company Markdown has bilingual companion"
+  ],
+  "model_sha256": "c372f6710d49215b259c688f5747feb29dfbffcf45f312cf50c5f4871b71ee54",
+  "limitations": [
+    "Analyst scenario assumptions are not audited or management guidance.",
+    "No parent-current-cash, October revenue, same-store or cohort verification.",
+    "No forward dividend forecast or target price adopted."
+  ]
+}

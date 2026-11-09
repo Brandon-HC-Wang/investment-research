@@ -1,5 +1,18 @@
 # Timeline
 
+> Current state: 2026-11-09. All earlier sections retained below describe prior research and are superseded where this dated update differs.
+
+## 2026-11-05 / 2026-11-09 — Q3 operating conversion weakens
+
+- **Event date / review date:** 2026-11-05 / 2026-11-09.
+- **Fact:** Q3 revenue 6,607.316, operating profit 471.288, parent profit 368.919 and basic/diluted EPS 4.46/4.33; 9M basic/diluted EPS 14.32/13.90. China Q3 segment profit fell 38.03% despite 21.22% revenue growth.
+- **Model effect:** FY2026/FY2027/FY2028 base adjusted diluted EPS revised from 19.21/20.99/22.46 to 18.43/19.73/21.54. The old cash-DPS interval is superseded as current guidance pending parent cash verification.
+- **Thesis effect:** Expansion continues, but profitable China replication is unconfirmed and margin evidence is adverse. Confidence stays low; A-2026-003 falls to 20%, cash confidence to 25%.
+- **Next gate:** October revenue release and reconciliation by internal review date 2026-11-16; then FY2026 filings, parent funding, buyback completion and 2027 board allocation.
+- **Sources:** [S1-S6](sources/2026-11-09-refresh.json); [dated model](model/2026-11-09-q3-refresh.json).
+
+## Prior research — preserved through 2026-10-12
+
 Append-only record. Later evidence must be added as a new entry rather than rewriting an earlier conclusion.
 
 ## 2026-05-07 — Q1 financial statements issued
